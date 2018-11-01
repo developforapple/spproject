@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item Search View Ctrl-->
+        <scene sceneID="5Ot-hP-Zh3">
+            <objects>
+                <viewController storyboardIdentifier="SPItemSearchViewCtrl" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8DP-2f-U5h" customClass="SPItemSearchViewCtrl" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HtN-fK-3Fp"/>
+                        <viewControllerLayoutGuide type="bottom" id="nRd-2D-OV5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LKV-4R-bUY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b7l-l5-u9f" customClass="UIVisualEffectView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tET-Je-SkR">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="b7l-l5-u9f" secondAttribute="trailing" id="CNB-vD-Iob"/>
+                            <constraint firstItem="b7l-l5-u9f" firstAttribute="top" secondItem="LKV-4R-bUY" secondAttribute="top" id="Cjs-Xc-fWk"/>
+                            <constraint firstItem="nRd-2D-OV5" firstAttribute="top" secondItem="tET-Je-SkR" secondAttribute="bottom" id="DSb-bu-dxB"/>
+                            <constraint firstItem="tET-Je-SkR" firstAttribute="leading" secondItem="LKV-4R-bUY" secondAttribute="leading" id="JrA-Av-p5A"/>
+                            <constraint firstAttribute="trailing" secondItem="tET-Je-SkR" secondAttribute="trailing" id="YDk-y0-ZBq"/>
+                            <constraint firstItem="tET-Je-SkR" firstAttribute="top" secondItem="LKV-4R-bUY" secondAttribute="top" id="euy-9N-E8Y"/>
+                            <constraint firstItem="b7l-l5-u9f" firstAttribute="leading" secondItem="LKV-4R-bUY" secondAttribute="leading" id="niP-uN-R7n"/>
+                            <constraint firstItem="nRd-2D-OV5" firstAttribute="top" secondItem="b7l-l5-u9f" secondAttribute="bottom" id="tEI-zL-mnB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="effectView" destination="b7l-l5-u9f" id="3NJ-N6-d4J"/>
+                        <outlet property="optionContainer" destination="tET-Je-SkR" id="ois-1w-ajh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EZ9-iD-a5u" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7089" y="1584"/>
+        </scene>
+    </scenes>
+</document>
