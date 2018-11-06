@@ -11,7 +11,8 @@
 
 #import <Bugly/BuglyLog.h>
 
+NS_INLINE void SPLog(NSString *format, ...) {
 
-#define SPLog BLYLogInfo
+}
 
 #endif /* Log_h */

@@ -15,11 +15,14 @@ PODS:
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - AMPopTip (3.5.0)
+  - AOPKit (1.0.1)
   - AVOSCloud (11.4.6)
-  - Bugly (2.5.0)
   - ChameleonFramework (2.1.0):
     - ChameleonFramework/Default (= 2.1.0)
   - ChameleonFramework/Default (2.1.0)
+  - CocoaLumberjack/Default (3.4.2)
+  - CocoaLumberjack/Swift (3.4.2):
+    - CocoaLumberjack/Default
   - DACircularProgress (2.3.1)
   - DGActivityIndicatorView (2.1.1)
   - DZNEmptyDataSet (1.8.1)
@@ -71,6 +74,9 @@ PODS:
   - MXParallaxHeader (0.6.1)
   - PinYin4Objc (1.1.1)
   - pop (1.0.12)
+  - QCloudCore (5.4.5)
+  - QCloudCOSXML (5.4.5):
+    - QCloudCore (= 5.4.5)
   - ReactiveObjC (3.1.0)
   - SAMKeychain (1.5.3)
   - SDWebImage/Core (4.2.3)
@@ -85,6 +91,18 @@ PODS:
   - sqlite3/common (3.25.2)
   - SSZipArchive (2.1.4)
   - SVProgressHUD (2.2.5)
+  - TACCore (1.0.0):
+    - AOPKit (= 1.0.1)
+    - QCloudCore (= 5.4.5)
+  - TACCrash (1.0.0):
+    - TACCore (= 1.0.0)
+  - TACMessaging (1.0.0):
+    - AOPKit (= 1.0.1)
+    - TACCore (= 1.0.0)
+  - TACStorage (1.0.0):
+    - QCloudCore (= 5.4.5)
+    - QCloudCOSXML (= 5.4.5)
+    - TACCore (= 1.0.0)
   - UICKeyChainStore (2.1.2)
   - YYCache (1.0.4)
   - YYCategories (1.0.4):
@@ -96,8 +114,8 @@ DEPENDENCIES:
   - AFNetworking
   - AMPopTip
   - AVOSCloud
-  - Bugly
   - ChameleonFramework
+  - CocoaLumberjack/Swift
   - DACircularProgress
   - DGActivityIndicatorView
   - DZNEmptyDataSet
@@ -116,23 +134,37 @@ DEPENDENCIES:
   - MJRefresh
   - MXParallaxHeader
   - PinYin4Objc
+  - QCloudCore
+  - QCloudCOSXML
   - ReactiveObjC
   - SAMKeychain
   - SDWebImage/GIF
   - SDWebImage/WebP
   - SSZipArchive
   - SVProgressHUD (from `https://github.com/SVProgressHUD/SVProgressHUD.git`)
+  - TACCore
+  - TACCrash
+  - TACMessaging
+  - TACStorage
   - YYCache
   - YYCategories
   - YYModel
 
 SPEC REPOS:
+  https://git.code.tencent.com/qcloud_u/cocopoads-repo.git:
+    - AOPKit
+    - QCloudCore
+    - QCloudCOSXML
+    - TACCore
+    - TACCrash
+    - TACMessaging
+    - TACStorage
   https://github.com/cocoapods/specs.git:
     - AFNetworking
     - AMPopTip
     - AVOSCloud
-    - Bugly
     - ChameleonFramework
+    - CocoaLumberjack
     - DACircularProgress
     - DGActivityIndicatorView
     - DZNEmptyDataSet
@@ -188,9 +220,10 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   AMPopTip: 871ae0570b68fe396e714922b3f7d8ed6a36bb71
+  AOPKit: be229d578279d42607214f07cb3f68c563c4e3cd
   AVOSCloud: 95a83bb3447a2f57eae797abdf97072a8ad22b82
-  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   DGActivityIndicatorView: ff2c76073d79692f724863c8dd38685866a03cb6
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
@@ -212,17 +245,23 @@ SPEC CHECKSUMS:
   MXParallaxHeader: 858c403532ed933b381556a81ce333d7065ad182
   PinYin4Objc: 3fa9673610368330e2dfb688b1d19a35c3930a78
   pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  QCloudCore: fdba2fdacb45f3e3f867487136ce804053e09414
+  QCloudCOSXML: 0f58bcc8974c7d6a1adf05e757584feab7d6d848
   ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
   SDWebImage: 791bb72962b3492327ddcac4b1880bd1b5458431
   sqlite3: 10d61a910ba79c5fe4f3c14dc022242384968a78
   SSZipArchive: 41455d4b8d2b6ab93990820b50dc697c2554a322
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TACCore: a0d0286c860f02c4f364fcf74c7808b81740ef14
+  TACCrash: 1d794f11ba159001aa9d37e7c8b2edc5c5766ae6
+  TACMessaging: 7e9414193ee6d83b5e19202d7d2bbed8b5498963
+  TACStorage: 2614d01520a9c5b629a6efd23b61680493198115
   UICKeyChainStore: 85db518bb1d294366d15ec9b92a416c4e670518f
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: ee1437ba78ec015cf80c99a11be45e9dd31ec895
+PODFILE CHECKSUM: 4b03995d260188aa33abaa6ac43c781ca43fe1d8
 
 COCOAPODS: 1.5.3

@@ -21,7 +21,7 @@
 #import "SPLootList.h"
 #import "SPDotaEvent.h"
 #import "SPItem.h"
-#import "FMDB.h"
+@import FMDB;
 
 /**
  应用需要使用的数据

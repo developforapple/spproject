@@ -3,6 +3,15 @@ use_frameworks!
 inhibit_all_warnings!
 platform:ios, '9.0'
 
+def tencent_cloud
+    pod 'TACMessaging', :source => 'https://git.code.tencent.com/qcloud_u/cocopoads-repo.git'
+    pod 'TACCrash', :source => 'https://git.code.tencent.com/qcloud_u/cocopoads-repo.git'
+    pod 'TACStorage', :source => 'https://git.code.tencent.com/qcloud_u/cocopoads-repo.git'
+    pod 'TACCore', :source => 'https://git.code.tencent.com/qcloud_u/cocopoads-repo.git'
+    pod 'QCloudCore', :source => 'https://git.code.tencent.com/qcloud_u/cocopoads-repo.git'
+    pod 'QCloudCOSXML', :source => 'https://git.code.tencent.com/qcloud_u/cocopoads-repo.git'
+end
+
 abstract_target '_' do
 
     pod 'ReactiveObjC'
@@ -18,6 +27,7 @@ abstract_target '_' do
     pod 'DGActivityIndicatorView'  #https://github.com/gontovnik/DGActivityIndicatorView
     pod 'PinYin4Objc'              #https://github.com/kimziv/PinYin4Obj
     pod 'JZNavigationExtension', '1.5.0.1' #https://github.com/JazysYu/JZNavigationExtension
+    pod 'HBDNavigationBar', git => 'git@github.com:listenzz/HBDNavigationBar.git'
     pod 'AMPopTip'          #https://github.com/andreamazz/AMPopTip
     pod 'SAMKeychain'
     pod 'DZNWebViewController'          #https://github.com/dzenbot/DZNWebViewController
@@ -29,7 +39,7 @@ abstract_target '_' do
     pod 'AFNetworking'
     pod 'SSZipArchive'
     pod 'AVOSCloud'
-    pod 'Bugly'
+#    pod 'Bugly'
     pod 'Hero'
 
     pod 'IDMPhotoBrowser', :git => 'https://github.com/developforapple/IDMPhotoBrowser.git'
@@ -37,16 +47,11 @@ abstract_target '_' do
     pod 'ChameleonFramework'
     pod 'MXParallaxHeader'
     pod 'FCUUID'
+    pod 'CocoaLumberjack/Swift'
 
-    target 'SPDev' do
-        pod 'Google-Mobile-Ads-SDK'
-    end
+    tencent_cloud
 
     target 'SPAd' do
-        pod 'Google-Mobile-Ads-SDK'
-    end
-
-    target 'SPOld' do
         pod 'Google-Mobile-Ads-SDK'
     end
 
@@ -54,9 +59,16 @@ abstract_target '_' do
 
     end
 
+    target 'SPOld' do
+        pod 'Google-Mobile-Ads-SDK'
+    end
+
+    target 'SPOldPro' do
+
+    end
 end
 
-targetsArray = ['SPDev', 'SPPro', 'SPAd', 'SPOld']
+targetsArray = ['SPPro', 'SPAd', 'SPOld', 'SPOldPro']
 
 def setup_target_macro(ttargets)
     puts "设置所有 Target 的预编译宏"
@@ -64,29 +76,45 @@ def setup_target_macro(ttargets)
     app_project = Xcodeproj::Project.open(_xcode_project_path)
 
     app_project.native_targets.each do |target|
-        puts "Target #{target.name}"
         if ttargets.include?(target.name)
             _MACRO_STR = 'TARGET_' + target.name + '=1'
-            puts "添加: #{_MACRO_STR}"
+            _SWIFT_FLAG = '-D TARGET_' + target.name
+
+            puts "Target #{target.name}"
+            puts "GCC_PREPROCESSOR_DEFINITIONS 添加 #{_MACRO_STR}"
+            puts "OTHER_SWIFT_FLAGS 添加 #{_SWIFT_FLAG}"
+
             target.build_configurations.each do |config|
+                
                 _tempDefinitions = config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'];
                 _tempDefinitions |= [_MACRO_STR]
-                config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] = _tempDefinitions;
 
-                if !config.base_configuration_reference
-                    app_project.save
-                elsif File.exist?(config.base_configuration_reference.path)
-                    _GCCProprogressSTR = 'GCC_PREPROCESSOR_DEFINITIONS = ' + config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'].join(" ")
-                    text = File.read(config.base_configuration_reference.path)
-                    match = /^GCC_PREPROCESSOR_DEFINITIONS.*$/.match(text)
-                    if match[0]
-                        text = text.gsub(match[0],_GCCProprogressSTR)
-                        File.open(config.base_configuration_reference.path, "w") { |file| file.puts text}
-                    end
-                end
+                config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] = _tempDefinitions;
+                config.build_settings['OTHER_SWIFT_FLAGS'] = "$(inherited) #{_SWIFT_FLAG}"
+
+#                if !config.base_configuration_reference
+#                    app_project.save
+#                elsif File.exist?(config.base_configuration_reference.path)
+#
+#                    _GCCProprogressSTR = 'GCC_PREPROCESSOR_DEFINITIONS = ' + config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'].join(" ")
+#
+#                    _SWIFTFLAGSTR = 'OTHER_SWIFT_FLAGS = ' + config.build_settings['OTHER_SWIFT_FLAGS'].join(" ")
+#
+#                    text = File.read(config.base_configuration_reference.path)
+#
+#                    match = /^GCC_PREPROCESSOR_DEFINITIONS.*$/.match(text)
+#                    match2 =  /^OTHER_SWIFT_FLAGS.*$/.match(text)
+#                    if match[0] || match2[0]
+#                        text = text.gsub(match[0],_GCCProprogressSTR)
+#                        text = text.gsub(match2[0],_SWIFTFLAGSTR)
+#                        File.open(config.base_configuration_reference.path, "w") { |file| file.puts text}
+#                    end
+#                end
             end
         end
     end
+
+    app_project.save
 end
 
 post_install do |installer|
@@ -108,3 +136,71 @@ post_install do |installer|
         end
     end
 end
+
+# Tencent Cloud
+# Document: https://cloud.tencent.com/document/product/666/14306
+pre_install do |installer|
+    puts "[TAC]-Running post installer"
+    xcodeproj_file_name = "placeholder"
+    Dir.foreach("./") do |file|
+        if file.include?("xcodeproj")
+            xcodeproj_file_name = file
+        end
+    end
+    puts "[TAC]-project file is #{xcodeproj_file_name}"
+    project = Xcodeproj::Project.open(xcodeproj_file_name)
+    project.targets.each do |target|
+        shell_script_after_build_phase_name = "[TAC] Run After Script"
+        shell_script_before_build_phase_name = "[TAC] Run Before Script"
+        puts "[TAC]-target.product_type is #{target.product_type}"
+        if target.product_type.include?("application")
+            should_insert_after_build_phases = 0
+            should_insert_before_build_phases=0
+            after_build_phase = nil
+            before_build_phase = nil
+            target.shell_script_build_phases.each do |bp|
+                if !bp.name.nil? and bp.name.include?(shell_script_after_build_phase_name)
+                    should_insert_after_build_phases = 1
+                    after_build_phase = bp
+                end
+                if !bp.name.nil? and bp.name.include?(shell_script_before_build_phase_name)
+                    should_insert_before_build_phases = 1
+                    before_build_phase = bp
+                end
+            end
+
+
+            if should_insert_after_build_phases == 1
+                puts "[TAC]-Build phases with the same name--#{shell_script_after_build_phase_name} has already existed"
+                else
+                after_build_phase = target.new_shell_script_build_phase
+                puts "[TAC]-installing run afger build phases-- #{after_build_phase}"
+
+            end
+            after_build_phase.name = shell_script_after_build_phase_name
+            after_build_phase.shell_script = "
+            if [ -f \"${SRCROOT}/Pods/TACCore/Scripts/tac.run.all.after.sh\" ]; then
+                bash \"${SRCROOT}/Pods/TACCore/Scripts/tac.run.all.after.sh\"
+                fi
+                "
+                after_build_phase.shell_path = '/bin/sh'
+                if should_insert_before_build_phases == 1
+                    puts "[TAC]-Build phases with the same name--#{shell_script_before_build_phase_name} has already existed"
+                    else
+                    before_build_phase = target.new_shell_script_build_phase
+                    target.build_phases.insert(0,target.build_phases.pop)
+                    puts "[TAC]-installing run before build phases-- #{before_build_phase}"
+
+                end
+                before_build_phase.name = shell_script_before_build_phase_name
+                before_build_phase.shell_script = "
+                if [ -f \"${SRCROOT}/Pods/TACCore/Scripts/tac.run.all.before.sh\" ]; then
+                    bash \"${SRCROOT}/Pods/TACCore/Scripts/tac.run.all.before.sh\"
+                    fi
+                    "
+                    before_build_phase.shell_path = '/bin/sh'
+                end
+            end
+            puts "[TAC]-Saving projects"
+            project.save()
+        end

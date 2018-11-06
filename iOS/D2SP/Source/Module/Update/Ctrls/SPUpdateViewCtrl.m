@@ -10,7 +10,7 @@
 #import "SPResourceManager.h"
 #import "SPDataManager.h"
 #import "ReactiveObjC.h"
-#import "YGRemoteNotificationHelper.h"
+@import TACMessaging;
 
 @interface SPUpdateViewCtrl ()
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
@@ -138,7 +138,7 @@
 
 - (void)done
 {
-    if ([[YGRemoteNotificationHelper shared] isRegisteredForRemoteNotifications]) {
+    if ([TACMessagingService defaultService].status) {
         self.progressLabel.text = @"更新完成";
         [self dismiss:^{
             [SVProgressHUD showSuccessWithStatus:@"更新完成"];
@@ -166,7 +166,7 @@
 
 - (IBAction)openPushNotificaiton:(id)sender
 {
-    [[YGRemoteNotificationHelper shared] registerNotificationType:YGNotificationTypeAll];
+    [[TACMessagingService defaultService] startReceiveNotifications];
     RunAfter(.5f, ^{
         [self dismiss];
     });

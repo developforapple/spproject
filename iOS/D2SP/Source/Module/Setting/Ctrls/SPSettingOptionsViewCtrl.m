@@ -8,8 +8,8 @@
 
 #import "SPSettingOptionsViewCtrl.h"
 #import "SPConfigManager.h"
-#import "YGRemoteNotificationHelper.h"
 @import AVOSCloud;
+@import TACMessaging;
 
 @interface SPSettingOptionsViewCtrl ()
 @property (weak, nonatomic) IBOutlet UISwitch *apnsSwitch;
@@ -36,17 +36,17 @@
 
 - (IBAction)apnsOn:(id)sender
 {
-    AVInstallation *i = [AVInstallation currentInstallation];
-    if (i.deviceToken.length == 0){
-        if ([YGRemoteNotificationHelper shared].error){
-            [SVProgressHUD showErrorWithStatus:@"请打开系统推送开关"];
-            self.apnsSwitch.on = NO;
-        }else{
-            [[YGRemoteNotificationHelper shared] registerNotificationType:YGNotificationTypeAll];
-        }
-    }else{
-        [i setObject:@(self.apnsSwitch.on) forKey:@"On"];
-        [i saveInBackground];
+    if ([TACMessagingService defaultService].token) {
+        [[TACMessagingService defaultService] stopReceiveNotifications];
+    } else {
+        [[TACMessagingService defaultService] deviceNotificationIsAllowed:^(BOOL isAllowed) {
+            if (isAllowed) {
+                [[TACMessagingService defaultService] startReceiveNotifications];
+            } else {
+                [SVProgressHUD showErrorWithStatus:@"请打开系统推送开关"];
+                self.apnsSwitch.on = NO;
+            }
+        }];
     }
 }
 

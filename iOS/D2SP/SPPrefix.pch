@@ -1,0 +1,38 @@
+//
+//  D2SP-Prefix.pch
+//  D2SP
+//
+//  Created by wwwbbat on 2017/7/10.
+//  Copyright © 2017年 wwwbbat. All rights reserved.
+//
+
+#ifndef D2SP_Prefix_pch
+#define D2SP_Prefix_pch
+
+@import UIKit;
+@import Foundation;
+@import ObjectiveC;
+
+#if TARGET_SPAd
+    #warning "Using target: SPAd"
+    #define SP_AD_ENABLE 1
+#elif TARGET_SPPro
+    #warning "Using target: SPPro"
+#elif TARGET_SPOld
+    #warning "Using target: SPOld"
+    #define SP_AD_ENABLE 1
+#elif TARGET_SPOldPro
+    #warning "Using target: SPOldPro"
+#endif
+
+#if SP_AD_ENABLE
+    @import AdSupport;
+#endif
+
+#import "Common.h"
+#import "Network.h"
+#import "YGBaseCategories.h"
+#import "DDProgressHUD.h"
+#import "SVProgressHUD.h"
+
+#endif /* D2SP_Prefix_pch */

@@ -10,7 +10,7 @@
 #import "ReactiveObjC.h"
 #import "AFNetworking.h"
 #import "CDTUser.h"
-#import "AppDelegate.h"
+#import "SPSwift.h"
 
 #define WechatAPI [[CDTUserSession session] wechatAPI]
 
@@ -58,7 +58,7 @@
 {
     self.user = user;
     self.logined = user.accessToken.length > 0;
-    [APPDELEGATE uploadPushToken];
+    [AppDelegate.instance uploadPushToken];
 }
 
 - (NSString *)accessToken

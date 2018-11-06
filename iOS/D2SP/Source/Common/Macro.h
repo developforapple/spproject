@@ -71,6 +71,7 @@
     #define Device_Model            ([UIDevice currentDevice].model)
 
     #if (yg_has_include(FCUUID.h))
+        #import "FCUUID.h"
         #define Device_UUID    ([FCUUID uuidForDevice])
     #else
         #define Device_UUID @""
