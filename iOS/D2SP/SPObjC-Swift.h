@@ -9,6 +9,10 @@
 #ifndef SPObjC_h
 #define SPObjC_h
 
+///
+/// 需要提供给 Swift 调用的 Objective-C 文件
+///
+
 #import "YGBaseViewCtrl.h"
 #import "UIViewController+yg_StatusBar.h"
 #import "UIViewController+yg_IBInspectable.h"

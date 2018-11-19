@@ -15,7 +15,7 @@
 #import <WebKit/WebKit.h>
 @import Hpple;
 
-@interface SPGamepediaAPIWebBrowser : SPObject <WKNavigationDelegate>
+@interface SPGamepediaAPIWebBrowser : NSObject <WKNavigationDelegate>
 @property (strong, nonatomic) WKWebView *webView;
 @property (copy, nonatomic) void (^completion)(NSString *text,NSError *error);
 @property (copy, nonatomic) NSURL *url;

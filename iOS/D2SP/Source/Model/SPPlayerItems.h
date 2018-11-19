@@ -6,11 +6,7 @@
 //  Copyright © 2016年 wwwbbat. All rights reserved.
 //
 
-#if __has_include("SPObject.h")
-    #import "SPObject.h"
-#else
-    #define NSObject SPObject
-#endif
+@import Foundation;
 #import "YYModel.h"
 
 @class SPPlayerItemDetail;
@@ -30,7 +26,7 @@ typedef NS_ENUM(NSUInteger, SPPlayerItemsListStatus) {
 };
 
 // GetPlayerItems/v0001/ 获取的饰品数据
-@interface SPPlayerItemsList : SPObject <NSCopying,NSCoding,YYModel>
+@interface SPPlayerItemsList : NSObject <NSCopying,NSCoding,YYModel>
 @property (assign, nonatomic) SPPlayerItemsListStatus status;
 @property (strong, nonatomic) NSArray<SPPlayerItem *> *items;
 
@@ -44,7 +40,7 @@ typedef NS_ENUM(NSUInteger, SPPlayerItemsListStatus) {
 
 @end
 
-@interface SPPlayerItem : SPObject <NSCopying,NSCoding,YYModel>
+@interface SPPlayerItem : NSObject <NSCopying,NSCoding,YYModel>
 @property (strong, nonatomic) NSNumber *id;         //id
 @property (strong, nonatomic) NSNumber *defindex;   //索引
 @end
@@ -52,7 +48,7 @@ typedef NS_ENUM(NSUInteger, SPPlayerItemsListStatus) {
 
 #pragma mark - 用户的库存详情
 // 库存数据
-@interface SPPlayerInventory : SPObject <NSCopying,NSCoding,YYModel>
+@interface SPPlayerInventory : NSObject <NSCopying,NSCoding,YYModel>
 
 + (NSIndexSet *)startIndexesOfItemsCount:(NSUInteger)count;
 
@@ -75,7 +71,7 @@ YG_EXTERN NSString *const kSPPlayerItemTypeTag;
 YG_EXTERN NSString *const kSPPlayerItemQualityTag;
 YG_EXTERN NSString *const kSPPlayerItemSlotTag;
 
-@interface SPPlayerItemDetail : SPObject <NSCopying, NSCoding, YYModel>
+@interface SPPlayerItemDetail : NSObject <NSCopying, NSCoding, YYModel>
 
 // 来自rgInventory
 @property (strong, nonatomic) NSNumber *id;
@@ -116,7 +112,7 @@ YG_EXTERN NSString *const kSPPlayerItemSlotTag;
 @end
 
 // rgDescriptions 内的描述列表
-@interface SPPlayerInventoryItemDesc : SPObject <NSCopying,NSCoding,YYModel>
+@interface SPPlayerInventoryItemDesc : NSObject <NSCopying,NSCoding,YYModel>
 @property (strong, nonatomic) NSString *type;
 @property (strong, nonatomic) NSString *value;
 @property (strong, nonatomic) NSString *color;
@@ -126,7 +122,7 @@ YG_EXTERN NSString *const kSPPlayerItemSlotTag;
 #import "SPItemColor.h"
 
 // rgDescriptions 内的标签列表
-@interface SPPlayerInvertoryItemTag : SPObject <NSCopying,NSCoding,YYModel>
+@interface SPPlayerInvertoryItemTag : NSObject <NSCopying,NSCoding,YYModel>
 @property (strong, nonatomic) NSString *internal_name;   
 @property (strong, nonatomic) NSString *name;
 @property (strong, nonatomic) NSString *category;

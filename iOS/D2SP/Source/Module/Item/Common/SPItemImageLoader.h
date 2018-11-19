@@ -6,11 +6,7 @@
 //  Copyright © 2017年 wwwbbat. All rights reserved.
 //
 
-#if __has_include("SPObject.h")
-    #import "SPObject.h"
-#else
-    #define NSObject SPObject
-#endif
+@import Foundation;
 #import "SPItem.h"
 
 @class YYCache;
@@ -31,7 +27,7 @@ YG_EXTERN UIImage *placeholderImage(CGSize size);
 
 YG_EXTERN CGSize const kNonePlaceholderSize;
 
-@interface SPItemImageLoader : SPObject
+@interface SPItemImageLoader : NSObject
 
 + (void)setSDWebImageUseYYMemoryCache;
 

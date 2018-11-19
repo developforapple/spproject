@@ -6,11 +6,7 @@
 //  Copyright © 2017年 wwwbbat. All rights reserved.
 //
 
-#if __has_include("SPObject.h")
-    #import "SPObject.h"
-#else
-    #define NSObject SPObject
-#endif
+@import Foundation;
 #import "SPItemSearchCommon.h"
 
 @class SPHero;
@@ -19,7 +15,7 @@
 @class SPItemPrefab;
 @class SPDotaEvent;
 
-@interface SPItemSearchOption : SPObject
+@interface SPItemSearchOption : NSObject
 
 - (instancetype)initWithKinds:(SPItemSearchKind)kinds;
 

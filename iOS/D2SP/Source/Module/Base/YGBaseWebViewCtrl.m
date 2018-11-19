@@ -37,8 +37,6 @@ static NSString *const kEstimatedProgressKey = @"estimatedProgress";
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         hosts = [NSMutableArray array];
-        [hosts addObject:kAppHost];
-        [hosts addObject:kAppWechatHost];
     });
     return hosts;
 }

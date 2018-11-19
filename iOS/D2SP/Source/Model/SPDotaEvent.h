@@ -6,13 +6,9 @@
 //  Copyright © 2017年 wwwbbat. All rights reserved.
 //
 
-#if __has_include("SPObject.h")
-    #import "SPObject.h"
-#else
-    #define NSObject SPObject
-#endif
+@import Foundation;
 
-@interface SPDotaEvent : SPObject <NSCoding,NSCopying>
+@interface SPDotaEvent : NSObject <NSCoding,NSCopying>
 @property (assign, nonatomic) NSInteger id;     //1
 @property (copy, nonatomic) NSString *event_id; //EVENT_ID_INTERNATIONAL_2017
 @property (copy, nonatomic) NSString *event_name;//DOTA_EventName_International2017

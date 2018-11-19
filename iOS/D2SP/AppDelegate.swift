@@ -10,6 +10,7 @@ import Foundation
 import ChameleonFramework
 import SVProgressHUD
 import SDWebImage
+import AVOSCloud
 
 #if TARGET_SPAd || TARGET_SPOld
 import GoogleMobileAds
@@ -22,9 +23,14 @@ import GoogleMobileAds
         return UIApplication.shared.delegate as! AppDelegate
     }
 
+    var window: UIWindow?
+
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
 
+        setupBackupSettiing()
         setupUIAppearance()
+        setup3rdParty()
+        checkAppDeploy()
 
         return true
     }
@@ -80,9 +86,10 @@ import GoogleMobileAds
         SPLogger.logger.setup()
 
         #if TARGET_SPAd || TARGET_SPOld
-        /// FIXME: 添加 appid
-        GADMobileAds.configure(withApplicationID: "")
+        GADMobileAds.configure(withApplicationID: admobAppId)
         #endif
+
+        AVOSCloud.setApplicationId(leanCloudAppId, clientKey: leanCloudAppKey)
     }
 
     @objc func uploadPushToken() {

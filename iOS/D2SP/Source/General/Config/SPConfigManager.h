@@ -6,11 +6,7 @@
 //  Copyright © 2017年 wwwbbat. All rights reserved.
 //
 
-#if __has_include("SPObject.h")
-    #import "SPObject.h"
-#else
-    #define NSObject SPObject
-#endif
+@import Foundation;
 
 #define Config_BOOL_Option(NAME)        @property (assign,  nonatomic) BOOL         sp_config_##NAME ;
 #define Config_NSInteger_Option(NAME)   @property (assign,  nonatomic) NSInteger    sp_config_##NAME ;
@@ -22,7 +18,7 @@
 
 #define Config [SPConfigManager manager]
 
-@interface SPConfigManager : SPObject
+@interface SPConfigManager : NSObject
 
 + (instancetype)manager;
 

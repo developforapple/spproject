@@ -6,11 +6,7 @@
 //  Copyright © 2016年 wwwbbat. All rights reserved.
 //
 
-#if __has_include("SPObject.h")
-    #import "SPObject.h"
-#else
-    #define NSObject SPObject
-#endif
+@import Foundation;
 
 /*
  common,    普通
@@ -25,7 +21,7 @@
  
  */
 
-@interface SPItemRarity : SPObject <NSCopying,NSCoding>
+@interface SPItemRarity : NSObject <NSCopying,NSCoding>
 
 // common
 @property (copy, nonatomic) NSString *name;

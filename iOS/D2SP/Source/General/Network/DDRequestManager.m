@@ -8,7 +8,6 @@
 
 #import "DDRequestManager.h"
 #import "AFNetworkActivityIndicatorManager.h"
-#import "CDTUserSession.h"
 #import "NSObject+URLSessionTask.h"
 #import "ReactiveObjC.h"
 
@@ -30,9 +29,6 @@
     config.timeoutIntervalForRequest = 20;
     config.HTTPShouldSetCookies = NO;
     config.HTTPCookieAcceptPolicy = NSHTTPCookieAcceptPolicyNever;
-#if DEBUG_MODE
-//    config.protocolClasses = @[[DDTaskBenchmarkTest class]];
-#endif
     
     AFHTTPSessionManager *afn = [[AFHTTPSessionManager alloc] initWithBaseURL:[NSURL URLWithString:host] sessionConfiguration:config];
     afn.operationQueue.maxConcurrentOperationCount = 10;
@@ -51,7 +47,6 @@
 - (NSMutableDictionary *)presetParameters
 {
     NSMutableDictionary *dict = [NSMutableDictionary dictionary];
-    dict[@"access_token"] = SESSION.accessToken;
     dict[@"device"] = [NSString stringWithFormat:@"%@|%@%@",Device_Hardware,Device_SysName,Device_SysVersionStr];
     dict[@"platform"] = @"iOS";
     dict[@"version"] = AppVersion;
@@ -74,7 +69,6 @@
                 }else if (!response.suc && failCallback){
                     failCallback(task,response);
                 }
-                [SESSION checkAccessTokenValid:response.result];
             });
         };
     }

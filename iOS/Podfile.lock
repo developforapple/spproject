@@ -16,7 +16,7 @@ PODS:
     - AFNetworking/NSURLSession
   - AMPopTip (3.5.0)
   - AOPKit (1.0.1)
-  - AVOSCloud (11.4.6)
+  - AVOSCloud (11.4.7)
   - ChameleonFramework (2.1.0):
     - ChameleonFramework/Default (= 2.1.0)
   - ChameleonFramework/Default (2.1.0)
@@ -32,7 +32,8 @@ PODS:
   - FLAnimatedImage (1.0.12)
   - FMDB/standalone (2.7.5):
     - sqlite3
-  - Google-Mobile-Ads-SDK (7.35.1)
+  - Google-Mobile-Ads-SDK (7.35.2)
+  - HBDNavigationBar (1.4.3)
   - Hero (1.4.0)
   - hpple (0.3.0)
   - IAPHelper (1.1)
@@ -86,9 +87,9 @@ PODS:
   - SDWebImage/WebP (4.2.3):
     - libwebp
     - SDWebImage/Core
-  - sqlite3 (3.25.2):
-    - sqlite3/common (= 3.25.2)
-  - sqlite3/common (3.25.2)
+  - sqlite3 (3.25.3):
+    - sqlite3/common (= 3.25.3)
+  - sqlite3/common (3.25.3)
   - SSZipArchive (2.1.4)
   - SVProgressHUD (2.2.5)
   - TACCore (1.0.0):
@@ -123,6 +124,7 @@ DEPENDENCIES:
   - FCUUID
   - FMDB/standalone
   - Google-Mobile-Ads-SDK
+  - "HBDNavigationBar (from `git@github.com:listenzz/HBDNavigationBar.git`)"
   - Hero
   - hpple (from `https://github.com/topfunky/hpple.git`)
   - IAPHelper
@@ -194,6 +196,8 @@ SPEC REPOS:
     - YYModel
 
 EXTERNAL SOURCES:
+  HBDNavigationBar:
+    :git: "git@github.com:listenzz/HBDNavigationBar.git"
   hpple:
     :git: https://github.com/topfunky/hpple.git
   IDMPhotoBrowser:
@@ -204,6 +208,9 @@ EXTERNAL SOURCES:
     :git: https://github.com/SVProgressHUD/SVProgressHUD.git
 
 CHECKOUT OPTIONS:
+  HBDNavigationBar:
+    :commit: 25bb4263bcfc0bdc5ff774807c11f4cc41ea42f9
+    :git: "git@github.com:listenzz/HBDNavigationBar.git"
   hpple:
     :commit: ba66fa9d4a116d758f470cb664c31eb3e14909c9
     :git: https://github.com/topfunky/hpple.git
@@ -221,7 +228,7 @@ SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   AMPopTip: 871ae0570b68fe396e714922b3f7d8ed6a36bb71
   AOPKit: be229d578279d42607214f07cb3f68c563c4e3cd
-  AVOSCloud: 95a83bb3447a2f57eae797abdf97072a8ad22b82
+  AVOSCloud: e1257f9a7c28e04ae8642d554a37654e8392d1b7
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
   CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
@@ -231,7 +238,8 @@ SPEC CHECKSUMS:
   FCUUID: bb054fc90cd7cd99320f9f6ff8e130fe607fba05
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
-  Google-Mobile-Ads-SDK: 151d5e87b4a0ae6d7d07e2cd8d55d1b41ea2e61e
+  Google-Mobile-Ads-SDK: 8f07cc8eac6649fe648cabc97d67c8d20173624a
+  HBDNavigationBar: f4925eeb4f0cec1a38a45721de9ee479651db959
   Hero: bac92350d7201a1a940003e0767c7b52ce7c99a1
   hpple: 37ac0a804d0f8a7f488712b5ff5f06129e1c9e31
   IAPHelper: fd74f53b0ac142eed085777b88b86a11746a2dd4
@@ -250,7 +258,7 @@ SPEC CHECKSUMS:
   ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
   SDWebImage: 791bb72962b3492327ddcac4b1880bd1b5458431
-  sqlite3: 10d61a910ba79c5fe4f3c14dc022242384968a78
+  sqlite3: 2d1742c206acbabc99593666bd359b19223ee0d8
   SSZipArchive: 41455d4b8d2b6ab93990820b50dc697c2554a322
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   TACCore: a0d0286c860f02c4f364fcf74c7808b81740ef14
@@ -262,6 +270,6 @@ SPEC CHECKSUMS:
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 4b03995d260188aa33abaa6ac43c781ca43fe1d8
+PODFILE CHECKSUM: d10c64016814c4034190ddcd5907acd7c94fb717
 
 COCOAPODS: 1.5.3

@@ -6,11 +6,7 @@
 //  Copyright © 2016年 wwwbbat. All rights reserved.
 //
 
-#if __has_include("SPObject.h")
-    #import "SPObject.h"
-#else
-    #define NSObject SPObject
-#endif
+@import Foundation;
 
 FOUNDATION_EXTERN NSMutableSet *kItemKeys;
 
@@ -20,7 +16,7 @@ FOUNDATION_EXTERN NSMutableSet *kItemKeys;
 
 @class UIColor;
 
-@interface SPItem : SPObject
+@interface SPItem : NSObject
 
 - (BOOL)isHidden;   //该物品是否对用户不可见。目前不可见的物品主要是选手卡片。
 - (BOOL)isBundle;   //是否是一个套装
@@ -88,7 +84,7 @@ FOUNDATION_EXTERN NSMutableSet *kItemKeys;
 
 @end
 
-@interface SPItemAutograph : SPObject
+@interface SPItemAutograph : NSObject
 @property (strong, nonatomic) NSString *name;
 @property (strong, nonatomic) NSNumber *workshoplink;
 @property (strong, nonatomic) NSNumber *language;

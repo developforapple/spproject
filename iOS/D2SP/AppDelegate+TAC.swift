@@ -62,7 +62,7 @@ extension AppDelegate {
 
 extension AppDelegate: TACMessagingDelegate {
     public func messagingDidFinishStart(_ isSuccess: Bool, error: Error?) {
-        DDLogInfo("messagingDidFinishStart Success: \(isSuccess), error: \(error?.localizedDescription ?? "null")")
+        DDLogInfo("messagingDidFinishStart Success: \(isSuccess), error: \(error?.localizedDescription ?? "null")", tag: "TAC")
     }
 
     public func messagingDidFinishStop(_ isSuccess: Bool, error: Error?) {
@@ -90,7 +90,8 @@ extension AppDelegate: TACMessagingDelegate {
     }
 
     public func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
-        DDLogInfo("注册 APNS 成功，DeviceToken: \(String.init(data: deviceToken, encoding: .utf8)!)")
+        let token = String.init(format: "%@", deviceToken as CVarArg)
+        DDLogInfo("注册 APNS 成功，DeviceToken: \(token))")
     }
 
     public func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {

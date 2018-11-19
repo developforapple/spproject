@@ -65,7 +65,8 @@ static NSString *const kMainTabBarCtrlSegueID = @"MainTabBarCtrlSegueID";
         }
         
         self.googleAd.autoloadEnabled = YES;
-        self.googleAd.adUnitID = kAdMobBannerUnitID;
+        /// FIXME: <#fix something#>
+        self.googleAd.adUnitID = @"ca-app-pub-3317628345096940/4910935239";
 #endif
         
     }else{

@@ -14,15 +14,15 @@
 @import ObjectiveC;
 
 #if TARGET_SPAd
-    #warning "Using target: SPAd"
+    #warning "ObjC Macro: TARGET_SPAd"
     #define SP_AD_ENABLE 1
 #elif TARGET_SPPro
-    #warning "Using target: SPPro"
+    #warning "ObjC Macro: TARGET_SPPro"
 #elif TARGET_SPOld
-    #warning "Using target: SPOld"
+    #warning "ObjC Macro: TARGET_SPOld"
     #define SP_AD_ENABLE 1
 #elif TARGET_SPOldPro
-    #warning "Using target: SPOldPro"
+    #warning "ObjC Macro: TARGET_SPOldPro"
 #endif
 
 #if SP_AD_ENABLE
@@ -30,7 +30,6 @@
 #endif
 
 #import "Common.h"
-#import "Network.h"
 #import "YGBaseCategories.h"
 #import "DDProgressHUD.h"
 #import "SVProgressHUD.h"

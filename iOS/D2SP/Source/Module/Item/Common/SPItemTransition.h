@@ -6,13 +6,9 @@
 //  Copyright © 2017年 wwwbbat. All rights reserved.
 //
 
-#if __has_include("SPObject.h")
-    #import "SPObject.h"
-#else
-    #define NSObject SPObject
-#endif
+@import Foundation;
 
-@interface SPItemTransition : SPObject <UINavigationControllerDelegate,UIViewControllerAnimatedTransitioning>
+@interface SPItemTransition : NSObject <UINavigationControllerDelegate,UIViewControllerAnimatedTransitioning>
 
 + (instancetype)transition;
 

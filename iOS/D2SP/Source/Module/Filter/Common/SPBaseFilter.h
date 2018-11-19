@@ -6,11 +6,7 @@
 //  Copyright © 2017年 wwwbbat. All rights reserved.
 //
 
-#if __has_include("SPObject.h")
-    #import "SPObject.h"
-#else
-    #define NSObject SPObject
-#endif
+@import Foundation;
 #import "SPFilterDelegate.h"
 #import "SPFilterGroup.h"
 #import "SPFilterConfig.h"
@@ -18,7 +14,7 @@
 
 @class SPFilterViewCtrl;
 
-@interface SPBaseFilter : SPObject
+@interface SPBaseFilter : NSObject
 
 @property (weak, nonatomic) SPFilterViewCtrl *filterViewCtrl;
 

@@ -6,15 +6,11 @@
 //  Copyright © 2016年 wwwbbat. All rights reserved.
 //
 
-#if __has_include("SPObject.h")
-    #import "SPObject.h"
-#else
-    #define NSObject SPObject
-#endif
+@import Foundation;
 
 @class UIViewController;
 
-@interface SPWebHelper : SPObject
+@interface SPWebHelper : NSObject
 
 + (void)openURL:(NSURL *)URL from:(UIViewController *)vc;
 

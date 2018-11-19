@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2BA8DFE9AB7567126DDA9BDD /* Pods___SPOldPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A34AC2BAC6A24F255439DBBF /* Pods___SPOldPro.framework */; };
-		2C52840718CFCBA4C1208D58 /* Pods___SPOld.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 212893AFFB20F4F54F3FA493 /* Pods___SPOld.framework */; };
+		09681958389891ECDF074CEB /* Pods_SPPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEEF212176F8B7B21E9AB3D /* Pods_SPPro.framework */; };
 		2D61B90020009C6900BFC8ED /* SPDeploy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D61B8FE20009C6400BFC8ED /* SPDeploy.m */; };
 		2D61B90120009C6A00BFC8ED /* SPDeploy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D61B8FE20009C6400BFC8ED /* SPDeploy.m */; };
 		2D61B90220009C6A00BFC8ED /* SPDeploy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D61B8FE20009C6400BFC8ED /* SPDeploy.m */; };
@@ -20,7 +19,6 @@
 		2D8080FA1FD5B92500078A50 /* SPItemTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 690BD51C1FA84260007A4D5D /* SPItemTitleView.m */; };
 		2D8080FB1FD5B92500078A50 /* UIViewController+yg_IBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6A51F1361640012950A /* UIViewController+yg_IBInspectable.m */; };
 		2D8080FC1FD5B92500078A50 /* SPLogoHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B75B1F1361640012950A /* SPLogoHeader.m */; };
-		2D8080FD1FD5B92500078A50 /* YGPaymentResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6D41F1361640012950A /* YGPaymentResult.m */; };
 		2D8080FE1FD5B92500078A50 /* SPMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6990743F1F3D902C00B64030 /* SPMemoryCache.m */; };
 		2D8080FF1FD5B92500078A50 /* TQLocationConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B66B1F1361640012950A /* TQLocationConverter.m */; };
 		2D8081001FD5B92500078A50 /* SPSettingTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7F61F1361640012950A /* SPSettingTableVC.m */; };
@@ -28,7 +26,6 @@
 		2D8081021FD5B92500078A50 /* SPUpdateViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE373551F176B8600C8F653 /* SPUpdateViewCtrl.m */; };
 		2D8081031FD5B92500078A50 /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B73D1F1361640012950A /* TAAnimatedDotView.m */; };
 		2D8081041FD5B92500078A50 /* SPItemFilterUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D24517F1FC9AA7200EF5438 /* SPItemFilterUnit.m */; };
-		2D8081051FD5B92500078A50 /* YGThirdPlatformProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6DE1F1361640012950A /* YGThirdPlatformProcessor.m */; };
 		2D8081061FD5B92500078A50 /* UIImage+Mask.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6AB1F1361640012950A /* UIImage+Mask.m */; };
 		2D8081071FD5B92500078A50 /* SPItemViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 690BD5181FA841A1007A4D5D /* SPItemViewCtrl.m */; };
 		2D8081081FD5B92500078A50 /* YGCapabilityHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B66F1F1361640012950A /* YGCapabilityHelper.m */; };
@@ -60,7 +57,6 @@
 		2D8081221FD5B92500078A50 /* SPItemEntranceConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC0F6A31F1C625D004DCD3C /* SPItemEntranceConfig.m */; };
 		2D8081231FD5B92500078A50 /* SPConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFE1C1C1FBDD52B00FEDE5C /* SPConfigManager.m */; };
 		2D8081241FD5B92500078A50 /* SPPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7B81F1361640012950A /* SPPlayerManager.m */; };
-		2D8081251FD5B92500078A50 /* Config_Network.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6581F1361640012950A /* Config_Network.m */; };
 		2D8081261FD5B92500078A50 /* SPBaseData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D91EB761F1724230038B49C /* SPBaseData.m */; };
 		2D8081271FD5B92500078A50 /* SPItemSearchOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 692A558D1F4D712F006914BF /* SPItemSearchOption.m */; };
 		2D8081281FD5B92500078A50 /* SPWorkshopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B8061F1361640012950A /* SPWorkshopVC.m */; };
@@ -76,7 +72,6 @@
 		2D8081321FD5B92500078A50 /* SPItemSteamPriceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0BD6FD1FB3486E00A5DD99 /* SPItemSteamPriceCell.m */; };
 		2D8081331FD5B92500078A50 /* SPItemPlayableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 693062C71FBC30D3005987A1 /* SPItemPlayableView.m */; };
 		2D8081341FD5B92500078A50 /* SPFocusVisualEffectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B8001F1361640012950A /* SPFocusVisualEffectVC.m */; };
-		2D8081351FD5B92500078A50 /* YGPayThirdPlatformProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6D71F1361640012950A /* YGPayThirdPlatformProcessor.m */; };
 		2D8081361FD5B92500078A50 /* SPItemQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7971F1361640012950A /* SPItemQuery.m */; };
 		2D8081371FD5B92500078A50 /* NSObject+YGPerformBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B67F1F1361640012950A /* NSObject+YGPerformBlock.m */; };
 		2D8081381FD5B92500078A50 /* YGBasePopViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7841F1361640012950A /* YGBasePopViewCtrl.m */; };
@@ -119,7 +114,6 @@
 		2D80815E1FD5B92500078A50 /* SPItemHeroListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC0F6941F1B9C90004DCD3C /* SPItemHeroListVC.m */; };
 		2D80815F1FD5B92500078A50 /* SPIAPCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A2A901FD0593A0021FCC9 /* SPIAPCell.m */; };
 		2D8081601FD5B92500078A50 /* BingoBarItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6F21F1361640012950A /* BingoBarItemView.m */; };
-		2D8081611FD5B92500078A50 /* Config_Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6561F1361640012950A /* Config_Constant.m */; };
 		2D8081621FD5B92500078A50 /* NSObject+KVCExceptionCatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B67D1F1361640012950A /* NSObject+KVCExceptionCatch.m */; };
 		2D8081631FD5B92500078A50 /* YGAreaPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6ED1F1361640012950A /* YGAreaPickerView.m */; };
 		2D8081641FD5B92500078A50 /* SPGamepediaPlayable.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F631121FBAF01600A60EC8 /* SPGamepediaPlayable.m */; };
@@ -130,7 +124,6 @@
 		2D80816A1FD5B92500078A50 /* UIActivityIndicatorView+yg_IBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B68E1F1361640012950A /* UIActivityIndicatorView+yg_IBInspectable.m */; };
 		2D80816B1FD5B92500078A50 /* SPItemsDetailViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AD9D01F1E63DE00FF3EDF /* SPItemsDetailViewCtrl.m */; };
 		2D80816C1FD5B92500078A50 /* SPPlayer+More.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7B51F1361640012950A /* SPPlayer+More.m */; };
-		2D80816D1FD5B92500078A50 /* CDTUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B8E21F1365CB0012950A /* CDTUser.m */; };
 		2D80816E1FD5B92500078A50 /* LCActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B71F1F1361640012950A /* LCActionSheet.m */; };
 		2D80816F1FD5B92500078A50 /* SPItemPrefab.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7741F1361640012950A /* SPItemPrefab.m */; };
 		2D8081701FD5B92500078A50 /* YGBaseWebViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7881F1361640012950A /* YGBaseWebViewCtrl.m */; };
@@ -174,7 +167,6 @@
 		2D8081981FD5B92500078A50 /* SPWorkshop.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7FD1F1361640012950A /* SPWorkshop.m */; };
 		2D8081991FD5B92500078A50 /* NSString+STRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6811F1361640012950A /* NSString+STRegex.m */; };
 		2D80819A1FD5B92500078A50 /* SPItemMoreItemsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D37AAB61FAEF5CC0043DDD4 /* SPItemMoreItemsView.m */; };
-		2D80819B1FD5B92500078A50 /* YGThirdPartyNavigate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6C11F1361640012950A /* YGThirdPartyNavigate.m */; };
 		2D80819C1FD5B92500078A50 /* SPHistoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9350801FCF1B9E00719EC5 /* SPHistoryManager.m */; };
 		2D80819D1FD5B92500078A50 /* DDMainTBC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7AC1F1361640012950A /* DDMainTBC.m */; };
 		2D80819E1FD5B92500078A50 /* DDViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 691DC39D1F418D6F00DF5E81 /* DDViewModel.m */; };
@@ -182,7 +174,6 @@
 		2D8081A01FD5B92500078A50 /* SPSearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7DC1F1361640012950A /* SPSearchVC.m */; };
 		2D8081A11FD5B92500078A50 /* SPItemBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0BD7001FB5FBCA00A5DD99 /* SPItemBannerView.m */; };
 		2D8081A21FD5B92500078A50 /* RWDropdownMenuTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7371F1361640012950A /* RWDropdownMenuTransitionController.m */; };
-		2D8081A31FD5B92500078A50 /* SPObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF65FF1FCC447B006A0081 /* SPObject.m */; };
 		2D8081A41FD5B92500078A50 /* RWDropdownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7331F1361640012950A /* RWDropdownMenu.m */; };
 		2D8081A51FD5B92500078A50 /* SPIAPObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A2AA11FD198820021FCC9 /* SPIAPObject.m */; };
 		2D8081A61FD5B92500078A50 /* YGLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7181F1361640012950A /* YGLabel.m */; };
@@ -197,10 +188,7 @@
 		2D8081AF1FD5B92500078A50 /* SPSettingOptionsViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A2A861FD055BE0021FCC9 /* SPSettingOptionsViewCtrl.m */; };
 		2D8081B01FD5B92500078A50 /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B73F1F1361640012950A /* TADotView.m */; };
 		2D8081B11FD5B92500078A50 /* SPPlayerInventoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7C71F1361640012950A /* SPPlayerInventoryVC.m */; };
-		2D8081B21FD5B92500078A50 /* Config_ThirdParty.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B65A1F1361640012950A /* Config_ThirdParty.m */; settings = {COMPILER_FLAGS = "-D'MACRO_BUGLY_APP_ID=@\"$(BUGLY_APP_ID)\""; }; };
 		2D8081B31FD5B92500078A50 /* SPSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7E01F1361640012950A /* SPSearchBar.m */; };
-		2D8081B51FD5B92500078A50 /* CDTUserSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6DB1F1361640012950A /* CDTUserSession.m */; };
-		2D8081B61FD5B92500078A50 /* API.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6C41F1361640012950A /* API.m */; };
 		2D8081B71FD5B92500078A50 /* SPWorkshopResourceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B80E1F1361640012950A /* SPWorkshopResourceCell.m */; };
 		2D8081B81FD5B92500078A50 /* SPItemQuality.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7761F1361640012950A /* SPItemQuality.m */; };
 		2D8081B91FD5B92500078A50 /* SPBundleItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6919742A1F42A96E00FB5007 /* SPBundleItemCell.m */; };
@@ -235,7 +223,6 @@
 		2D8081DA1FD5B92500078A50 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D563B231D435EAB005FC6CA /* libstdc++.tbd */; };
 		2D8081DB1FD5B92500078A50 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D563B211D435E95005FC6CA /* libiconv.tbd */; };
 		2D8081DD1FD5B92500078A50 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0A82861CDF325700F26BD1 /* libz.tbd */; };
-		2D8081DE1FD5B92500078A50 /* Pods___SPAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89BFB8F71EB198F30CE6A495 /* Pods___SPAd.framework */; };
 		2D8081E01FD5B92500078A50 /* SPUpdate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DE373521F176B5800C8F653 /* SPUpdate.storyboard */; };
 		2D8081E21FD5B92500078A50 /* SPChart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4B5D4A1F2A54CB00A3D8C9 /* SPChart.storyboard */; };
 		2D8081E31FD5B92500078A50 /* SPMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DF9B7F91F1361640012950A /* SPMain.storyboard */; };
@@ -260,7 +247,6 @@
 		2DD662E11FD57D62000E7223 /* SPItemTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 690BD51C1FA84260007A4D5D /* SPItemTitleView.m */; };
 		2DD662E21FD57D62000E7223 /* UIViewController+yg_IBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6A51F1361640012950A /* UIViewController+yg_IBInspectable.m */; };
 		2DD662E31FD57D62000E7223 /* SPLogoHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B75B1F1361640012950A /* SPLogoHeader.m */; };
-		2DD662E41FD57D62000E7223 /* YGPaymentResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6D41F1361640012950A /* YGPaymentResult.m */; };
 		2DD662E51FD57D62000E7223 /* SPMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6990743F1F3D902C00B64030 /* SPMemoryCache.m */; };
 		2DD662E61FD57D62000E7223 /* TQLocationConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B66B1F1361640012950A /* TQLocationConverter.m */; };
 		2DD662E71FD57D62000E7223 /* SPSettingTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7F61F1361640012950A /* SPSettingTableVC.m */; };
@@ -268,7 +254,6 @@
 		2DD662E91FD57D62000E7223 /* SPUpdateViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE373551F176B8600C8F653 /* SPUpdateViewCtrl.m */; };
 		2DD662EA1FD57D62000E7223 /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B73D1F1361640012950A /* TAAnimatedDotView.m */; };
 		2DD662EB1FD57D62000E7223 /* SPItemFilterUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D24517F1FC9AA7200EF5438 /* SPItemFilterUnit.m */; };
-		2DD662EC1FD57D62000E7223 /* YGThirdPlatformProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6DE1F1361640012950A /* YGThirdPlatformProcessor.m */; };
 		2DD662ED1FD57D62000E7223 /* UIImage+Mask.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6AB1F1361640012950A /* UIImage+Mask.m */; };
 		2DD662EE1FD57D62000E7223 /* SPItemViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 690BD5181FA841A1007A4D5D /* SPItemViewCtrl.m */; };
 		2DD662EF1FD57D62000E7223 /* YGCapabilityHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B66F1F1361640012950A /* YGCapabilityHelper.m */; };
@@ -300,7 +285,6 @@
 		2DD663091FD57D62000E7223 /* SPItemEntranceConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC0F6A31F1C625D004DCD3C /* SPItemEntranceConfig.m */; };
 		2DD6630A1FD57D62000E7223 /* SPConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFE1C1C1FBDD52B00FEDE5C /* SPConfigManager.m */; };
 		2DD6630B1FD57D62000E7223 /* SPPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7B81F1361640012950A /* SPPlayerManager.m */; };
-		2DD6630C1FD57D62000E7223 /* Config_Network.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6581F1361640012950A /* Config_Network.m */; };
 		2DD6630D1FD57D62000E7223 /* SPBaseData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D91EB761F1724230038B49C /* SPBaseData.m */; };
 		2DD6630E1FD57D62000E7223 /* SPItemSearchOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 692A558D1F4D712F006914BF /* SPItemSearchOption.m */; };
 		2DD6630F1FD57D62000E7223 /* SPWorkshopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B8061F1361640012950A /* SPWorkshopVC.m */; };
@@ -316,7 +300,6 @@
 		2DD663191FD57D62000E7223 /* SPItemSteamPriceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0BD6FD1FB3486E00A5DD99 /* SPItemSteamPriceCell.m */; };
 		2DD6631A1FD57D62000E7223 /* SPItemPlayableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 693062C71FBC30D3005987A1 /* SPItemPlayableView.m */; };
 		2DD6631B1FD57D62000E7223 /* SPFocusVisualEffectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B8001F1361640012950A /* SPFocusVisualEffectVC.m */; };
-		2DD6631C1FD57D62000E7223 /* YGPayThirdPlatformProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6D71F1361640012950A /* YGPayThirdPlatformProcessor.m */; };
 		2DD6631D1FD57D62000E7223 /* SPItemQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7971F1361640012950A /* SPItemQuery.m */; };
 		2DD6631E1FD57D62000E7223 /* NSObject+YGPerformBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B67F1F1361640012950A /* NSObject+YGPerformBlock.m */; };
 		2DD6631F1FD57D62000E7223 /* YGBasePopViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7841F1361640012950A /* YGBasePopViewCtrl.m */; };
@@ -359,7 +342,6 @@
 		2DD663451FD57D62000E7223 /* SPItemHeroListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC0F6941F1B9C90004DCD3C /* SPItemHeroListVC.m */; };
 		2DD663461FD57D62000E7223 /* SPIAPCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A2A901FD0593A0021FCC9 /* SPIAPCell.m */; };
 		2DD663471FD57D62000E7223 /* BingoBarItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6F21F1361640012950A /* BingoBarItemView.m */; };
-		2DD663481FD57D62000E7223 /* Config_Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6561F1361640012950A /* Config_Constant.m */; };
 		2DD663491FD57D62000E7223 /* NSObject+KVCExceptionCatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B67D1F1361640012950A /* NSObject+KVCExceptionCatch.m */; };
 		2DD6634A1FD57D62000E7223 /* YGAreaPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6ED1F1361640012950A /* YGAreaPickerView.m */; };
 		2DD6634B1FD57D62000E7223 /* SPGamepediaPlayable.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F631121FBAF01600A60EC8 /* SPGamepediaPlayable.m */; };
@@ -370,7 +352,6 @@
 		2DD663511FD57D62000E7223 /* UIActivityIndicatorView+yg_IBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B68E1F1361640012950A /* UIActivityIndicatorView+yg_IBInspectable.m */; };
 		2DD663521FD57D62000E7223 /* SPItemsDetailViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AD9D01F1E63DE00FF3EDF /* SPItemsDetailViewCtrl.m */; };
 		2DD663531FD57D62000E7223 /* SPPlayer+More.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7B51F1361640012950A /* SPPlayer+More.m */; };
-		2DD663541FD57D62000E7223 /* CDTUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B8E21F1365CB0012950A /* CDTUser.m */; };
 		2DD663551FD57D62000E7223 /* LCActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B71F1F1361640012950A /* LCActionSheet.m */; };
 		2DD663561FD57D62000E7223 /* SPItemPrefab.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7741F1361640012950A /* SPItemPrefab.m */; };
 		2DD663571FD57D62000E7223 /* YGBaseWebViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7881F1361640012950A /* YGBaseWebViewCtrl.m */; };
@@ -414,7 +395,6 @@
 		2DD6637F1FD57D62000E7223 /* SPWorkshop.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7FD1F1361640012950A /* SPWorkshop.m */; };
 		2DD663801FD57D62000E7223 /* NSString+STRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6811F1361640012950A /* NSString+STRegex.m */; };
 		2DD663811FD57D62000E7223 /* SPItemMoreItemsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D37AAB61FAEF5CC0043DDD4 /* SPItemMoreItemsView.m */; };
-		2DD663821FD57D62000E7223 /* YGThirdPartyNavigate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6C11F1361640012950A /* YGThirdPartyNavigate.m */; };
 		2DD663831FD57D62000E7223 /* SPHistoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9350801FCF1B9E00719EC5 /* SPHistoryManager.m */; };
 		2DD663841FD57D62000E7223 /* DDMainTBC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7AC1F1361640012950A /* DDMainTBC.m */; };
 		2DD663851FD57D62000E7223 /* DDViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 691DC39D1F418D6F00DF5E81 /* DDViewModel.m */; };
@@ -422,7 +402,6 @@
 		2DD663871FD57D62000E7223 /* SPSearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7DC1F1361640012950A /* SPSearchVC.m */; };
 		2DD663881FD57D62000E7223 /* SPItemBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0BD7001FB5FBCA00A5DD99 /* SPItemBannerView.m */; };
 		2DD663891FD57D62000E7223 /* RWDropdownMenuTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7371F1361640012950A /* RWDropdownMenuTransitionController.m */; };
-		2DD6638A1FD57D62000E7223 /* SPObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF65FF1FCC447B006A0081 /* SPObject.m */; };
 		2DD6638B1FD57D62000E7223 /* RWDropdownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7331F1361640012950A /* RWDropdownMenu.m */; };
 		2DD6638C1FD57D62000E7223 /* SPIAPObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A2AA11FD198820021FCC9 /* SPIAPObject.m */; };
 		2DD6638D1FD57D62000E7223 /* YGLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7181F1361640012950A /* YGLabel.m */; };
@@ -437,10 +416,7 @@
 		2DD663961FD57D62000E7223 /* SPSettingOptionsViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A2A861FD055BE0021FCC9 /* SPSettingOptionsViewCtrl.m */; };
 		2DD663971FD57D62000E7223 /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B73F1F1361640012950A /* TADotView.m */; };
 		2DD663981FD57D62000E7223 /* SPPlayerInventoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7C71F1361640012950A /* SPPlayerInventoryVC.m */; };
-		2DD663991FD57D62000E7223 /* Config_ThirdParty.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B65A1F1361640012950A /* Config_ThirdParty.m */; settings = {COMPILER_FLAGS = "-D'MACRO_BUGLY_APP_ID=@\"$(BUGLY_APP_ID)\""; }; };
 		2DD6639A1FD57D62000E7223 /* SPSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7E01F1361640012950A /* SPSearchBar.m */; };
-		2DD6639C1FD57D62000E7223 /* CDTUserSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6DB1F1361640012950A /* CDTUserSession.m */; };
-		2DD6639D1FD57D62000E7223 /* API.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6C41F1361640012950A /* API.m */; };
 		2DD6639E1FD57D62000E7223 /* SPWorkshopResourceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B80E1F1361640012950A /* SPWorkshopResourceCell.m */; };
 		2DD6639F1FD57D62000E7223 /* SPItemQuality.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7761F1361640012950A /* SPItemQuality.m */; };
 		2DD663A01FD57D62000E7223 /* SPBundleItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6919742A1F42A96E00FB5007 /* SPBundleItemCell.m */; };
@@ -498,7 +474,6 @@
 		2DD663EA1FD57D83000E7223 /* SPItemTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 690BD51C1FA84260007A4D5D /* SPItemTitleView.m */; };
 		2DD663EB1FD57D83000E7223 /* UIViewController+yg_IBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6A51F1361640012950A /* UIViewController+yg_IBInspectable.m */; };
 		2DD663EC1FD57D83000E7223 /* SPLogoHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B75B1F1361640012950A /* SPLogoHeader.m */; };
-		2DD663ED1FD57D83000E7223 /* YGPaymentResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6D41F1361640012950A /* YGPaymentResult.m */; };
 		2DD663EE1FD57D83000E7223 /* SPMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6990743F1F3D902C00B64030 /* SPMemoryCache.m */; };
 		2DD663EF1FD57D83000E7223 /* TQLocationConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B66B1F1361640012950A /* TQLocationConverter.m */; };
 		2DD663F01FD57D83000E7223 /* SPSettingTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7F61F1361640012950A /* SPSettingTableVC.m */; };
@@ -506,7 +481,6 @@
 		2DD663F21FD57D83000E7223 /* SPUpdateViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE373551F176B8600C8F653 /* SPUpdateViewCtrl.m */; };
 		2DD663F31FD57D83000E7223 /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B73D1F1361640012950A /* TAAnimatedDotView.m */; };
 		2DD663F41FD57D83000E7223 /* SPItemFilterUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D24517F1FC9AA7200EF5438 /* SPItemFilterUnit.m */; };
-		2DD663F51FD57D83000E7223 /* YGThirdPlatformProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6DE1F1361640012950A /* YGThirdPlatformProcessor.m */; };
 		2DD663F61FD57D83000E7223 /* UIImage+Mask.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6AB1F1361640012950A /* UIImage+Mask.m */; };
 		2DD663F71FD57D83000E7223 /* SPItemViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 690BD5181FA841A1007A4D5D /* SPItemViewCtrl.m */; };
 		2DD663F81FD57D83000E7223 /* YGCapabilityHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B66F1F1361640012950A /* YGCapabilityHelper.m */; };
@@ -538,7 +512,6 @@
 		2DD664121FD57D83000E7223 /* SPItemEntranceConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC0F6A31F1C625D004DCD3C /* SPItemEntranceConfig.m */; };
 		2DD664131FD57D83000E7223 /* SPConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFE1C1C1FBDD52B00FEDE5C /* SPConfigManager.m */; };
 		2DD664141FD57D83000E7223 /* SPPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7B81F1361640012950A /* SPPlayerManager.m */; };
-		2DD664151FD57D83000E7223 /* Config_Network.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6581F1361640012950A /* Config_Network.m */; };
 		2DD664161FD57D83000E7223 /* SPBaseData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D91EB761F1724230038B49C /* SPBaseData.m */; };
 		2DD664171FD57D83000E7223 /* SPItemSearchOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 692A558D1F4D712F006914BF /* SPItemSearchOption.m */; };
 		2DD664181FD57D83000E7223 /* SPWorkshopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B8061F1361640012950A /* SPWorkshopVC.m */; };
@@ -554,7 +527,6 @@
 		2DD664221FD57D83000E7223 /* SPItemSteamPriceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0BD6FD1FB3486E00A5DD99 /* SPItemSteamPriceCell.m */; };
 		2DD664231FD57D83000E7223 /* SPItemPlayableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 693062C71FBC30D3005987A1 /* SPItemPlayableView.m */; };
 		2DD664241FD57D83000E7223 /* SPFocusVisualEffectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B8001F1361640012950A /* SPFocusVisualEffectVC.m */; };
-		2DD664251FD57D83000E7223 /* YGPayThirdPlatformProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6D71F1361640012950A /* YGPayThirdPlatformProcessor.m */; };
 		2DD664261FD57D83000E7223 /* SPItemQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7971F1361640012950A /* SPItemQuery.m */; };
 		2DD664271FD57D83000E7223 /* NSObject+YGPerformBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B67F1F1361640012950A /* NSObject+YGPerformBlock.m */; };
 		2DD664281FD57D83000E7223 /* YGBasePopViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7841F1361640012950A /* YGBasePopViewCtrl.m */; };
@@ -597,7 +569,6 @@
 		2DD6644E1FD57D83000E7223 /* SPItemHeroListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC0F6941F1B9C90004DCD3C /* SPItemHeroListVC.m */; };
 		2DD6644F1FD57D83000E7223 /* SPIAPCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A2A901FD0593A0021FCC9 /* SPIAPCell.m */; };
 		2DD664501FD57D83000E7223 /* BingoBarItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6F21F1361640012950A /* BingoBarItemView.m */; };
-		2DD664511FD57D83000E7223 /* Config_Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6561F1361640012950A /* Config_Constant.m */; };
 		2DD664521FD57D83000E7223 /* NSObject+KVCExceptionCatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B67D1F1361640012950A /* NSObject+KVCExceptionCatch.m */; };
 		2DD664531FD57D83000E7223 /* YGAreaPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6ED1F1361640012950A /* YGAreaPickerView.m */; };
 		2DD664541FD57D83000E7223 /* SPGamepediaPlayable.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F631121FBAF01600A60EC8 /* SPGamepediaPlayable.m */; };
@@ -608,7 +579,6 @@
 		2DD6645A1FD57D83000E7223 /* UIActivityIndicatorView+yg_IBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B68E1F1361640012950A /* UIActivityIndicatorView+yg_IBInspectable.m */; };
 		2DD6645B1FD57D83000E7223 /* SPItemsDetailViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AD9D01F1E63DE00FF3EDF /* SPItemsDetailViewCtrl.m */; };
 		2DD6645C1FD57D83000E7223 /* SPPlayer+More.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7B51F1361640012950A /* SPPlayer+More.m */; };
-		2DD6645D1FD57D83000E7223 /* CDTUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B8E21F1365CB0012950A /* CDTUser.m */; };
 		2DD6645E1FD57D83000E7223 /* LCActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B71F1F1361640012950A /* LCActionSheet.m */; };
 		2DD6645F1FD57D83000E7223 /* SPItemPrefab.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7741F1361640012950A /* SPItemPrefab.m */; };
 		2DD664601FD57D83000E7223 /* YGBaseWebViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7881F1361640012950A /* YGBaseWebViewCtrl.m */; };
@@ -652,7 +622,6 @@
 		2DD664881FD57D83000E7223 /* SPWorkshop.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7FD1F1361640012950A /* SPWorkshop.m */; };
 		2DD664891FD57D83000E7223 /* NSString+STRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6811F1361640012950A /* NSString+STRegex.m */; };
 		2DD6648A1FD57D83000E7223 /* SPItemMoreItemsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D37AAB61FAEF5CC0043DDD4 /* SPItemMoreItemsView.m */; };
-		2DD6648B1FD57D83000E7223 /* YGThirdPartyNavigate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6C11F1361640012950A /* YGThirdPartyNavigate.m */; };
 		2DD6648C1FD57D83000E7223 /* SPHistoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9350801FCF1B9E00719EC5 /* SPHistoryManager.m */; };
 		2DD6648D1FD57D83000E7223 /* DDMainTBC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7AC1F1361640012950A /* DDMainTBC.m */; };
 		2DD6648E1FD57D83000E7223 /* DDViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 691DC39D1F418D6F00DF5E81 /* DDViewModel.m */; };
@@ -660,7 +629,6 @@
 		2DD664901FD57D83000E7223 /* SPSearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7DC1F1361640012950A /* SPSearchVC.m */; };
 		2DD664911FD57D83000E7223 /* SPItemBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0BD7001FB5FBCA00A5DD99 /* SPItemBannerView.m */; };
 		2DD664921FD57D83000E7223 /* RWDropdownMenuTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7371F1361640012950A /* RWDropdownMenuTransitionController.m */; };
-		2DD664931FD57D83000E7223 /* SPObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF65FF1FCC447B006A0081 /* SPObject.m */; };
 		2DD664941FD57D83000E7223 /* RWDropdownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7331F1361640012950A /* RWDropdownMenu.m */; };
 		2DD664951FD57D83000E7223 /* SPIAPObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A2AA11FD198820021FCC9 /* SPIAPObject.m */; };
 		2DD664961FD57D83000E7223 /* YGLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7181F1361640012950A /* YGLabel.m */; };
@@ -675,10 +643,7 @@
 		2DD6649F1FD57D83000E7223 /* SPSettingOptionsViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A2A861FD055BE0021FCC9 /* SPSettingOptionsViewCtrl.m */; };
 		2DD664A01FD57D83000E7223 /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B73F1F1361640012950A /* TADotView.m */; };
 		2DD664A11FD57D83000E7223 /* SPPlayerInventoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7C71F1361640012950A /* SPPlayerInventoryVC.m */; };
-		2DD664A21FD57D83000E7223 /* Config_ThirdParty.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B65A1F1361640012950A /* Config_ThirdParty.m */; settings = {COMPILER_FLAGS = "-D'MACRO_BUGLY_APP_ID=@\"$(BUGLY_APP_ID)\""; }; };
 		2DD664A31FD57D83000E7223 /* SPSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7E01F1361640012950A /* SPSearchBar.m */; };
-		2DD664A51FD57D83000E7223 /* CDTUserSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6DB1F1361640012950A /* CDTUserSession.m */; };
-		2DD664A61FD57D83000E7223 /* API.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6C41F1361640012950A /* API.m */; };
 		2DD664A71FD57D83000E7223 /* SPWorkshopResourceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B80E1F1361640012950A /* SPWorkshopResourceCell.m */; };
 		2DD664A81FD57D83000E7223 /* SPItemQuality.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7761F1361640012950A /* SPItemQuality.m */; };
 		2DD664A91FD57D83000E7223 /* SPBundleItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6919742A1F42A96E00FB5007 /* SPBundleItemCell.m */; };
@@ -730,6 +695,7 @@
 		2DD664E21FD57D83000E7223 /* SPItem.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DC0F6961F1C5F82004DCD3C /* SPItem.storyboard */; };
 		2DD664F81FD5874F000E7223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DF9B8101F1361640012950A /* Assets.xcassets */; };
 		2DD664F91FD58750000E7223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DF9B8101F1361640012950A /* Assets.xcassets */; };
+		35EBD12B1AAF922751E63731 /* Pods_SPAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BB8D6B340D20ACA515453A /* Pods_SPAd.framework */; };
 		44059236218AF7A10098E3EB /* AppIconSPAd.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44059230218AF7A10098E3EB /* AppIconSPAd.xcassets */; };
 		4405923D218AF7A10098E3EB /* AppIconSPPro.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44059232218AF7A10098E3EB /* AppIconSPPro.xcassets */; };
 		4405926F218C45AB0098E3EB /* tac_services_configurations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44059265218C3A170098E3EB /* tac_services_configurations.plist */; };
@@ -743,7 +709,6 @@
 		4405927B218C57DF0098E3EB /* SPItemTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 690BD51C1FA84260007A4D5D /* SPItemTitleView.m */; };
 		4405927C218C57DF0098E3EB /* UIViewController+yg_IBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6A51F1361640012950A /* UIViewController+yg_IBInspectable.m */; };
 		4405927D218C57DF0098E3EB /* SPLogoHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B75B1F1361640012950A /* SPLogoHeader.m */; };
-		4405927E218C57DF0098E3EB /* YGPaymentResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6D41F1361640012950A /* YGPaymentResult.m */; };
 		4405927F218C57DF0098E3EB /* SPMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6990743F1F3D902C00B64030 /* SPMemoryCache.m */; };
 		44059280218C57DF0098E3EB /* TQLocationConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B66B1F1361640012950A /* TQLocationConverter.m */; };
 		44059281218C57DF0098E3EB /* SPSettingTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7F61F1361640012950A /* SPSettingTableVC.m */; };
@@ -751,7 +716,6 @@
 		44059283218C57DF0098E3EB /* SPUpdateViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE373551F176B8600C8F653 /* SPUpdateViewCtrl.m */; };
 		44059284218C57DF0098E3EB /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B73D1F1361640012950A /* TAAnimatedDotView.m */; };
 		44059285218C57DF0098E3EB /* SPItemFilterUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D24517F1FC9AA7200EF5438 /* SPItemFilterUnit.m */; };
-		44059286218C57DF0098E3EB /* YGThirdPlatformProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6DE1F1361640012950A /* YGThirdPlatformProcessor.m */; };
 		44059287218C57DF0098E3EB /* UIImage+Mask.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6AB1F1361640012950A /* UIImage+Mask.m */; };
 		44059288218C57DF0098E3EB /* SPItemViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 690BD5181FA841A1007A4D5D /* SPItemViewCtrl.m */; };
 		44059289218C57DF0098E3EB /* YGCapabilityHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B66F1F1361640012950A /* YGCapabilityHelper.m */; };
@@ -784,7 +748,6 @@
 		440592A4218C57DF0098E3EB /* SPItemEntranceConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC0F6A31F1C625D004DCD3C /* SPItemEntranceConfig.m */; };
 		440592A5218C57DF0098E3EB /* SPConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFE1C1C1FBDD52B00FEDE5C /* SPConfigManager.m */; };
 		440592A6218C57DF0098E3EB /* SPPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7B81F1361640012950A /* SPPlayerManager.m */; };
-		440592A7218C57DF0098E3EB /* Config_Network.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6581F1361640012950A /* Config_Network.m */; };
 		440592A8218C57DF0098E3EB /* SPBaseData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D91EB761F1724230038B49C /* SPBaseData.m */; };
 		440592A9218C57DF0098E3EB /* SPItemSearchOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 692A558D1F4D712F006914BF /* SPItemSearchOption.m */; };
 		440592AA218C57DF0098E3EB /* SPWorkshopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B8061F1361640012950A /* SPWorkshopVC.m */; };
@@ -800,7 +763,6 @@
 		440592B4218C57DF0098E3EB /* SPItemSteamPriceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0BD6FD1FB3486E00A5DD99 /* SPItemSteamPriceCell.m */; };
 		440592B5218C57DF0098E3EB /* SPItemPlayableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 693062C71FBC30D3005987A1 /* SPItemPlayableView.m */; };
 		440592B6218C57DF0098E3EB /* SPFocusVisualEffectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B8001F1361640012950A /* SPFocusVisualEffectVC.m */; };
-		440592B7218C57DF0098E3EB /* YGPayThirdPlatformProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6D71F1361640012950A /* YGPayThirdPlatformProcessor.m */; };
 		440592B8218C57DF0098E3EB /* SPItemQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7971F1361640012950A /* SPItemQuery.m */; };
 		440592BA218C57DF0098E3EB /* NSObject+YGPerformBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B67F1F1361640012950A /* NSObject+YGPerformBlock.m */; };
 		440592BB218C57DF0098E3EB /* YGBasePopViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7841F1361640012950A /* YGBasePopViewCtrl.m */; };
@@ -843,7 +805,6 @@
 		440592E0218C57DF0098E3EB /* SPItemHeroListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC0F6941F1B9C90004DCD3C /* SPItemHeroListVC.m */; };
 		440592E1218C57DF0098E3EB /* SPIAPCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A2A901FD0593A0021FCC9 /* SPIAPCell.m */; };
 		440592E2218C57DF0098E3EB /* BingoBarItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6F21F1361640012950A /* BingoBarItemView.m */; };
-		440592E3218C57DF0098E3EB /* Config_Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6561F1361640012950A /* Config_Constant.m */; };
 		440592E4218C57DF0098E3EB /* NSObject+KVCExceptionCatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B67D1F1361640012950A /* NSObject+KVCExceptionCatch.m */; };
 		440592E5218C57DF0098E3EB /* YGAreaPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6ED1F1361640012950A /* YGAreaPickerView.m */; };
 		440592E6218C57DF0098E3EB /* SPGamepediaPlayable.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F631121FBAF01600A60EC8 /* SPGamepediaPlayable.m */; };
@@ -854,7 +815,6 @@
 		440592EC218C57DF0098E3EB /* UIActivityIndicatorView+yg_IBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B68E1F1361640012950A /* UIActivityIndicatorView+yg_IBInspectable.m */; };
 		440592ED218C57DF0098E3EB /* SPItemsDetailViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AD9D01F1E63DE00FF3EDF /* SPItemsDetailViewCtrl.m */; };
 		440592EE218C57DF0098E3EB /* SPPlayer+More.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7B51F1361640012950A /* SPPlayer+More.m */; };
-		440592EF218C57DF0098E3EB /* CDTUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B8E21F1365CB0012950A /* CDTUser.m */; };
 		440592F0218C57DF0098E3EB /* LCActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B71F1F1361640012950A /* LCActionSheet.m */; };
 		440592F1218C57DF0098E3EB /* SPItemPrefab.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7741F1361640012950A /* SPItemPrefab.m */; };
 		440592F2218C57DF0098E3EB /* YGBaseWebViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7881F1361640012950A /* YGBaseWebViewCtrl.m */; };
@@ -898,7 +858,6 @@
 		4405931A218C57DF0098E3EB /* SPWorkshop.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7FD1F1361640012950A /* SPWorkshop.m */; };
 		4405931B218C57DF0098E3EB /* NSString+STRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6811F1361640012950A /* NSString+STRegex.m */; };
 		4405931C218C57DF0098E3EB /* SPItemMoreItemsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D37AAB61FAEF5CC0043DDD4 /* SPItemMoreItemsView.m */; };
-		4405931D218C57DF0098E3EB /* YGThirdPartyNavigate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6C11F1361640012950A /* YGThirdPartyNavigate.m */; };
 		4405931E218C57DF0098E3EB /* SPHistoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9350801FCF1B9E00719EC5 /* SPHistoryManager.m */; };
 		4405931F218C57DF0098E3EB /* DDMainTBC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7AC1F1361640012950A /* DDMainTBC.m */; };
 		44059320218C57DF0098E3EB /* DDViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 691DC39D1F418D6F00DF5E81 /* DDViewModel.m */; };
@@ -906,7 +865,6 @@
 		44059322218C57DF0098E3EB /* SPSearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7DC1F1361640012950A /* SPSearchVC.m */; };
 		44059323218C57DF0098E3EB /* SPItemBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0BD7001FB5FBCA00A5DD99 /* SPItemBannerView.m */; };
 		44059324218C57DF0098E3EB /* RWDropdownMenuTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7371F1361640012950A /* RWDropdownMenuTransitionController.m */; };
-		44059325218C57DF0098E3EB /* SPObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF65FF1FCC447B006A0081 /* SPObject.m */; };
 		44059326218C57DF0098E3EB /* RWDropdownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7331F1361640012950A /* RWDropdownMenu.m */; };
 		44059327218C57DF0098E3EB /* SPIAPObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A2AA11FD198820021FCC9 /* SPIAPObject.m */; };
 		44059328218C57DF0098E3EB /* YGLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7181F1361640012950A /* YGLabel.m */; };
@@ -921,10 +879,7 @@
 		44059331218C57DF0098E3EB /* SPSettingOptionsViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A2A861FD055BE0021FCC9 /* SPSettingOptionsViewCtrl.m */; };
 		44059332218C57DF0098E3EB /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B73F1F1361640012950A /* TADotView.m */; };
 		44059333218C57DF0098E3EB /* SPPlayerInventoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7C71F1361640012950A /* SPPlayerInventoryVC.m */; };
-		44059334218C57DF0098E3EB /* Config_ThirdParty.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B65A1F1361640012950A /* Config_ThirdParty.m */; settings = {COMPILER_FLAGS = "-D'MACRO_BUGLY_APP_ID=@\"$(BUGLY_APP_ID)\""; }; };
 		44059335218C57DF0098E3EB /* SPSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7E01F1361640012950A /* SPSearchBar.m */; };
-		44059336218C57DF0098E3EB /* CDTUserSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6DB1F1361640012950A /* CDTUserSession.m */; };
-		44059337218C57DF0098E3EB /* API.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6C41F1361640012950A /* API.m */; };
 		44059338218C57DF0098E3EB /* SPWorkshopResourceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B80E1F1361640012950A /* SPWorkshopResourceCell.m */; };
 		44059339218C57DF0098E3EB /* SPItemQuality.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7761F1361640012950A /* SPItemQuality.m */; };
 		4405933A218C57DF0098E3EB /* SPBundleItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6919742A1F42A96E00FB5007 /* SPBundleItemCell.m */; };
@@ -959,8 +914,6 @@
 		44059359218C57DF0098E3EB /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D563B231D435EAB005FC6CA /* libstdc++.tbd */; };
 		4405935A218C57DF0098E3EB /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D563B211D435E95005FC6CA /* libiconv.tbd */; };
 		4405935B218C57DF0098E3EB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0A82861CDF325700F26BD1 /* libz.tbd */; };
-		4405935C218C57DF0098E3EB /* Pods___SPAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89BFB8F71EB198F30CE6A495 /* Pods___SPAd.framework */; };
-		4405935D218C57DF0098E3EB /* Pods___SPOld.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 212893AFFB20F4F54F3FA493 /* Pods___SPOld.framework */; };
 		4405935F218C57DF0098E3EB /* SPUpdate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DE373521F176B5800C8F653 /* SPUpdate.storyboard */; };
 		44059361218C57DF0098E3EB /* SPChart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4B5D4A1F2A54CB00A3D8C9 /* SPChart.storyboard */; };
 		44059362218C57DF0098E3EB /* SPMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DF9B7F91F1361640012950A /* SPMain.storyboard */; };
@@ -1002,15 +955,24 @@
 		445ED660218FF2F6006341CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445ED65E218FF2F6006341CB /* AppDelegate.swift */; };
 		445ED661218FF2F6006341CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445ED65E218FF2F6006341CB /* AppDelegate.swift */; };
 		445ED662218FF2F6006341CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445ED65E218FF2F6006341CB /* AppDelegate.swift */; };
-		C9FC870733D99616875E4418 /* Pods___SPAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89BFB8F71EB198F30CE6A495 /* Pods___SPAd.framework */; };
-		CFE384555F148DB580360F0F /* Pods___SPPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A32501C3838DCC7527294DD7 /* Pods___SPPro.framework */; };
+		4472CC74219407D000FC0B1F /* SPSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4472CC73219407D000FC0B1F /* SPSwift.swift */; };
+		4472CC75219407D000FC0B1F /* SPSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4472CC73219407D000FC0B1F /* SPSwift.swift */; };
+		4472CC76219407D000FC0B1F /* SPSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4472CC73219407D000FC0B1F /* SPSwift.swift */; };
+		4472CC77219407D000FC0B1F /* SPSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4472CC73219407D000FC0B1F /* SPSwift.swift */; };
+		44EC324021A27E3B00FB8D9E /* Vendor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC323F21A27E3B00FB8D9E /* Vendor.swift */; };
+		44EC324121A27E3B00FB8D9E /* Vendor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC323F21A27E3B00FB8D9E /* Vendor.swift */; };
+		44EC324221A27E3B00FB8D9E /* Vendor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC323F21A27E3B00FB8D9E /* Vendor.swift */; };
+		44EC324321A27E3B00FB8D9E /* Vendor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC323F21A27E3B00FB8D9E /* Vendor.swift */; };
+		509EB8232CD63253DA275439 /* Pods_SPOldPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8D8F94012FA3FC8D5FF4098 /* Pods_SPOldPro.framework */; };
+		71F90BEEF2B01147706ABEE2 /* Pods_SPOld.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C1FD4EBE1C48CE933E0710 /* Pods_SPOld.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		07AE11536F9F2C37F7ED1D08 /* Pods-_-SPAd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-_-SPAd.debug.xcconfig"; path = "Pods/Target Support Files/Pods-_-SPAd/Pods-_-SPAd.debug.xcconfig"; sourceTree = "<group>"; };
-		193F5CED732A1AD8A2454FC0 /* Pods-_-SPOld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-_-SPOld.debug.xcconfig"; path = "Pods/Target Support Files/Pods-_-SPOld/Pods-_-SPOld.debug.xcconfig"; sourceTree = "<group>"; };
+		002B57E4BAFF0E2BBFBC24C8 /* Pods-SPAd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPAd.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SPAd/Pods-SPAd.debug.xcconfig"; sourceTree = "<group>"; };
+		049DC49BA9A7BE9DFB0B47B7 /* Pods-SPAd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPAd.release.xcconfig"; path = "Pods/Target Support Files/Pods-SPAd/Pods-SPAd.release.xcconfig"; sourceTree = "<group>"; };
+		16C1FD4EBE1C48CE933E0710 /* Pods_SPOld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPOld.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		212893AFFB20F4F54F3FA493 /* Pods___SPOld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods___SPOld.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		28B8620B250CF5F9169025DD /* Pods-_-SPPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-_-SPPro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-_-SPPro/Pods-_-SPPro.debug.xcconfig"; sourceTree = "<group>"; };
+		2686522146A6CE323EEE651B /* Pods-SPPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPPro.release.xcconfig"; path = "Pods/Target Support Files/Pods-SPPro/Pods-SPPro.release.xcconfig"; sourceTree = "<group>"; };
 		2D0A82861CDF325700F26BD1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		2D0BD6F91FB343C700A5DD99 /* SPItemSteamPricesViewCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPItemSteamPricesViewCtrl.h; sourceTree = "<group>"; };
 		2D0BD6FA1FB343C700A5DD99 /* SPItemSteamPricesViewCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPItemSteamPricesViewCtrl.m; sourceTree = "<group>"; };
@@ -1144,12 +1106,6 @@
 		2DF9B6521F1361640012950A /* Config_Appearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Config_Appearance.m; sourceTree = "<group>"; };
 		2DF9B6531F1361640012950A /* Config_Archive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config_Archive.h; sourceTree = "<group>"; };
 		2DF9B6541F1361640012950A /* Config_Archive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Config_Archive.m; sourceTree = "<group>"; };
-		2DF9B6551F1361640012950A /* Config_Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config_Constant.h; sourceTree = "<group>"; };
-		2DF9B6561F1361640012950A /* Config_Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Config_Constant.m; sourceTree = "<group>"; };
-		2DF9B6571F1361640012950A /* Config_Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config_Network.h; sourceTree = "<group>"; };
-		2DF9B6581F1361640012950A /* Config_Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Config_Network.m; sourceTree = "<group>"; };
-		2DF9B6591F1361640012950A /* Config_ThirdParty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config_ThirdParty.h; sourceTree = "<group>"; };
-		2DF9B65A1F1361640012950A /* Config_ThirdParty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Config_ThirdParty.m; sourceTree = "<group>"; };
 		2DF9B65B1F1361640012950A /* ConfigDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigDefines.h; sourceTree = "<group>"; };
 		2DF9B65E1F1361640012950A /* SPDotabuffAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDotabuffAPI.h; sourceTree = "<group>"; };
 		2DF9B65F1F1361640012950A /* SPDotabuffAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDotabuffAPI.m; sourceTree = "<group>"; };
@@ -1232,28 +1188,14 @@
 		2DF9B6B91F1361640012950A /* UIViewController+Storyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Storyboard.m"; sourceTree = "<group>"; };
 		2DF9B6BA1F1361640012950A /* YGUIKitCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGUIKitCategories.h; sourceTree = "<group>"; };
 		2DF9B6BB1F1361640012950A /* YGBaseCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGBaseCategories.h; sourceTree = "<group>"; };
-		2DF9B6C01F1361640012950A /* YGThirdPartyNavigate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGThirdPartyNavigate.h; sourceTree = "<group>"; };
-		2DF9B6C11F1361640012950A /* YGThirdPartyNavigate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGThirdPartyNavigate.m; sourceTree = "<group>"; };
-		2DF9B6C31F1361640012950A /* API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = API.h; sourceTree = "<group>"; };
-		2DF9B6C41F1361640012950A /* API.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = API.m; sourceTree = "<group>"; };
 		2DF9B6C51F1361640012950A /* DDError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDError.h; sourceTree = "<group>"; };
 		2DF9B6C61F1361640012950A /* DDError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDError.m; sourceTree = "<group>"; };
 		2DF9B6C71F1361640012950A /* DDRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDRequestManager.h; sourceTree = "<group>"; };
 		2DF9B6C81F1361640012950A /* DDRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDRequestManager.m; sourceTree = "<group>"; };
 		2DF9B6C91F1361640012950A /* DDResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDResponse.h; sourceTree = "<group>"; };
 		2DF9B6CA1F1361640012950A /* DDResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDResponse.m; sourceTree = "<group>"; };
-		2DF9B6CD1F1361640012950A /* Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Network.h; sourceTree = "<group>"; };
 		2DF9B6CE1F1361640012950A /* NSObject+URLSessionTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+URLSessionTask.h"; sourceTree = "<group>"; };
 		2DF9B6CF1F1361640012950A /* NSObject+URLSessionTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+URLSessionTask.m"; sourceTree = "<group>"; };
-		2DF9B6D31F1361640012950A /* YGPaymentResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGPaymentResult.h; sourceTree = "<group>"; };
-		2DF9B6D41F1361640012950A /* YGPaymentResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGPaymentResult.m; sourceTree = "<group>"; };
-		2DF9B6D51F1361640012950A /* YGPayThirdPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGPayThirdPlatform.h; sourceTree = "<group>"; };
-		2DF9B6D61F1361640012950A /* YGPayThirdPlatformProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGPayThirdPlatformProcessor.h; sourceTree = "<group>"; };
-		2DF9B6D71F1361640012950A /* YGPayThirdPlatformProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGPayThirdPlatformProcessor.m; sourceTree = "<group>"; };
-		2DF9B6DA1F1361640012950A /* CDTUserSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTUserSession.h; sourceTree = "<group>"; };
-		2DF9B6DB1F1361640012950A /* CDTUserSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTUserSession.m; sourceTree = "<group>"; };
-		2DF9B6DD1F1361640012950A /* YGThirdPlatformProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGThirdPlatformProcessor.h; sourceTree = "<group>"; };
-		2DF9B6DE1F1361640012950A /* YGThirdPlatformProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGThirdPlatformProcessor.m; sourceTree = "<group>"; };
 		2DF9B6EA1F1361640012950A /* YGAreaManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGAreaManager.h; sourceTree = "<group>"; };
 		2DF9B6EB1F1361640012950A /* YGAreaManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGAreaManager.m; sourceTree = "<group>"; };
 		2DF9B6EC1F1361640012950A /* YGAreaPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGAreaPickerView.h; sourceTree = "<group>"; };
@@ -1424,8 +1366,6 @@
 		2DF9B8131F1361640012950A /* heroMap.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heroMap.json; sourceTree = "<group>"; };
 		2DF9B8151F1361640012950A /* workshoptags.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = workshoptags.json; sourceTree = "<group>"; };
 		2DF9B8E01F13639E0012950A /* Steam.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Steam.h; sourceTree = "<group>"; };
-		2DF9B8E11F1365CB0012950A /* CDTUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTUser.h; sourceTree = "<group>"; };
-		2DF9B8E21F1365CB0012950A /* CDTUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTUser.m; sourceTree = "<group>"; };
 		2DFE1C1B1FBDD52B00FEDE5C /* SPConfigManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPConfigManager.h; sourceTree = "<group>"; };
 		2DFE1C1C1FBDD52B00FEDE5C /* SPConfigManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPConfigManager.m; sourceTree = "<group>"; };
 		2DFE1C1E1FBDE41100FEDE5C /* SPItemLoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPItemLoadingView.h; sourceTree = "<group>"; };
@@ -1443,8 +1383,6 @@
 		2DFF65FA1FCAF2D5006A0081 /* SPPlayerItemFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPPlayerItemFilter.h; sourceTree = "<group>"; };
 		2DFF65FB1FCAF2D5006A0081 /* SPPlayerItemFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPPlayerItemFilter.m; sourceTree = "<group>"; };
 		2DFF65FD1FCAF2E6006A0081 /* SPPlayerItemFilterDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPPlayerItemFilterDefine.h; sourceTree = "<group>"; };
-		2DFF65FE1FCC447B006A0081 /* SPObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPObject.h; sourceTree = "<group>"; };
-		2DFF65FF1FCC447B006A0081 /* SPObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPObject.m; sourceTree = "<group>"; };
 		2DFF66011FCC46DB006A0081 /* SPTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPTableViewCell.h; sourceTree = "<group>"; };
 		2DFF66021FCC46DB006A0081 /* SPTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPTableViewCell.m; sourceTree = "<group>"; };
 		2DFF66041FCC470D006A0081 /* SPCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPCollectionViewCell.h; sourceTree = "<group>"; };
@@ -1454,7 +1392,7 @@
 		2DFF66171FCEE75E006A0081 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2DFF661C1FCEEDAB006A0081 /* SPLicenseViewCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPLicenseViewCtrl.h; sourceTree = "<group>"; };
 		2DFF661D1FCEEDAB006A0081 /* SPLicenseViewCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPLicenseViewCtrl.m; sourceTree = "<group>"; };
-		2E09072406B95B70634E37B7 /* Pods-Common-SPDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common-SPDev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Common-SPDev/Pods-Common-SPDev.debug.xcconfig"; sourceTree = "<group>"; };
+		429757BF849F11821D0A2867 /* Pods-SPOld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPOld.release.xcconfig"; path = "Pods/Target Support Files/Pods-SPOld/Pods-SPOld.release.xcconfig"; sourceTree = "<group>"; };
 		44059230218AF7A10098E3EB /* AppIconSPAd.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIconSPAd.xcassets; sourceTree = "<group>"; };
 		44059231218AF7A10098E3EB /* AppIconSPOld.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIconSPOld.xcassets; sourceTree = "<group>"; };
 		44059232218AF7A10098E3EB /* AppIconSPPro.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIconSPPro.xcassets; sourceTree = "<group>"; };
@@ -1483,13 +1421,11 @@
 		440593A2218EDB650098E3EB /* LaunchScreen-SPAd.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "LaunchScreen-SPAd.storyboard"; sourceTree = "<group>"; };
 		440593AD218F014C0098E3EB /* AppDelegate+TAC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+TAC.swift"; sourceTree = "<group>"; };
 		440593B8218FE8980098E3EB /* SPLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPLogger.swift; sourceTree = "<group>"; };
-		440593BD218FEA630098E3EB /* SPSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPSwift.h; sourceTree = "<group>"; };
+		440593BD218FEA630098E3EB /* SPSwift-ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SPSwift-ObjC.h"; sourceTree = "<group>"; };
 		445ED65E218FF2F6006341CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		445ED663218FFAEC006341CB /* SPObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPObjC.h; sourceTree = "<group>"; };
-		4D000F85D136CFF3A6353F33 /* Pods-Common-SPAd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common-SPAd.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Common-SPAd/Pods-Common-SPAd.debug.xcconfig"; sourceTree = "<group>"; };
-		50FF4D646E3763605A4FF686 /* Pods-Common-SPPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common-SPPro.release.xcconfig"; path = "Pods/Target Support Files/Pods-Common-SPPro/Pods-Common-SPPro.release.xcconfig"; sourceTree = "<group>"; };
-		64CCB42817CAB0E84F006371 /* Pods-_-SPDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-_-SPDev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-_-SPDev/Pods-_-SPDev.debug.xcconfig"; sourceTree = "<group>"; };
-		65EBF911AF1C5D60FFAD2FBB /* Pods-_-SPPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-_-SPPro.release.xcconfig"; path = "Pods/Target Support Files/Pods-_-SPPro/Pods-_-SPPro.release.xcconfig"; sourceTree = "<group>"; };
+		445ED663218FFAEC006341CB /* SPObjC-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SPObjC-Swift.h"; sourceTree = "<group>"; };
+		4472CC73219407D000FC0B1F /* SPSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPSwift.swift; sourceTree = "<group>"; };
+		44EC323F21A27E3B00FB8D9E /* Vendor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vendor.swift; sourceTree = "<group>"; };
 		690BD50B1FA71524007A4D5D /* SPGamepediaAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPGamepediaAPI.h; sourceTree = "<group>"; };
 		690BD50C1FA71524007A4D5D /* SPGamepediaAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPGamepediaAPI.m; sourceTree = "<group>"; };
 		690BD50E1FA71666007A4D5D /* SPGamepediaSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPGamepediaSerializer.h; sourceTree = "<group>"; };
@@ -1543,21 +1479,20 @@
 		69F631141FBAF4CE00A60EC8 /* SPGamepediaData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPGamepediaData.h; sourceTree = "<group>"; };
 		69F631151FBAF4CE00A60EC8 /* SPGamepediaData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPGamepediaData.m; sourceTree = "<group>"; };
 		742F1C063083391FB481695D /* Pods_Common_SPPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Common_SPPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		82B42E539D9D6A328C99E218 /* Pods-_-SPOld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-_-SPOld.release.xcconfig"; path = "Pods/Target Support Files/Pods-_-SPOld/Pods-_-SPOld.release.xcconfig"; sourceTree = "<group>"; };
+		7BEEF212176F8B7B21E9AB3D /* Pods_SPPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8140347DD93D4BCE49D48B9E /* Pods-SPOld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPOld.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SPOld/Pods-SPOld.debug.xcconfig"; sourceTree = "<group>"; };
 		89BFB8F71EB198F30CE6A495 /* Pods___SPAd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods___SPAd.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91B49B5FCEC765CD5DEC038F /* Pods___SPDev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods___SPDev.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B73E501B87FF7A7E94635FB /* Pods-Common-SPAd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common-SPAd.release.xcconfig"; path = "Pods/Target Support Files/Pods-Common-SPAd/Pods-Common-SPAd.release.xcconfig"; sourceTree = "<group>"; };
+		93BB8D6B340D20ACA515453A /* Pods_SPAd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPAd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A32501C3838DCC7527294DD7 /* Pods___SPPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods___SPPro.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A34AC2BAC6A24F255439DBBF /* Pods___SPOldPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods___SPOldPro.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5391E448085C5A069C0D63A /* Pods-Common-SPDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common-SPDev.release.xcconfig"; path = "Pods/Target Support Files/Pods-Common-SPDev/Pods-Common-SPDev.release.xcconfig"; sourceTree = "<group>"; };
+		A8D8F94012FA3FC8D5FF4098 /* Pods_SPOldPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPOldPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B70FA08C933879E048D521D6 /* Pods_DOTA2ShiPing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DOTA2ShiPing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8936836DCF70127DE8DACC4 /* Pods_Common_SPAd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Common_SPAd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA8E5A4B31AFB6FDA9127238 /* Pods-_-SPDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-_-SPDev.release.xcconfig"; path = "Pods/Target Support Files/Pods-_-SPDev/Pods-_-SPDev.release.xcconfig"; sourceTree = "<group>"; };
 		CC538738FE7DFF2937E95D1B /* Pods_Common_SPDev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Common_SPDev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DADC4EF99D81E929FCAFFAEB /* Pods-_-SPOldPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-_-SPOldPro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-_-SPOldPro/Pods-_-SPOldPro.debug.xcconfig"; sourceTree = "<group>"; };
-		E031F8B7772B15BA573EBD7B /* Pods-Common-SPPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common-SPPro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Common-SPPro/Pods-Common-SPPro.debug.xcconfig"; sourceTree = "<group>"; };
-		F32B8C22521ED88A46C6289A /* Pods-_-SPAd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-_-SPAd.release.xcconfig"; path = "Pods/Target Support Files/Pods-_-SPAd/Pods-_-SPAd.release.xcconfig"; sourceTree = "<group>"; };
-		F6A813D64DA4C020BD048642 /* Pods-_-SPOldPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-_-SPOldPro.release.xcconfig"; path = "Pods/Target Support Files/Pods-_-SPOldPro/Pods-_-SPOldPro.release.xcconfig"; sourceTree = "<group>"; };
+		F94C2DEBD843947CDF0E9E4E /* Pods-SPPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPPro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SPPro/Pods-SPPro.debug.xcconfig"; sourceTree = "<group>"; };
+		FC172CFBE17BF1AEA2D13283 /* Pods-SPOldPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPOldPro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SPOldPro/Pods-SPOldPro.debug.xcconfig"; sourceTree = "<group>"; };
+		FFAB9031FC0ED6914BE6BF4E /* Pods-SPOldPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPOldPro.release.xcconfig"; path = "Pods/Target Support Files/Pods-SPOldPro/Pods-SPOldPro.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1571,8 +1506,7 @@
 				4405939D218ED48A0098E3EB /* StoreKit.framework in Frameworks */,
 				2D8081DB1FD5B92500078A50 /* libiconv.tbd in Frameworks */,
 				2D8081DD1FD5B92500078A50 /* libz.tbd in Frameworks */,
-				2D8081DE1FD5B92500078A50 /* Pods___SPAd.framework in Frameworks */,
-				2C52840718CFCBA4C1208D58 /* Pods___SPOld.framework in Frameworks */,
+				71F90BEEF2B01147706ABEE2 /* Pods_SPOld.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1586,7 +1520,7 @@
 				2DD663C11FD57D62000E7223 /* libstdc++.tbd in Frameworks */,
 				2DD663C31FD57D62000E7223 /* libiconv.tbd in Frameworks */,
 				2DD663C51FD57D62000E7223 /* libz.tbd in Frameworks */,
-				CFE384555F148DB580360F0F /* Pods___SPPro.framework in Frameworks */,
+				09681958389891ECDF074CEB /* Pods_SPPro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1599,7 +1533,7 @@
 				2DD664CA1FD57D83000E7223 /* libstdc++.tbd in Frameworks */,
 				2DD664CC1FD57D83000E7223 /* libiconv.tbd in Frameworks */,
 				2DD664CE1FD57D83000E7223 /* libz.tbd in Frameworks */,
-				C9FC870733D99616875E4418 /* Pods___SPAd.framework in Frameworks */,
+				35EBD12B1AAF922751E63731 /* Pods_SPAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1612,9 +1546,7 @@
 				44059359218C57DF0098E3EB /* libstdc++.tbd in Frameworks */,
 				4405935A218C57DF0098E3EB /* libiconv.tbd in Frameworks */,
 				4405935B218C57DF0098E3EB /* libz.tbd in Frameworks */,
-				4405935C218C57DF0098E3EB /* Pods___SPAd.framework in Frameworks */,
-				4405935D218C57DF0098E3EB /* Pods___SPOld.framework in Frameworks */,
-				2BA8DFE9AB7567126DDA9BDD /* Pods___SPOldPro.framework in Frameworks */,
+				509EB8232CD63253DA275439 /* Pods_SPOldPro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1731,8 +1663,9 @@
 				445ED65E218FF2F6006341CB /* AppDelegate.swift */,
 				440593AD218F014C0098E3EB /* AppDelegate+TAC.swift */,
 				2DF9B6411F135FB20012950A /* SPPrefix.pch */,
-				445ED663218FFAEC006341CB /* SPObjC.h */,
-				440593BD218FEA630098E3EB /* SPSwift.h */,
+				445ED663218FFAEC006341CB /* SPObjC-Swift.h */,
+				440593BD218FEA630098E3EB /* SPSwift-ObjC.h */,
+				4472CC73219407D000FC0B1F /* SPSwift.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -1912,12 +1845,7 @@
 				2DF9B6521F1361640012950A /* Config_Appearance.m */,
 				2DF9B6531F1361640012950A /* Config_Archive.h */,
 				2DF9B6541F1361640012950A /* Config_Archive.m */,
-				2DF9B6551F1361640012950A /* Config_Constant.h */,
-				2DF9B6561F1361640012950A /* Config_Constant.m */,
-				2DF9B6571F1361640012950A /* Config_Network.h */,
-				2DF9B6581F1361640012950A /* Config_Network.m */,
-				2DF9B6591F1361640012950A /* Config_ThirdParty.h */,
-				2DF9B65A1F1361640012950A /* Config_ThirdParty.m */,
+				44EC323F21A27E3B00FB8D9E /* Vendor.swift */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -1933,11 +1861,7 @@
 				2DF9B65D1F1361640012950A /* API */,
 				2DF9B6691F1361640012950A /* Capabilities */,
 				2DF9B6761F1361640012950A /* Categories */,
-				2DF9B6BF1F1361640012950A /* Navigate */,
 				2DF9B6C21F1361640012950A /* Network */,
-				2DF9B6D21F1361640012950A /* Pay */,
-				2DF9B6D91F1361640012950A /* Session */,
-				2DF9B6DC1F1361640012950A /* ThirdPlatform */,
 				2DF9B6DF1F1361640012950A /* UI */,
 			);
 			path = General;
@@ -2076,63 +2000,19 @@
 			path = IBInspectable;
 			sourceTree = "<group>";
 		};
-		2DF9B6BF1F1361640012950A /* Navigate */ = {
-			isa = PBXGroup;
-			children = (
-				2DF9B6C01F1361640012950A /* YGThirdPartyNavigate.h */,
-				2DF9B6C11F1361640012950A /* YGThirdPartyNavigate.m */,
-			);
-			path = Navigate;
-			sourceTree = "<group>";
-		};
 		2DF9B6C21F1361640012950A /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				2DF9B6C31F1361640012950A /* API.h */,
-				2DF9B6C41F1361640012950A /* API.m */,
 				2DF9B6C51F1361640012950A /* DDError.h */,
 				2DF9B6C61F1361640012950A /* DDError.m */,
 				2DF9B6C71F1361640012950A /* DDRequestManager.h */,
 				2DF9B6C81F1361640012950A /* DDRequestManager.m */,
 				2DF9B6C91F1361640012950A /* DDResponse.h */,
 				2DF9B6CA1F1361640012950A /* DDResponse.m */,
-				2DF9B6CD1F1361640012950A /* Network.h */,
 				2DF9B6CE1F1361640012950A /* NSObject+URLSessionTask.h */,
 				2DF9B6CF1F1361640012950A /* NSObject+URLSessionTask.m */,
 			);
 			path = Network;
-			sourceTree = "<group>";
-		};
-		2DF9B6D21F1361640012950A /* Pay */ = {
-			isa = PBXGroup;
-			children = (
-				2DF9B6D31F1361640012950A /* YGPaymentResult.h */,
-				2DF9B6D41F1361640012950A /* YGPaymentResult.m */,
-				2DF9B6D51F1361640012950A /* YGPayThirdPlatform.h */,
-				2DF9B6D61F1361640012950A /* YGPayThirdPlatformProcessor.h */,
-				2DF9B6D71F1361640012950A /* YGPayThirdPlatformProcessor.m */,
-			);
-			path = Pay;
-			sourceTree = "<group>";
-		};
-		2DF9B6D91F1361640012950A /* Session */ = {
-			isa = PBXGroup;
-			children = (
-				2DF9B8E11F1365CB0012950A /* CDTUser.h */,
-				2DF9B8E21F1365CB0012950A /* CDTUser.m */,
-				2DF9B6DA1F1361640012950A /* CDTUserSession.h */,
-				2DF9B6DB1F1361640012950A /* CDTUserSession.m */,
-			);
-			path = Session;
-			sourceTree = "<group>";
-		};
-		2DF9B6DC1F1361640012950A /* ThirdPlatform */ = {
-			isa = PBXGroup;
-			children = (
-				2DF9B6DD1F1361640012950A /* YGThirdPlatformProcessor.h */,
-				2DF9B6DE1F1361640012950A /* YGThirdPlatformProcessor.m */,
-			);
-			path = ThirdPlatform;
 			sourceTree = "<group>";
 		};
 		2DF9B6DF1F1361640012950A /* UI */ = {
@@ -2463,8 +2343,6 @@
 				2DF9B7881F1361640012950A /* YGBaseWebViewCtrl.m */,
 				2DF9B7891F1361640012950A /* YGTabBarCtrl.h */,
 				2DF9B78A1F1361640012950A /* YGTabBarCtrl.m */,
-				2DFF65FE1FCC447B006A0081 /* SPObject.h */,
-				2DFF65FF1FCC447B006A0081 /* SPObject.m */,
 				2DFF66011FCC46DB006A0081 /* SPTableViewCell.h */,
 				2DFF66021FCC46DB006A0081 /* SPTableViewCell.m */,
 				2DFF66041FCC470D006A0081 /* SPCollectionViewCell.h */,
@@ -3039,6 +2917,10 @@
 				A32501C3838DCC7527294DD7 /* Pods___SPPro.framework */,
 				212893AFFB20F4F54F3FA493 /* Pods___SPOld.framework */,
 				A34AC2BAC6A24F255439DBBF /* Pods___SPOldPro.framework */,
+				93BB8D6B340D20ACA515453A /* Pods_SPAd.framework */,
+				16C1FD4EBE1C48CE933E0710 /* Pods_SPOld.framework */,
+				A8D8F94012FA3FC8D5FF4098 /* Pods_SPOldPro.framework */,
+				7BEEF212176F8B7B21E9AB3D /* Pods_SPPro.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -3046,22 +2928,14 @@
 		CE026F83ABCB211C54F97F7D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4D000F85D136CFF3A6353F33 /* Pods-Common-SPAd.debug.xcconfig */,
-				9B73E501B87FF7A7E94635FB /* Pods-Common-SPAd.release.xcconfig */,
-				2E09072406B95B70634E37B7 /* Pods-Common-SPDev.debug.xcconfig */,
-				A5391E448085C5A069C0D63A /* Pods-Common-SPDev.release.xcconfig */,
-				E031F8B7772B15BA573EBD7B /* Pods-Common-SPPro.debug.xcconfig */,
-				50FF4D646E3763605A4FF686 /* Pods-Common-SPPro.release.xcconfig */,
-				07AE11536F9F2C37F7ED1D08 /* Pods-_-SPAd.debug.xcconfig */,
-				F32B8C22521ED88A46C6289A /* Pods-_-SPAd.release.xcconfig */,
-				64CCB42817CAB0E84F006371 /* Pods-_-SPDev.debug.xcconfig */,
-				CA8E5A4B31AFB6FDA9127238 /* Pods-_-SPDev.release.xcconfig */,
-				28B8620B250CF5F9169025DD /* Pods-_-SPPro.debug.xcconfig */,
-				65EBF911AF1C5D60FFAD2FBB /* Pods-_-SPPro.release.xcconfig */,
-				193F5CED732A1AD8A2454FC0 /* Pods-_-SPOld.debug.xcconfig */,
-				82B42E539D9D6A328C99E218 /* Pods-_-SPOld.release.xcconfig */,
-				DADC4EF99D81E929FCAFFAEB /* Pods-_-SPOldPro.debug.xcconfig */,
-				F6A813D64DA4C020BD048642 /* Pods-_-SPOldPro.release.xcconfig */,
+				002B57E4BAFF0E2BBFBC24C8 /* Pods-SPAd.debug.xcconfig */,
+				049DC49BA9A7BE9DFB0B47B7 /* Pods-SPAd.release.xcconfig */,
+				8140347DD93D4BCE49D48B9E /* Pods-SPOld.debug.xcconfig */,
+				429757BF849F11821D0A2867 /* Pods-SPOld.release.xcconfig */,
+				FC172CFBE17BF1AEA2D13283 /* Pods-SPOldPro.debug.xcconfig */,
+				FFAB9031FC0ED6914BE6BF4E /* Pods-SPOldPro.release.xcconfig */,
+				F94C2DEBD843947CDF0E9E4E /* Pods-SPPro.debug.xcconfig */,
+				2686522146A6CE323EEE651B /* Pods-SPPro.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -3365,7 +3239,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-_-SPOld/Pods-_-SPOld-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-SPOld/Pods-SPOld-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/AMPopTip/AMPopTip.framework",
 				"${BUILT_PRODUCTS_DIR}/AVOSCloud/AVOSCloud.framework",
@@ -3378,6 +3252,7 @@
 				"${BUILT_PRODUCTS_DIR}/FCUUID/FCUUID.framework",
 				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
 				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/HBDNavigationBar/HBDNavigationBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
 				"${BUILT_PRODUCTS_DIR}/IAPHelper/IAPHelper.framework",
 				"${BUILT_PRODUCTS_DIR}/IDMPhotoBrowser/IDMPhotoBrowser.framework",
@@ -3418,6 +3293,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FCUUID.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HBDNavigationBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IAPHelper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IDMPhotoBrowser.framework",
@@ -3444,7 +3320,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-_-SPOld/Pods-_-SPOld-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SPOld/Pods-SPOld-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		239BA3944F25A7112D720DC7 /* [TAC] Run Before Script */ = {
@@ -3476,7 +3352,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-_-SPOld-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SPOld-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -3494,7 +3370,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-_-SPAd-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SPAd-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -3512,7 +3388,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-_-SPOldPro-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SPOldPro-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -3545,7 +3421,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-_-SPOldPro/Pods-_-SPOldPro-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-SPOldPro/Pods-SPOldPro-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/AMPopTip/AMPopTip.framework",
 				"${BUILT_PRODUCTS_DIR}/AVOSCloud/AVOSCloud.framework",
@@ -3558,6 +3434,7 @@
 				"${BUILT_PRODUCTS_DIR}/FCUUID/FCUUID.framework",
 				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
 				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/HBDNavigationBar/HBDNavigationBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
 				"${BUILT_PRODUCTS_DIR}/IAPHelper/IAPHelper.framework",
 				"${BUILT_PRODUCTS_DIR}/IDMPhotoBrowser/IDMPhotoBrowser.framework",
@@ -3598,6 +3475,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FCUUID.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HBDNavigationBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IAPHelper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IDMPhotoBrowser.framework",
@@ -3624,7 +3502,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-_-SPOldPro/Pods-_-SPOldPro-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SPOldPro/Pods-SPOldPro-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		44059373218C57DF0098E3EB /* [TAC] Run After Script */ = {
@@ -3689,7 +3567,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-_-SPAd/Pods-_-SPAd-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-SPAd/Pods-SPAd-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/AMPopTip/AMPopTip.framework",
 				"${BUILT_PRODUCTS_DIR}/AVOSCloud/AVOSCloud.framework",
@@ -3702,6 +3580,7 @@
 				"${BUILT_PRODUCTS_DIR}/FCUUID/FCUUID.framework",
 				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
 				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/HBDNavigationBar/HBDNavigationBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
 				"${BUILT_PRODUCTS_DIR}/IAPHelper/IAPHelper.framework",
 				"${BUILT_PRODUCTS_DIR}/IDMPhotoBrowser/IDMPhotoBrowser.framework",
@@ -3742,6 +3621,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FCUUID.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HBDNavigationBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IAPHelper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IDMPhotoBrowser.framework",
@@ -3768,7 +3648,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-_-SPAd/Pods-_-SPAd-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SPAd/Pods-SPAd-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A491767F6ACCCFD245C8A730 /* [TAC] Run After Script */ = {
@@ -3800,7 +3680,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-_-SPPro-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SPPro-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -3833,7 +3713,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-_-SPPro/Pods-_-SPPro-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-SPPro/Pods-SPPro-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/AMPopTip/AMPopTip.framework",
 				"${BUILT_PRODUCTS_DIR}/AVOSCloud/AVOSCloud.framework",
@@ -3846,6 +3726,7 @@
 				"${BUILT_PRODUCTS_DIR}/FCUUID/FCUUID.framework",
 				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
 				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/HBDNavigationBar/HBDNavigationBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
 				"${BUILT_PRODUCTS_DIR}/IAPHelper/IAPHelper.framework",
 				"${BUILT_PRODUCTS_DIR}/IDMPhotoBrowser/IDMPhotoBrowser.framework",
@@ -3886,6 +3767,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FCUUID.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HBDNavigationBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IAPHelper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IDMPhotoBrowser.framework",
@@ -3912,7 +3794,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-_-SPPro/Pods-_-SPPro-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SPPro/Pods-SPPro-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F8430D693D99408471FB522D /* [TAC] Run Before Script */ = {
@@ -3948,7 +3830,6 @@
 				2D8080FA1FD5B92500078A50 /* SPItemTitleView.m in Sources */,
 				2D8080FB1FD5B92500078A50 /* UIViewController+yg_IBInspectable.m in Sources */,
 				2D8080FC1FD5B92500078A50 /* SPLogoHeader.m in Sources */,
-				2D8080FD1FD5B92500078A50 /* YGPaymentResult.m in Sources */,
 				2D8080FE1FD5B92500078A50 /* SPMemoryCache.m in Sources */,
 				2D8080FF1FD5B92500078A50 /* TQLocationConverter.m in Sources */,
 				2D8081001FD5B92500078A50 /* SPSettingTableVC.m in Sources */,
@@ -3956,7 +3837,6 @@
 				2D8081021FD5B92500078A50 /* SPUpdateViewCtrl.m in Sources */,
 				2D8081031FD5B92500078A50 /* TAAnimatedDotView.m in Sources */,
 				2D8081041FD5B92500078A50 /* SPItemFilterUnit.m in Sources */,
-				2D8081051FD5B92500078A50 /* YGThirdPlatformProcessor.m in Sources */,
 				2D8081061FD5B92500078A50 /* UIImage+Mask.m in Sources */,
 				2D8081071FD5B92500078A50 /* SPItemViewCtrl.m in Sources */,
 				2D8081081FD5B92500078A50 /* YGCapabilityHelper.m in Sources */,
@@ -3989,7 +3869,6 @@
 				2D8081221FD5B92500078A50 /* SPItemEntranceConfig.m in Sources */,
 				2D8081231FD5B92500078A50 /* SPConfigManager.m in Sources */,
 				2D8081241FD5B92500078A50 /* SPPlayerManager.m in Sources */,
-				2D8081251FD5B92500078A50 /* Config_Network.m in Sources */,
 				2D8081261FD5B92500078A50 /* SPBaseData.m in Sources */,
 				2D8081271FD5B92500078A50 /* SPItemSearchOption.m in Sources */,
 				2D8081281FD5B92500078A50 /* SPWorkshopVC.m in Sources */,
@@ -4005,7 +3884,6 @@
 				2D8081321FD5B92500078A50 /* SPItemSteamPriceCell.m in Sources */,
 				2D8081331FD5B92500078A50 /* SPItemPlayableView.m in Sources */,
 				2D8081341FD5B92500078A50 /* SPFocusVisualEffectVC.m in Sources */,
-				2D8081351FD5B92500078A50 /* YGPayThirdPlatformProcessor.m in Sources */,
 				2D8081361FD5B92500078A50 /* SPItemQuery.m in Sources */,
 				2D8081371FD5B92500078A50 /* NSObject+YGPerformBlock.m in Sources */,
 				2D8081381FD5B92500078A50 /* YGBasePopViewCtrl.m in Sources */,
@@ -4025,6 +3903,7 @@
 				2D8081461FD5B92500078A50 /* UINavigationBar+yg_IBInspectable.m in Sources */,
 				2D8081471FD5B92500078A50 /* SPItemImageLoader.m in Sources */,
 				2D8081491FD5B92500078A50 /* UIView+Hierarchy.m in Sources */,
+				44EC324221A27E3B00FB8D9E /* Vendor.swift in Sources */,
 				2D80814A1FD5B92500078A50 /* YGBubble.m in Sources */,
 				2D80814B1FD5B92500078A50 /* SPWorkshopModel.m in Sources */,
 				2D80814C1FD5B92500078A50 /* SPItemOffPriceVC.m in Sources */,
@@ -4048,7 +3927,6 @@
 				2D80815E1FD5B92500078A50 /* SPItemHeroListVC.m in Sources */,
 				2D80815F1FD5B92500078A50 /* SPIAPCell.m in Sources */,
 				2D8081601FD5B92500078A50 /* BingoBarItemView.m in Sources */,
-				2D8081611FD5B92500078A50 /* Config_Constant.m in Sources */,
 				2D8081621FD5B92500078A50 /* NSObject+KVCExceptionCatch.m in Sources */,
 				2D8081631FD5B92500078A50 /* YGAreaPickerView.m in Sources */,
 				2D8081641FD5B92500078A50 /* SPGamepediaPlayable.m in Sources */,
@@ -4059,7 +3937,6 @@
 				2D80816A1FD5B92500078A50 /* UIActivityIndicatorView+yg_IBInspectable.m in Sources */,
 				2D80816B1FD5B92500078A50 /* SPItemsDetailViewCtrl.m in Sources */,
 				2D80816C1FD5B92500078A50 /* SPPlayer+More.m in Sources */,
-				2D80816D1FD5B92500078A50 /* CDTUser.m in Sources */,
 				2D80816E1FD5B92500078A50 /* LCActionSheet.m in Sources */,
 				2D80816F1FD5B92500078A50 /* SPItemPrefab.m in Sources */,
 				2D8081701FD5B92500078A50 /* YGBaseWebViewCtrl.m in Sources */,
@@ -4104,15 +3981,14 @@
 				2D8081981FD5B92500078A50 /* SPWorkshop.m in Sources */,
 				2D8081991FD5B92500078A50 /* NSString+STRegex.m in Sources */,
 				2D80819A1FD5B92500078A50 /* SPItemMoreItemsView.m in Sources */,
-				2D80819B1FD5B92500078A50 /* YGThirdPartyNavigate.m in Sources */,
 				2D80819C1FD5B92500078A50 /* SPHistoryManager.m in Sources */,
 				2D80819D1FD5B92500078A50 /* DDMainTBC.m in Sources */,
 				2D80819E1FD5B92500078A50 /* DDViewModel.m in Sources */,
 				2D80819F1FD5B92500078A50 /* SPPlayer.m in Sources */,
+				4472CC76219407D000FC0B1F /* SPSwift.swift in Sources */,
 				2D8081A01FD5B92500078A50 /* SPSearchVC.m in Sources */,
 				2D8081A11FD5B92500078A50 /* SPItemBannerView.m in Sources */,
 				2D8081A21FD5B92500078A50 /* RWDropdownMenuTransitionController.m in Sources */,
-				2D8081A31FD5B92500078A50 /* SPObject.m in Sources */,
 				2D8081A41FD5B92500078A50 /* RWDropdownMenu.m in Sources */,
 				2D8081A51FD5B92500078A50 /* SPIAPObject.m in Sources */,
 				2D8081A61FD5B92500078A50 /* YGLabel.m in Sources */,
@@ -4128,10 +4004,7 @@
 				2D8081AF1FD5B92500078A50 /* SPSettingOptionsViewCtrl.m in Sources */,
 				2D8081B01FD5B92500078A50 /* TADotView.m in Sources */,
 				2D8081B11FD5B92500078A50 /* SPPlayerInventoryVC.m in Sources */,
-				2D8081B21FD5B92500078A50 /* Config_ThirdParty.m in Sources */,
 				2D8081B31FD5B92500078A50 /* SPSearchBar.m in Sources */,
-				2D8081B51FD5B92500078A50 /* CDTUserSession.m in Sources */,
-				2D8081B61FD5B92500078A50 /* API.m in Sources */,
 				2D8081B71FD5B92500078A50 /* SPWorkshopResourceCell.m in Sources */,
 				2D8081B81FD5B92500078A50 /* SPItemQuality.m in Sources */,
 				2D8081B91FD5B92500078A50 /* SPBundleItemCell.m in Sources */,
@@ -4177,7 +4050,6 @@
 				2DD662E11FD57D62000E7223 /* SPItemTitleView.m in Sources */,
 				2DD662E21FD57D62000E7223 /* UIViewController+yg_IBInspectable.m in Sources */,
 				2DD662E31FD57D62000E7223 /* SPLogoHeader.m in Sources */,
-				2DD662E41FD57D62000E7223 /* YGPaymentResult.m in Sources */,
 				2DD662E51FD57D62000E7223 /* SPMemoryCache.m in Sources */,
 				2DD662E61FD57D62000E7223 /* TQLocationConverter.m in Sources */,
 				2DD662E71FD57D62000E7223 /* SPSettingTableVC.m in Sources */,
@@ -4185,7 +4057,6 @@
 				2DD662E91FD57D62000E7223 /* SPUpdateViewCtrl.m in Sources */,
 				2DD662EA1FD57D62000E7223 /* TAAnimatedDotView.m in Sources */,
 				2DD662EB1FD57D62000E7223 /* SPItemFilterUnit.m in Sources */,
-				2DD662EC1FD57D62000E7223 /* YGThirdPlatformProcessor.m in Sources */,
 				2DD662ED1FD57D62000E7223 /* UIImage+Mask.m in Sources */,
 				2DD662EE1FD57D62000E7223 /* SPItemViewCtrl.m in Sources */,
 				2DD662EF1FD57D62000E7223 /* YGCapabilityHelper.m in Sources */,
@@ -4218,7 +4089,6 @@
 				2DD663091FD57D62000E7223 /* SPItemEntranceConfig.m in Sources */,
 				2DD6630A1FD57D62000E7223 /* SPConfigManager.m in Sources */,
 				2DD6630B1FD57D62000E7223 /* SPPlayerManager.m in Sources */,
-				2DD6630C1FD57D62000E7223 /* Config_Network.m in Sources */,
 				2DD6630D1FD57D62000E7223 /* SPBaseData.m in Sources */,
 				2DD6630E1FD57D62000E7223 /* SPItemSearchOption.m in Sources */,
 				2DD6630F1FD57D62000E7223 /* SPWorkshopVC.m in Sources */,
@@ -4234,7 +4104,6 @@
 				2DD663191FD57D62000E7223 /* SPItemSteamPriceCell.m in Sources */,
 				2DD6631A1FD57D62000E7223 /* SPItemPlayableView.m in Sources */,
 				2DD6631B1FD57D62000E7223 /* SPFocusVisualEffectVC.m in Sources */,
-				2DD6631C1FD57D62000E7223 /* YGPayThirdPlatformProcessor.m in Sources */,
 				2DD6631D1FD57D62000E7223 /* SPItemQuery.m in Sources */,
 				2DD6631E1FD57D62000E7223 /* NSObject+YGPerformBlock.m in Sources */,
 				2DD6631F1FD57D62000E7223 /* YGBasePopViewCtrl.m in Sources */,
@@ -4254,6 +4123,7 @@
 				2DD6632D1FD57D62000E7223 /* UINavigationBar+yg_IBInspectable.m in Sources */,
 				2DD6632E1FD57D62000E7223 /* SPItemImageLoader.m in Sources */,
 				2DD663301FD57D62000E7223 /* UIView+Hierarchy.m in Sources */,
+				44EC324121A27E3B00FB8D9E /* Vendor.swift in Sources */,
 				2DD663311FD57D62000E7223 /* YGBubble.m in Sources */,
 				2DD663321FD57D62000E7223 /* SPWorkshopModel.m in Sources */,
 				2DD663331FD57D62000E7223 /* SPItemOffPriceVC.m in Sources */,
@@ -4277,7 +4147,6 @@
 				2DD663451FD57D62000E7223 /* SPItemHeroListVC.m in Sources */,
 				2DD663461FD57D62000E7223 /* SPIAPCell.m in Sources */,
 				2DD663471FD57D62000E7223 /* BingoBarItemView.m in Sources */,
-				2DD663481FD57D62000E7223 /* Config_Constant.m in Sources */,
 				2DD663491FD57D62000E7223 /* NSObject+KVCExceptionCatch.m in Sources */,
 				2DD6634A1FD57D62000E7223 /* YGAreaPickerView.m in Sources */,
 				2DD6634B1FD57D62000E7223 /* SPGamepediaPlayable.m in Sources */,
@@ -4288,7 +4157,6 @@
 				2DD663511FD57D62000E7223 /* UIActivityIndicatorView+yg_IBInspectable.m in Sources */,
 				2DD663521FD57D62000E7223 /* SPItemsDetailViewCtrl.m in Sources */,
 				2DD663531FD57D62000E7223 /* SPPlayer+More.m in Sources */,
-				2DD663541FD57D62000E7223 /* CDTUser.m in Sources */,
 				2DD663551FD57D62000E7223 /* LCActionSheet.m in Sources */,
 				2DD663561FD57D62000E7223 /* SPItemPrefab.m in Sources */,
 				2DD663571FD57D62000E7223 /* YGBaseWebViewCtrl.m in Sources */,
@@ -4333,15 +4201,14 @@
 				2DD6637F1FD57D62000E7223 /* SPWorkshop.m in Sources */,
 				2DD663801FD57D62000E7223 /* NSString+STRegex.m in Sources */,
 				2DD663811FD57D62000E7223 /* SPItemMoreItemsView.m in Sources */,
-				2DD663821FD57D62000E7223 /* YGThirdPartyNavigate.m in Sources */,
 				2DD663831FD57D62000E7223 /* SPHistoryManager.m in Sources */,
 				2DD663841FD57D62000E7223 /* DDMainTBC.m in Sources */,
 				2DD663851FD57D62000E7223 /* DDViewModel.m in Sources */,
 				2DD663861FD57D62000E7223 /* SPPlayer.m in Sources */,
+				4472CC75219407D000FC0B1F /* SPSwift.swift in Sources */,
 				2DD663871FD57D62000E7223 /* SPSearchVC.m in Sources */,
 				2DD663881FD57D62000E7223 /* SPItemBannerView.m in Sources */,
 				2DD663891FD57D62000E7223 /* RWDropdownMenuTransitionController.m in Sources */,
-				2DD6638A1FD57D62000E7223 /* SPObject.m in Sources */,
 				2DD6638B1FD57D62000E7223 /* RWDropdownMenu.m in Sources */,
 				2DD6638C1FD57D62000E7223 /* SPIAPObject.m in Sources */,
 				2DD6638D1FD57D62000E7223 /* YGLabel.m in Sources */,
@@ -4357,10 +4224,7 @@
 				2DD663961FD57D62000E7223 /* SPSettingOptionsViewCtrl.m in Sources */,
 				2DD663971FD57D62000E7223 /* TADotView.m in Sources */,
 				2DD663981FD57D62000E7223 /* SPPlayerInventoryVC.m in Sources */,
-				2DD663991FD57D62000E7223 /* Config_ThirdParty.m in Sources */,
 				2DD6639A1FD57D62000E7223 /* SPSearchBar.m in Sources */,
-				2DD6639C1FD57D62000E7223 /* CDTUserSession.m in Sources */,
-				2DD6639D1FD57D62000E7223 /* API.m in Sources */,
 				2DD6639E1FD57D62000E7223 /* SPWorkshopResourceCell.m in Sources */,
 				2DD6639F1FD57D62000E7223 /* SPItemQuality.m in Sources */,
 				2DD663A01FD57D62000E7223 /* SPBundleItemCell.m in Sources */,
@@ -4406,7 +4270,6 @@
 				2DD663EA1FD57D83000E7223 /* SPItemTitleView.m in Sources */,
 				2DD663EB1FD57D83000E7223 /* UIViewController+yg_IBInspectable.m in Sources */,
 				2DD663EC1FD57D83000E7223 /* SPLogoHeader.m in Sources */,
-				2DD663ED1FD57D83000E7223 /* YGPaymentResult.m in Sources */,
 				2DD663EE1FD57D83000E7223 /* SPMemoryCache.m in Sources */,
 				2DD663EF1FD57D83000E7223 /* TQLocationConverter.m in Sources */,
 				2DD663F01FD57D83000E7223 /* SPSettingTableVC.m in Sources */,
@@ -4414,7 +4277,6 @@
 				2DD663F21FD57D83000E7223 /* SPUpdateViewCtrl.m in Sources */,
 				2DD663F31FD57D83000E7223 /* TAAnimatedDotView.m in Sources */,
 				2DD663F41FD57D83000E7223 /* SPItemFilterUnit.m in Sources */,
-				2DD663F51FD57D83000E7223 /* YGThirdPlatformProcessor.m in Sources */,
 				2DD663F61FD57D83000E7223 /* UIImage+Mask.m in Sources */,
 				2DD663F71FD57D83000E7223 /* SPItemViewCtrl.m in Sources */,
 				2DD663F81FD57D83000E7223 /* YGCapabilityHelper.m in Sources */,
@@ -4447,7 +4309,6 @@
 				2DD664121FD57D83000E7223 /* SPItemEntranceConfig.m in Sources */,
 				2DD664131FD57D83000E7223 /* SPConfigManager.m in Sources */,
 				2DD664141FD57D83000E7223 /* SPPlayerManager.m in Sources */,
-				2DD664151FD57D83000E7223 /* Config_Network.m in Sources */,
 				2DD664161FD57D83000E7223 /* SPBaseData.m in Sources */,
 				2DD664171FD57D83000E7223 /* SPItemSearchOption.m in Sources */,
 				2DD664181FD57D83000E7223 /* SPWorkshopVC.m in Sources */,
@@ -4463,7 +4324,6 @@
 				2DD664221FD57D83000E7223 /* SPItemSteamPriceCell.m in Sources */,
 				2DD664231FD57D83000E7223 /* SPItemPlayableView.m in Sources */,
 				2DD664241FD57D83000E7223 /* SPFocusVisualEffectVC.m in Sources */,
-				2DD664251FD57D83000E7223 /* YGPayThirdPlatformProcessor.m in Sources */,
 				2DD664261FD57D83000E7223 /* SPItemQuery.m in Sources */,
 				2DD664271FD57D83000E7223 /* NSObject+YGPerformBlock.m in Sources */,
 				2DD664281FD57D83000E7223 /* YGBasePopViewCtrl.m in Sources */,
@@ -4483,6 +4343,7 @@
 				2DD664361FD57D83000E7223 /* UINavigationBar+yg_IBInspectable.m in Sources */,
 				2DD664371FD57D83000E7223 /* SPItemImageLoader.m in Sources */,
 				2DD664391FD57D83000E7223 /* UIView+Hierarchy.m in Sources */,
+				44EC324021A27E3B00FB8D9E /* Vendor.swift in Sources */,
 				2DD6643A1FD57D83000E7223 /* YGBubble.m in Sources */,
 				2DD6643B1FD57D83000E7223 /* SPWorkshopModel.m in Sources */,
 				2DD6643C1FD57D83000E7223 /* SPItemOffPriceVC.m in Sources */,
@@ -4506,7 +4367,6 @@
 				2DD6644E1FD57D83000E7223 /* SPItemHeroListVC.m in Sources */,
 				2DD6644F1FD57D83000E7223 /* SPIAPCell.m in Sources */,
 				2DD664501FD57D83000E7223 /* BingoBarItemView.m in Sources */,
-				2DD664511FD57D83000E7223 /* Config_Constant.m in Sources */,
 				2DD664521FD57D83000E7223 /* NSObject+KVCExceptionCatch.m in Sources */,
 				2DD664531FD57D83000E7223 /* YGAreaPickerView.m in Sources */,
 				2DD664541FD57D83000E7223 /* SPGamepediaPlayable.m in Sources */,
@@ -4517,7 +4377,6 @@
 				2DD6645A1FD57D83000E7223 /* UIActivityIndicatorView+yg_IBInspectable.m in Sources */,
 				2DD6645B1FD57D83000E7223 /* SPItemsDetailViewCtrl.m in Sources */,
 				2DD6645C1FD57D83000E7223 /* SPPlayer+More.m in Sources */,
-				2DD6645D1FD57D83000E7223 /* CDTUser.m in Sources */,
 				2DD6645E1FD57D83000E7223 /* LCActionSheet.m in Sources */,
 				2DD6645F1FD57D83000E7223 /* SPItemPrefab.m in Sources */,
 				2DD664601FD57D83000E7223 /* YGBaseWebViewCtrl.m in Sources */,
@@ -4562,15 +4421,14 @@
 				2DD664881FD57D83000E7223 /* SPWorkshop.m in Sources */,
 				2DD664891FD57D83000E7223 /* NSString+STRegex.m in Sources */,
 				2DD6648A1FD57D83000E7223 /* SPItemMoreItemsView.m in Sources */,
-				2DD6648B1FD57D83000E7223 /* YGThirdPartyNavigate.m in Sources */,
 				2DD6648C1FD57D83000E7223 /* SPHistoryManager.m in Sources */,
 				2DD6648D1FD57D83000E7223 /* DDMainTBC.m in Sources */,
 				2DD6648E1FD57D83000E7223 /* DDViewModel.m in Sources */,
 				2DD6648F1FD57D83000E7223 /* SPPlayer.m in Sources */,
+				4472CC74219407D000FC0B1F /* SPSwift.swift in Sources */,
 				2DD664901FD57D83000E7223 /* SPSearchVC.m in Sources */,
 				2DD664911FD57D83000E7223 /* SPItemBannerView.m in Sources */,
 				2DD664921FD57D83000E7223 /* RWDropdownMenuTransitionController.m in Sources */,
-				2DD664931FD57D83000E7223 /* SPObject.m in Sources */,
 				2DD664941FD57D83000E7223 /* RWDropdownMenu.m in Sources */,
 				2DD664951FD57D83000E7223 /* SPIAPObject.m in Sources */,
 				2DD664961FD57D83000E7223 /* YGLabel.m in Sources */,
@@ -4586,10 +4444,7 @@
 				2DD6649F1FD57D83000E7223 /* SPSettingOptionsViewCtrl.m in Sources */,
 				2DD664A01FD57D83000E7223 /* TADotView.m in Sources */,
 				2DD664A11FD57D83000E7223 /* SPPlayerInventoryVC.m in Sources */,
-				2DD664A21FD57D83000E7223 /* Config_ThirdParty.m in Sources */,
 				2DD664A31FD57D83000E7223 /* SPSearchBar.m in Sources */,
-				2DD664A51FD57D83000E7223 /* CDTUserSession.m in Sources */,
-				2DD664A61FD57D83000E7223 /* API.m in Sources */,
 				2DD664A71FD57D83000E7223 /* SPWorkshopResourceCell.m in Sources */,
 				2DD664A81FD57D83000E7223 /* SPItemQuality.m in Sources */,
 				2DD664A91FD57D83000E7223 /* SPBundleItemCell.m in Sources */,
@@ -4635,7 +4490,6 @@
 				4405927B218C57DF0098E3EB /* SPItemTitleView.m in Sources */,
 				4405927C218C57DF0098E3EB /* UIViewController+yg_IBInspectable.m in Sources */,
 				4405927D218C57DF0098E3EB /* SPLogoHeader.m in Sources */,
-				4405927E218C57DF0098E3EB /* YGPaymentResult.m in Sources */,
 				4405927F218C57DF0098E3EB /* SPMemoryCache.m in Sources */,
 				44059280218C57DF0098E3EB /* TQLocationConverter.m in Sources */,
 				44059281218C57DF0098E3EB /* SPSettingTableVC.m in Sources */,
@@ -4643,7 +4497,6 @@
 				44059283218C57DF0098E3EB /* SPUpdateViewCtrl.m in Sources */,
 				44059284218C57DF0098E3EB /* TAAnimatedDotView.m in Sources */,
 				44059285218C57DF0098E3EB /* SPItemFilterUnit.m in Sources */,
-				44059286218C57DF0098E3EB /* YGThirdPlatformProcessor.m in Sources */,
 				44059287218C57DF0098E3EB /* UIImage+Mask.m in Sources */,
 				44059288218C57DF0098E3EB /* SPItemViewCtrl.m in Sources */,
 				44059289218C57DF0098E3EB /* YGCapabilityHelper.m in Sources */,
@@ -4676,7 +4529,6 @@
 				440592A4218C57DF0098E3EB /* SPItemEntranceConfig.m in Sources */,
 				440592A5218C57DF0098E3EB /* SPConfigManager.m in Sources */,
 				440592A6218C57DF0098E3EB /* SPPlayerManager.m in Sources */,
-				440592A7218C57DF0098E3EB /* Config_Network.m in Sources */,
 				440592A8218C57DF0098E3EB /* SPBaseData.m in Sources */,
 				440592A9218C57DF0098E3EB /* SPItemSearchOption.m in Sources */,
 				440592AA218C57DF0098E3EB /* SPWorkshopVC.m in Sources */,
@@ -4692,7 +4544,6 @@
 				440592B4218C57DF0098E3EB /* SPItemSteamPriceCell.m in Sources */,
 				440592B5218C57DF0098E3EB /* SPItemPlayableView.m in Sources */,
 				440592B6218C57DF0098E3EB /* SPFocusVisualEffectVC.m in Sources */,
-				440592B7218C57DF0098E3EB /* YGPayThirdPlatformProcessor.m in Sources */,
 				440592B8218C57DF0098E3EB /* SPItemQuery.m in Sources */,
 				440592BA218C57DF0098E3EB /* NSObject+YGPerformBlock.m in Sources */,
 				440592BB218C57DF0098E3EB /* YGBasePopViewCtrl.m in Sources */,
@@ -4712,6 +4563,7 @@
 				440592C9218C57DF0098E3EB /* UINavigationBar+yg_IBInspectable.m in Sources */,
 				440592CA218C57DF0098E3EB /* SPItemImageLoader.m in Sources */,
 				440592CB218C57DF0098E3EB /* UIView+Hierarchy.m in Sources */,
+				44EC324321A27E3B00FB8D9E /* Vendor.swift in Sources */,
 				440592CC218C57DF0098E3EB /* YGBubble.m in Sources */,
 				440592CD218C57DF0098E3EB /* SPWorkshopModel.m in Sources */,
 				440592CE218C57DF0098E3EB /* SPItemOffPriceVC.m in Sources */,
@@ -4735,7 +4587,6 @@
 				440592E0218C57DF0098E3EB /* SPItemHeroListVC.m in Sources */,
 				440592E1218C57DF0098E3EB /* SPIAPCell.m in Sources */,
 				440592E2218C57DF0098E3EB /* BingoBarItemView.m in Sources */,
-				440592E3218C57DF0098E3EB /* Config_Constant.m in Sources */,
 				440592E4218C57DF0098E3EB /* NSObject+KVCExceptionCatch.m in Sources */,
 				440592E5218C57DF0098E3EB /* YGAreaPickerView.m in Sources */,
 				440592E6218C57DF0098E3EB /* SPGamepediaPlayable.m in Sources */,
@@ -4746,7 +4597,6 @@
 				440592EC218C57DF0098E3EB /* UIActivityIndicatorView+yg_IBInspectable.m in Sources */,
 				440592ED218C57DF0098E3EB /* SPItemsDetailViewCtrl.m in Sources */,
 				440592EE218C57DF0098E3EB /* SPPlayer+More.m in Sources */,
-				440592EF218C57DF0098E3EB /* CDTUser.m in Sources */,
 				440592F0218C57DF0098E3EB /* LCActionSheet.m in Sources */,
 				440592F1218C57DF0098E3EB /* SPItemPrefab.m in Sources */,
 				440592F2218C57DF0098E3EB /* YGBaseWebViewCtrl.m in Sources */,
@@ -4791,15 +4641,14 @@
 				4405931A218C57DF0098E3EB /* SPWorkshop.m in Sources */,
 				4405931B218C57DF0098E3EB /* NSString+STRegex.m in Sources */,
 				4405931C218C57DF0098E3EB /* SPItemMoreItemsView.m in Sources */,
-				4405931D218C57DF0098E3EB /* YGThirdPartyNavigate.m in Sources */,
 				4405931E218C57DF0098E3EB /* SPHistoryManager.m in Sources */,
 				4405931F218C57DF0098E3EB /* DDMainTBC.m in Sources */,
 				44059320218C57DF0098E3EB /* DDViewModel.m in Sources */,
 				44059321218C57DF0098E3EB /* SPPlayer.m in Sources */,
+				4472CC77219407D000FC0B1F /* SPSwift.swift in Sources */,
 				44059322218C57DF0098E3EB /* SPSearchVC.m in Sources */,
 				44059323218C57DF0098E3EB /* SPItemBannerView.m in Sources */,
 				44059324218C57DF0098E3EB /* RWDropdownMenuTransitionController.m in Sources */,
-				44059325218C57DF0098E3EB /* SPObject.m in Sources */,
 				44059326218C57DF0098E3EB /* RWDropdownMenu.m in Sources */,
 				44059327218C57DF0098E3EB /* SPIAPObject.m in Sources */,
 				44059328218C57DF0098E3EB /* YGLabel.m in Sources */,
@@ -4815,10 +4664,7 @@
 				44059331218C57DF0098E3EB /* SPSettingOptionsViewCtrl.m in Sources */,
 				44059332218C57DF0098E3EB /* TADotView.m in Sources */,
 				44059333218C57DF0098E3EB /* SPPlayerInventoryVC.m in Sources */,
-				44059334218C57DF0098E3EB /* Config_ThirdParty.m in Sources */,
 				44059335218C57DF0098E3EB /* SPSearchBar.m in Sources */,
-				44059336218C57DF0098E3EB /* CDTUserSession.m in Sources */,
-				44059337218C57DF0098E3EB /* API.m in Sources */,
 				44059338218C57DF0098E3EB /* SPWorkshopResourceCell.m in Sources */,
 				44059339218C57DF0098E3EB /* SPItemQuality.m in Sources */,
 				4405933A218C57DF0098E3EB /* SPBundleItemCell.m in Sources */,
@@ -4921,7 +4767,7 @@
 				OTHER_SWIFT_FLAGS = "$(inherited) -D DEBUG";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_NAME}/SPObjC.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_NAME}/SPObjC-Swift.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -4986,7 +4832,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_NAME}/SPObjC.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_NAME}/SPObjC-Swift.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -4995,7 +4841,7 @@
 		};
 		2D8081F61FD5B92500078A50 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 193F5CED732A1AD8A2454FC0 /* Pods-_-SPOld.debug.xcconfig */;
+			baseConfigurationReference = 8140347DD93D4BCE49D48B9E /* Pods-SPOld.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -5040,7 +4886,7 @@
 		};
 		2D8081F71FD5B92500078A50 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82B42E539D9D6A328C99E218 /* Pods-_-SPOld.release.xcconfig */;
+			baseConfigurationReference = 429757BF849F11821D0A2867 /* Pods-SPOld.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -5084,7 +4930,7 @@
 		};
 		2DD663DE1FD57D62000E7223 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28B8620B250CF5F9169025DD /* Pods-_-SPPro.debug.xcconfig */;
+			baseConfigurationReference = F94C2DEBD843947CDF0E9E4E /* Pods-SPPro.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -5129,7 +4975,7 @@
 		};
 		2DD663DF1FD57D62000E7223 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65EBF911AF1C5D60FFAD2FBB /* Pods-_-SPPro.release.xcconfig */;
+			baseConfigurationReference = 2686522146A6CE323EEE651B /* Pods-SPPro.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -5173,7 +5019,7 @@
 		};
 		2DD664E71FD57D83000E7223 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07AE11536F9F2C37F7ED1D08 /* Pods-_-SPAd.debug.xcconfig */;
+			baseConfigurationReference = 002B57E4BAFF0E2BBFBC24C8 /* Pods-SPAd.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconSPAd;
 				CLANG_ENABLE_MODULES = YES;
@@ -5219,7 +5065,7 @@
 		};
 		2DD664E81FD57D83000E7223 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F32B8C22521ED88A46C6289A /* Pods-_-SPAd.release.xcconfig */;
+			baseConfigurationReference = 049DC49BA9A7BE9DFB0B47B7 /* Pods-SPAd.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconSPAd;
 				CLANG_ENABLE_MODULES = YES;
@@ -5264,7 +5110,7 @@
 		};
 		44059375218C57DF0098E3EB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DADC4EF99D81E929FCAFFAEB /* Pods-_-SPOldPro.debug.xcconfig */;
+			baseConfigurationReference = FC172CFBE17BF1AEA2D13283 /* Pods-SPOldPro.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -5310,7 +5156,7 @@
 		};
 		44059376218C57DF0098E3EB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6A813D64DA4C020BD048642 /* Pods-_-SPOldPro.release.xcconfig */;
+			baseConfigurationReference = FFAB9031FC0ED6914BE6BF4E /* Pods-SPOldPro.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (

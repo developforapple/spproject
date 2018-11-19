@@ -22,8 +22,9 @@
 - (void)awakeFromNib
 {
     [super awakeFromNib];
-    
-    self.ad = [[GADInterstitial alloc] initWithAdUnitID:kAdMobLaunchADUnitID];
+
+    /// FIXME: <#fix something#>
+    self.ad = [[GADInterstitial alloc] initWithAdUnitID:@"ca-app-pub-3317628345096940/6527269232"];
     self.ad.delegate = self;
     [self.ad loadRequest:[GADRequest request]];
 }

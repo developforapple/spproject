@@ -15,7 +15,7 @@
 @property (strong, nonatomic) SPItemSharedData *itemData;
 @end
 
-@interface SPItemTag : SPObject
+@interface SPItemTag : NSObject
 @property (copy, nonatomic) NSString *tag;
 @property (strong, nonatomic) UIColor *color;
 + (instancetype)tag:(NSString *)tag color:(UIColor *)color;

@@ -6,16 +6,12 @@
 //  Copyright © 2016年 zhenailab. All rights reserved.
 //
 
-#if __has_include("SPObject.h")
-    #import "SPObject.h"
-#else
-    #define NSObject SPObject
-#endif
+@import Foundation;
 
 /**
  *  简单的viewModel基类
  */
-@interface DDViewModel : SPObject
+@interface DDViewModel : NSObject
 
 /*!
  *  @brief 子类复写create。从而延迟创建viewModel的内容。也可以重写初始化方法，创建viewModel的内容

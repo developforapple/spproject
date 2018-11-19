@@ -6,15 +6,11 @@
 //  Copyright © 2017年 wwwbbat. All rights reserved.
 //
 
-#if __has_include("SPObject.h")
-    #import "SPObject.h"
-#else
-    #define NSObject SPObject
-#endif
+@import Foundation;
 
 @class SPItemStyleUnlock;
 
-@interface SPItemStyle : SPObject <NSCoding,NSCopying>
+@interface SPItemStyle : NSObject <NSCoding,NSCopying>
 
 // 序号 0
 @property (copy, nonatomic) NSString *index;
@@ -31,7 +27,7 @@
 
 @end
 
-@interface SPItemStyleUnlock : SPObject <NSCoding,NSCopying>
+@interface SPItemStyleUnlock : NSObject <NSCoding,NSCopying>
 
 // 需要解锁工具的工具token
 @property (copy, nonatomic) NSString *item_def;

@@ -24,7 +24,7 @@ typedef CGFloat YGBubbleRadius;    //气泡边框的圆角
 extern YGArrowOffset YGArrowOffsetMid;   //箭头居中放置
 
 
-@interface YGBubble : SPObject
+@interface YGBubble : NSObject
 
 @property (strong, nonatomic) UIBezierPath *path;
 

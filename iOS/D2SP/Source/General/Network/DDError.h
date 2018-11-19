@@ -5,13 +5,9 @@
 //  Copyright © 2017年 WangBo. All rights reserved.
 //
 
-#if __has_include("SPObject.h")
-    #import "SPObject.h"
-#else
-    #define NSObject SPObject
-#endif
+@import Foundation;
 
-@interface DDError : SPObject
+@interface DDError : NSObject
 @property (assign, nonatomic) NSInteger errcode;
 @property (copy, nonatomic) NSString *msg;
 @property (strong, nonatomic) NSError *error;

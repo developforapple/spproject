@@ -9,6 +9,10 @@
 #ifndef SPSwift_h
 #define SPSwift_h
 
+///
+/// 提供给 Objective-C 调用的 Swift 自动生成头文件
+///
+
 #if TARGET_SPAd
 
 #import "SPAd-Swift.h"

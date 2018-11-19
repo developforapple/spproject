@@ -6,11 +6,7 @@
 //  Copyright © 2016年 wwwbbat. All rights reserved.
 //
 
-#if __has_include("SPObject.h")
-    #import "SPObject.h"
-#else
-    #define NSObject SPObject
-#endif
+@import Foundation;
 
 /*
  developer,     Valve
@@ -37,7 +33,7 @@
  unusual        独特
  */
 
-@interface SPItemQuality : SPObject <NSCopying,NSCoding>
+@interface SPItemQuality : NSObject <NSCopying,NSCoding>
 
 // genuine
 @property (copy, nonatomic) NSString *name;

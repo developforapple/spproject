@@ -1,4 +1,4 @@
-source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/cocoaPods/specs.git'
 use_frameworks!
 inhibit_all_warnings!
 platform:ios, '9.0'
@@ -12,8 +12,7 @@ def tencent_cloud
     pod 'QCloudCOSXML', :source => 'https://git.code.tencent.com/qcloud_u/cocopoads-repo.git'
 end
 
-abstract_target '_' do
-
+def common_pods
     pod 'ReactiveObjC'
     pod 'IAPHelper'       #https://github.com/saturngod/IAPHelper
     pod 'YYModel'         #https://github.com/ibireme/YYModel
@@ -27,7 +26,7 @@ abstract_target '_' do
     pod 'DGActivityIndicatorView'  #https://github.com/gontovnik/DGActivityIndicatorView
     pod 'PinYin4Objc'              #https://github.com/kimziv/PinYin4Obj
     pod 'JZNavigationExtension', '1.5.0.1' #https://github.com/JazysYu/JZNavigationExtension
-    pod 'HBDNavigationBar', git => 'git@github.com:listenzz/HBDNavigationBar.git'
+    pod 'HBDNavigationBar', :git => 'git@github.com:listenzz/HBDNavigationBar.git'
     pod 'AMPopTip'          #https://github.com/andreamazz/AMPopTip
     pod 'SAMKeychain'
     pod 'DZNWebViewController'          #https://github.com/dzenbot/DZNWebViewController
@@ -39,7 +38,6 @@ abstract_target '_' do
     pod 'AFNetworking'
     pod 'SSZipArchive'
     pod 'AVOSCloud'
-#    pod 'Bugly'
     pod 'Hero'
 
     pod 'IDMPhotoBrowser', :git => 'https://github.com/developforapple/IDMPhotoBrowser.git'
@@ -48,24 +46,28 @@ abstract_target '_' do
     pod 'MXParallaxHeader'
     pod 'FCUUID'
     pod 'CocoaLumberjack/Swift'
+end
 
+target 'SPAd' do
+    common_pods
     tencent_cloud
+    pod 'Google-Mobile-Ads-SDK'
+end
 
-    target 'SPAd' do
-        pod 'Google-Mobile-Ads-SDK'
-    end
+target 'SPPro' do
+    common_pods
+    tencent_cloud
+end
 
-    target 'SPPro' do
+target 'SPOld' do
+    common_pods
+    tencent_cloud
+    pod 'Google-Mobile-Ads-SDK'
+end
 
-    end
-
-    target 'SPOld' do
-        pod 'Google-Mobile-Ads-SDK'
-    end
-
-    target 'SPOldPro' do
-
-    end
+target 'SPOldPro' do
+    common_pods
+    tencent_cloud
 end
 
 targetsArray = ['SPPro', 'SPAd', 'SPOld', 'SPOldPro']
@@ -92,24 +94,6 @@ def setup_target_macro(ttargets)
                 config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] = _tempDefinitions;
                 config.build_settings['OTHER_SWIFT_FLAGS'] = "$(inherited) #{_SWIFT_FLAG}"
 
-#                if !config.base_configuration_reference
-#                    app_project.save
-#                elsif File.exist?(config.base_configuration_reference.path)
-#
-#                    _GCCProprogressSTR = 'GCC_PREPROCESSOR_DEFINITIONS = ' + config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'].join(" ")
-#
-#                    _SWIFTFLAGSTR = 'OTHER_SWIFT_FLAGS = ' + config.build_settings['OTHER_SWIFT_FLAGS'].join(" ")
-#
-#                    text = File.read(config.base_configuration_reference.path)
-#
-#                    match = /^GCC_PREPROCESSOR_DEFINITIONS.*$/.match(text)
-#                    match2 =  /^OTHER_SWIFT_FLAGS.*$/.match(text)
-#                    if match[0] || match2[0]
-#                        text = text.gsub(match[0],_GCCProprogressSTR)
-#                        text = text.gsub(match2[0],_SWIFTFLAGSTR)
-#                        File.open(config.base_configuration_reference.path, "w") { |file| file.puts text}
-#                    end
-#                end
             end
         end
     end

@@ -6,13 +6,9 @@
 //  Copyright © 2016年 wwwbbat. All rights reserved.
 //
 
-#if __has_include("SPObject.h")
-    #import "SPObject.h"
-#else
-    #define NSObject SPObject
-#endif
+@import Foundation;
 
-@interface SPItemSets : SPObject
+@interface SPItemSets : NSObject
 
 // key
 @property (strong, nonatomic) NSString *token;  //"pugna_narcissistic_leech"

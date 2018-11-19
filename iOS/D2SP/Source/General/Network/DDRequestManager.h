@@ -6,11 +6,7 @@
 //  Copyright (c) 2015年 bo wang. All rights reserved.
 //
 
-#if __has_include("SPObject.h")
-    #import "SPObject.h"
-#else
-    #define NSObject SPObject
-#endif
+@import Foundation;
 
 #import "AFNetworking.h"
 #import "DDResponse.h"
@@ -56,7 +52,7 @@ typedef void (^DDRespFailHandler)(DDTASK task, NSError *err, DDRespFailBlock fai
 typedef void (^DDProgressBlock)(NSProgress *p);
 
 #pragma mark - DDRequestManager
-@interface DDRequestManager : SPObject
+@interface DDRequestManager : NSObject
 @property (strong, readonly, nonatomic) AFHTTPSessionManager *manager;
 
 /**

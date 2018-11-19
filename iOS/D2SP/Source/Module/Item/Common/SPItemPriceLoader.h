@@ -6,16 +6,12 @@
 //  Copyright © 2017年 wwwbbat. All rights reserved.
 //
 
-#if __has_include("SPObject.h")
-    #import "SPObject.h"
-#else
-    #define NSObject SPObject
-#endif
+@import Foundation;
 
 @class SPItem;
 @class SPMarketItem;
 
-@interface SPItemPriceBase : SPObject
+@interface SPItemPriceBase : NSObject
 @property (copy, nonatomic) NSString *error;
 @end
 
@@ -58,7 +54,7 @@
 
 @end
 
-@interface SPItemPriceLoader : SPObject
+@interface SPItemPriceLoader : NSObject
 
 // 获取Dota2商城价格
 + (void)loadDota2MarketPrice:(SPItem *)item

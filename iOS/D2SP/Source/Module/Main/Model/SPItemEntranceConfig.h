@@ -6,14 +6,10 @@
 //  Copyright © 2016年 wwwbbat. All rights reserved.
 //
 
-#if __has_include("SPObject.h")
-    #import "SPObject.h"
-#else
-    #define NSObject SPObject
-#endif
+@import Foundation;
 #import "SPItemCommon.h"
 
-@interface SPItemEntranceUnit : SPObject <NSCopying,NSCoding>
+@interface SPItemEntranceUnit : NSObject <NSCopying,NSCoding>
 @property (assign, nonatomic) SPItemEntranceType type;
 @property (copy, nonatomic) NSString *title;
 @property (copy, nonatomic) NSString *defaultImage;
@@ -22,7 +18,7 @@
 @property (copy, nonatomic) NSString *href;
 @end
 
-@interface SPItemEntranceConfig : SPObject
+@interface SPItemEntranceConfig : NSObject
 
 @property (strong, nonatomic) NSArray<SPItemEntranceUnit *> *units;
 @property (copy, nonatomic) void (^unitDidUpdated)(SPItemEntranceUnit *unit);

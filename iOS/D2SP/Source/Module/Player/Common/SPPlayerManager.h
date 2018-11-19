@@ -6,14 +6,10 @@
 //  Copyright © 2016年 wwwbbat. All rights reserved.
 //
 
-#if __has_include("SPObject.h")
-    #import "SPObject.h"
-#else
-    #define NSObject SPObject
-#endif
+@import Foundation;
 #import "SPPlayer.h"
 
-@interface SPPlayerManager : SPObject
+@interface SPPlayerManager : NSObject
 
 + (instancetype)shared;
 

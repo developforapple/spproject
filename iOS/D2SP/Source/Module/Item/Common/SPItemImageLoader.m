@@ -8,6 +8,7 @@
 
 #import "SPItemImageLoader.h"
 @import YYCache;
+@import AFNetworking;
 #import "SPMemoryCache.h"
 #import "CALayer+SDWebCache.h"
 #import <SDWebImage/UIImage+MultiFormat.h>

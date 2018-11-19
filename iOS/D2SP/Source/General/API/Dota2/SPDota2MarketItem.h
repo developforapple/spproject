@@ -6,14 +6,10 @@
 //  Copyright © 2017年 wwwbbat. All rights reserved.
 //
 
-#if __has_include("SPObject.h")
-    #import "SPObject.h"
-#else
-    #define NSObject SPObject
-#endif
+@import Foundation;
 
 YG_DEPRECATED("", "")
-@interface SPDota2MarketItem : SPObject <NSCopying,NSCoding>
+@interface SPDota2MarketItem : NSObject <NSCopying,NSCoding>
 
 @property (copy, nonatomic) NSString *discountTagBase;
 @property (copy, nonatomic) NSString *discountedPrice;
@@ -32,7 +28,7 @@ YG_DEPRECATED("", "")
 @end
 
 
-@interface SPDota2SpotlightItem : SPObject <NSCopying,NSCoding>
+@interface SPDota2SpotlightItem : NSObject <NSCopying,NSCoding>
 
 @property (copy, nonatomic) NSString *href;
 @property (copy, nonatomic) NSString *src;

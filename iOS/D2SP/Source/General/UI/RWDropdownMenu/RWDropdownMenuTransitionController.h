@@ -8,7 +8,7 @@
 
 @import UIKit;
 
-@interface RWDropdownMenuTransitionController : SPObject <UIViewControllerAnimatedTransitioning>
+@interface RWDropdownMenuTransitionController : NSObject <UIViewControllerAnimatedTransitioning>
 
 @property (nonatomic, assign) bool isDismissing;
 

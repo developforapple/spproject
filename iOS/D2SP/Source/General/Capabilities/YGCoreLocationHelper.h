@@ -30,7 +30,7 @@ NS_INLINE BOOL _YGLocationUsable(void){
 #define YGLocationUsable _YGLocationUsable()
 
 
-@interface YGCoreLocationHelper : SPObject
+@interface YGCoreLocationHelper : NSObject
 
 + (void)alertIfNotAvailable;
 + (void)openLocationServiceSetting;

@@ -6,14 +6,10 @@
 //  Copyright © 2016年 wwwbbat. All rights reserved.
 //
 
-#if __has_include("SPObject.h")
-    #import "SPObject.h"
-#else
-    #define NSObject SPObject
-#endif
+@import Foundation;
 #import "SPPlayerItems.h"
 
-@interface SPPlayer : SPObject <NSCoding,NSCopying>
+@interface SPPlayer : NSObject <NSCoding,NSCopying>
 
 @property (strong, nonatomic) NSString *avatar_url;
 @property (strong, nonatomic) NSString *name;
@@ -56,7 +52,7 @@ typedef NS_ENUM(NSUInteger, SPPlayerPersonaState) {
 
 @class SPPlayerAliase;
 
-@interface SPPlayerDetailInfo : SPObject <NSCoding,NSCopying>
+@interface SPPlayerDetailInfo : NSObject <NSCoding,NSCopying>
 
 @property (strong, nonatomic) NSString *avatar;      //32*32
 @property (strong, nonatomic) NSString *avatarfull;  //184*184
@@ -88,12 +84,12 @@ typedef NS_ENUM(NSUInteger, SPPlayerPersonaState) {
 
 @end
 
-@interface SPPlayerAliase : SPObject<NSCoding,NSCopying>
+@interface SPPlayerAliase : NSObject<NSCoding,NSCopying>
 @property (strong, nonatomic) NSString *newname;
 @property (strong, nonatomic) NSString *timechanged;
 @end
 
-@interface SPPlayerFriend : SPObject<NSCoding,NSCopying>
+@interface SPPlayerFriend : NSObject<NSCoding,NSCopying>
 @property (strong, nonatomic) NSNumber *steamid;    //steamid17
 @property (strong, nonatomic) NSString *relationship;   //关系
 @property (strong, nonatomic) NSNumber *friend_since;   //加好友时间

@@ -6,15 +6,11 @@
 //  Copyright © 2016年 wwwbbat. All rights reserved.
 //
 
-#if __has_include("SPObject.h")
-    #import "SPObject.h"
-#else
-    #define NSObject SPObject
-#endif
+@import Foundation;
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SPItemPrefab : SPObject
+@interface SPItemPrefab : NSObject
 
 // courier
 @property (copy, nonatomic) NSString *name;

@@ -6,11 +6,7 @@
 //  Copyright © 2016年 wwwbbat. All rights reserved.
 //
 
-#if __has_include("SPObject.h")
-    #import "SPObject.h"
-#else
-    #define NSObject SPObject
-#endif
+@import Foundation;
 #import "SPHero.h"
 #import "SPItemRarity.h"
 #import "SPItem.h"
@@ -19,7 +15,7 @@
 #import "SPDotaEvent.h"
 #import "SPItemFilterUnit.h"
 
-@interface SPItemQuery : SPObject
+@interface SPItemQuery : NSObject
 
 // 根据英雄筛选
 + (instancetype)queryWithHero:(SPHero *)hero;

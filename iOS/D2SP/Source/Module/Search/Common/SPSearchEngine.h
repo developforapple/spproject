@@ -6,11 +6,7 @@
 //  Copyright © 2016年 wwwbbat. All rights reserved.
 //
 
-#if __has_include("SPObject.h")
-    #import "SPObject.h"
-#else
-    #define NSObject SPObject
-#endif
+@import Foundation;
 #import "SPSearchCommon.h"
 
 @class SPItem;
@@ -19,7 +15,7 @@
 /**
  *  App内置搜索引擎
  */
-@interface SPSearchEngine : SPObject
+@interface SPSearchEngine : NSObject
 
 - (instancetype)initWithType:(SPSearchType)type;
 

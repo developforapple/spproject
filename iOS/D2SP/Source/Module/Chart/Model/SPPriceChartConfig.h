@@ -6,11 +6,7 @@
 //  Copyright © 2017年 wwwbbat. All rights reserved.
 //
 
-#if __has_include("SPObject.h")
-    #import "SPObject.h"
-#else
-    #define NSObject SPObject
-#endif
+@import Foundation;
 
 typedef NS_ENUM(NSUInteger, SPPriceChartLevel) {
     SPPriceChartLevelWeek,  //周
@@ -31,7 +27,7 @@ YG_INLINE NSString *LevelString(SPPriceChartLevel level){
     return nil;
 }
 
-@interface SPPriceChartConfig : SPObject
+@interface SPPriceChartConfig : NSObject
 @property (assign, nonatomic) CGFloat topPrice;
 @property (assign, nonatomic) CGFloat bottomPrice;
 @property (assign, nonatomic) NSInteger rows;

@@ -6,13 +6,9 @@
 //  Copyright © 2017年 wwwbbat. All rights reserved.
 //
 
-#if __has_include("SPObject.h")
-    #import "SPObject.h"
-#else
-    #define NSObject SPObject
-#endif
+@import Foundation;
 
-@interface SPFilterConfig : SPObject
+@interface SPFilterConfig : NSObject
 
 // 是否允许同时选择多个选项，默认为YES
 @property (assign, nonatomic) BOOL allowsMultipleSelection;

@@ -6,11 +6,7 @@
 //  Copyright © 2016年 wwwbbat. All rights reserved.
 //
 
-#if __has_include("SPObject.h")
-    #import "SPObject.h"
-#else
-    #define NSObject SPObject
-#endif
+@import Foundation;
 #import "SPLocale.h"
 #import "SPHero.h"
 #import "SPItemPrefab.h"
@@ -26,7 +22,7 @@
 /**
  应用需要使用的数据
  */
-@interface SPDataManager : SPObject
+@interface SPDataManager : NSObject
 
 + (BOOL)isDataValid;
 

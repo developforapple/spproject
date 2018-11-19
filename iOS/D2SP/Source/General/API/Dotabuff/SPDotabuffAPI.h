@@ -6,14 +6,10 @@
 //  Copyright © 2016年 wwwbbat. All rights reserved.
 //
 
-#if __has_include("SPObject.h")
-    #import "SPObject.h"
-#else
-    #define NSObject SPObject
-#endif
+@import Foundation;
 
 // DotaBuff
-@interface SPDotabuffAPI : SPObject
+@interface SPDotabuffAPI : NSObject
 
 + (void)searchUser:(NSString *)keywords
         completion:(void (^)(BOOL suc, NSArray *list, NSString *msg)) completion;

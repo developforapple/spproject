@@ -6,11 +6,7 @@
 //  Copyright © 2017年 wwwbbat. All rights reserved.
 //
 
-#if __has_include("SPObject.h")
-    #import "SPObject.h"
-#else
-    #define NSObject SPObject
-#endif
+@import Foundation;
 #import "AVOSCloud.h"
 
 
@@ -39,7 +35,7 @@
 /**
  应用需要使用和更新的资源
  */
-@interface SPResourceManager : SPObject
+@interface SPResourceManager : NSObject
 
 + (instancetype)manager;
 

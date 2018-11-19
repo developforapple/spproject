@@ -8,9 +8,8 @@
 #ifndef Statistic_h
 #define Statistic_h
 
-@import AVOSCloud.AVAnalytics;
-
-#define SPBuriedPoint( EventName , LabelText )  [AVAnalytics event: (EventName) label: (LabelText) ]
+/// TODO: 添加埋点记录实现
+#define SPBuriedPoint( EventName , LabelText )  //[AVAnalytics event: (EventName) label: (LabelText) ]
 #define SPBP(e,l) SPBuriedPoint( (e) , (l) )
 
 // AdMob Event
