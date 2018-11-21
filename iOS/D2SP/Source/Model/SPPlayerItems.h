@@ -7,7 +7,7 @@
 //
 
 @import Foundation;
-#import "YYModel.h"
+@import YYModel;
 
 @class SPPlayerItemDetail;
 @class SPPlayerItem;

@@ -78,6 +78,9 @@ PODS:
   - QCloudCore (5.4.5)
   - QCloudCOSXML (5.4.5):
     - QCloudCore (= 5.4.5)
+  - R.swift (5.0.0.alpha.2):
+    - R.swift.Library (~> 5.0.0.alpha.2)
+  - R.swift.Library (5.0.0.alpha.2)
   - ReactiveObjC (3.1.0)
   - SAMKeychain (1.5.3)
   - SDWebImage/Core (4.2.3)
@@ -138,6 +141,7 @@ DEPENDENCIES:
   - PinYin4Objc
   - QCloudCore
   - QCloudCOSXML
+  - R.swift (~> 5.0.0.alpha.2)
   - ReactiveObjC
   - SAMKeychain
   - SDWebImage/GIF
@@ -185,6 +189,8 @@ SPEC REPOS:
     - MXParallaxHeader
     - PinYin4Objc
     - pop
+    - R.swift
+    - R.swift.Library
     - ReactiveObjC
     - SAMKeychain
     - SDWebImage
@@ -255,6 +261,8 @@ SPEC CHECKSUMS:
   pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
   QCloudCore: fdba2fdacb45f3e3f867487136ce804053e09414
   QCloudCOSXML: 0f58bcc8974c7d6a1adf05e757584feab7d6d848
+  R.swift: 31fa1bd537fa81307815cc622122f33331f32174
+  R.swift.Library: 3c21b823839bf5a6769dc7f96cb44479dab51b1b
   ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
   SDWebImage: 791bb72962b3492327ddcac4b1880bd1b5458431
@@ -270,6 +278,6 @@ SPEC CHECKSUMS:
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: d10c64016814c4034190ddcd5907acd7c94fb717
+PODFILE CHECKSUM: 6fb2ccabf8c53441f93ce864456dd93027030a13
 
 COCOAPODS: 1.5.3

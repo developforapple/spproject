@@ -39,6 +39,7 @@ def common_pods
     pod 'SSZipArchive'
     pod 'AVOSCloud'
     pod 'Hero'
+    pod 'R.swift', '~> 5.0.0.alpha.2'
 
     pod 'IDMPhotoBrowser', :git => 'https://github.com/developforapple/IDMPhotoBrowser.git'
     pod 'JBChartView' , :git => 'https://github.com/developforapple/JBChartView.git'

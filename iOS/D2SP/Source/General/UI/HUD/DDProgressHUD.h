@@ -6,7 +6,7 @@
 //  Copyright (c) 2015年 Bo Wang. All rights reserved.
 //
 
-#import "MBProgressHUD.h"
+@import MBProgressHUD;
 
 @interface DDProgressHUD : MBProgressHUD
 

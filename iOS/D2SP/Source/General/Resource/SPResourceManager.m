@@ -9,7 +9,7 @@
 #import "SPResourceManager.h"
 #import "SPBaseData.h"
 #import "SPLocale.h"
-#import "AVOSCloud.h"
+@import AVOSCloud;
 #import "SSZipArchive.h"
 
 static NSString *const kDataVersionKey = @"kDotaDataBaseVersion";

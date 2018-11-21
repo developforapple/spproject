@@ -36,7 +36,7 @@ typedef NS_ENUM(NSUInteger, SPHeroCamp) {
     SPHeroCampDire,     //夜魇
 };
 
-typedef NS_ENUM(NSUInteger, SPItemListMode) {
+typedef NS_ENUM(NSInteger, SPItemListMode) {
     SPItemListModeTable,        //列表
     SPItemListModeGrid,         //网格
 };

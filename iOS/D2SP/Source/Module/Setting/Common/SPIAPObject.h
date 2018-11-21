@@ -6,7 +6,7 @@
 //  Copyright © 2017年 wwwbbat. All rights reserved.
 //
 
-#import <AVOSCloud/AVOSCloud.h>
+@import AVOSCloud;
 @import StoreKit;
 
 @interface SPIAPObject : AVObject

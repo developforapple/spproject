@@ -13,6 +13,7 @@
 /// 需要提供给 Swift 调用的 Objective-C 文件
 ///
 
+#import "SafeCode.h"
 #import "YGBaseViewCtrl.h"
 #import "UIViewController+yg_StatusBar.h"
 #import "UIViewController+yg_IBInspectable.h"
@@ -20,5 +21,22 @@
 #import "SPDataManager.h"
 #import "SPDeploy.h"
 #import "SPItemImageLoader.h"
+#import "SPItemEntranceConfig.h"
+#import "SPLogoHeader.h"
+#import "UIView+Animation.h"
+#import "SPItemHeroPickerVC.h"
+#import "SPFilterCell.h"
+#import "SPWebHelper.h"
+#import "SPItemQuery.h"
+#import "SPItemCommon.h"
+#import "DDSegmentScrollView.h"
+#import "DDProgressHUD.h"
+#import "SPItemFilter.h"
+#import "SPFilterNaviCtrl.h"
+#import "YGRefreshComponent.h"
+#import "SPItemCellModel.h"
+#import "SPItemCell.h"
+#import "SPPlayerItems.h"
+#import "SPItemViewCtrl.h"
 
 #endif /* SPObjC_h */

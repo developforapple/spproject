@@ -79,12 +79,9 @@
 		2D80813A1FD5B92500078A50 /* SPMaxPlusAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6631F1361640012950A /* SPMaxPlusAPI.m */; };
 		2D80813B1FD5B92500078A50 /* Config_Archive.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6541F1361640012950A /* Config_Archive.m */; };
 		2D80813C1FD5B92500078A50 /* SPPriceChartConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D19E0101F32F22A00747B01 /* SPPriceChartConfig.m */; };
-		2D80813D1FD5B92500078A50 /* SPItemListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7A01F1361640012950A /* SPItemListVC.m */; };
 		2D80813E1FD5B92500078A50 /* SPWebHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B75E1F1361640012950A /* SPWebHelper.m */; };
 		2D80813F1FD5B92500078A50 /* SPDotaEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6954FCDE1F43EC5900DDB5D3 /* SPDotaEvent.m */; };
-		2D8081401FD5B92500078A50 /* SPItemListContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B79E1F1361640012950A /* SPItemListContainer.m */; };
 		2D8081411FD5B92500078A50 /* SPPlayerItemFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF65FB1FCAF2D5006A0081 /* SPPlayerItemFilter.m */; };
-		2D8081421FD5B92500078A50 /* SPDotaEventsViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6954FCE11F4415A200DDB5D3 /* SPDotaEventsViewCtrl.m */; };
 		2D8081431FD5B92500078A50 /* SPLootList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D40220D1F385D830006EFEF /* SPLootList.m */; };
 		2D8081441FD5B92500078A50 /* UIView+BlockGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6B31F1361640012950A /* UIView+BlockGesture.m */; };
 		2D8081451FD5B92500078A50 /* SPGamepediaData.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F631151FBAF4CE00A60EC8 /* SPGamepediaData.m */; };
@@ -93,7 +90,6 @@
 		2D8081491FD5B92500078A50 /* UIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6B51F1361640012950A /* UIView+Hierarchy.m */; };
 		2D80814A1FD5B92500078A50 /* YGBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6F61F1361640012950A /* YGBubble.m */; };
 		2D80814B1FD5B92500078A50 /* SPWorkshopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B8091F1361640012950A /* SPWorkshopModel.m */; };
-		2D80814C1FD5B92500078A50 /* SPItemOffPriceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7A21F1361640012950A /* SPItemOffPriceVC.m */; };
 		2D80814D1FD5B92500078A50 /* UIButton+yg_IBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6901F1361640012950A /* UIButton+yg_IBInspectable.m */; };
 		2D80814E1FD5B92500078A50 /* UITableViewCell+yg_IBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B69F1F1361640012950A /* UITableViewCell+yg_IBInspectable.m */; };
 		2D80814F1FD5B92500078A50 /* DDSegmentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B74A1F1361640012950A /* DDSegmentScrollView.m */; };
@@ -122,7 +118,6 @@
 		2D8081671FD5B92500078A50 /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7411F1361640012950A /* TAPageControl.m */; };
 		2D8081681FD5B92500078A50 /* SPDota2API.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFE1C2E1FC312B300FEDE5C /* SPDota2API.m */; };
 		2D80816A1FD5B92500078A50 /* UIActivityIndicatorView+yg_IBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B68E1F1361640012950A /* UIActivityIndicatorView+yg_IBInspectable.m */; };
-		2D80816B1FD5B92500078A50 /* SPItemsDetailViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AD9D01F1E63DE00FF3EDF /* SPItemsDetailViewCtrl.m */; };
 		2D80816C1FD5B92500078A50 /* SPPlayer+More.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7B51F1361640012950A /* SPPlayer+More.m */; };
 		2D80816E1FD5B92500078A50 /* LCActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B71F1F1361640012950A /* LCActionSheet.m */; };
 		2D80816F1FD5B92500078A50 /* SPItemPrefab.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7741F1361640012950A /* SPItemPrefab.m */; };
@@ -162,7 +157,6 @@
 		2D8081921FD5B92500078A50 /* SPIAPViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A2A8C1FD056700021FCC9 /* SPIAPViewCtrl.m */; };
 		2D8081941FD5B92500078A50 /* SPItemPlayablesViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 69ECA1BF1FBD8E0500A9DFFC /* SPItemPlayablesViewCtrl.m */; };
 		2D8081951FD5B92500078A50 /* UIToolbar+yg_IBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6A11F1361640012950A /* UIToolbar+yg_IBInspectable.m */; };
-		2D8081961FD5B92500078A50 /* SPItemEntranceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC0F6991F1C624A004DCD3C /* SPItemEntranceVC.m */; };
 		2D8081971FD5B92500078A50 /* SPPlayerAliasesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7BD1F1361640012950A /* SPPlayerAliasesVC.m */; };
 		2D8081981FD5B92500078A50 /* SPWorkshop.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7FD1F1361640012950A /* SPWorkshop.m */; };
 		2D8081991FD5B92500078A50 /* NSString+STRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6811F1361640012950A /* NSString+STRegex.m */; };
@@ -307,12 +301,9 @@
 		2DD663211FD57D62000E7223 /* SPMaxPlusAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6631F1361640012950A /* SPMaxPlusAPI.m */; };
 		2DD663221FD57D62000E7223 /* Config_Archive.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6541F1361640012950A /* Config_Archive.m */; };
 		2DD663231FD57D62000E7223 /* SPPriceChartConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D19E0101F32F22A00747B01 /* SPPriceChartConfig.m */; };
-		2DD663241FD57D62000E7223 /* SPItemListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7A01F1361640012950A /* SPItemListVC.m */; };
 		2DD663251FD57D62000E7223 /* SPWebHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B75E1F1361640012950A /* SPWebHelper.m */; };
 		2DD663261FD57D62000E7223 /* SPDotaEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6954FCDE1F43EC5900DDB5D3 /* SPDotaEvent.m */; };
-		2DD663271FD57D62000E7223 /* SPItemListContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B79E1F1361640012950A /* SPItemListContainer.m */; };
 		2DD663281FD57D62000E7223 /* SPPlayerItemFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF65FB1FCAF2D5006A0081 /* SPPlayerItemFilter.m */; };
-		2DD663291FD57D62000E7223 /* SPDotaEventsViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6954FCE11F4415A200DDB5D3 /* SPDotaEventsViewCtrl.m */; };
 		2DD6632A1FD57D62000E7223 /* SPLootList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D40220D1F385D830006EFEF /* SPLootList.m */; };
 		2DD6632B1FD57D62000E7223 /* UIView+BlockGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6B31F1361640012950A /* UIView+BlockGesture.m */; };
 		2DD6632C1FD57D62000E7223 /* SPGamepediaData.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F631151FBAF4CE00A60EC8 /* SPGamepediaData.m */; };
@@ -321,7 +312,6 @@
 		2DD663301FD57D62000E7223 /* UIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6B51F1361640012950A /* UIView+Hierarchy.m */; };
 		2DD663311FD57D62000E7223 /* YGBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6F61F1361640012950A /* YGBubble.m */; };
 		2DD663321FD57D62000E7223 /* SPWorkshopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B8091F1361640012950A /* SPWorkshopModel.m */; };
-		2DD663331FD57D62000E7223 /* SPItemOffPriceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7A21F1361640012950A /* SPItemOffPriceVC.m */; };
 		2DD663341FD57D62000E7223 /* UIButton+yg_IBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6901F1361640012950A /* UIButton+yg_IBInspectable.m */; };
 		2DD663351FD57D62000E7223 /* UITableViewCell+yg_IBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B69F1F1361640012950A /* UITableViewCell+yg_IBInspectable.m */; };
 		2DD663361FD57D62000E7223 /* DDSegmentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B74A1F1361640012950A /* DDSegmentScrollView.m */; };
@@ -350,7 +340,6 @@
 		2DD6634E1FD57D62000E7223 /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7411F1361640012950A /* TAPageControl.m */; };
 		2DD6634F1FD57D62000E7223 /* SPDota2API.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFE1C2E1FC312B300FEDE5C /* SPDota2API.m */; };
 		2DD663511FD57D62000E7223 /* UIActivityIndicatorView+yg_IBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B68E1F1361640012950A /* UIActivityIndicatorView+yg_IBInspectable.m */; };
-		2DD663521FD57D62000E7223 /* SPItemsDetailViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AD9D01F1E63DE00FF3EDF /* SPItemsDetailViewCtrl.m */; };
 		2DD663531FD57D62000E7223 /* SPPlayer+More.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7B51F1361640012950A /* SPPlayer+More.m */; };
 		2DD663551FD57D62000E7223 /* LCActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B71F1F1361640012950A /* LCActionSheet.m */; };
 		2DD663561FD57D62000E7223 /* SPItemPrefab.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7741F1361640012950A /* SPItemPrefab.m */; };
@@ -390,7 +379,6 @@
 		2DD663791FD57D62000E7223 /* SPIAPViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A2A8C1FD056700021FCC9 /* SPIAPViewCtrl.m */; };
 		2DD6637B1FD57D62000E7223 /* SPItemPlayablesViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 69ECA1BF1FBD8E0500A9DFFC /* SPItemPlayablesViewCtrl.m */; };
 		2DD6637C1FD57D62000E7223 /* UIToolbar+yg_IBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6A11F1361640012950A /* UIToolbar+yg_IBInspectable.m */; };
-		2DD6637D1FD57D62000E7223 /* SPItemEntranceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC0F6991F1C624A004DCD3C /* SPItemEntranceVC.m */; };
 		2DD6637E1FD57D62000E7223 /* SPPlayerAliasesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7BD1F1361640012950A /* SPPlayerAliasesVC.m */; };
 		2DD6637F1FD57D62000E7223 /* SPWorkshop.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7FD1F1361640012950A /* SPWorkshop.m */; };
 		2DD663801FD57D62000E7223 /* NSString+STRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6811F1361640012950A /* NSString+STRegex.m */; };
@@ -534,12 +522,9 @@
 		2DD6642A1FD57D83000E7223 /* SPMaxPlusAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6631F1361640012950A /* SPMaxPlusAPI.m */; };
 		2DD6642B1FD57D83000E7223 /* Config_Archive.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6541F1361640012950A /* Config_Archive.m */; };
 		2DD6642C1FD57D83000E7223 /* SPPriceChartConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D19E0101F32F22A00747B01 /* SPPriceChartConfig.m */; };
-		2DD6642D1FD57D83000E7223 /* SPItemListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7A01F1361640012950A /* SPItemListVC.m */; };
 		2DD6642E1FD57D83000E7223 /* SPWebHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B75E1F1361640012950A /* SPWebHelper.m */; };
 		2DD6642F1FD57D83000E7223 /* SPDotaEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6954FCDE1F43EC5900DDB5D3 /* SPDotaEvent.m */; };
-		2DD664301FD57D83000E7223 /* SPItemListContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B79E1F1361640012950A /* SPItemListContainer.m */; };
 		2DD664311FD57D83000E7223 /* SPPlayerItemFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF65FB1FCAF2D5006A0081 /* SPPlayerItemFilter.m */; };
-		2DD664321FD57D83000E7223 /* SPDotaEventsViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6954FCE11F4415A200DDB5D3 /* SPDotaEventsViewCtrl.m */; };
 		2DD664331FD57D83000E7223 /* SPLootList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D40220D1F385D830006EFEF /* SPLootList.m */; };
 		2DD664341FD57D83000E7223 /* UIView+BlockGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6B31F1361640012950A /* UIView+BlockGesture.m */; };
 		2DD664351FD57D83000E7223 /* SPGamepediaData.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F631151FBAF4CE00A60EC8 /* SPGamepediaData.m */; };
@@ -548,7 +533,6 @@
 		2DD664391FD57D83000E7223 /* UIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6B51F1361640012950A /* UIView+Hierarchy.m */; };
 		2DD6643A1FD57D83000E7223 /* YGBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6F61F1361640012950A /* YGBubble.m */; };
 		2DD6643B1FD57D83000E7223 /* SPWorkshopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B8091F1361640012950A /* SPWorkshopModel.m */; };
-		2DD6643C1FD57D83000E7223 /* SPItemOffPriceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7A21F1361640012950A /* SPItemOffPriceVC.m */; };
 		2DD6643D1FD57D83000E7223 /* UIButton+yg_IBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6901F1361640012950A /* UIButton+yg_IBInspectable.m */; };
 		2DD6643E1FD57D83000E7223 /* UITableViewCell+yg_IBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B69F1F1361640012950A /* UITableViewCell+yg_IBInspectable.m */; };
 		2DD6643F1FD57D83000E7223 /* DDSegmentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B74A1F1361640012950A /* DDSegmentScrollView.m */; };
@@ -577,7 +561,6 @@
 		2DD664571FD57D83000E7223 /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7411F1361640012950A /* TAPageControl.m */; };
 		2DD664581FD57D83000E7223 /* SPDota2API.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFE1C2E1FC312B300FEDE5C /* SPDota2API.m */; };
 		2DD6645A1FD57D83000E7223 /* UIActivityIndicatorView+yg_IBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B68E1F1361640012950A /* UIActivityIndicatorView+yg_IBInspectable.m */; };
-		2DD6645B1FD57D83000E7223 /* SPItemsDetailViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AD9D01F1E63DE00FF3EDF /* SPItemsDetailViewCtrl.m */; };
 		2DD6645C1FD57D83000E7223 /* SPPlayer+More.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7B51F1361640012950A /* SPPlayer+More.m */; };
 		2DD6645E1FD57D83000E7223 /* LCActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B71F1F1361640012950A /* LCActionSheet.m */; };
 		2DD6645F1FD57D83000E7223 /* SPItemPrefab.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7741F1361640012950A /* SPItemPrefab.m */; };
@@ -617,7 +600,6 @@
 		2DD664821FD57D83000E7223 /* SPIAPViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A2A8C1FD056700021FCC9 /* SPIAPViewCtrl.m */; };
 		2DD664841FD57D83000E7223 /* SPItemPlayablesViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 69ECA1BF1FBD8E0500A9DFFC /* SPItemPlayablesViewCtrl.m */; };
 		2DD664851FD57D83000E7223 /* UIToolbar+yg_IBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6A11F1361640012950A /* UIToolbar+yg_IBInspectable.m */; };
-		2DD664861FD57D83000E7223 /* SPItemEntranceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC0F6991F1C624A004DCD3C /* SPItemEntranceVC.m */; };
 		2DD664871FD57D83000E7223 /* SPPlayerAliasesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7BD1F1361640012950A /* SPPlayerAliasesVC.m */; };
 		2DD664881FD57D83000E7223 /* SPWorkshop.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7FD1F1361640012950A /* SPWorkshop.m */; };
 		2DD664891FD57D83000E7223 /* NSString+STRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6811F1361640012950A /* NSString+STRegex.m */; };
@@ -770,12 +752,9 @@
 		440592BD218C57DF0098E3EB /* SPMaxPlusAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6631F1361640012950A /* SPMaxPlusAPI.m */; };
 		440592BE218C57DF0098E3EB /* Config_Archive.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6541F1361640012950A /* Config_Archive.m */; };
 		440592BF218C57DF0098E3EB /* SPPriceChartConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D19E0101F32F22A00747B01 /* SPPriceChartConfig.m */; };
-		440592C0218C57DF0098E3EB /* SPItemListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7A01F1361640012950A /* SPItemListVC.m */; };
 		440592C1218C57DF0098E3EB /* SPWebHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B75E1F1361640012950A /* SPWebHelper.m */; };
 		440592C2218C57DF0098E3EB /* SPDotaEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6954FCDE1F43EC5900DDB5D3 /* SPDotaEvent.m */; };
-		440592C3218C57DF0098E3EB /* SPItemListContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B79E1F1361640012950A /* SPItemListContainer.m */; };
 		440592C4218C57DF0098E3EB /* SPPlayerItemFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF65FB1FCAF2D5006A0081 /* SPPlayerItemFilter.m */; };
-		440592C5218C57DF0098E3EB /* SPDotaEventsViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6954FCE11F4415A200DDB5D3 /* SPDotaEventsViewCtrl.m */; };
 		440592C6218C57DF0098E3EB /* SPLootList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D40220D1F385D830006EFEF /* SPLootList.m */; };
 		440592C7218C57DF0098E3EB /* UIView+BlockGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6B31F1361640012950A /* UIView+BlockGesture.m */; };
 		440592C8218C57DF0098E3EB /* SPGamepediaData.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F631151FBAF4CE00A60EC8 /* SPGamepediaData.m */; };
@@ -784,7 +763,6 @@
 		440592CB218C57DF0098E3EB /* UIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6B51F1361640012950A /* UIView+Hierarchy.m */; };
 		440592CC218C57DF0098E3EB /* YGBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6F61F1361640012950A /* YGBubble.m */; };
 		440592CD218C57DF0098E3EB /* SPWorkshopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B8091F1361640012950A /* SPWorkshopModel.m */; };
-		440592CE218C57DF0098E3EB /* SPItemOffPriceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7A21F1361640012950A /* SPItemOffPriceVC.m */; };
 		440592CF218C57DF0098E3EB /* UIButton+yg_IBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6901F1361640012950A /* UIButton+yg_IBInspectable.m */; };
 		440592D0218C57DF0098E3EB /* UITableViewCell+yg_IBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B69F1F1361640012950A /* UITableViewCell+yg_IBInspectable.m */; };
 		440592D1218C57DF0098E3EB /* DDSegmentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B74A1F1361640012950A /* DDSegmentScrollView.m */; };
@@ -813,7 +791,6 @@
 		440592E9218C57DF0098E3EB /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7411F1361640012950A /* TAPageControl.m */; };
 		440592EA218C57DF0098E3EB /* SPDota2API.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFE1C2E1FC312B300FEDE5C /* SPDota2API.m */; };
 		440592EC218C57DF0098E3EB /* UIActivityIndicatorView+yg_IBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B68E1F1361640012950A /* UIActivityIndicatorView+yg_IBInspectable.m */; };
-		440592ED218C57DF0098E3EB /* SPItemsDetailViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AD9D01F1E63DE00FF3EDF /* SPItemsDetailViewCtrl.m */; };
 		440592EE218C57DF0098E3EB /* SPPlayer+More.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7B51F1361640012950A /* SPPlayer+More.m */; };
 		440592F0218C57DF0098E3EB /* LCActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B71F1F1361640012950A /* LCActionSheet.m */; };
 		440592F1218C57DF0098E3EB /* SPItemPrefab.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7741F1361640012950A /* SPItemPrefab.m */; };
@@ -853,7 +830,6 @@
 		44059314218C57DF0098E3EB /* SPIAPViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A2A8C1FD056700021FCC9 /* SPIAPViewCtrl.m */; };
 		44059316218C57DF0098E3EB /* SPItemPlayablesViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 69ECA1BF1FBD8E0500A9DFFC /* SPItemPlayablesViewCtrl.m */; };
 		44059317218C57DF0098E3EB /* UIToolbar+yg_IBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6A11F1361640012950A /* UIToolbar+yg_IBInspectable.m */; };
-		44059318218C57DF0098E3EB /* SPItemEntranceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC0F6991F1C624A004DCD3C /* SPItemEntranceVC.m */; };
 		44059319218C57DF0098E3EB /* SPPlayerAliasesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7BD1F1361640012950A /* SPPlayerAliasesVC.m */; };
 		4405931A218C57DF0098E3EB /* SPWorkshop.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7FD1F1361640012950A /* SPWorkshop.m */; };
 		4405931B218C57DF0098E3EB /* NSString+STRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6811F1361640012950A /* NSString+STRegex.m */; };
@@ -951,6 +927,14 @@
 		440593BA218FE8980098E3EB /* SPLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440593B8218FE8980098E3EB /* SPLogger.swift */; };
 		440593BB218FE8980098E3EB /* SPLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440593B8218FE8980098E3EB /* SPLogger.swift */; };
 		440593BC218FE8980098E3EB /* SPLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440593B8218FE8980098E3EB /* SPLogger.swift */; };
+		445718B921A52111005E8ABD /* SPItemListContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445718B821A52111005E8ABD /* SPItemListContainer.swift */; };
+		445718BA21A52111005E8ABD /* SPItemListContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445718B821A52111005E8ABD /* SPItemListContainer.swift */; };
+		445718BB21A52111005E8ABD /* SPItemListContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445718B821A52111005E8ABD /* SPItemListContainer.swift */; };
+		445718BC21A52111005E8ABD /* SPItemListContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445718B821A52111005E8ABD /* SPItemListContainer.swift */; };
+		445718BE21A52B8D005E8ABD /* SPItemsDetailViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445718BD21A52B8D005E8ABD /* SPItemsDetailViewCtrl.swift */; };
+		445718BF21A52B8D005E8ABD /* SPItemsDetailViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445718BD21A52B8D005E8ABD /* SPItemsDetailViewCtrl.swift */; };
+		445718C021A52B8D005E8ABD /* SPItemsDetailViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445718BD21A52B8D005E8ABD /* SPItemsDetailViewCtrl.swift */; };
+		445718C121A52B8D005E8ABD /* SPItemsDetailViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445718BD21A52B8D005E8ABD /* SPItemsDetailViewCtrl.swift */; };
 		445ED65F218FF2F6006341CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445ED65E218FF2F6006341CB /* AppDelegate.swift */; };
 		445ED660218FF2F6006341CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445ED65E218FF2F6006341CB /* AppDelegate.swift */; };
 		445ED661218FF2F6006341CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445ED65E218FF2F6006341CB /* AppDelegate.swift */; };
@@ -963,6 +947,62 @@
 		44EC324121A27E3B00FB8D9E /* Vendor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC323F21A27E3B00FB8D9E /* Vendor.swift */; };
 		44EC324221A27E3B00FB8D9E /* Vendor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC323F21A27E3B00FB8D9E /* Vendor.swift */; };
 		44EC324321A27E3B00FB8D9E /* Vendor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC323F21A27E3B00FB8D9E /* Vendor.swift */; };
+		44EC324521A28A7900FB8D9E /* SPItemEntranceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC324421A28A7900FB8D9E /* SPItemEntranceVC.swift */; };
+		44EC324621A28A7900FB8D9E /* SPItemEntranceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC324421A28A7900FB8D9E /* SPItemEntranceVC.swift */; };
+		44EC324721A28A7900FB8D9E /* SPItemEntranceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC324421A28A7900FB8D9E /* SPItemEntranceVC.swift */; };
+		44EC324821A28A7900FB8D9E /* SPItemEntranceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC324421A28A7900FB8D9E /* SPItemEntranceVC.swift */; };
+		44EC324F21A28E1600FB8D9E /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC324E21A28E1600FB8D9E /* Constant.swift */; };
+		44EC325021A28E1600FB8D9E /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC324E21A28E1600FB8D9E /* Constant.swift */; };
+		44EC325121A28E1600FB8D9E /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC324E21A28E1600FB8D9E /* Constant.swift */; };
+		44EC325221A28E1600FB8D9E /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC324E21A28E1600FB8D9E /* Constant.swift */; };
+		44EC325421A29CF600FB8D9E /* Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC325321A29CF600FB8D9E /* Dispatch.swift */; };
+		44EC325521A29CF600FB8D9E /* Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC325321A29CF600FB8D9E /* Dispatch.swift */; };
+		44EC325621A29CF600FB8D9E /* Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC325321A29CF600FB8D9E /* Dispatch.swift */; };
+		44EC325721A29CF600FB8D9E /* Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC325321A29CF600FB8D9E /* Dispatch.swift */; };
+		44EC325921A29F8200FB8D9E /* SPItemEntranceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC325821A29F8200FB8D9E /* SPItemEntranceCell.swift */; };
+		44EC325A21A29F8200FB8D9E /* SPItemEntranceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC325821A29F8200FB8D9E /* SPItemEntranceCell.swift */; };
+		44EC325B21A29F8200FB8D9E /* SPItemEntranceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC325821A29F8200FB8D9E /* SPItemEntranceCell.swift */; };
+		44EC325C21A29F8200FB8D9E /* SPItemEntranceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC325821A29F8200FB8D9E /* SPItemEntranceCell.swift */; };
+		44EC326221A2A30D00FB8D9E /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC326121A2A30C00FB8D9E /* R.generated.swift */; };
+		44EC326321A2A30D00FB8D9E /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC326121A2A30C00FB8D9E /* R.generated.swift */; };
+		44EC326421A2A30D00FB8D9E /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC326121A2A30C00FB8D9E /* R.generated.swift */; };
+		44EC326521A2A30D00FB8D9E /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC326121A2A30C00FB8D9E /* R.generated.swift */; };
+		44EC326721A2A63B00FB8D9E /* StoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC326621A2A63B00FB8D9E /* StoryboardExtension.swift */; };
+		44EC326821A2A63B00FB8D9E /* StoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC326621A2A63B00FB8D9E /* StoryboardExtension.swift */; };
+		44EC326921A2A63B00FB8D9E /* StoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC326621A2A63B00FB8D9E /* StoryboardExtension.swift */; };
+		44EC326A21A2A63B00FB8D9E /* StoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC326621A2A63B00FB8D9E /* StoryboardExtension.swift */; };
+		44EC326F21A2A66800FB8D9E /* Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC326C21A2A66700FB8D9E /* Safe.swift */; };
+		44EC327021A2A66800FB8D9E /* Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC326C21A2A66700FB8D9E /* Safe.swift */; };
+		44EC327121A2A66800FB8D9E /* Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC326C21A2A66700FB8D9E /* Safe.swift */; };
+		44EC327221A2A66800FB8D9E /* Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC326C21A2A66700FB8D9E /* Safe.swift */; };
+		44EC327321A2A66800FB8D9E /* SafeCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EC326D21A2A66700FB8D9E /* SafeCode.m */; };
+		44EC327421A2A66800FB8D9E /* SafeCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EC326D21A2A66700FB8D9E /* SafeCode.m */; };
+		44EC327521A2A66800FB8D9E /* SafeCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EC326D21A2A66700FB8D9E /* SafeCode.m */; };
+		44EC327621A2A66800FB8D9E /* SafeCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EC326D21A2A66700FB8D9E /* SafeCode.m */; };
+		44EC327721A2A66800FB8D9E /* Func.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC326E21A2A66700FB8D9E /* Func.swift */; };
+		44EC327821A2A66800FB8D9E /* Func.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC326E21A2A66700FB8D9E /* Func.swift */; };
+		44EC327921A2A66800FB8D9E /* Func.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC326E21A2A66700FB8D9E /* Func.swift */; };
+		44EC327A21A2A66800FB8D9E /* Func.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC326E21A2A66700FB8D9E /* Func.swift */; };
+		44EC327C21A2A87D00FB8D9E /* SPItemOffPriceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC327B21A2A87D00FB8D9E /* SPItemOffPriceVC.swift */; };
+		44EC327D21A2A87D00FB8D9E /* SPItemOffPriceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC327B21A2A87D00FB8D9E /* SPItemOffPriceVC.swift */; };
+		44EC327E21A2A87D00FB8D9E /* SPItemOffPriceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC327B21A2A87D00FB8D9E /* SPItemOffPriceVC.swift */; };
+		44EC327F21A2A87D00FB8D9E /* SPItemOffPriceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC327B21A2A87D00FB8D9E /* SPItemOffPriceVC.swift */; };
+		44EC328221A2A93400FB8D9E /* UIView+Hidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC328021A2A93300FB8D9E /* UIView+Hidden.swift */; };
+		44EC328321A2A93400FB8D9E /* UIView+Hidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC328021A2A93300FB8D9E /* UIView+Hidden.swift */; };
+		44EC328421A2A93400FB8D9E /* UIView+Hidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC328021A2A93300FB8D9E /* UIView+Hidden.swift */; };
+		44EC328521A2A93400FB8D9E /* UIView+Hidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC328021A2A93300FB8D9E /* UIView+Hidden.swift */; };
+		44EC328621A2A93400FB8D9E /* UIView+VFL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC328121A2A93300FB8D9E /* UIView+VFL.swift */; };
+		44EC328721A2A93400FB8D9E /* UIView+VFL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC328121A2A93300FB8D9E /* UIView+VFL.swift */; };
+		44EC328821A2A93400FB8D9E /* UIView+VFL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC328121A2A93300FB8D9E /* UIView+VFL.swift */; };
+		44EC328921A2A93400FB8D9E /* UIView+VFL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC328121A2A93300FB8D9E /* UIView+VFL.swift */; };
+		44EC328B21A2AA3C00FB8D9E /* SPDotaEventsViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC328A21A2AA3C00FB8D9E /* SPDotaEventsViewCtrl.swift */; };
+		44EC328C21A2AA3C00FB8D9E /* SPDotaEventsViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC328A21A2AA3C00FB8D9E /* SPDotaEventsViewCtrl.swift */; };
+		44EC328D21A2AA3C00FB8D9E /* SPDotaEventsViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC328A21A2AA3C00FB8D9E /* SPDotaEventsViewCtrl.swift */; };
+		44EC328E21A2AA3C00FB8D9E /* SPDotaEventsViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC328A21A2AA3C00FB8D9E /* SPDotaEventsViewCtrl.swift */; };
+		44EC329021A2AC0700FB8D9E /* SPItemListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC328F21A2AC0700FB8D9E /* SPItemListVC.swift */; };
+		44EC329121A2AC0700FB8D9E /* SPItemListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC328F21A2AC0700FB8D9E /* SPItemListVC.swift */; };
+		44EC329221A2AC0700FB8D9E /* SPItemListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC328F21A2AC0700FB8D9E /* SPItemListVC.swift */; };
+		44EC329321A2AC0700FB8D9E /* SPItemListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC328F21A2AC0700FB8D9E /* SPItemListVC.swift */; };
 		509EB8232CD63253DA275439 /* Pods_SPOldPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8D8F94012FA3FC8D5FF4098 /* Pods_SPOldPro.framework */; };
 		71F90BEEF2B01147706ABEE2 /* Pods_SPOld.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C1FD4EBE1C48CE933E0710 /* Pods_SPOld.framework */; };
 /* End PBXBuildFile section */
@@ -1017,8 +1057,6 @@
 		2D37AAB61FAEF5CC0043DDD4 /* SPItemMoreItemsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPItemMoreItemsView.m; sourceTree = "<group>"; };
 		2D40220C1F385D830006EFEF /* SPLootList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPLootList.h; sourceTree = "<group>"; };
 		2D40220D1F385D830006EFEF /* SPLootList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPLootList.m; sourceTree = "<group>"; };
-		2D4AD9CF1F1E63DE00FF3EDF /* SPItemsDetailViewCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPItemsDetailViewCtrl.h; sourceTree = "<group>"; };
-		2D4AD9D01F1E63DE00FF3EDF /* SPItemsDetailViewCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPItemsDetailViewCtrl.m; sourceTree = "<group>"; };
 		2D4B5C741F2198CF00A3D8C9 /* SPItemStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPItemStyle.h; sourceTree = "<group>"; };
 		2D4B5C751F2198CF00A3D8C9 /* SPItemStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPItemStyle.m; sourceTree = "<group>"; };
 		2D4B5C7A1F27B1F900A3D8C9 /* SPMarketItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPMarketItem.h; sourceTree = "<group>"; };
@@ -1076,8 +1114,6 @@
 		2DC0F6931F1B9C90004DCD3C /* SPItemHeroListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPItemHeroListVC.h; sourceTree = "<group>"; };
 		2DC0F6941F1B9C90004DCD3C /* SPItemHeroListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPItemHeroListVC.m; sourceTree = "<group>"; };
 		2DC0F6961F1C5F82004DCD3C /* SPItem.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SPItem.storyboard; sourceTree = "<group>"; };
-		2DC0F6981F1C624A004DCD3C /* SPItemEntranceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPItemEntranceVC.h; sourceTree = "<group>"; };
-		2DC0F6991F1C624A004DCD3C /* SPItemEntranceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPItemEntranceVC.m; sourceTree = "<group>"; };
 		2DC0F69B1F1C6254004DCD3C /* SPItemEntranceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPItemEntranceCell.h; sourceTree = "<group>"; };
 		2DC0F69C1F1C6254004DCD3C /* SPItemEntranceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPItemEntranceCell.m; sourceTree = "<group>"; };
 		2DC0F69F1F1C625D004DCD3C /* SPItemCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPItemCommon.h; sourceTree = "<group>"; };
@@ -1303,12 +1339,6 @@
 		2DF9B7901F1361640012950A /* SPItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPItemCell.m; sourceTree = "<group>"; };
 		2DF9B7961F1361640012950A /* SPItemQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPItemQuery.h; sourceTree = "<group>"; };
 		2DF9B7971F1361640012950A /* SPItemQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPItemQuery.m; sourceTree = "<group>"; };
-		2DF9B79D1F1361640012950A /* SPItemListContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPItemListContainer.h; sourceTree = "<group>"; };
-		2DF9B79E1F1361640012950A /* SPItemListContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPItemListContainer.m; sourceTree = "<group>"; };
-		2DF9B79F1F1361640012950A /* SPItemListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPItemListVC.h; sourceTree = "<group>"; };
-		2DF9B7A01F1361640012950A /* SPItemListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPItemListVC.m; sourceTree = "<group>"; };
-		2DF9B7A11F1361640012950A /* SPItemOffPriceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPItemOffPriceVC.h; sourceTree = "<group>"; };
-		2DF9B7A21F1361640012950A /* SPItemOffPriceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPItemOffPriceVC.m; sourceTree = "<group>"; };
 		2DF9B7A91F1361640012950A /* DDMainADVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMainADVC.h; sourceTree = "<group>"; };
 		2DF9B7AA1F1361640012950A /* DDMainADVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMainADVC.m; sourceTree = "<group>"; };
 		2DF9B7AB1F1361640012950A /* DDMainTBC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMainTBC.h; sourceTree = "<group>"; };
@@ -1422,10 +1452,27 @@
 		440593AD218F014C0098E3EB /* AppDelegate+TAC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+TAC.swift"; sourceTree = "<group>"; };
 		440593B8218FE8980098E3EB /* SPLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPLogger.swift; sourceTree = "<group>"; };
 		440593BD218FEA630098E3EB /* SPSwift-ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SPSwift-ObjC.h"; sourceTree = "<group>"; };
+		445718B821A52111005E8ABD /* SPItemListContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPItemListContainer.swift; sourceTree = "<group>"; };
+		445718BD21A52B8D005E8ABD /* SPItemsDetailViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPItemsDetailViewCtrl.swift; sourceTree = "<group>"; };
 		445ED65E218FF2F6006341CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		445ED663218FFAEC006341CB /* SPObjC-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SPObjC-Swift.h"; sourceTree = "<group>"; };
 		4472CC73219407D000FC0B1F /* SPSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPSwift.swift; sourceTree = "<group>"; };
 		44EC323F21A27E3B00FB8D9E /* Vendor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vendor.swift; sourceTree = "<group>"; };
+		44EC324421A28A7900FB8D9E /* SPItemEntranceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPItemEntranceVC.swift; sourceTree = "<group>"; };
+		44EC324E21A28E1600FB8D9E /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		44EC325321A29CF600FB8D9E /* Dispatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dispatch.swift; sourceTree = "<group>"; };
+		44EC325821A29F8200FB8D9E /* SPItemEntranceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPItemEntranceCell.swift; sourceTree = "<group>"; };
+		44EC326121A2A30C00FB8D9E /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		44EC326621A2A63B00FB8D9E /* StoryboardExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardExtension.swift; sourceTree = "<group>"; };
+		44EC326B21A2A66700FB8D9E /* SafeCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeCode.h; sourceTree = "<group>"; };
+		44EC326C21A2A66700FB8D9E /* Safe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Safe.swift; sourceTree = "<group>"; };
+		44EC326D21A2A66700FB8D9E /* SafeCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafeCode.m; sourceTree = "<group>"; };
+		44EC326E21A2A66700FB8D9E /* Func.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Func.swift; sourceTree = "<group>"; };
+		44EC327B21A2A87D00FB8D9E /* SPItemOffPriceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPItemOffPriceVC.swift; sourceTree = "<group>"; };
+		44EC328021A2A93300FB8D9E /* UIView+Hidden.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Hidden.swift"; sourceTree = "<group>"; };
+		44EC328121A2A93300FB8D9E /* UIView+VFL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+VFL.swift"; sourceTree = "<group>"; };
+		44EC328A21A2AA3C00FB8D9E /* SPDotaEventsViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPDotaEventsViewCtrl.swift; sourceTree = "<group>"; };
+		44EC328F21A2AC0700FB8D9E /* SPItemListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPItemListVC.swift; sourceTree = "<group>"; };
 		690BD50B1FA71524007A4D5D /* SPGamepediaAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPGamepediaAPI.h; sourceTree = "<group>"; };
 		690BD50C1FA71524007A4D5D /* SPGamepediaAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPGamepediaAPI.m; sourceTree = "<group>"; };
 		690BD50E1FA71666007A4D5D /* SPGamepediaSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPGamepediaSerializer.h; sourceTree = "<group>"; };
@@ -1462,8 +1509,6 @@
 		695261EB1FC7EE8400F3C22B /* SPPlayerItemSharedData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPPlayerItemSharedData.m; sourceTree = "<group>"; };
 		6954FCDD1F43EC5900DDB5D3 /* SPDotaEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDotaEvent.h; sourceTree = "<group>"; };
 		6954FCDE1F43EC5900DDB5D3 /* SPDotaEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDotaEvent.m; sourceTree = "<group>"; };
-		6954FCE01F4415A200DDB5D3 /* SPDotaEventsViewCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDotaEventsViewCtrl.h; sourceTree = "<group>"; };
-		6954FCE11F4415A200DDB5D3 /* SPDotaEventsViewCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDotaEventsViewCtrl.m; sourceTree = "<group>"; };
 		69819CC01FB99C4F00977873 /* SPItemBannerImageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPItemBannerImageCell.h; sourceTree = "<group>"; };
 		69819CC11FB99C4F00977873 /* SPItemBannerImageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPItemBannerImageCell.m; sourceTree = "<group>"; };
 		6990743E1F3D902C00B64030 /* SPMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPMemoryCache.h; sourceTree = "<group>"; };
@@ -1666,6 +1711,7 @@
 				445ED663218FFAEC006341CB /* SPObjC-Swift.h */,
 				440593BD218FEA630098E3EB /* SPSwift-ObjC.h */,
 				4472CC73219407D000FC0B1F /* SPSwift.swift */,
+				44EC326121A2A30C00FB8D9E /* R.generated.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -1846,6 +1892,15 @@
 				2DF9B6531F1361640012950A /* Config_Archive.h */,
 				2DF9B6541F1361640012950A /* Config_Archive.m */,
 				44EC323F21A27E3B00FB8D9E /* Vendor.swift */,
+				44EC324E21A28E1600FB8D9E /* Constant.swift */,
+				44EC325321A29CF600FB8D9E /* Dispatch.swift */,
+				44EC326621A2A63B00FB8D9E /* StoryboardExtension.swift */,
+				44EC326E21A2A66700FB8D9E /* Func.swift */,
+				44EC326C21A2A66700FB8D9E /* Safe.swift */,
+				44EC326B21A2A66700FB8D9E /* SafeCode.h */,
+				44EC326D21A2A66700FB8D9E /* SafeCode.m */,
+				44EC328021A2A93300FB8D9E /* UIView+Hidden.swift */,
+				44EC328121A2A93300FB8D9E /* UIView+VFL.swift */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -2379,6 +2434,7 @@
 				69819CC11FB99C4F00977873 /* SPItemBannerImageCell.m */,
 				693062C91FBC3883005987A1 /* SPItemPlayableCell.h */,
 				693062CA1FBC3883005987A1 /* SPItemPlayableCell.m */,
+				44EC325821A29F8200FB8D9E /* SPItemEntranceCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -2411,18 +2467,12 @@
 		2DF9B7981F1361640012950A /* Ctrls */ = {
 			isa = PBXGroup;
 			children = (
-				2DC0F6981F1C624A004DCD3C /* SPItemEntranceVC.h */,
-				2DC0F6991F1C624A004DCD3C /* SPItemEntranceVC.m */,
-				2DF9B7A11F1361640012950A /* SPItemOffPriceVC.h */,
-				2DF9B7A21F1361640012950A /* SPItemOffPriceVC.m */,
-				6954FCE01F4415A200DDB5D3 /* SPDotaEventsViewCtrl.h */,
-				6954FCE11F4415A200DDB5D3 /* SPDotaEventsViewCtrl.m */,
-				2DF9B79F1F1361640012950A /* SPItemListVC.h */,
-				2DF9B7A01F1361640012950A /* SPItemListVC.m */,
-				2DF9B79D1F1361640012950A /* SPItemListContainer.h */,
-				2DF9B79E1F1361640012950A /* SPItemListContainer.m */,
-				2D4AD9CF1F1E63DE00FF3EDF /* SPItemsDetailViewCtrl.h */,
-				2D4AD9D01F1E63DE00FF3EDF /* SPItemsDetailViewCtrl.m */,
+				44EC324421A28A7900FB8D9E /* SPItemEntranceVC.swift */,
+				44EC327B21A2A87D00FB8D9E /* SPItemOffPriceVC.swift */,
+				44EC328A21A2AA3C00FB8D9E /* SPDotaEventsViewCtrl.swift */,
+				44EC328F21A2AC0700FB8D9E /* SPItemListVC.swift */,
+				445718B821A52111005E8ABD /* SPItemListContainer.swift */,
+				445718BD21A52B8D005E8ABD /* SPItemsDetailViewCtrl.swift */,
 				690BD5171FA841A1007A4D5D /* SPItemViewCtrl.h */,
 				690BD5181FA841A1007A4D5D /* SPItemViewCtrl.m */,
 				2D0BD6F91FB343C700A5DD99 /* SPItemSteamPricesViewCtrl.h */,
@@ -2949,6 +2999,7 @@
 			buildPhases = (
 				2D8080F31FD5B92500078A50 /* [CP] Check Pods Manifest.lock */,
 				F8430D693D99408471FB522D /* [TAC] Run Before Script */,
+				44EC325D21A2A0C700FB8D9E /* R.swift */,
 				2D8080F41FD5B92500078A50 /* Sources */,
 				2D8081D51FD5B92500078A50 /* Frameworks */,
 				2D8081DF1FD5B92500078A50 /* Resources */,
@@ -2970,6 +3021,7 @@
 			buildPhases = (
 				BCD09C5C57D397B837F01509 /* [CP] Check Pods Manifest.lock */,
 				604EDEE8349F45A498D8D27C /* [TAC] Run Before Script */,
+				44EC325F21A2A10300FB8D9E /* R.swift */,
 				2DD662DB1FD57D62000E7223 /* Sources */,
 				2DD663BC1FD57D62000E7223 /* Frameworks */,
 				2DD663C81FD57D62000E7223 /* Resources */,
@@ -2991,6 +3043,7 @@
 			buildPhases = (
 				2DD663E31FD57D83000E7223 /* [CP] Check Pods Manifest.lock */,
 				239BA3944F25A7112D720DC7 /* [TAC] Run Before Script */,
+				44EC326021A2A10F00FB8D9E /* R.swift */,
 				2DD663E41FD57D83000E7223 /* Sources */,
 				2DD664C51FD57D83000E7223 /* Frameworks */,
 				2DD664D11FD57D83000E7223 /* Resources */,
@@ -3012,6 +3065,7 @@
 			buildPhases = (
 				44059273218C57DF0098E3EB /* [CP] Check Pods Manifest.lock */,
 				44059274218C57DF0098E3EB /* [TAC] Run Before Script */,
+				44EC325E21A2A0ED00FB8D9E /* R.swift */,
 				44059275218C57DF0098E3EB /* Sources */,
 				44059355218C57DF0098E3EB /* Frameworks */,
 				4405935E218C57DF0098E3EB /* Resources */,
@@ -3263,6 +3317,7 @@
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/MXParallaxHeader/MXParallaxHeader.framework",
 				"${BUILT_PRODUCTS_DIR}/PinYin4Objc/PinYin4Objc.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
 				"${BUILT_PRODUCTS_DIR}/SAMKeychain/SAMKeychain.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
@@ -3304,6 +3359,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MXParallaxHeader.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PinYin4Objc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAMKeychain.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
@@ -3445,6 +3501,7 @@
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/MXParallaxHeader/MXParallaxHeader.framework",
 				"${BUILT_PRODUCTS_DIR}/PinYin4Objc/PinYin4Objc.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
 				"${BUILT_PRODUCTS_DIR}/SAMKeychain/SAMKeychain.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
@@ -3486,6 +3543,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MXParallaxHeader.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PinYin4Objc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAMKeychain.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
@@ -3522,6 +3580,78 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\n            if [ -f \"${SRCROOT}/Pods/TACCore/Scripts/tac.run.all.after.sh\" ]; then\n                bash \"${SRCROOT}/Pods/TACCore/Scripts/tac.run.all.after.sh\"\n                fi\n                ";
+		};
+		44EC325D21A2A0C700FB8D9E /* R.swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = R.swift;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/${PROJECT_NAME}\"\n";
+		};
+		44EC325E21A2A0ED00FB8D9E /* R.swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = R.swift;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/${PROJECT_NAME}\"\n";
+		};
+		44EC325F21A2A10300FB8D9E /* R.swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = R.swift;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/${PROJECT_NAME}\"\n";
+		};
+		44EC326021A2A10F00FB8D9E /* R.swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = R.swift;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/${PROJECT_NAME}\"\n\n";
 		};
 		4A875B2FB451B051607B675B /* [TAC] Run After Script */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -3591,6 +3721,7 @@
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/MXParallaxHeader/MXParallaxHeader.framework",
 				"${BUILT_PRODUCTS_DIR}/PinYin4Objc/PinYin4Objc.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
 				"${BUILT_PRODUCTS_DIR}/SAMKeychain/SAMKeychain.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
@@ -3632,6 +3763,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MXParallaxHeader.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PinYin4Objc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAMKeychain.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
@@ -3737,6 +3869,7 @@
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/MXParallaxHeader/MXParallaxHeader.framework",
 				"${BUILT_PRODUCTS_DIR}/PinYin4Objc/PinYin4Objc.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
 				"${BUILT_PRODUCTS_DIR}/SAMKeychain/SAMKeychain.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
@@ -3778,6 +3911,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MXParallaxHeader.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PinYin4Objc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAMKeychain.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
@@ -3866,11 +4000,15 @@
 				2D80811F1FD5B92500078A50 /* SPItemColor.m in Sources */,
 				2D8081201FD5B92500078A50 /* DDWebInspector.m in Sources */,
 				2D8081211FD5B92500078A50 /* SPPlayerCell.m in Sources */,
+				44EC324721A28A7900FB8D9E /* SPItemEntranceVC.swift in Sources */,
+				44EC327921A2A66800FB8D9E /* Func.swift in Sources */,
 				2D8081221FD5B92500078A50 /* SPItemEntranceConfig.m in Sources */,
+				44EC326921A2A63B00FB8D9E /* StoryboardExtension.swift in Sources */,
 				2D8081231FD5B92500078A50 /* SPConfigManager.m in Sources */,
 				2D8081241FD5B92500078A50 /* SPPlayerManager.m in Sources */,
 				2D8081261FD5B92500078A50 /* SPBaseData.m in Sources */,
 				2D8081271FD5B92500078A50 /* SPItemSearchOption.m in Sources */,
+				44EC329221A2AC0700FB8D9E /* SPItemListVC.swift in Sources */,
 				2D8081281FD5B92500078A50 /* SPWorkshopVC.m in Sources */,
 				2D8081291FD5B92500078A50 /* SPFilterGroup.m in Sources */,
 				2D80812A1FD5B92500078A50 /* YGCoreLocationHelper.m in Sources */,
@@ -3891,28 +4029,28 @@
 				2D80813A1FD5B92500078A50 /* SPMaxPlusAPI.m in Sources */,
 				2D80813B1FD5B92500078A50 /* Config_Archive.m in Sources */,
 				2D80813C1FD5B92500078A50 /* SPPriceChartConfig.m in Sources */,
-				2D80813D1FD5B92500078A50 /* SPItemListVC.m in Sources */,
 				2D80813E1FD5B92500078A50 /* SPWebHelper.m in Sources */,
 				2D80813F1FD5B92500078A50 /* SPDotaEvent.m in Sources */,
-				2D8081401FD5B92500078A50 /* SPItemListContainer.m in Sources */,
 				2D8081411FD5B92500078A50 /* SPPlayerItemFilter.m in Sources */,
-				2D8081421FD5B92500078A50 /* SPDotaEventsViewCtrl.m in Sources */,
 				2D8081431FD5B92500078A50 /* SPLootList.m in Sources */,
+				44EC325121A28E1600FB8D9E /* Constant.swift in Sources */,
 				2D8081441FD5B92500078A50 /* UIView+BlockGesture.m in Sources */,
 				2D8081451FD5B92500078A50 /* SPGamepediaData.m in Sources */,
 				2D8081461FD5B92500078A50 /* UINavigationBar+yg_IBInspectable.m in Sources */,
+				44EC325621A29CF600FB8D9E /* Dispatch.swift in Sources */,
 				2D8081471FD5B92500078A50 /* SPItemImageLoader.m in Sources */,
 				2D8081491FD5B92500078A50 /* UIView+Hierarchy.m in Sources */,
 				44EC324221A27E3B00FB8D9E /* Vendor.swift in Sources */,
 				2D80814A1FD5B92500078A50 /* YGBubble.m in Sources */,
+				44EC327E21A2A87D00FB8D9E /* SPItemOffPriceVC.swift in Sources */,
 				2D80814B1FD5B92500078A50 /* SPWorkshopModel.m in Sources */,
-				2D80814C1FD5B92500078A50 /* SPItemOffPriceVC.m in Sources */,
 				2D80814D1FD5B92500078A50 /* UIButton+yg_IBInspectable.m in Sources */,
 				2D80814E1FD5B92500078A50 /* UITableViewCell+yg_IBInspectable.m in Sources */,
 				2D80814F1FD5B92500078A50 /* DDSegmentScrollView.m in Sources */,
 				2D8081501FD5B92500078A50 /* CDTAlertAction.m in Sources */,
 				2D8081511FD5B92500078A50 /* SPItemCellModel.m in Sources */,
 				2D8081521FD5B92500078A50 /* UINavigationController+Convenience.m in Sources */,
+				445718C021A52B8D005E8ABD /* SPItemsDetailViewCtrl.swift in Sources */,
 				2D8081531FD5B92500078A50 /* SPWorkshopResourcesVC.m in Sources */,
 				2D8081541FD5B92500078A50 /* SPFilterViewCtrl.m in Sources */,
 				2D8081551FD5B92500078A50 /* DDProgressHUD.m in Sources */,
@@ -3922,9 +4060,11 @@
 				2D8081591FD5B92500078A50 /* SPSearchCell.m in Sources */,
 				2D80815A1FD5B92500078A50 /* SPSearchEngine.m in Sources */,
 				2D80815B1FD5B92500078A50 /* SPItemSearchOptionViewCtrl.m in Sources */,
+				44EC325B21A29F8200FB8D9E /* SPItemEntranceCell.swift in Sources */,
 				2D80815C1FD5B92500078A50 /* SPItemPlayableCell.m in Sources */,
 				2D80815D1FD5B92500078A50 /* SDCollectionViewCell.m in Sources */,
 				2D80815E1FD5B92500078A50 /* SPItemHeroListVC.m in Sources */,
+				44EC326421A2A30D00FB8D9E /* R.generated.swift in Sources */,
 				2D80815F1FD5B92500078A50 /* SPIAPCell.m in Sources */,
 				2D8081601FD5B92500078A50 /* BingoBarItemView.m in Sources */,
 				2D8081621FD5B92500078A50 /* NSObject+KVCExceptionCatch.m in Sources */,
@@ -3935,7 +4075,6 @@
 				2D8081671FD5B92500078A50 /* TAPageControl.m in Sources */,
 				2D8081681FD5B92500078A50 /* SPDota2API.m in Sources */,
 				2D80816A1FD5B92500078A50 /* UIActivityIndicatorView+yg_IBInspectable.m in Sources */,
-				2D80816B1FD5B92500078A50 /* SPItemsDetailViewCtrl.m in Sources */,
 				2D80816C1FD5B92500078A50 /* SPPlayer+More.m in Sources */,
 				2D80816E1FD5B92500078A50 /* LCActionSheet.m in Sources */,
 				2D80816F1FD5B92500078A50 /* SPItemPrefab.m in Sources */,
@@ -3948,6 +4087,8 @@
 				2D8081761FD5B92500078A50 /* SDCycleScrollView.m in Sources */,
 				2D8081771FD5B92500078A50 /* UITabBar+yg_IBInspectable.m in Sources */,
 				2D8081781FD5B92500078A50 /* BingoBarItem.m in Sources */,
+				44EC328D21A2AA3C00FB8D9E /* SPDotaEventsViewCtrl.swift in Sources */,
+				44EC328421A2A93400FB8D9E /* UIView+Hidden.swift in Sources */,
 				2D8081791FD5B92500078A50 /* SPPriceChartViewCtrl.m in Sources */,
 				2D80817A1FD5B92500078A50 /* UIView+SDExtension.m in Sources */,
 				2D80817B1FD5B92500078A50 /* UIView+Animation.m in Sources */,
@@ -3976,11 +4117,11 @@
 				2D8081921FD5B92500078A50 /* SPIAPViewCtrl.m in Sources */,
 				2D8081941FD5B92500078A50 /* SPItemPlayablesViewCtrl.m in Sources */,
 				2D8081951FD5B92500078A50 /* UIToolbar+yg_IBInspectable.m in Sources */,
-				2D8081961FD5B92500078A50 /* SPItemEntranceVC.m in Sources */,
 				2D8081971FD5B92500078A50 /* SPPlayerAliasesVC.m in Sources */,
 				2D8081981FD5B92500078A50 /* SPWorkshop.m in Sources */,
 				2D8081991FD5B92500078A50 /* NSString+STRegex.m in Sources */,
 				2D80819A1FD5B92500078A50 /* SPItemMoreItemsView.m in Sources */,
+				445718BB21A52111005E8ABD /* SPItemListContainer.swift in Sources */,
 				2D80819C1FD5B92500078A50 /* SPHistoryManager.m in Sources */,
 				2D80819D1FD5B92500078A50 /* DDMainTBC.m in Sources */,
 				2D80819E1FD5B92500078A50 /* DDViewModel.m in Sources */,
@@ -4004,6 +4145,7 @@
 				2D8081AF1FD5B92500078A50 /* SPSettingOptionsViewCtrl.m in Sources */,
 				2D8081B01FD5B92500078A50 /* TADotView.m in Sources */,
 				2D8081B11FD5B92500078A50 /* SPPlayerInventoryVC.m in Sources */,
+				44EC327121A2A66800FB8D9E /* Safe.swift in Sources */,
 				2D8081B31FD5B92500078A50 /* SPSearchBar.m in Sources */,
 				2D8081B71FD5B92500078A50 /* SPWorkshopResourceCell.m in Sources */,
 				2D8081B81FD5B92500078A50 /* SPItemQuality.m in Sources */,
@@ -4016,6 +4158,7 @@
 				2D8081BF1FD5B92500078A50 /* YGBubbleView.m in Sources */,
 				2D8081C01FD5B92500078A50 /* SPItemSaleView.m in Sources */,
 				2D8081C11FD5B92500078A50 /* SPHero.m in Sources */,
+				44EC327521A2A66800FB8D9E /* SafeCode.m in Sources */,
 				2D8081C21FD5B92500078A50 /* UIButton+Event.m in Sources */,
 				2D8081C31FD5B92500078A50 /* SPPlayerItemSharedData.m in Sources */,
 				440593B0218F014C0098E3EB /* AppDelegate+TAC.swift in Sources */,
@@ -4027,6 +4170,7 @@
 				2D8081C91FD5B92500078A50 /* SPPlayerListVC.m in Sources */,
 				2D8081CA1FD5B92500078A50 /* SPItemLoadingView.m in Sources */,
 				2D8081CB1FD5B92500078A50 /* YGBaseNaviCtrl.m in Sources */,
+				44EC328821A2A93400FB8D9E /* UIView+VFL.swift in Sources */,
 				2D8081CC1FD5B92500078A50 /* SPSteamAPI.m in Sources */,
 				2D8081CD1FD5B92500078A50 /* UIView+YGGeometry.m in Sources */,
 				2D8081CF1FD5B92500078A50 /* SPPlayerDetailInfoVC.m in Sources */,
@@ -4086,11 +4230,15 @@
 				2DD663061FD57D62000E7223 /* SPItemColor.m in Sources */,
 				2DD663071FD57D62000E7223 /* DDWebInspector.m in Sources */,
 				2DD663081FD57D62000E7223 /* SPPlayerCell.m in Sources */,
+				44EC324621A28A7900FB8D9E /* SPItemEntranceVC.swift in Sources */,
+				44EC327821A2A66800FB8D9E /* Func.swift in Sources */,
 				2DD663091FD57D62000E7223 /* SPItemEntranceConfig.m in Sources */,
+				44EC326821A2A63B00FB8D9E /* StoryboardExtension.swift in Sources */,
 				2DD6630A1FD57D62000E7223 /* SPConfigManager.m in Sources */,
 				2DD6630B1FD57D62000E7223 /* SPPlayerManager.m in Sources */,
 				2DD6630D1FD57D62000E7223 /* SPBaseData.m in Sources */,
 				2DD6630E1FD57D62000E7223 /* SPItemSearchOption.m in Sources */,
+				44EC329121A2AC0700FB8D9E /* SPItemListVC.swift in Sources */,
 				2DD6630F1FD57D62000E7223 /* SPWorkshopVC.m in Sources */,
 				2DD663101FD57D62000E7223 /* SPFilterGroup.m in Sources */,
 				2DD663111FD57D62000E7223 /* YGCoreLocationHelper.m in Sources */,
@@ -4111,28 +4259,28 @@
 				2DD663211FD57D62000E7223 /* SPMaxPlusAPI.m in Sources */,
 				2DD663221FD57D62000E7223 /* Config_Archive.m in Sources */,
 				2DD663231FD57D62000E7223 /* SPPriceChartConfig.m in Sources */,
-				2DD663241FD57D62000E7223 /* SPItemListVC.m in Sources */,
 				2DD663251FD57D62000E7223 /* SPWebHelper.m in Sources */,
 				2DD663261FD57D62000E7223 /* SPDotaEvent.m in Sources */,
-				2DD663271FD57D62000E7223 /* SPItemListContainer.m in Sources */,
 				2DD663281FD57D62000E7223 /* SPPlayerItemFilter.m in Sources */,
-				2DD663291FD57D62000E7223 /* SPDotaEventsViewCtrl.m in Sources */,
 				2DD6632A1FD57D62000E7223 /* SPLootList.m in Sources */,
+				44EC325021A28E1600FB8D9E /* Constant.swift in Sources */,
 				2DD6632B1FD57D62000E7223 /* UIView+BlockGesture.m in Sources */,
 				2DD6632C1FD57D62000E7223 /* SPGamepediaData.m in Sources */,
 				2DD6632D1FD57D62000E7223 /* UINavigationBar+yg_IBInspectable.m in Sources */,
+				44EC325521A29CF600FB8D9E /* Dispatch.swift in Sources */,
 				2DD6632E1FD57D62000E7223 /* SPItemImageLoader.m in Sources */,
 				2DD663301FD57D62000E7223 /* UIView+Hierarchy.m in Sources */,
 				44EC324121A27E3B00FB8D9E /* Vendor.swift in Sources */,
 				2DD663311FD57D62000E7223 /* YGBubble.m in Sources */,
+				44EC327D21A2A87D00FB8D9E /* SPItemOffPriceVC.swift in Sources */,
 				2DD663321FD57D62000E7223 /* SPWorkshopModel.m in Sources */,
-				2DD663331FD57D62000E7223 /* SPItemOffPriceVC.m in Sources */,
 				2DD663341FD57D62000E7223 /* UIButton+yg_IBInspectable.m in Sources */,
 				2DD663351FD57D62000E7223 /* UITableViewCell+yg_IBInspectable.m in Sources */,
 				2DD663361FD57D62000E7223 /* DDSegmentScrollView.m in Sources */,
 				2DD663371FD57D62000E7223 /* CDTAlertAction.m in Sources */,
 				2DD663381FD57D62000E7223 /* SPItemCellModel.m in Sources */,
 				2DD663391FD57D62000E7223 /* UINavigationController+Convenience.m in Sources */,
+				445718BF21A52B8D005E8ABD /* SPItemsDetailViewCtrl.swift in Sources */,
 				2DD6633A1FD57D62000E7223 /* SPWorkshopResourcesVC.m in Sources */,
 				2DD6633B1FD57D62000E7223 /* SPFilterViewCtrl.m in Sources */,
 				2DD6633C1FD57D62000E7223 /* DDProgressHUD.m in Sources */,
@@ -4142,9 +4290,11 @@
 				2DD663401FD57D62000E7223 /* SPSearchCell.m in Sources */,
 				2DD663411FD57D62000E7223 /* SPSearchEngine.m in Sources */,
 				2DD663421FD57D62000E7223 /* SPItemSearchOptionViewCtrl.m in Sources */,
+				44EC325A21A29F8200FB8D9E /* SPItemEntranceCell.swift in Sources */,
 				2DD663431FD57D62000E7223 /* SPItemPlayableCell.m in Sources */,
 				2DD663441FD57D62000E7223 /* SDCollectionViewCell.m in Sources */,
 				2DD663451FD57D62000E7223 /* SPItemHeroListVC.m in Sources */,
+				44EC326321A2A30D00FB8D9E /* R.generated.swift in Sources */,
 				2DD663461FD57D62000E7223 /* SPIAPCell.m in Sources */,
 				2DD663471FD57D62000E7223 /* BingoBarItemView.m in Sources */,
 				2DD663491FD57D62000E7223 /* NSObject+KVCExceptionCatch.m in Sources */,
@@ -4155,7 +4305,6 @@
 				2DD6634E1FD57D62000E7223 /* TAPageControl.m in Sources */,
 				2DD6634F1FD57D62000E7223 /* SPDota2API.m in Sources */,
 				2DD663511FD57D62000E7223 /* UIActivityIndicatorView+yg_IBInspectable.m in Sources */,
-				2DD663521FD57D62000E7223 /* SPItemsDetailViewCtrl.m in Sources */,
 				2DD663531FD57D62000E7223 /* SPPlayer+More.m in Sources */,
 				2DD663551FD57D62000E7223 /* LCActionSheet.m in Sources */,
 				2DD663561FD57D62000E7223 /* SPItemPrefab.m in Sources */,
@@ -4168,6 +4317,8 @@
 				2DD6635D1FD57D62000E7223 /* SDCycleScrollView.m in Sources */,
 				2DD6635E1FD57D62000E7223 /* UITabBar+yg_IBInspectable.m in Sources */,
 				2DD6635F1FD57D62000E7223 /* BingoBarItem.m in Sources */,
+				44EC328C21A2AA3C00FB8D9E /* SPDotaEventsViewCtrl.swift in Sources */,
+				44EC328321A2A93400FB8D9E /* UIView+Hidden.swift in Sources */,
 				2DD663601FD57D62000E7223 /* SPPriceChartViewCtrl.m in Sources */,
 				2DD663611FD57D62000E7223 /* UIView+SDExtension.m in Sources */,
 				2DD663621FD57D62000E7223 /* UIView+Animation.m in Sources */,
@@ -4196,11 +4347,11 @@
 				2DD663791FD57D62000E7223 /* SPIAPViewCtrl.m in Sources */,
 				2DD6637B1FD57D62000E7223 /* SPItemPlayablesViewCtrl.m in Sources */,
 				2DD6637C1FD57D62000E7223 /* UIToolbar+yg_IBInspectable.m in Sources */,
-				2DD6637D1FD57D62000E7223 /* SPItemEntranceVC.m in Sources */,
 				2DD6637E1FD57D62000E7223 /* SPPlayerAliasesVC.m in Sources */,
 				2DD6637F1FD57D62000E7223 /* SPWorkshop.m in Sources */,
 				2DD663801FD57D62000E7223 /* NSString+STRegex.m in Sources */,
 				2DD663811FD57D62000E7223 /* SPItemMoreItemsView.m in Sources */,
+				445718BA21A52111005E8ABD /* SPItemListContainer.swift in Sources */,
 				2DD663831FD57D62000E7223 /* SPHistoryManager.m in Sources */,
 				2DD663841FD57D62000E7223 /* DDMainTBC.m in Sources */,
 				2DD663851FD57D62000E7223 /* DDViewModel.m in Sources */,
@@ -4224,6 +4375,7 @@
 				2DD663961FD57D62000E7223 /* SPSettingOptionsViewCtrl.m in Sources */,
 				2DD663971FD57D62000E7223 /* TADotView.m in Sources */,
 				2DD663981FD57D62000E7223 /* SPPlayerInventoryVC.m in Sources */,
+				44EC327021A2A66800FB8D9E /* Safe.swift in Sources */,
 				2DD6639A1FD57D62000E7223 /* SPSearchBar.m in Sources */,
 				2DD6639E1FD57D62000E7223 /* SPWorkshopResourceCell.m in Sources */,
 				2DD6639F1FD57D62000E7223 /* SPItemQuality.m in Sources */,
@@ -4236,6 +4388,7 @@
 				2DD663A61FD57D62000E7223 /* YGBubbleView.m in Sources */,
 				2DD663A71FD57D62000E7223 /* SPItemSaleView.m in Sources */,
 				2DD663A81FD57D62000E7223 /* SPHero.m in Sources */,
+				44EC327421A2A66800FB8D9E /* SafeCode.m in Sources */,
 				2DD663A91FD57D62000E7223 /* UIButton+Event.m in Sources */,
 				2DD663AA1FD57D62000E7223 /* SPPlayerItemSharedData.m in Sources */,
 				440593AF218F014C0098E3EB /* AppDelegate+TAC.swift in Sources */,
@@ -4247,6 +4400,7 @@
 				2DD663B01FD57D62000E7223 /* SPPlayerListVC.m in Sources */,
 				2DD663B11FD57D62000E7223 /* SPItemLoadingView.m in Sources */,
 				2DD663B21FD57D62000E7223 /* YGBaseNaviCtrl.m in Sources */,
+				44EC328721A2A93400FB8D9E /* UIView+VFL.swift in Sources */,
 				2DD663B31FD57D62000E7223 /* SPSteamAPI.m in Sources */,
 				2DD663B41FD57D62000E7223 /* UIView+YGGeometry.m in Sources */,
 				2DD663B61FD57D62000E7223 /* SPPlayerDetailInfoVC.m in Sources */,
@@ -4306,11 +4460,15 @@
 				2DD6640F1FD57D83000E7223 /* SPItemColor.m in Sources */,
 				2DD664101FD57D83000E7223 /* DDWebInspector.m in Sources */,
 				2DD664111FD57D83000E7223 /* SPPlayerCell.m in Sources */,
+				44EC324521A28A7900FB8D9E /* SPItemEntranceVC.swift in Sources */,
+				44EC327721A2A66800FB8D9E /* Func.swift in Sources */,
 				2DD664121FD57D83000E7223 /* SPItemEntranceConfig.m in Sources */,
+				44EC326721A2A63B00FB8D9E /* StoryboardExtension.swift in Sources */,
 				2DD664131FD57D83000E7223 /* SPConfigManager.m in Sources */,
 				2DD664141FD57D83000E7223 /* SPPlayerManager.m in Sources */,
 				2DD664161FD57D83000E7223 /* SPBaseData.m in Sources */,
 				2DD664171FD57D83000E7223 /* SPItemSearchOption.m in Sources */,
+				44EC329021A2AC0700FB8D9E /* SPItemListVC.swift in Sources */,
 				2DD664181FD57D83000E7223 /* SPWorkshopVC.m in Sources */,
 				2DD664191FD57D83000E7223 /* SPFilterGroup.m in Sources */,
 				2DD6641A1FD57D83000E7223 /* YGCoreLocationHelper.m in Sources */,
@@ -4331,28 +4489,28 @@
 				2DD6642A1FD57D83000E7223 /* SPMaxPlusAPI.m in Sources */,
 				2DD6642B1FD57D83000E7223 /* Config_Archive.m in Sources */,
 				2DD6642C1FD57D83000E7223 /* SPPriceChartConfig.m in Sources */,
-				2DD6642D1FD57D83000E7223 /* SPItemListVC.m in Sources */,
 				2DD6642E1FD57D83000E7223 /* SPWebHelper.m in Sources */,
 				2DD6642F1FD57D83000E7223 /* SPDotaEvent.m in Sources */,
-				2DD664301FD57D83000E7223 /* SPItemListContainer.m in Sources */,
 				2DD664311FD57D83000E7223 /* SPPlayerItemFilter.m in Sources */,
-				2DD664321FD57D83000E7223 /* SPDotaEventsViewCtrl.m in Sources */,
 				2DD664331FD57D83000E7223 /* SPLootList.m in Sources */,
+				44EC324F21A28E1600FB8D9E /* Constant.swift in Sources */,
 				2DD664341FD57D83000E7223 /* UIView+BlockGesture.m in Sources */,
 				2DD664351FD57D83000E7223 /* SPGamepediaData.m in Sources */,
 				2DD664361FD57D83000E7223 /* UINavigationBar+yg_IBInspectable.m in Sources */,
+				44EC325421A29CF600FB8D9E /* Dispatch.swift in Sources */,
 				2DD664371FD57D83000E7223 /* SPItemImageLoader.m in Sources */,
 				2DD664391FD57D83000E7223 /* UIView+Hierarchy.m in Sources */,
 				44EC324021A27E3B00FB8D9E /* Vendor.swift in Sources */,
 				2DD6643A1FD57D83000E7223 /* YGBubble.m in Sources */,
+				44EC327C21A2A87D00FB8D9E /* SPItemOffPriceVC.swift in Sources */,
 				2DD6643B1FD57D83000E7223 /* SPWorkshopModel.m in Sources */,
-				2DD6643C1FD57D83000E7223 /* SPItemOffPriceVC.m in Sources */,
 				2DD6643D1FD57D83000E7223 /* UIButton+yg_IBInspectable.m in Sources */,
 				2DD6643E1FD57D83000E7223 /* UITableViewCell+yg_IBInspectable.m in Sources */,
 				2DD6643F1FD57D83000E7223 /* DDSegmentScrollView.m in Sources */,
 				2DD664401FD57D83000E7223 /* CDTAlertAction.m in Sources */,
 				2DD664411FD57D83000E7223 /* SPItemCellModel.m in Sources */,
 				2DD664421FD57D83000E7223 /* UINavigationController+Convenience.m in Sources */,
+				445718BE21A52B8D005E8ABD /* SPItemsDetailViewCtrl.swift in Sources */,
 				2DD664431FD57D83000E7223 /* SPWorkshopResourcesVC.m in Sources */,
 				2DD664441FD57D83000E7223 /* SPFilterViewCtrl.m in Sources */,
 				2DD664451FD57D83000E7223 /* DDProgressHUD.m in Sources */,
@@ -4362,9 +4520,11 @@
 				2DD664491FD57D83000E7223 /* SPSearchCell.m in Sources */,
 				2DD6644A1FD57D83000E7223 /* SPSearchEngine.m in Sources */,
 				2DD6644B1FD57D83000E7223 /* SPItemSearchOptionViewCtrl.m in Sources */,
+				44EC325921A29F8200FB8D9E /* SPItemEntranceCell.swift in Sources */,
 				2DD6644C1FD57D83000E7223 /* SPItemPlayableCell.m in Sources */,
 				2DD6644D1FD57D83000E7223 /* SDCollectionViewCell.m in Sources */,
 				2DD6644E1FD57D83000E7223 /* SPItemHeroListVC.m in Sources */,
+				44EC326221A2A30D00FB8D9E /* R.generated.swift in Sources */,
 				2DD6644F1FD57D83000E7223 /* SPIAPCell.m in Sources */,
 				2DD664501FD57D83000E7223 /* BingoBarItemView.m in Sources */,
 				2DD664521FD57D83000E7223 /* NSObject+KVCExceptionCatch.m in Sources */,
@@ -4375,7 +4535,6 @@
 				2DD664571FD57D83000E7223 /* TAPageControl.m in Sources */,
 				2DD664581FD57D83000E7223 /* SPDota2API.m in Sources */,
 				2DD6645A1FD57D83000E7223 /* UIActivityIndicatorView+yg_IBInspectable.m in Sources */,
-				2DD6645B1FD57D83000E7223 /* SPItemsDetailViewCtrl.m in Sources */,
 				2DD6645C1FD57D83000E7223 /* SPPlayer+More.m in Sources */,
 				2DD6645E1FD57D83000E7223 /* LCActionSheet.m in Sources */,
 				2DD6645F1FD57D83000E7223 /* SPItemPrefab.m in Sources */,
@@ -4388,6 +4547,8 @@
 				2DD664661FD57D83000E7223 /* SDCycleScrollView.m in Sources */,
 				2DD664671FD57D83000E7223 /* UITabBar+yg_IBInspectable.m in Sources */,
 				2DD664681FD57D83000E7223 /* BingoBarItem.m in Sources */,
+				44EC328B21A2AA3C00FB8D9E /* SPDotaEventsViewCtrl.swift in Sources */,
+				44EC328221A2A93400FB8D9E /* UIView+Hidden.swift in Sources */,
 				2DD664691FD57D83000E7223 /* SPPriceChartViewCtrl.m in Sources */,
 				2DD6646A1FD57D83000E7223 /* UIView+SDExtension.m in Sources */,
 				2DD6646B1FD57D83000E7223 /* UIView+Animation.m in Sources */,
@@ -4416,11 +4577,11 @@
 				2DD664821FD57D83000E7223 /* SPIAPViewCtrl.m in Sources */,
 				2DD664841FD57D83000E7223 /* SPItemPlayablesViewCtrl.m in Sources */,
 				2DD664851FD57D83000E7223 /* UIToolbar+yg_IBInspectable.m in Sources */,
-				2DD664861FD57D83000E7223 /* SPItemEntranceVC.m in Sources */,
 				2DD664871FD57D83000E7223 /* SPPlayerAliasesVC.m in Sources */,
 				2DD664881FD57D83000E7223 /* SPWorkshop.m in Sources */,
 				2DD664891FD57D83000E7223 /* NSString+STRegex.m in Sources */,
 				2DD6648A1FD57D83000E7223 /* SPItemMoreItemsView.m in Sources */,
+				445718B921A52111005E8ABD /* SPItemListContainer.swift in Sources */,
 				2DD6648C1FD57D83000E7223 /* SPHistoryManager.m in Sources */,
 				2DD6648D1FD57D83000E7223 /* DDMainTBC.m in Sources */,
 				2DD6648E1FD57D83000E7223 /* DDViewModel.m in Sources */,
@@ -4444,6 +4605,7 @@
 				2DD6649F1FD57D83000E7223 /* SPSettingOptionsViewCtrl.m in Sources */,
 				2DD664A01FD57D83000E7223 /* TADotView.m in Sources */,
 				2DD664A11FD57D83000E7223 /* SPPlayerInventoryVC.m in Sources */,
+				44EC326F21A2A66800FB8D9E /* Safe.swift in Sources */,
 				2DD664A31FD57D83000E7223 /* SPSearchBar.m in Sources */,
 				2DD664A71FD57D83000E7223 /* SPWorkshopResourceCell.m in Sources */,
 				2DD664A81FD57D83000E7223 /* SPItemQuality.m in Sources */,
@@ -4456,6 +4618,7 @@
 				2DD664AF1FD57D83000E7223 /* YGBubbleView.m in Sources */,
 				2DD664B01FD57D83000E7223 /* SPItemSaleView.m in Sources */,
 				2DD664B11FD57D83000E7223 /* SPHero.m in Sources */,
+				44EC327321A2A66800FB8D9E /* SafeCode.m in Sources */,
 				2DD664B21FD57D83000E7223 /* UIButton+Event.m in Sources */,
 				2DD664B31FD57D83000E7223 /* SPPlayerItemSharedData.m in Sources */,
 				440593AE218F014C0098E3EB /* AppDelegate+TAC.swift in Sources */,
@@ -4467,6 +4630,7 @@
 				2DD664B91FD57D83000E7223 /* SPPlayerListVC.m in Sources */,
 				2DD664BA1FD57D83000E7223 /* SPItemLoadingView.m in Sources */,
 				2DD664BB1FD57D83000E7223 /* YGBaseNaviCtrl.m in Sources */,
+				44EC328621A2A93400FB8D9E /* UIView+VFL.swift in Sources */,
 				2DD664BC1FD57D83000E7223 /* SPSteamAPI.m in Sources */,
 				2DD664BD1FD57D83000E7223 /* UIView+YGGeometry.m in Sources */,
 				2DD664BF1FD57D83000E7223 /* SPPlayerDetailInfoVC.m in Sources */,
@@ -4526,11 +4690,15 @@
 				440592A1218C57DF0098E3EB /* SPItemColor.m in Sources */,
 				440592A2218C57DF0098E3EB /* DDWebInspector.m in Sources */,
 				440592A3218C57DF0098E3EB /* SPPlayerCell.m in Sources */,
+				44EC324821A28A7900FB8D9E /* SPItemEntranceVC.swift in Sources */,
+				44EC327A21A2A66800FB8D9E /* Func.swift in Sources */,
 				440592A4218C57DF0098E3EB /* SPItemEntranceConfig.m in Sources */,
+				44EC326A21A2A63B00FB8D9E /* StoryboardExtension.swift in Sources */,
 				440592A5218C57DF0098E3EB /* SPConfigManager.m in Sources */,
 				440592A6218C57DF0098E3EB /* SPPlayerManager.m in Sources */,
 				440592A8218C57DF0098E3EB /* SPBaseData.m in Sources */,
 				440592A9218C57DF0098E3EB /* SPItemSearchOption.m in Sources */,
+				44EC329321A2AC0700FB8D9E /* SPItemListVC.swift in Sources */,
 				440592AA218C57DF0098E3EB /* SPWorkshopVC.m in Sources */,
 				440592AB218C57DF0098E3EB /* SPFilterGroup.m in Sources */,
 				440592AC218C57DF0098E3EB /* YGCoreLocationHelper.m in Sources */,
@@ -4551,28 +4719,28 @@
 				440592BD218C57DF0098E3EB /* SPMaxPlusAPI.m in Sources */,
 				440592BE218C57DF0098E3EB /* Config_Archive.m in Sources */,
 				440592BF218C57DF0098E3EB /* SPPriceChartConfig.m in Sources */,
-				440592C0218C57DF0098E3EB /* SPItemListVC.m in Sources */,
 				440592C1218C57DF0098E3EB /* SPWebHelper.m in Sources */,
 				440592C2218C57DF0098E3EB /* SPDotaEvent.m in Sources */,
-				440592C3218C57DF0098E3EB /* SPItemListContainer.m in Sources */,
 				440592C4218C57DF0098E3EB /* SPPlayerItemFilter.m in Sources */,
-				440592C5218C57DF0098E3EB /* SPDotaEventsViewCtrl.m in Sources */,
 				440592C6218C57DF0098E3EB /* SPLootList.m in Sources */,
+				44EC325221A28E1600FB8D9E /* Constant.swift in Sources */,
 				440592C7218C57DF0098E3EB /* UIView+BlockGesture.m in Sources */,
 				440592C8218C57DF0098E3EB /* SPGamepediaData.m in Sources */,
 				440592C9218C57DF0098E3EB /* UINavigationBar+yg_IBInspectable.m in Sources */,
+				44EC325721A29CF600FB8D9E /* Dispatch.swift in Sources */,
 				440592CA218C57DF0098E3EB /* SPItemImageLoader.m in Sources */,
 				440592CB218C57DF0098E3EB /* UIView+Hierarchy.m in Sources */,
 				44EC324321A27E3B00FB8D9E /* Vendor.swift in Sources */,
 				440592CC218C57DF0098E3EB /* YGBubble.m in Sources */,
+				44EC327F21A2A87D00FB8D9E /* SPItemOffPriceVC.swift in Sources */,
 				440592CD218C57DF0098E3EB /* SPWorkshopModel.m in Sources */,
-				440592CE218C57DF0098E3EB /* SPItemOffPriceVC.m in Sources */,
 				440592CF218C57DF0098E3EB /* UIButton+yg_IBInspectable.m in Sources */,
 				440592D0218C57DF0098E3EB /* UITableViewCell+yg_IBInspectable.m in Sources */,
 				440592D1218C57DF0098E3EB /* DDSegmentScrollView.m in Sources */,
 				440592D2218C57DF0098E3EB /* CDTAlertAction.m in Sources */,
 				440592D3218C57DF0098E3EB /* SPItemCellModel.m in Sources */,
 				440592D4218C57DF0098E3EB /* UINavigationController+Convenience.m in Sources */,
+				445718C121A52B8D005E8ABD /* SPItemsDetailViewCtrl.swift in Sources */,
 				440592D5218C57DF0098E3EB /* SPWorkshopResourcesVC.m in Sources */,
 				440592D6218C57DF0098E3EB /* SPFilterViewCtrl.m in Sources */,
 				440592D7218C57DF0098E3EB /* DDProgressHUD.m in Sources */,
@@ -4582,9 +4750,11 @@
 				440592DB218C57DF0098E3EB /* SPSearchCell.m in Sources */,
 				440592DC218C57DF0098E3EB /* SPSearchEngine.m in Sources */,
 				440592DD218C57DF0098E3EB /* SPItemSearchOptionViewCtrl.m in Sources */,
+				44EC325C21A29F8200FB8D9E /* SPItemEntranceCell.swift in Sources */,
 				440592DE218C57DF0098E3EB /* SPItemPlayableCell.m in Sources */,
 				440592DF218C57DF0098E3EB /* SDCollectionViewCell.m in Sources */,
 				440592E0218C57DF0098E3EB /* SPItemHeroListVC.m in Sources */,
+				44EC326521A2A30D00FB8D9E /* R.generated.swift in Sources */,
 				440592E1218C57DF0098E3EB /* SPIAPCell.m in Sources */,
 				440592E2218C57DF0098E3EB /* BingoBarItemView.m in Sources */,
 				440592E4218C57DF0098E3EB /* NSObject+KVCExceptionCatch.m in Sources */,
@@ -4595,7 +4765,6 @@
 				440592E9218C57DF0098E3EB /* TAPageControl.m in Sources */,
 				440592EA218C57DF0098E3EB /* SPDota2API.m in Sources */,
 				440592EC218C57DF0098E3EB /* UIActivityIndicatorView+yg_IBInspectable.m in Sources */,
-				440592ED218C57DF0098E3EB /* SPItemsDetailViewCtrl.m in Sources */,
 				440592EE218C57DF0098E3EB /* SPPlayer+More.m in Sources */,
 				440592F0218C57DF0098E3EB /* LCActionSheet.m in Sources */,
 				440592F1218C57DF0098E3EB /* SPItemPrefab.m in Sources */,
@@ -4608,6 +4777,8 @@
 				440592F8218C57DF0098E3EB /* SDCycleScrollView.m in Sources */,
 				440592F9218C57DF0098E3EB /* UITabBar+yg_IBInspectable.m in Sources */,
 				440592FA218C57DF0098E3EB /* BingoBarItem.m in Sources */,
+				44EC328E21A2AA3C00FB8D9E /* SPDotaEventsViewCtrl.swift in Sources */,
+				44EC328521A2A93400FB8D9E /* UIView+Hidden.swift in Sources */,
 				440592FB218C57DF0098E3EB /* SPPriceChartViewCtrl.m in Sources */,
 				440592FC218C57DF0098E3EB /* UIView+SDExtension.m in Sources */,
 				440592FD218C57DF0098E3EB /* UIView+Animation.m in Sources */,
@@ -4636,11 +4807,11 @@
 				44059314218C57DF0098E3EB /* SPIAPViewCtrl.m in Sources */,
 				44059316218C57DF0098E3EB /* SPItemPlayablesViewCtrl.m in Sources */,
 				44059317218C57DF0098E3EB /* UIToolbar+yg_IBInspectable.m in Sources */,
-				44059318218C57DF0098E3EB /* SPItemEntranceVC.m in Sources */,
 				44059319218C57DF0098E3EB /* SPPlayerAliasesVC.m in Sources */,
 				4405931A218C57DF0098E3EB /* SPWorkshop.m in Sources */,
 				4405931B218C57DF0098E3EB /* NSString+STRegex.m in Sources */,
 				4405931C218C57DF0098E3EB /* SPItemMoreItemsView.m in Sources */,
+				445718BC21A52111005E8ABD /* SPItemListContainer.swift in Sources */,
 				4405931E218C57DF0098E3EB /* SPHistoryManager.m in Sources */,
 				4405931F218C57DF0098E3EB /* DDMainTBC.m in Sources */,
 				44059320218C57DF0098E3EB /* DDViewModel.m in Sources */,
@@ -4664,6 +4835,7 @@
 				44059331218C57DF0098E3EB /* SPSettingOptionsViewCtrl.m in Sources */,
 				44059332218C57DF0098E3EB /* TADotView.m in Sources */,
 				44059333218C57DF0098E3EB /* SPPlayerInventoryVC.m in Sources */,
+				44EC327221A2A66800FB8D9E /* Safe.swift in Sources */,
 				44059335218C57DF0098E3EB /* SPSearchBar.m in Sources */,
 				44059338218C57DF0098E3EB /* SPWorkshopResourceCell.m in Sources */,
 				44059339218C57DF0098E3EB /* SPItemQuality.m in Sources */,
@@ -4676,6 +4848,7 @@
 				44059340218C57DF0098E3EB /* YGBubbleView.m in Sources */,
 				44059341218C57DF0098E3EB /* SPItemSaleView.m in Sources */,
 				44059342218C57DF0098E3EB /* SPHero.m in Sources */,
+				44EC327621A2A66800FB8D9E /* SafeCode.m in Sources */,
 				44059343218C57DF0098E3EB /* UIButton+Event.m in Sources */,
 				44059344218C57DF0098E3EB /* SPPlayerItemSharedData.m in Sources */,
 				440593B1218F014C0098E3EB /* AppDelegate+TAC.swift in Sources */,
@@ -4687,6 +4860,7 @@
 				4405934A218C57DF0098E3EB /* SPPlayerListVC.m in Sources */,
 				4405934B218C57DF0098E3EB /* SPItemLoadingView.m in Sources */,
 				4405934C218C57DF0098E3EB /* YGBaseNaviCtrl.m in Sources */,
+				44EC328921A2A93400FB8D9E /* UIView+VFL.swift in Sources */,
 				4405934D218C57DF0098E3EB /* SPSteamAPI.m in Sources */,
 				4405934E218C57DF0098E3EB /* UIView+YGGeometry.m in Sources */,
 				4405934F218C57DF0098E3EB /* SPPlayerDetailInfoVC.m in Sources */,

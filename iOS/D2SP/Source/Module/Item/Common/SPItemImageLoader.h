@@ -41,7 +41,7 @@ YG_EXTERN CGSize const kNonePlaceholderSize;
                  type:(SPImageType)type
                 layer:(CALayer *)layer;
 
-+ (void)prefetchItemImages:(NSArray<NSString *> *)itemImages;
++ (void)prefetchItemImages:(NSArray *)itemImages;
 
 + (void)clearMemory;
 
