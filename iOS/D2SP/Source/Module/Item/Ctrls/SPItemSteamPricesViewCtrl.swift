@@ -68,7 +68,7 @@ extension SPItemSteamPricesViewCtrl: UITableViewDataSource, UITableViewDelegate 
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: R.reuseIdentifier.spItemSteamPriceCell, for: indexPath)!
-        cell.configure(withPrice: priceList[indexPath.item])
+        cell.configure(priceList[indexPath.item])
         return cell
     }
 

@@ -67,7 +67,6 @@
 		2D80812F1FD5B92500078A50 /* SPCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF66051FCC470D006A0081 /* SPCollectionViewCell.m */; };
 		2D8081301FD5B92500078A50 /* UIDevice+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6851F1361640012950A /* UIDevice+Ext.m */; };
 		2D8081311FD5B92500078A50 /* SPItemFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2451721FC9A32800EF5438 /* SPItemFilter.m */; };
-		2D8081321FD5B92500078A50 /* SPItemSteamPriceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0BD6FD1FB3486E00A5DD99 /* SPItemSteamPriceCell.m */; };
 		2D8081331FD5B92500078A50 /* SPItemPlayableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 693062C71FBC30D3005987A1 /* SPItemPlayableView.m */; };
 		2D8081341FD5B92500078A50 /* SPFocusVisualEffectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B8001F1361640012950A /* SPFocusVisualEffectVC.m */; };
 		2D8081361FD5B92500078A50 /* SPItemQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7971F1361640012950A /* SPItemQuery.m */; };
@@ -103,7 +102,6 @@
 		2D8081591FD5B92500078A50 /* SPSearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7E21F1361640012950A /* SPSearchCell.m */; };
 		2D80815A1FD5B92500078A50 /* SPSearchEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7D91F1361640012950A /* SPSearchEngine.m */; };
 		2D80815B1FD5B92500078A50 /* SPItemSearchOptionViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 692A55891F4D6C7A006914BF /* SPItemSearchOptionViewCtrl.m */; };
-		2D80815C1FD5B92500078A50 /* SPItemPlayableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 693062CA1FBC3883005987A1 /* SPItemPlayableCell.m */; };
 		2D80815D1FD5B92500078A50 /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7431F1361640012950A /* SDCollectionViewCell.m */; };
 		2D80815E1FD5B92500078A50 /* SPItemHeroListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC0F6941F1B9C90004DCD3C /* SPItemHeroListVC.m */; };
 		2D80815F1FD5B92500078A50 /* SPIAPCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A2A901FD0593A0021FCC9 /* SPIAPCell.m */; };
@@ -150,7 +148,6 @@
 		2D80818E1FD5B92500078A50 /* YGBaseViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7861F1361640012950A /* YGBaseViewCtrl.m */; };
 		2D80818F1FD5B92500078A50 /* NSObject+URLSessionTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6CF1F1361640012950A /* NSObject+URLSessionTask.m */; };
 		2D8081901FD5B92500078A50 /* SPWorkshopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B80C1F1361640012950A /* SPWorkshopCell.m */; };
-		2D8081911FD5B92500078A50 /* SPItemBannerImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 69819CC11FB99C4F00977873 /* SPItemBannerImageCell.m */; };
 		2D8081921FD5B92500078A50 /* SPIAPViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A2A8C1FD056700021FCC9 /* SPIAPViewCtrl.m */; };
 		2D8081951FD5B92500078A50 /* UIToolbar+yg_IBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6A11F1361640012950A /* UIToolbar+yg_IBInspectable.m */; };
 		2D8081971FD5B92500078A50 /* SPPlayerAliasesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7BD1F1361640012950A /* SPPlayerAliasesVC.m */; };
@@ -181,7 +178,6 @@
 		2D8081B31FD5B92500078A50 /* SPSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7E01F1361640012950A /* SPSearchBar.m */; };
 		2D8081B71FD5B92500078A50 /* SPWorkshopResourceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B80E1F1361640012950A /* SPWorkshopResourceCell.m */; };
 		2D8081B81FD5B92500078A50 /* SPItemQuality.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7761F1361640012950A /* SPItemQuality.m */; };
-		2D8081B91FD5B92500078A50 /* SPBundleItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6919742A1F42A96E00FB5007 /* SPBundleItemCell.m */; };
 		2D8081BA1FD5B92500078A50 /* DDResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6CA1F1361640012950A /* DDResponse.m */; };
 		2D8081BB1FD5B92500078A50 /* SPItemHeroPickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC0F68E1F1B6A2D004DCD3C /* SPItemHeroPickerVC.m */; };
 		2D8081BC1FD5B92500078A50 /* UIViewController+yg_StatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6F1CAD1F20D72500E8F614 /* UIViewController+yg_StatusBar.m */; };
@@ -285,7 +281,6 @@
 		2DD663161FD57D62000E7223 /* SPCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF66051FCC470D006A0081 /* SPCollectionViewCell.m */; };
 		2DD663171FD57D62000E7223 /* UIDevice+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6851F1361640012950A /* UIDevice+Ext.m */; };
 		2DD663181FD57D62000E7223 /* SPItemFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2451721FC9A32800EF5438 /* SPItemFilter.m */; };
-		2DD663191FD57D62000E7223 /* SPItemSteamPriceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0BD6FD1FB3486E00A5DD99 /* SPItemSteamPriceCell.m */; };
 		2DD6631A1FD57D62000E7223 /* SPItemPlayableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 693062C71FBC30D3005987A1 /* SPItemPlayableView.m */; };
 		2DD6631B1FD57D62000E7223 /* SPFocusVisualEffectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B8001F1361640012950A /* SPFocusVisualEffectVC.m */; };
 		2DD6631D1FD57D62000E7223 /* SPItemQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7971F1361640012950A /* SPItemQuery.m */; };
@@ -321,7 +316,6 @@
 		2DD663401FD57D62000E7223 /* SPSearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7E21F1361640012950A /* SPSearchCell.m */; };
 		2DD663411FD57D62000E7223 /* SPSearchEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7D91F1361640012950A /* SPSearchEngine.m */; };
 		2DD663421FD57D62000E7223 /* SPItemSearchOptionViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 692A55891F4D6C7A006914BF /* SPItemSearchOptionViewCtrl.m */; };
-		2DD663431FD57D62000E7223 /* SPItemPlayableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 693062CA1FBC3883005987A1 /* SPItemPlayableCell.m */; };
 		2DD663441FD57D62000E7223 /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7431F1361640012950A /* SDCollectionViewCell.m */; };
 		2DD663451FD57D62000E7223 /* SPItemHeroListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC0F6941F1B9C90004DCD3C /* SPItemHeroListVC.m */; };
 		2DD663461FD57D62000E7223 /* SPIAPCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A2A901FD0593A0021FCC9 /* SPIAPCell.m */; };
@@ -368,7 +362,6 @@
 		2DD663751FD57D62000E7223 /* YGBaseViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7861F1361640012950A /* YGBaseViewCtrl.m */; };
 		2DD663761FD57D62000E7223 /* NSObject+URLSessionTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6CF1F1361640012950A /* NSObject+URLSessionTask.m */; };
 		2DD663771FD57D62000E7223 /* SPWorkshopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B80C1F1361640012950A /* SPWorkshopCell.m */; };
-		2DD663781FD57D62000E7223 /* SPItemBannerImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 69819CC11FB99C4F00977873 /* SPItemBannerImageCell.m */; };
 		2DD663791FD57D62000E7223 /* SPIAPViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A2A8C1FD056700021FCC9 /* SPIAPViewCtrl.m */; };
 		2DD6637C1FD57D62000E7223 /* UIToolbar+yg_IBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6A11F1361640012950A /* UIToolbar+yg_IBInspectable.m */; };
 		2DD6637E1FD57D62000E7223 /* SPPlayerAliasesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7BD1F1361640012950A /* SPPlayerAliasesVC.m */; };
@@ -399,7 +392,6 @@
 		2DD6639A1FD57D62000E7223 /* SPSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7E01F1361640012950A /* SPSearchBar.m */; };
 		2DD6639E1FD57D62000E7223 /* SPWorkshopResourceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B80E1F1361640012950A /* SPWorkshopResourceCell.m */; };
 		2DD6639F1FD57D62000E7223 /* SPItemQuality.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7761F1361640012950A /* SPItemQuality.m */; };
-		2DD663A01FD57D62000E7223 /* SPBundleItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6919742A1F42A96E00FB5007 /* SPBundleItemCell.m */; };
 		2DD663A11FD57D62000E7223 /* DDResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6CA1F1361640012950A /* DDResponse.m */; };
 		2DD663A21FD57D62000E7223 /* SPItemHeroPickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC0F68E1F1B6A2D004DCD3C /* SPItemHeroPickerVC.m */; };
 		2DD663A31FD57D62000E7223 /* UIViewController+yg_StatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6F1CAD1F20D72500E8F614 /* UIViewController+yg_StatusBar.m */; };
@@ -502,7 +494,6 @@
 		2DD6641F1FD57D83000E7223 /* SPCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF66051FCC470D006A0081 /* SPCollectionViewCell.m */; };
 		2DD664201FD57D83000E7223 /* UIDevice+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6851F1361640012950A /* UIDevice+Ext.m */; };
 		2DD664211FD57D83000E7223 /* SPItemFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2451721FC9A32800EF5438 /* SPItemFilter.m */; };
-		2DD664221FD57D83000E7223 /* SPItemSteamPriceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0BD6FD1FB3486E00A5DD99 /* SPItemSteamPriceCell.m */; };
 		2DD664231FD57D83000E7223 /* SPItemPlayableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 693062C71FBC30D3005987A1 /* SPItemPlayableView.m */; };
 		2DD664241FD57D83000E7223 /* SPFocusVisualEffectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B8001F1361640012950A /* SPFocusVisualEffectVC.m */; };
 		2DD664261FD57D83000E7223 /* SPItemQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7971F1361640012950A /* SPItemQuery.m */; };
@@ -538,7 +529,6 @@
 		2DD664491FD57D83000E7223 /* SPSearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7E21F1361640012950A /* SPSearchCell.m */; };
 		2DD6644A1FD57D83000E7223 /* SPSearchEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7D91F1361640012950A /* SPSearchEngine.m */; };
 		2DD6644B1FD57D83000E7223 /* SPItemSearchOptionViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 692A55891F4D6C7A006914BF /* SPItemSearchOptionViewCtrl.m */; };
-		2DD6644C1FD57D83000E7223 /* SPItemPlayableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 693062CA1FBC3883005987A1 /* SPItemPlayableCell.m */; };
 		2DD6644D1FD57D83000E7223 /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7431F1361640012950A /* SDCollectionViewCell.m */; };
 		2DD6644E1FD57D83000E7223 /* SPItemHeroListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC0F6941F1B9C90004DCD3C /* SPItemHeroListVC.m */; };
 		2DD6644F1FD57D83000E7223 /* SPIAPCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A2A901FD0593A0021FCC9 /* SPIAPCell.m */; };
@@ -585,7 +575,6 @@
 		2DD6647E1FD57D83000E7223 /* YGBaseViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7861F1361640012950A /* YGBaseViewCtrl.m */; };
 		2DD6647F1FD57D83000E7223 /* NSObject+URLSessionTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6CF1F1361640012950A /* NSObject+URLSessionTask.m */; };
 		2DD664801FD57D83000E7223 /* SPWorkshopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B80C1F1361640012950A /* SPWorkshopCell.m */; };
-		2DD664811FD57D83000E7223 /* SPItemBannerImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 69819CC11FB99C4F00977873 /* SPItemBannerImageCell.m */; };
 		2DD664821FD57D83000E7223 /* SPIAPViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A2A8C1FD056700021FCC9 /* SPIAPViewCtrl.m */; };
 		2DD664851FD57D83000E7223 /* UIToolbar+yg_IBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6A11F1361640012950A /* UIToolbar+yg_IBInspectable.m */; };
 		2DD664871FD57D83000E7223 /* SPPlayerAliasesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7BD1F1361640012950A /* SPPlayerAliasesVC.m */; };
@@ -616,7 +605,6 @@
 		2DD664A31FD57D83000E7223 /* SPSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7E01F1361640012950A /* SPSearchBar.m */; };
 		2DD664A71FD57D83000E7223 /* SPWorkshopResourceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B80E1F1361640012950A /* SPWorkshopResourceCell.m */; };
 		2DD664A81FD57D83000E7223 /* SPItemQuality.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7761F1361640012950A /* SPItemQuality.m */; };
-		2DD664A91FD57D83000E7223 /* SPBundleItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6919742A1F42A96E00FB5007 /* SPBundleItemCell.m */; };
 		2DD664AA1FD57D83000E7223 /* DDResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6CA1F1361640012950A /* DDResponse.m */; };
 		2DD664AB1FD57D83000E7223 /* SPItemHeroPickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC0F68E1F1B6A2D004DCD3C /* SPItemHeroPickerVC.m */; };
 		2DD664AC1FD57D83000E7223 /* UIViewController+yg_StatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6F1CAD1F20D72500E8F614 /* UIViewController+yg_StatusBar.m */; };
@@ -728,7 +716,6 @@
 		440592B1218C57DF0098E3EB /* SPCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF66051FCC470D006A0081 /* SPCollectionViewCell.m */; };
 		440592B2218C57DF0098E3EB /* UIDevice+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6851F1361640012950A /* UIDevice+Ext.m */; };
 		440592B3218C57DF0098E3EB /* SPItemFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2451721FC9A32800EF5438 /* SPItemFilter.m */; };
-		440592B4218C57DF0098E3EB /* SPItemSteamPriceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0BD6FD1FB3486E00A5DD99 /* SPItemSteamPriceCell.m */; };
 		440592B5218C57DF0098E3EB /* SPItemPlayableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 693062C71FBC30D3005987A1 /* SPItemPlayableView.m */; };
 		440592B6218C57DF0098E3EB /* SPFocusVisualEffectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B8001F1361640012950A /* SPFocusVisualEffectVC.m */; };
 		440592B8218C57DF0098E3EB /* SPItemQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7971F1361640012950A /* SPItemQuery.m */; };
@@ -764,7 +751,6 @@
 		440592DB218C57DF0098E3EB /* SPSearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7E21F1361640012950A /* SPSearchCell.m */; };
 		440592DC218C57DF0098E3EB /* SPSearchEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7D91F1361640012950A /* SPSearchEngine.m */; };
 		440592DD218C57DF0098E3EB /* SPItemSearchOptionViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 692A55891F4D6C7A006914BF /* SPItemSearchOptionViewCtrl.m */; };
-		440592DE218C57DF0098E3EB /* SPItemPlayableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 693062CA1FBC3883005987A1 /* SPItemPlayableCell.m */; };
 		440592DF218C57DF0098E3EB /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7431F1361640012950A /* SDCollectionViewCell.m */; };
 		440592E0218C57DF0098E3EB /* SPItemHeroListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC0F6941F1B9C90004DCD3C /* SPItemHeroListVC.m */; };
 		440592E1218C57DF0098E3EB /* SPIAPCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A2A901FD0593A0021FCC9 /* SPIAPCell.m */; };
@@ -811,7 +797,6 @@
 		44059310218C57DF0098E3EB /* YGBaseViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7861F1361640012950A /* YGBaseViewCtrl.m */; };
 		44059311218C57DF0098E3EB /* NSObject+URLSessionTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6CF1F1361640012950A /* NSObject+URLSessionTask.m */; };
 		44059312218C57DF0098E3EB /* SPWorkshopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B80C1F1361640012950A /* SPWorkshopCell.m */; };
-		44059313218C57DF0098E3EB /* SPItemBannerImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 69819CC11FB99C4F00977873 /* SPItemBannerImageCell.m */; };
 		44059314218C57DF0098E3EB /* SPIAPViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A2A8C1FD056700021FCC9 /* SPIAPViewCtrl.m */; };
 		44059317218C57DF0098E3EB /* UIToolbar+yg_IBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6A11F1361640012950A /* UIToolbar+yg_IBInspectable.m */; };
 		44059319218C57DF0098E3EB /* SPPlayerAliasesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7BD1F1361640012950A /* SPPlayerAliasesVC.m */; };
@@ -842,7 +827,6 @@
 		44059335218C57DF0098E3EB /* SPSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7E01F1361640012950A /* SPSearchBar.m */; };
 		44059338218C57DF0098E3EB /* SPWorkshopResourceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B80E1F1361640012950A /* SPWorkshopResourceCell.m */; };
 		44059339218C57DF0098E3EB /* SPItemQuality.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7761F1361640012950A /* SPItemQuality.m */; };
-		4405933A218C57DF0098E3EB /* SPBundleItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6919742A1F42A96E00FB5007 /* SPBundleItemCell.m */; };
 		4405933B218C57DF0098E3EB /* DDResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6CA1F1361640012950A /* DDResponse.m */; };
 		4405933C218C57DF0098E3EB /* SPItemHeroPickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC0F68E1F1B6A2D004DCD3C /* SPItemHeroPickerVC.m */; };
 		4405933D218C57DF0098E3EB /* UIViewController+yg_StatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6F1CAD1F20D72500E8F614 /* UIViewController+yg_StatusBar.m */; };
@@ -943,6 +927,22 @@
 		447B6E5221A6789C00A867FF /* SPItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E5021A6789C00A867FF /* SPItemCell.swift */; };
 		447B6E5321A6789C00A867FF /* SPItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E5021A6789C00A867FF /* SPItemCell.swift */; };
 		447B6E5421A6789C00A867FF /* SPItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E5021A6789C00A867FF /* SPItemCell.swift */; };
+		447B6E5621A67FC700A867FF /* SPBundleItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E5521A67FC700A867FF /* SPBundleItemCell.swift */; };
+		447B6E5721A67FC700A867FF /* SPBundleItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E5521A67FC700A867FF /* SPBundleItemCell.swift */; };
+		447B6E5821A67FC700A867FF /* SPBundleItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E5521A67FC700A867FF /* SPBundleItemCell.swift */; };
+		447B6E5921A67FC700A867FF /* SPBundleItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E5521A67FC700A867FF /* SPBundleItemCell.swift */; };
+		447B6E5B21A6807800A867FF /* SPItemSteamPriceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E5A21A6807800A867FF /* SPItemSteamPriceCell.swift */; };
+		447B6E5C21A6807800A867FF /* SPItemSteamPriceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E5A21A6807800A867FF /* SPItemSteamPriceCell.swift */; };
+		447B6E5D21A6807800A867FF /* SPItemSteamPriceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E5A21A6807800A867FF /* SPItemSteamPriceCell.swift */; };
+		447B6E5E21A6807800A867FF /* SPItemSteamPriceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E5A21A6807800A867FF /* SPItemSteamPriceCell.swift */; };
+		447B6E6021A681C200A867FF /* SPItemBannerImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E5F21A681C200A867FF /* SPItemBannerImageCell.swift */; };
+		447B6E6121A681C200A867FF /* SPItemBannerImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E5F21A681C200A867FF /* SPItemBannerImageCell.swift */; };
+		447B6E6221A681C200A867FF /* SPItemBannerImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E5F21A681C200A867FF /* SPItemBannerImageCell.swift */; };
+		447B6E6321A681C200A867FF /* SPItemBannerImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E5F21A681C200A867FF /* SPItemBannerImageCell.swift */; };
+		447B6E6521A6831D00A867FF /* SPItemPlayableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E6421A6831D00A867FF /* SPItemPlayableCell.swift */; };
+		447B6E6621A6831D00A867FF /* SPItemPlayableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E6421A6831D00A867FF /* SPItemPlayableCell.swift */; };
+		447B6E6721A6831D00A867FF /* SPItemPlayableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E6421A6831D00A867FF /* SPItemPlayableCell.swift */; };
+		447B6E6821A6831D00A867FF /* SPItemPlayableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E6421A6831D00A867FF /* SPItemPlayableCell.swift */; };
 		44EC324021A27E3B00FB8D9E /* Vendor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC323F21A27E3B00FB8D9E /* Vendor.swift */; };
 		44EC324121A27E3B00FB8D9E /* Vendor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC323F21A27E3B00FB8D9E /* Vendor.swift */; };
 		44EC324221A27E3B00FB8D9E /* Vendor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC323F21A27E3B00FB8D9E /* Vendor.swift */; };
@@ -1014,8 +1014,6 @@
 		212893AFFB20F4F54F3FA493 /* Pods___SPOld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods___SPOld.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2686522146A6CE323EEE651B /* Pods-SPPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPPro.release.xcconfig"; path = "Pods/Target Support Files/Pods-SPPro/Pods-SPPro.release.xcconfig"; sourceTree = "<group>"; };
 		2D0A82861CDF325700F26BD1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		2D0BD6FC1FB3486E00A5DD99 /* SPItemSteamPriceCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPItemSteamPriceCell.h; sourceTree = "<group>"; };
-		2D0BD6FD1FB3486E00A5DD99 /* SPItemSteamPriceCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPItemSteamPriceCell.m; sourceTree = "<group>"; };
 		2D0BD6FF1FB5FBCA00A5DD99 /* SPItemBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPItemBannerView.h; sourceTree = "<group>"; };
 		2D0BD7001FB5FBCA00A5DD99 /* SPItemBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPItemBannerView.m; sourceTree = "<group>"; };
 		2D19E00F1F32F22A00747B01 /* SPPriceChartConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPriceChartConfig.h; sourceTree = "<group>"; };
@@ -1457,6 +1455,10 @@
 		447B6E4621A6730900A867FF /* SPItemSteamPricesViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPItemSteamPricesViewCtrl.swift; sourceTree = "<group>"; };
 		447B6E4B21A675F200A867FF /* SPItemPlayablesViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPItemPlayablesViewCtrl.swift; sourceTree = "<group>"; };
 		447B6E5021A6789C00A867FF /* SPItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPItemCell.swift; sourceTree = "<group>"; };
+		447B6E5521A67FC700A867FF /* SPBundleItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPBundleItemCell.swift; sourceTree = "<group>"; };
+		447B6E5A21A6807800A867FF /* SPItemSteamPriceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPItemSteamPriceCell.swift; sourceTree = "<group>"; };
+		447B6E5F21A681C200A867FF /* SPItemBannerImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPItemBannerImageCell.swift; sourceTree = "<group>"; };
+		447B6E6421A6831D00A867FF /* SPItemPlayableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPItemPlayableCell.swift; sourceTree = "<group>"; };
 		44EC323F21A27E3B00FB8D9E /* Vendor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vendor.swift; sourceTree = "<group>"; };
 		44EC324421A28A7900FB8D9E /* SPItemEntranceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPItemEntranceVC.swift; sourceTree = "<group>"; };
 		44EC324E21A28E1600FB8D9E /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
@@ -1483,8 +1485,6 @@
 		690BD51C1FA84260007A4D5D /* SPItemTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPItemTitleView.m; sourceTree = "<group>"; };
 		690BD51E1FA84420007A4D5D /* SPItemSharedData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPItemSharedData.h; sourceTree = "<group>"; };
 		690BD51F1FA84420007A4D5D /* SPItemSharedData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPItemSharedData.m; sourceTree = "<group>"; };
-		691974291F42A96E00FB5007 /* SPBundleItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBundleItemCell.h; sourceTree = "<group>"; };
-		6919742A1F42A96E00FB5007 /* SPBundleItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBundleItemCell.m; sourceTree = "<group>"; };
 		691DC39C1F418D6F00DF5E81 /* DDViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDViewModel.h; sourceTree = "<group>"; };
 		691DC39D1F418D6F00DF5E81 /* DDViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDViewModel.m; sourceTree = "<group>"; };
 		691DC39F1F418D8D00DF5E81 /* SPItemCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPItemCellModel.h; sourceTree = "<group>"; };
@@ -1501,14 +1501,10 @@
 		692C2B8F1FFF6CA3000B9514 /* Deploy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Deploy.h; sourceTree = "<group>"; };
 		693062C61FBC30D3005987A1 /* SPItemPlayableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPItemPlayableView.h; sourceTree = "<group>"; };
 		693062C71FBC30D3005987A1 /* SPItemPlayableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPItemPlayableView.m; sourceTree = "<group>"; };
-		693062C91FBC3883005987A1 /* SPItemPlayableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPItemPlayableCell.h; sourceTree = "<group>"; };
-		693062CA1FBC3883005987A1 /* SPItemPlayableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPItemPlayableCell.m; sourceTree = "<group>"; };
 		695261EA1FC7EE8400F3C22B /* SPPlayerItemSharedData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPPlayerItemSharedData.h; sourceTree = "<group>"; };
 		695261EB1FC7EE8400F3C22B /* SPPlayerItemSharedData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPPlayerItemSharedData.m; sourceTree = "<group>"; };
 		6954FCDD1F43EC5900DDB5D3 /* SPDotaEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDotaEvent.h; sourceTree = "<group>"; };
 		6954FCDE1F43EC5900DDB5D3 /* SPDotaEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDotaEvent.m; sourceTree = "<group>"; };
-		69819CC01FB99C4F00977873 /* SPItemBannerImageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPItemBannerImageCell.h; sourceTree = "<group>"; };
-		69819CC11FB99C4F00977873 /* SPItemBannerImageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPItemBannerImageCell.m; sourceTree = "<group>"; };
 		6990743E1F3D902C00B64030 /* SPMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPMemoryCache.h; sourceTree = "<group>"; };
 		6990743F1F3D902C00B64030 /* SPMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPMemoryCache.m; sourceTree = "<group>"; };
 		699074411F3DA63500B64030 /* CALayer+SDWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+SDWebCache.h"; sourceTree = "<group>"; };
@@ -2421,14 +2417,10 @@
 			isa = PBXGroup;
 			children = (
 				447B6E5021A6789C00A867FF /* SPItemCell.swift */,
-				691974291F42A96E00FB5007 /* SPBundleItemCell.h */,
-				6919742A1F42A96E00FB5007 /* SPBundleItemCell.m */,
-				2D0BD6FC1FB3486E00A5DD99 /* SPItemSteamPriceCell.h */,
-				2D0BD6FD1FB3486E00A5DD99 /* SPItemSteamPriceCell.m */,
-				69819CC01FB99C4F00977873 /* SPItemBannerImageCell.h */,
-				69819CC11FB99C4F00977873 /* SPItemBannerImageCell.m */,
-				693062C91FBC3883005987A1 /* SPItemPlayableCell.h */,
-				693062CA1FBC3883005987A1 /* SPItemPlayableCell.m */,
+				447B6E5521A67FC700A867FF /* SPBundleItemCell.swift */,
+				447B6E5A21A6807800A867FF /* SPItemSteamPriceCell.swift */,
+				447B6E5F21A681C200A867FF /* SPItemBannerImageCell.swift */,
+				447B6E6421A6831D00A867FF /* SPItemPlayableCell.swift */,
 				44EC325821A29F8200FB8D9E /* SPItemEntranceCell.swift */,
 			);
 			path = Cell;
@@ -3963,6 +3955,7 @@
 				2D8081021FD5B92500078A50 /* SPUpdateViewCtrl.m in Sources */,
 				2D8081031FD5B92500078A50 /* TAAnimatedDotView.m in Sources */,
 				2D8081041FD5B92500078A50 /* SPItemFilterUnit.m in Sources */,
+				447B6E6721A6831D00A867FF /* SPItemPlayableCell.swift in Sources */,
 				2D8081061FD5B92500078A50 /* UIImage+Mask.m in Sources */,
 				447B6E4421A66DF200A867FF /* SPItemViewCtrl.swift in Sources */,
 				2D8081081FD5B92500078A50 /* YGCapabilityHelper.m in Sources */,
@@ -4011,7 +4004,6 @@
 				2D80812F1FD5B92500078A50 /* SPCollectionViewCell.m in Sources */,
 				2D8081301FD5B92500078A50 /* UIDevice+Ext.m in Sources */,
 				2D8081311FD5B92500078A50 /* SPItemFilter.m in Sources */,
-				2D8081321FD5B92500078A50 /* SPItemSteamPriceCell.m in Sources */,
 				2D8081331FD5B92500078A50 /* SPItemPlayableView.m in Sources */,
 				2D8081341FD5B92500078A50 /* SPFocusVisualEffectVC.m in Sources */,
 				2D8081361FD5B92500078A50 /* SPItemQuery.m in Sources */,
@@ -4055,7 +4047,6 @@
 				2D80815A1FD5B92500078A50 /* SPSearchEngine.m in Sources */,
 				2D80815B1FD5B92500078A50 /* SPItemSearchOptionViewCtrl.m in Sources */,
 				44EC325B21A29F8200FB8D9E /* SPItemEntranceCell.swift in Sources */,
-				2D80815C1FD5B92500078A50 /* SPItemPlayableCell.m in Sources */,
 				2D80815D1FD5B92500078A50 /* SDCollectionViewCell.m in Sources */,
 				2D80815E1FD5B92500078A50 /* SPItemHeroListVC.m in Sources */,
 				44EC326421A2A30D00FB8D9E /* R.generated.swift in Sources */,
@@ -4106,10 +4097,10 @@
 				2D80818E1FD5B92500078A50 /* YGBaseViewCtrl.m in Sources */,
 				2D80818F1FD5B92500078A50 /* NSObject+URLSessionTask.m in Sources */,
 				2D8081901FD5B92500078A50 /* SPWorkshopCell.m in Sources */,
-				2D8081911FD5B92500078A50 /* SPItemBannerImageCell.m in Sources */,
 				2D8081921FD5B92500078A50 /* SPIAPViewCtrl.m in Sources */,
 				2D8081951FD5B92500078A50 /* UIToolbar+yg_IBInspectable.m in Sources */,
 				2D8081971FD5B92500078A50 /* SPPlayerAliasesVC.m in Sources */,
+				447B6E6221A681C200A867FF /* SPItemBannerImageCell.swift in Sources */,
 				2D8081981FD5B92500078A50 /* SPWorkshop.m in Sources */,
 				2D8081991FD5B92500078A50 /* NSString+STRegex.m in Sources */,
 				2D80819A1FD5B92500078A50 /* SPItemMoreItemsView.m in Sources */,
@@ -4128,6 +4119,7 @@
 				2D8081A71FD5B92500078A50 /* SPDota2MarketItem.m in Sources */,
 				2D8081A81FD5B92500078A50 /* CoreLocation+Convert.m in Sources */,
 				2D8081A91FD5B92500078A50 /* UITableView+yg_IBInspectable.m in Sources */,
+				447B6E5D21A6807800A867FF /* SPItemSteamPriceCell.swift in Sources */,
 				440593BB218FE8980098E3EB /* SPLogger.swift in Sources */,
 				2D8081AA1FD5B92500078A50 /* SPBaseFilter.m in Sources */,
 				2D8081AB1FD5B92500078A50 /* YGTextField.m in Sources */,
@@ -4137,11 +4129,11 @@
 				2D8081AF1FD5B92500078A50 /* SPSettingOptionsViewCtrl.m in Sources */,
 				2D8081B01FD5B92500078A50 /* TADotView.m in Sources */,
 				2D8081B11FD5B92500078A50 /* SPPlayerInventoryVC.m in Sources */,
+				447B6E5821A67FC700A867FF /* SPBundleItemCell.swift in Sources */,
 				44EC327121A2A66800FB8D9E /* Safe.swift in Sources */,
 				2D8081B31FD5B92500078A50 /* SPSearchBar.m in Sources */,
 				2D8081B71FD5B92500078A50 /* SPWorkshopResourceCell.m in Sources */,
 				2D8081B81FD5B92500078A50 /* SPItemQuality.m in Sources */,
-				2D8081B91FD5B92500078A50 /* SPBundleItemCell.m in Sources */,
 				2D8081BA1FD5B92500078A50 /* DDResponse.m in Sources */,
 				2D8081BB1FD5B92500078A50 /* SPItemHeroPickerVC.m in Sources */,
 				2D8081BC1FD5B92500078A50 /* UIViewController+yg_StatusBar.m in Sources */,
@@ -4193,6 +4185,7 @@
 				2DD662E91FD57D62000E7223 /* SPUpdateViewCtrl.m in Sources */,
 				2DD662EA1FD57D62000E7223 /* TAAnimatedDotView.m in Sources */,
 				2DD662EB1FD57D62000E7223 /* SPItemFilterUnit.m in Sources */,
+				447B6E6621A6831D00A867FF /* SPItemPlayableCell.swift in Sources */,
 				2DD662ED1FD57D62000E7223 /* UIImage+Mask.m in Sources */,
 				447B6E4321A66DF200A867FF /* SPItemViewCtrl.swift in Sources */,
 				2DD662EF1FD57D62000E7223 /* YGCapabilityHelper.m in Sources */,
@@ -4241,7 +4234,6 @@
 				2DD663161FD57D62000E7223 /* SPCollectionViewCell.m in Sources */,
 				2DD663171FD57D62000E7223 /* UIDevice+Ext.m in Sources */,
 				2DD663181FD57D62000E7223 /* SPItemFilter.m in Sources */,
-				2DD663191FD57D62000E7223 /* SPItemSteamPriceCell.m in Sources */,
 				2DD6631A1FD57D62000E7223 /* SPItemPlayableView.m in Sources */,
 				2DD6631B1FD57D62000E7223 /* SPFocusVisualEffectVC.m in Sources */,
 				2DD6631D1FD57D62000E7223 /* SPItemQuery.m in Sources */,
@@ -4285,7 +4277,6 @@
 				2DD663411FD57D62000E7223 /* SPSearchEngine.m in Sources */,
 				2DD663421FD57D62000E7223 /* SPItemSearchOptionViewCtrl.m in Sources */,
 				44EC325A21A29F8200FB8D9E /* SPItemEntranceCell.swift in Sources */,
-				2DD663431FD57D62000E7223 /* SPItemPlayableCell.m in Sources */,
 				2DD663441FD57D62000E7223 /* SDCollectionViewCell.m in Sources */,
 				2DD663451FD57D62000E7223 /* SPItemHeroListVC.m in Sources */,
 				44EC326321A2A30D00FB8D9E /* R.generated.swift in Sources */,
@@ -4336,10 +4327,10 @@
 				2DD663751FD57D62000E7223 /* YGBaseViewCtrl.m in Sources */,
 				2DD663761FD57D62000E7223 /* NSObject+URLSessionTask.m in Sources */,
 				2DD663771FD57D62000E7223 /* SPWorkshopCell.m in Sources */,
-				2DD663781FD57D62000E7223 /* SPItemBannerImageCell.m in Sources */,
 				2DD663791FD57D62000E7223 /* SPIAPViewCtrl.m in Sources */,
 				2DD6637C1FD57D62000E7223 /* UIToolbar+yg_IBInspectable.m in Sources */,
 				2DD6637E1FD57D62000E7223 /* SPPlayerAliasesVC.m in Sources */,
+				447B6E6121A681C200A867FF /* SPItemBannerImageCell.swift in Sources */,
 				2DD6637F1FD57D62000E7223 /* SPWorkshop.m in Sources */,
 				2DD663801FD57D62000E7223 /* NSString+STRegex.m in Sources */,
 				2DD663811FD57D62000E7223 /* SPItemMoreItemsView.m in Sources */,
@@ -4358,6 +4349,7 @@
 				2DD6638E1FD57D62000E7223 /* SPDota2MarketItem.m in Sources */,
 				2DD6638F1FD57D62000E7223 /* CoreLocation+Convert.m in Sources */,
 				2DD663901FD57D62000E7223 /* UITableView+yg_IBInspectable.m in Sources */,
+				447B6E5C21A6807800A867FF /* SPItemSteamPriceCell.swift in Sources */,
 				440593BA218FE8980098E3EB /* SPLogger.swift in Sources */,
 				2DD663911FD57D62000E7223 /* SPBaseFilter.m in Sources */,
 				2DD663921FD57D62000E7223 /* YGTextField.m in Sources */,
@@ -4367,11 +4359,11 @@
 				2DD663961FD57D62000E7223 /* SPSettingOptionsViewCtrl.m in Sources */,
 				2DD663971FD57D62000E7223 /* TADotView.m in Sources */,
 				2DD663981FD57D62000E7223 /* SPPlayerInventoryVC.m in Sources */,
+				447B6E5721A67FC700A867FF /* SPBundleItemCell.swift in Sources */,
 				44EC327021A2A66800FB8D9E /* Safe.swift in Sources */,
 				2DD6639A1FD57D62000E7223 /* SPSearchBar.m in Sources */,
 				2DD6639E1FD57D62000E7223 /* SPWorkshopResourceCell.m in Sources */,
 				2DD6639F1FD57D62000E7223 /* SPItemQuality.m in Sources */,
-				2DD663A01FD57D62000E7223 /* SPBundleItemCell.m in Sources */,
 				2DD663A11FD57D62000E7223 /* DDResponse.m in Sources */,
 				2DD663A21FD57D62000E7223 /* SPItemHeroPickerVC.m in Sources */,
 				2DD663A31FD57D62000E7223 /* UIViewController+yg_StatusBar.m in Sources */,
@@ -4423,6 +4415,7 @@
 				2DD663F21FD57D83000E7223 /* SPUpdateViewCtrl.m in Sources */,
 				2DD663F31FD57D83000E7223 /* TAAnimatedDotView.m in Sources */,
 				2DD663F41FD57D83000E7223 /* SPItemFilterUnit.m in Sources */,
+				447B6E6521A6831D00A867FF /* SPItemPlayableCell.swift in Sources */,
 				2DD663F61FD57D83000E7223 /* UIImage+Mask.m in Sources */,
 				447B6E4221A66DF200A867FF /* SPItemViewCtrl.swift in Sources */,
 				2DD663F81FD57D83000E7223 /* YGCapabilityHelper.m in Sources */,
@@ -4471,7 +4464,6 @@
 				2DD6641F1FD57D83000E7223 /* SPCollectionViewCell.m in Sources */,
 				2DD664201FD57D83000E7223 /* UIDevice+Ext.m in Sources */,
 				2DD664211FD57D83000E7223 /* SPItemFilter.m in Sources */,
-				2DD664221FD57D83000E7223 /* SPItemSteamPriceCell.m in Sources */,
 				2DD664231FD57D83000E7223 /* SPItemPlayableView.m in Sources */,
 				2DD664241FD57D83000E7223 /* SPFocusVisualEffectVC.m in Sources */,
 				2DD664261FD57D83000E7223 /* SPItemQuery.m in Sources */,
@@ -4515,7 +4507,6 @@
 				2DD6644A1FD57D83000E7223 /* SPSearchEngine.m in Sources */,
 				2DD6644B1FD57D83000E7223 /* SPItemSearchOptionViewCtrl.m in Sources */,
 				44EC325921A29F8200FB8D9E /* SPItemEntranceCell.swift in Sources */,
-				2DD6644C1FD57D83000E7223 /* SPItemPlayableCell.m in Sources */,
 				2DD6644D1FD57D83000E7223 /* SDCollectionViewCell.m in Sources */,
 				2DD6644E1FD57D83000E7223 /* SPItemHeroListVC.m in Sources */,
 				44EC326221A2A30D00FB8D9E /* R.generated.swift in Sources */,
@@ -4566,10 +4557,10 @@
 				2DD6647E1FD57D83000E7223 /* YGBaseViewCtrl.m in Sources */,
 				2DD6647F1FD57D83000E7223 /* NSObject+URLSessionTask.m in Sources */,
 				2DD664801FD57D83000E7223 /* SPWorkshopCell.m in Sources */,
-				2DD664811FD57D83000E7223 /* SPItemBannerImageCell.m in Sources */,
 				2DD664821FD57D83000E7223 /* SPIAPViewCtrl.m in Sources */,
 				2DD664851FD57D83000E7223 /* UIToolbar+yg_IBInspectable.m in Sources */,
 				2DD664871FD57D83000E7223 /* SPPlayerAliasesVC.m in Sources */,
+				447B6E6021A681C200A867FF /* SPItemBannerImageCell.swift in Sources */,
 				2DD664881FD57D83000E7223 /* SPWorkshop.m in Sources */,
 				2DD664891FD57D83000E7223 /* NSString+STRegex.m in Sources */,
 				2DD6648A1FD57D83000E7223 /* SPItemMoreItemsView.m in Sources */,
@@ -4588,6 +4579,7 @@
 				2DD664971FD57D83000E7223 /* SPDota2MarketItem.m in Sources */,
 				2DD664981FD57D83000E7223 /* CoreLocation+Convert.m in Sources */,
 				2DD664991FD57D83000E7223 /* UITableView+yg_IBInspectable.m in Sources */,
+				447B6E5B21A6807800A867FF /* SPItemSteamPriceCell.swift in Sources */,
 				440593B9218FE8980098E3EB /* SPLogger.swift in Sources */,
 				2DD6649A1FD57D83000E7223 /* SPBaseFilter.m in Sources */,
 				2DD6649B1FD57D83000E7223 /* YGTextField.m in Sources */,
@@ -4597,11 +4589,11 @@
 				2DD6649F1FD57D83000E7223 /* SPSettingOptionsViewCtrl.m in Sources */,
 				2DD664A01FD57D83000E7223 /* TADotView.m in Sources */,
 				2DD664A11FD57D83000E7223 /* SPPlayerInventoryVC.m in Sources */,
+				447B6E5621A67FC700A867FF /* SPBundleItemCell.swift in Sources */,
 				44EC326F21A2A66800FB8D9E /* Safe.swift in Sources */,
 				2DD664A31FD57D83000E7223 /* SPSearchBar.m in Sources */,
 				2DD664A71FD57D83000E7223 /* SPWorkshopResourceCell.m in Sources */,
 				2DD664A81FD57D83000E7223 /* SPItemQuality.m in Sources */,
-				2DD664A91FD57D83000E7223 /* SPBundleItemCell.m in Sources */,
 				2DD664AA1FD57D83000E7223 /* DDResponse.m in Sources */,
 				2DD664AB1FD57D83000E7223 /* SPItemHeroPickerVC.m in Sources */,
 				2DD664AC1FD57D83000E7223 /* UIViewController+yg_StatusBar.m in Sources */,
@@ -4653,6 +4645,7 @@
 				44059283218C57DF0098E3EB /* SPUpdateViewCtrl.m in Sources */,
 				44059284218C57DF0098E3EB /* TAAnimatedDotView.m in Sources */,
 				44059285218C57DF0098E3EB /* SPItemFilterUnit.m in Sources */,
+				447B6E6821A6831D00A867FF /* SPItemPlayableCell.swift in Sources */,
 				44059287218C57DF0098E3EB /* UIImage+Mask.m in Sources */,
 				447B6E4521A66DF200A867FF /* SPItemViewCtrl.swift in Sources */,
 				44059289218C57DF0098E3EB /* YGCapabilityHelper.m in Sources */,
@@ -4701,7 +4694,6 @@
 				440592B1218C57DF0098E3EB /* SPCollectionViewCell.m in Sources */,
 				440592B2218C57DF0098E3EB /* UIDevice+Ext.m in Sources */,
 				440592B3218C57DF0098E3EB /* SPItemFilter.m in Sources */,
-				440592B4218C57DF0098E3EB /* SPItemSteamPriceCell.m in Sources */,
 				440592B5218C57DF0098E3EB /* SPItemPlayableView.m in Sources */,
 				440592B6218C57DF0098E3EB /* SPFocusVisualEffectVC.m in Sources */,
 				440592B8218C57DF0098E3EB /* SPItemQuery.m in Sources */,
@@ -4745,7 +4737,6 @@
 				440592DC218C57DF0098E3EB /* SPSearchEngine.m in Sources */,
 				440592DD218C57DF0098E3EB /* SPItemSearchOptionViewCtrl.m in Sources */,
 				44EC325C21A29F8200FB8D9E /* SPItemEntranceCell.swift in Sources */,
-				440592DE218C57DF0098E3EB /* SPItemPlayableCell.m in Sources */,
 				440592DF218C57DF0098E3EB /* SDCollectionViewCell.m in Sources */,
 				440592E0218C57DF0098E3EB /* SPItemHeroListVC.m in Sources */,
 				44EC326521A2A30D00FB8D9E /* R.generated.swift in Sources */,
@@ -4796,10 +4787,10 @@
 				44059310218C57DF0098E3EB /* YGBaseViewCtrl.m in Sources */,
 				44059311218C57DF0098E3EB /* NSObject+URLSessionTask.m in Sources */,
 				44059312218C57DF0098E3EB /* SPWorkshopCell.m in Sources */,
-				44059313218C57DF0098E3EB /* SPItemBannerImageCell.m in Sources */,
 				44059314218C57DF0098E3EB /* SPIAPViewCtrl.m in Sources */,
 				44059317218C57DF0098E3EB /* UIToolbar+yg_IBInspectable.m in Sources */,
 				44059319218C57DF0098E3EB /* SPPlayerAliasesVC.m in Sources */,
+				447B6E6321A681C200A867FF /* SPItemBannerImageCell.swift in Sources */,
 				4405931A218C57DF0098E3EB /* SPWorkshop.m in Sources */,
 				4405931B218C57DF0098E3EB /* NSString+STRegex.m in Sources */,
 				4405931C218C57DF0098E3EB /* SPItemMoreItemsView.m in Sources */,
@@ -4818,6 +4809,7 @@
 				44059329218C57DF0098E3EB /* SPDota2MarketItem.m in Sources */,
 				4405932A218C57DF0098E3EB /* CoreLocation+Convert.m in Sources */,
 				4405932B218C57DF0098E3EB /* UITableView+yg_IBInspectable.m in Sources */,
+				447B6E5E21A6807800A867FF /* SPItemSteamPriceCell.swift in Sources */,
 				440593BC218FE8980098E3EB /* SPLogger.swift in Sources */,
 				4405932C218C57DF0098E3EB /* SPBaseFilter.m in Sources */,
 				4405932D218C57DF0098E3EB /* YGTextField.m in Sources */,
@@ -4827,11 +4819,11 @@
 				44059331218C57DF0098E3EB /* SPSettingOptionsViewCtrl.m in Sources */,
 				44059332218C57DF0098E3EB /* TADotView.m in Sources */,
 				44059333218C57DF0098E3EB /* SPPlayerInventoryVC.m in Sources */,
+				447B6E5921A67FC700A867FF /* SPBundleItemCell.swift in Sources */,
 				44EC327221A2A66800FB8D9E /* Safe.swift in Sources */,
 				44059335218C57DF0098E3EB /* SPSearchBar.m in Sources */,
 				44059338218C57DF0098E3EB /* SPWorkshopResourceCell.m in Sources */,
 				44059339218C57DF0098E3EB /* SPItemQuality.m in Sources */,
-				4405933A218C57DF0098E3EB /* SPBundleItemCell.m in Sources */,
 				4405933B218C57DF0098E3EB /* DDResponse.m in Sources */,
 				4405933C218C57DF0098E3EB /* SPItemHeroPickerVC.m in Sources */,
 				4405933D218C57DF0098E3EB /* UIViewController+yg_StatusBar.m in Sources */,
