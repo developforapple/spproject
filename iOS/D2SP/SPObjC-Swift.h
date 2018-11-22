@@ -47,5 +47,9 @@
 #import "SPItemMoreItemsView.h"
 #import "SPHistoryManager.h"
 #import "SPStarManager.h"
+#import "SPMarketItem.h"
+#import "SPItemSteamPriceCell.h"
+#import "SPPriceChartViewCtrl.h"
+#import "SPItemPlayableCell.h"
 
 #endif /* SPObjC_h */

@@ -46,7 +46,6 @@
 		2D8081181FD5B92500078A50 /* SPLocale.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D91EB7A1F1731880038B49C /* SPLocale.m */; };
 		2D8081191FD5B92500078A50 /* YGCoreMotionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6731F1361640012950A /* YGCoreMotionHelper.m */; };
 		2D80811A1FD5B92500078A50 /* SPTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF66021FCC46DB006A0081 /* SPTableViewCell.m */; };
-		2D80811B1FD5B92500078A50 /* SPItemSteamPricesViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0BD6FA1FB343C700A5DD99 /* SPItemSteamPricesViewCtrl.m */; };
 		2D80811C1FD5B92500078A50 /* SPGamepediaImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 690BD5151FA71E6D007A4D5D /* SPGamepediaImage.m */; };
 		2D80811D1FD5B92500078A50 /* SPMarketItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B5C7B1F27B1F900A3D8C9 /* SPMarketItem.m */; };
 		2D80811E1FD5B92500078A50 /* SPPlayerItemFilterUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF65F51FCAF2AD006A0081 /* SPPlayerItemFilterUnit.m */; };
@@ -154,7 +153,6 @@
 		2D8081901FD5B92500078A50 /* SPWorkshopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B80C1F1361640012950A /* SPWorkshopCell.m */; };
 		2D8081911FD5B92500078A50 /* SPItemBannerImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 69819CC11FB99C4F00977873 /* SPItemBannerImageCell.m */; };
 		2D8081921FD5B92500078A50 /* SPIAPViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A2A8C1FD056700021FCC9 /* SPIAPViewCtrl.m */; };
-		2D8081941FD5B92500078A50 /* SPItemPlayablesViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 69ECA1BF1FBD8E0500A9DFFC /* SPItemPlayablesViewCtrl.m */; };
 		2D8081951FD5B92500078A50 /* UIToolbar+yg_IBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6A11F1361640012950A /* UIToolbar+yg_IBInspectable.m */; };
 		2D8081971FD5B92500078A50 /* SPPlayerAliasesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7BD1F1361640012950A /* SPPlayerAliasesVC.m */; };
 		2D8081981FD5B92500078A50 /* SPWorkshop.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7FD1F1361640012950A /* SPWorkshop.m */; };
@@ -267,7 +265,6 @@
 		2DD662FF1FD57D62000E7223 /* SPLocale.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D91EB7A1F1731880038B49C /* SPLocale.m */; };
 		2DD663001FD57D62000E7223 /* YGCoreMotionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6731F1361640012950A /* YGCoreMotionHelper.m */; };
 		2DD663011FD57D62000E7223 /* SPTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF66021FCC46DB006A0081 /* SPTableViewCell.m */; };
-		2DD663021FD57D62000E7223 /* SPItemSteamPricesViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0BD6FA1FB343C700A5DD99 /* SPItemSteamPricesViewCtrl.m */; };
 		2DD663031FD57D62000E7223 /* SPGamepediaImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 690BD5151FA71E6D007A4D5D /* SPGamepediaImage.m */; };
 		2DD663041FD57D62000E7223 /* SPMarketItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B5C7B1F27B1F900A3D8C9 /* SPMarketItem.m */; };
 		2DD663051FD57D62000E7223 /* SPPlayerItemFilterUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF65F51FCAF2AD006A0081 /* SPPlayerItemFilterUnit.m */; };
@@ -375,7 +372,6 @@
 		2DD663771FD57D62000E7223 /* SPWorkshopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B80C1F1361640012950A /* SPWorkshopCell.m */; };
 		2DD663781FD57D62000E7223 /* SPItemBannerImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 69819CC11FB99C4F00977873 /* SPItemBannerImageCell.m */; };
 		2DD663791FD57D62000E7223 /* SPIAPViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A2A8C1FD056700021FCC9 /* SPIAPViewCtrl.m */; };
-		2DD6637B1FD57D62000E7223 /* SPItemPlayablesViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 69ECA1BF1FBD8E0500A9DFFC /* SPItemPlayablesViewCtrl.m */; };
 		2DD6637C1FD57D62000E7223 /* UIToolbar+yg_IBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6A11F1361640012950A /* UIToolbar+yg_IBInspectable.m */; };
 		2DD6637E1FD57D62000E7223 /* SPPlayerAliasesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7BD1F1361640012950A /* SPPlayerAliasesVC.m */; };
 		2DD6637F1FD57D62000E7223 /* SPWorkshop.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7FD1F1361640012950A /* SPWorkshop.m */; };
@@ -487,7 +483,6 @@
 		2DD664081FD57D83000E7223 /* SPLocale.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D91EB7A1F1731880038B49C /* SPLocale.m */; };
 		2DD664091FD57D83000E7223 /* YGCoreMotionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6731F1361640012950A /* YGCoreMotionHelper.m */; };
 		2DD6640A1FD57D83000E7223 /* SPTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF66021FCC46DB006A0081 /* SPTableViewCell.m */; };
-		2DD6640B1FD57D83000E7223 /* SPItemSteamPricesViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0BD6FA1FB343C700A5DD99 /* SPItemSteamPricesViewCtrl.m */; };
 		2DD6640C1FD57D83000E7223 /* SPGamepediaImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 690BD5151FA71E6D007A4D5D /* SPGamepediaImage.m */; };
 		2DD6640D1FD57D83000E7223 /* SPMarketItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B5C7B1F27B1F900A3D8C9 /* SPMarketItem.m */; };
 		2DD6640E1FD57D83000E7223 /* SPPlayerItemFilterUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF65F51FCAF2AD006A0081 /* SPPlayerItemFilterUnit.m */; };
@@ -595,7 +590,6 @@
 		2DD664801FD57D83000E7223 /* SPWorkshopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B80C1F1361640012950A /* SPWorkshopCell.m */; };
 		2DD664811FD57D83000E7223 /* SPItemBannerImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 69819CC11FB99C4F00977873 /* SPItemBannerImageCell.m */; };
 		2DD664821FD57D83000E7223 /* SPIAPViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A2A8C1FD056700021FCC9 /* SPIAPViewCtrl.m */; };
-		2DD664841FD57D83000E7223 /* SPItemPlayablesViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 69ECA1BF1FBD8E0500A9DFFC /* SPItemPlayablesViewCtrl.m */; };
 		2DD664851FD57D83000E7223 /* UIToolbar+yg_IBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6A11F1361640012950A /* UIToolbar+yg_IBInspectable.m */; };
 		2DD664871FD57D83000E7223 /* SPPlayerAliasesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7BD1F1361640012950A /* SPPlayerAliasesVC.m */; };
 		2DD664881FD57D83000E7223 /* SPWorkshop.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7FD1F1361640012950A /* SPWorkshop.m */; };
@@ -716,7 +710,6 @@
 		4405929A218C57DF0098E3EB /* SPLocale.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D91EB7A1F1731880038B49C /* SPLocale.m */; };
 		4405929B218C57DF0098E3EB /* YGCoreMotionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6731F1361640012950A /* YGCoreMotionHelper.m */; };
 		4405929C218C57DF0098E3EB /* SPTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF66021FCC46DB006A0081 /* SPTableViewCell.m */; };
-		4405929D218C57DF0098E3EB /* SPItemSteamPricesViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0BD6FA1FB343C700A5DD99 /* SPItemSteamPricesViewCtrl.m */; };
 		4405929E218C57DF0098E3EB /* SPGamepediaImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 690BD5151FA71E6D007A4D5D /* SPGamepediaImage.m */; };
 		4405929F218C57DF0098E3EB /* SPMarketItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B5C7B1F27B1F900A3D8C9 /* SPMarketItem.m */; };
 		440592A0218C57DF0098E3EB /* SPPlayerItemFilterUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF65F51FCAF2AD006A0081 /* SPPlayerItemFilterUnit.m */; };
@@ -824,7 +817,6 @@
 		44059312218C57DF0098E3EB /* SPWorkshopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B80C1F1361640012950A /* SPWorkshopCell.m */; };
 		44059313218C57DF0098E3EB /* SPItemBannerImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 69819CC11FB99C4F00977873 /* SPItemBannerImageCell.m */; };
 		44059314218C57DF0098E3EB /* SPIAPViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A2A8C1FD056700021FCC9 /* SPIAPViewCtrl.m */; };
-		44059316218C57DF0098E3EB /* SPItemPlayablesViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 69ECA1BF1FBD8E0500A9DFFC /* SPItemPlayablesViewCtrl.m */; };
 		44059317218C57DF0098E3EB /* UIToolbar+yg_IBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6A11F1361640012950A /* UIToolbar+yg_IBInspectable.m */; };
 		44059319218C57DF0098E3EB /* SPPlayerAliasesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7BD1F1361640012950A /* SPPlayerAliasesVC.m */; };
 		4405931A218C57DF0098E3EB /* SPWorkshop.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7FD1F1361640012950A /* SPWorkshop.m */; };
@@ -943,6 +935,14 @@
 		447B6E4321A66DF200A867FF /* SPItemViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E4121A66DF200A867FF /* SPItemViewCtrl.swift */; };
 		447B6E4421A66DF200A867FF /* SPItemViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E4121A66DF200A867FF /* SPItemViewCtrl.swift */; };
 		447B6E4521A66DF200A867FF /* SPItemViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E4121A66DF200A867FF /* SPItemViewCtrl.swift */; };
+		447B6E4721A6730900A867FF /* SPItemSteamPricesViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E4621A6730900A867FF /* SPItemSteamPricesViewCtrl.swift */; };
+		447B6E4821A6730900A867FF /* SPItemSteamPricesViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E4621A6730900A867FF /* SPItemSteamPricesViewCtrl.swift */; };
+		447B6E4921A6730900A867FF /* SPItemSteamPricesViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E4621A6730900A867FF /* SPItemSteamPricesViewCtrl.swift */; };
+		447B6E4A21A6730900A867FF /* SPItemSteamPricesViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E4621A6730900A867FF /* SPItemSteamPricesViewCtrl.swift */; };
+		447B6E4C21A675F200A867FF /* SPItemPlayablesViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E4B21A675F200A867FF /* SPItemPlayablesViewCtrl.swift */; };
+		447B6E4D21A675F200A867FF /* SPItemPlayablesViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E4B21A675F200A867FF /* SPItemPlayablesViewCtrl.swift */; };
+		447B6E4E21A675F200A867FF /* SPItemPlayablesViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E4B21A675F200A867FF /* SPItemPlayablesViewCtrl.swift */; };
+		447B6E4F21A675F200A867FF /* SPItemPlayablesViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E4B21A675F200A867FF /* SPItemPlayablesViewCtrl.swift */; };
 		44EC324021A27E3B00FB8D9E /* Vendor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC323F21A27E3B00FB8D9E /* Vendor.swift */; };
 		44EC324121A27E3B00FB8D9E /* Vendor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC323F21A27E3B00FB8D9E /* Vendor.swift */; };
 		44EC324221A27E3B00FB8D9E /* Vendor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC323F21A27E3B00FB8D9E /* Vendor.swift */; };
@@ -1014,8 +1014,6 @@
 		212893AFFB20F4F54F3FA493 /* Pods___SPOld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods___SPOld.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2686522146A6CE323EEE651B /* Pods-SPPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPPro.release.xcconfig"; path = "Pods/Target Support Files/Pods-SPPro/Pods-SPPro.release.xcconfig"; sourceTree = "<group>"; };
 		2D0A82861CDF325700F26BD1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		2D0BD6F91FB343C700A5DD99 /* SPItemSteamPricesViewCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPItemSteamPricesViewCtrl.h; sourceTree = "<group>"; };
-		2D0BD6FA1FB343C700A5DD99 /* SPItemSteamPricesViewCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPItemSteamPricesViewCtrl.m; sourceTree = "<group>"; };
 		2D0BD6FC1FB3486E00A5DD99 /* SPItemSteamPriceCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPItemSteamPriceCell.h; sourceTree = "<group>"; };
 		2D0BD6FD1FB3486E00A5DD99 /* SPItemSteamPriceCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPItemSteamPriceCell.m; sourceTree = "<group>"; };
 		2D0BD6FF1FB5FBCA00A5DD99 /* SPItemBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPItemBannerView.h; sourceTree = "<group>"; };
@@ -1458,6 +1456,8 @@
 		445ED663218FFAEC006341CB /* SPObjC-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SPObjC-Swift.h"; sourceTree = "<group>"; };
 		4472CC73219407D000FC0B1F /* SPSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPSwift.swift; sourceTree = "<group>"; };
 		447B6E4121A66DF200A867FF /* SPItemViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPItemViewCtrl.swift; sourceTree = "<group>"; };
+		447B6E4621A6730900A867FF /* SPItemSteamPricesViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPItemSteamPricesViewCtrl.swift; sourceTree = "<group>"; };
+		447B6E4B21A675F200A867FF /* SPItemPlayablesViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPItemPlayablesViewCtrl.swift; sourceTree = "<group>"; };
 		44EC323F21A27E3B00FB8D9E /* Vendor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vendor.swift; sourceTree = "<group>"; };
 		44EC324421A28A7900FB8D9E /* SPItemEntranceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPItemEntranceVC.swift; sourceTree = "<group>"; };
 		44EC324E21A28E1600FB8D9E /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
@@ -1516,8 +1516,6 @@
 		699074421F3DA63500B64030 /* CALayer+SDWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+SDWebCache.m"; sourceTree = "<group>"; };
 		69A117011FA8747700A32747 /* SPItemSaleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPItemSaleView.h; sourceTree = "<group>"; };
 		69A117021FA8747700A32747 /* SPItemSaleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPItemSaleView.m; sourceTree = "<group>"; };
-		69ECA1BE1FBD8E0500A9DFFC /* SPItemPlayablesViewCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPItemPlayablesViewCtrl.h; sourceTree = "<group>"; };
-		69ECA1BF1FBD8E0500A9DFFC /* SPItemPlayablesViewCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPItemPlayablesViewCtrl.m; sourceTree = "<group>"; };
 		69F631111FBAF01600A60EC8 /* SPGamepediaPlayable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPGamepediaPlayable.h; sourceTree = "<group>"; };
 		69F631121FBAF01600A60EC8 /* SPGamepediaPlayable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPGamepediaPlayable.m; sourceTree = "<group>"; };
 		69F631141FBAF4CE00A60EC8 /* SPGamepediaData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPGamepediaData.h; sourceTree = "<group>"; };
@@ -2473,10 +2471,8 @@
 				445718B821A52111005E8ABD /* SPItemListContainer.swift */,
 				445718BD21A52B8D005E8ABD /* SPItemsDetailViewCtrl.swift */,
 				447B6E4121A66DF200A867FF /* SPItemViewCtrl.swift */,
-				2D0BD6F91FB343C700A5DD99 /* SPItemSteamPricesViewCtrl.h */,
-				2D0BD6FA1FB343C700A5DD99 /* SPItemSteamPricesViewCtrl.m */,
-				69ECA1BE1FBD8E0500A9DFFC /* SPItemPlayablesViewCtrl.h */,
-				69ECA1BF1FBD8E0500A9DFFC /* SPItemPlayablesViewCtrl.m */,
+				447B6E4621A6730900A867FF /* SPItemSteamPricesViewCtrl.swift */,
+				447B6E4B21A675F200A867FF /* SPItemPlayablesViewCtrl.swift */,
 			);
 			path = Ctrls;
 			sourceTree = "<group>";
@@ -3982,6 +3978,7 @@
 				2D80810F1FD5B92500078A50 /* SPFeedbackViewCtrl.m in Sources */,
 				2D8081101FD5B92500078A50 /* SPItemFilterGroup.m in Sources */,
 				2D8081111FD5B92500078A50 /* SPView.m in Sources */,
+				447B6E4921A6730900A867FF /* SPItemSteamPricesViewCtrl.swift in Sources */,
 				2D8081121FD5B92500078A50 /* SPHeroCell.m in Sources */,
 				2D8081131FD5B92500078A50 /* DDRequestManager.m in Sources */,
 				2D8081141FD5B92500078A50 /* UICollectionViewCell+yg_IBInspectable.m in Sources */,
@@ -3991,7 +3988,6 @@
 				2D8081181FD5B92500078A50 /* SPLocale.m in Sources */,
 				2D8081191FD5B92500078A50 /* YGCoreMotionHelper.m in Sources */,
 				2D80811A1FD5B92500078A50 /* SPTableViewCell.m in Sources */,
-				2D80811B1FD5B92500078A50 /* SPItemSteamPricesViewCtrl.m in Sources */,
 				2D80811C1FD5B92500078A50 /* SPGamepediaImage.m in Sources */,
 				2D80811D1FD5B92500078A50 /* SPMarketItem.m in Sources */,
 				2D80811E1FD5B92500078A50 /* SPPlayerItemFilterUnit.m in Sources */,
@@ -4041,6 +4037,7 @@
 				44EC324221A27E3B00FB8D9E /* Vendor.swift in Sources */,
 				2D80814A1FD5B92500078A50 /* YGBubble.m in Sources */,
 				44EC327E21A2A87D00FB8D9E /* SPItemOffPriceVC.swift in Sources */,
+				447B6E4E21A675F200A867FF /* SPItemPlayablesViewCtrl.swift in Sources */,
 				2D80814B1FD5B92500078A50 /* SPWorkshopModel.m in Sources */,
 				2D80814D1FD5B92500078A50 /* UIButton+yg_IBInspectable.m in Sources */,
 				2D80814E1FD5B92500078A50 /* UITableViewCell+yg_IBInspectable.m in Sources */,
@@ -4113,7 +4110,6 @@
 				2D8081901FD5B92500078A50 /* SPWorkshopCell.m in Sources */,
 				2D8081911FD5B92500078A50 /* SPItemBannerImageCell.m in Sources */,
 				2D8081921FD5B92500078A50 /* SPIAPViewCtrl.m in Sources */,
-				2D8081941FD5B92500078A50 /* SPItemPlayablesViewCtrl.m in Sources */,
 				2D8081951FD5B92500078A50 /* UIToolbar+yg_IBInspectable.m in Sources */,
 				2D8081971FD5B92500078A50 /* SPPlayerAliasesVC.m in Sources */,
 				2D8081981FD5B92500078A50 /* SPWorkshop.m in Sources */,
@@ -4212,6 +4208,7 @@
 				2DD662F61FD57D62000E7223 /* SPFeedbackViewCtrl.m in Sources */,
 				2DD662F71FD57D62000E7223 /* SPItemFilterGroup.m in Sources */,
 				2DD662F81FD57D62000E7223 /* SPView.m in Sources */,
+				447B6E4821A6730900A867FF /* SPItemSteamPricesViewCtrl.swift in Sources */,
 				2DD662F91FD57D62000E7223 /* SPHeroCell.m in Sources */,
 				2DD662FA1FD57D62000E7223 /* DDRequestManager.m in Sources */,
 				2DD662FB1FD57D62000E7223 /* UICollectionViewCell+yg_IBInspectable.m in Sources */,
@@ -4221,7 +4218,6 @@
 				2DD662FF1FD57D62000E7223 /* SPLocale.m in Sources */,
 				2DD663001FD57D62000E7223 /* YGCoreMotionHelper.m in Sources */,
 				2DD663011FD57D62000E7223 /* SPTableViewCell.m in Sources */,
-				2DD663021FD57D62000E7223 /* SPItemSteamPricesViewCtrl.m in Sources */,
 				2DD663031FD57D62000E7223 /* SPGamepediaImage.m in Sources */,
 				2DD663041FD57D62000E7223 /* SPMarketItem.m in Sources */,
 				2DD663051FD57D62000E7223 /* SPPlayerItemFilterUnit.m in Sources */,
@@ -4271,6 +4267,7 @@
 				44EC324121A27E3B00FB8D9E /* Vendor.swift in Sources */,
 				2DD663311FD57D62000E7223 /* YGBubble.m in Sources */,
 				44EC327D21A2A87D00FB8D9E /* SPItemOffPriceVC.swift in Sources */,
+				447B6E4D21A675F200A867FF /* SPItemPlayablesViewCtrl.swift in Sources */,
 				2DD663321FD57D62000E7223 /* SPWorkshopModel.m in Sources */,
 				2DD663341FD57D62000E7223 /* UIButton+yg_IBInspectable.m in Sources */,
 				2DD663351FD57D62000E7223 /* UITableViewCell+yg_IBInspectable.m in Sources */,
@@ -4343,7 +4340,6 @@
 				2DD663771FD57D62000E7223 /* SPWorkshopCell.m in Sources */,
 				2DD663781FD57D62000E7223 /* SPItemBannerImageCell.m in Sources */,
 				2DD663791FD57D62000E7223 /* SPIAPViewCtrl.m in Sources */,
-				2DD6637B1FD57D62000E7223 /* SPItemPlayablesViewCtrl.m in Sources */,
 				2DD6637C1FD57D62000E7223 /* UIToolbar+yg_IBInspectable.m in Sources */,
 				2DD6637E1FD57D62000E7223 /* SPPlayerAliasesVC.m in Sources */,
 				2DD6637F1FD57D62000E7223 /* SPWorkshop.m in Sources */,
@@ -4442,6 +4438,7 @@
 				2DD663FF1FD57D83000E7223 /* SPFeedbackViewCtrl.m in Sources */,
 				2DD664001FD57D83000E7223 /* SPItemFilterGroup.m in Sources */,
 				2DD664011FD57D83000E7223 /* SPView.m in Sources */,
+				447B6E4721A6730900A867FF /* SPItemSteamPricesViewCtrl.swift in Sources */,
 				2DD664021FD57D83000E7223 /* SPHeroCell.m in Sources */,
 				2DD664031FD57D83000E7223 /* DDRequestManager.m in Sources */,
 				2DD664041FD57D83000E7223 /* UICollectionViewCell+yg_IBInspectable.m in Sources */,
@@ -4451,7 +4448,6 @@
 				2DD664081FD57D83000E7223 /* SPLocale.m in Sources */,
 				2DD664091FD57D83000E7223 /* YGCoreMotionHelper.m in Sources */,
 				2DD6640A1FD57D83000E7223 /* SPTableViewCell.m in Sources */,
-				2DD6640B1FD57D83000E7223 /* SPItemSteamPricesViewCtrl.m in Sources */,
 				2DD6640C1FD57D83000E7223 /* SPGamepediaImage.m in Sources */,
 				2DD6640D1FD57D83000E7223 /* SPMarketItem.m in Sources */,
 				2DD6640E1FD57D83000E7223 /* SPPlayerItemFilterUnit.m in Sources */,
@@ -4501,6 +4497,7 @@
 				44EC324021A27E3B00FB8D9E /* Vendor.swift in Sources */,
 				2DD6643A1FD57D83000E7223 /* YGBubble.m in Sources */,
 				44EC327C21A2A87D00FB8D9E /* SPItemOffPriceVC.swift in Sources */,
+				447B6E4C21A675F200A867FF /* SPItemPlayablesViewCtrl.swift in Sources */,
 				2DD6643B1FD57D83000E7223 /* SPWorkshopModel.m in Sources */,
 				2DD6643D1FD57D83000E7223 /* UIButton+yg_IBInspectable.m in Sources */,
 				2DD6643E1FD57D83000E7223 /* UITableViewCell+yg_IBInspectable.m in Sources */,
@@ -4573,7 +4570,6 @@
 				2DD664801FD57D83000E7223 /* SPWorkshopCell.m in Sources */,
 				2DD664811FD57D83000E7223 /* SPItemBannerImageCell.m in Sources */,
 				2DD664821FD57D83000E7223 /* SPIAPViewCtrl.m in Sources */,
-				2DD664841FD57D83000E7223 /* SPItemPlayablesViewCtrl.m in Sources */,
 				2DD664851FD57D83000E7223 /* UIToolbar+yg_IBInspectable.m in Sources */,
 				2DD664871FD57D83000E7223 /* SPPlayerAliasesVC.m in Sources */,
 				2DD664881FD57D83000E7223 /* SPWorkshop.m in Sources */,
@@ -4672,6 +4668,7 @@
 				44059291218C57DF0098E3EB /* SPFeedbackViewCtrl.m in Sources */,
 				44059292218C57DF0098E3EB /* SPItemFilterGroup.m in Sources */,
 				44059293218C57DF0098E3EB /* SPView.m in Sources */,
+				447B6E4A21A6730900A867FF /* SPItemSteamPricesViewCtrl.swift in Sources */,
 				44059294218C57DF0098E3EB /* SPHeroCell.m in Sources */,
 				44059295218C57DF0098E3EB /* DDRequestManager.m in Sources */,
 				44059296218C57DF0098E3EB /* UICollectionViewCell+yg_IBInspectable.m in Sources */,
@@ -4681,7 +4678,6 @@
 				4405929A218C57DF0098E3EB /* SPLocale.m in Sources */,
 				4405929B218C57DF0098E3EB /* YGCoreMotionHelper.m in Sources */,
 				4405929C218C57DF0098E3EB /* SPTableViewCell.m in Sources */,
-				4405929D218C57DF0098E3EB /* SPItemSteamPricesViewCtrl.m in Sources */,
 				4405929E218C57DF0098E3EB /* SPGamepediaImage.m in Sources */,
 				4405929F218C57DF0098E3EB /* SPMarketItem.m in Sources */,
 				440592A0218C57DF0098E3EB /* SPPlayerItemFilterUnit.m in Sources */,
@@ -4731,6 +4727,7 @@
 				44EC324321A27E3B00FB8D9E /* Vendor.swift in Sources */,
 				440592CC218C57DF0098E3EB /* YGBubble.m in Sources */,
 				44EC327F21A2A87D00FB8D9E /* SPItemOffPriceVC.swift in Sources */,
+				447B6E4F21A675F200A867FF /* SPItemPlayablesViewCtrl.swift in Sources */,
 				440592CD218C57DF0098E3EB /* SPWorkshopModel.m in Sources */,
 				440592CF218C57DF0098E3EB /* UIButton+yg_IBInspectable.m in Sources */,
 				440592D0218C57DF0098E3EB /* UITableViewCell+yg_IBInspectable.m in Sources */,
@@ -4803,7 +4800,6 @@
 				44059312218C57DF0098E3EB /* SPWorkshopCell.m in Sources */,
 				44059313218C57DF0098E3EB /* SPItemBannerImageCell.m in Sources */,
 				44059314218C57DF0098E3EB /* SPIAPViewCtrl.m in Sources */,
-				44059316218C57DF0098E3EB /* SPItemPlayablesViewCtrl.m in Sources */,
 				44059317218C57DF0098E3EB /* UIToolbar+yg_IBInspectable.m in Sources */,
 				44059319218C57DF0098E3EB /* SPPlayerAliasesVC.m in Sources */,
 				4405931A218C57DF0098E3EB /* SPWorkshop.m in Sources */,
