@@ -37,6 +37,15 @@
 #import "SPItemCellModel.h"
 #import "SPItemCell.h"
 #import "SPPlayerItems.h"
-#import "SPItemViewCtrl.h"
+#import "SPItemSharedData.h"
+#import "SPItemBannerView.h"
+#import "SPItemTitleView.h"
+#import "SPItemSaleView.h"
+#import "SPItemLoadingView.h"
+#import "SPItemDescPanel.h"
+#import "SPItemPlayableView.h"
+#import "SPItemMoreItemsView.h"
+#import "SPHistoryManager.h"
+#import "SPStarManager.h"
 
 #endif /* SPObjC_h */

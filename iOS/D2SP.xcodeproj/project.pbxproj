@@ -27,7 +27,6 @@
 		2D8081031FD5B92500078A50 /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B73D1F1361640012950A /* TAAnimatedDotView.m */; };
 		2D8081041FD5B92500078A50 /* SPItemFilterUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D24517F1FC9AA7200EF5438 /* SPItemFilterUnit.m */; };
 		2D8081061FD5B92500078A50 /* UIImage+Mask.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6AB1F1361640012950A /* UIImage+Mask.m */; };
-		2D8081071FD5B92500078A50 /* SPItemViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 690BD5181FA841A1007A4D5D /* SPItemViewCtrl.m */; };
 		2D8081081FD5B92500078A50 /* YGCapabilityHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B66F1F1361640012950A /* YGCapabilityHelper.m */; };
 		2D8081091FD5B92500078A50 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6831F1361640012950A /* NSString+Utils.m */; };
 		2D80810A1FD5B92500078A50 /* NSArray+YYModelExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6791F1361640012950A /* NSArray+YYModelExt.m */; };
@@ -249,7 +248,6 @@
 		2DD662EA1FD57D62000E7223 /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B73D1F1361640012950A /* TAAnimatedDotView.m */; };
 		2DD662EB1FD57D62000E7223 /* SPItemFilterUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D24517F1FC9AA7200EF5438 /* SPItemFilterUnit.m */; };
 		2DD662ED1FD57D62000E7223 /* UIImage+Mask.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6AB1F1361640012950A /* UIImage+Mask.m */; };
-		2DD662EE1FD57D62000E7223 /* SPItemViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 690BD5181FA841A1007A4D5D /* SPItemViewCtrl.m */; };
 		2DD662EF1FD57D62000E7223 /* YGCapabilityHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B66F1F1361640012950A /* YGCapabilityHelper.m */; };
 		2DD662F01FD57D62000E7223 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6831F1361640012950A /* NSString+Utils.m */; };
 		2DD662F11FD57D62000E7223 /* NSArray+YYModelExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6791F1361640012950A /* NSArray+YYModelExt.m */; };
@@ -470,7 +468,6 @@
 		2DD663F31FD57D83000E7223 /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B73D1F1361640012950A /* TAAnimatedDotView.m */; };
 		2DD663F41FD57D83000E7223 /* SPItemFilterUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D24517F1FC9AA7200EF5438 /* SPItemFilterUnit.m */; };
 		2DD663F61FD57D83000E7223 /* UIImage+Mask.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6AB1F1361640012950A /* UIImage+Mask.m */; };
-		2DD663F71FD57D83000E7223 /* SPItemViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 690BD5181FA841A1007A4D5D /* SPItemViewCtrl.m */; };
 		2DD663F81FD57D83000E7223 /* YGCapabilityHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B66F1F1361640012950A /* YGCapabilityHelper.m */; };
 		2DD663F91FD57D83000E7223 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6831F1361640012950A /* NSString+Utils.m */; };
 		2DD663FA1FD57D83000E7223 /* NSArray+YYModelExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6791F1361640012950A /* NSArray+YYModelExt.m */; };
@@ -699,7 +696,6 @@
 		44059284218C57DF0098E3EB /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B73D1F1361640012950A /* TAAnimatedDotView.m */; };
 		44059285218C57DF0098E3EB /* SPItemFilterUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D24517F1FC9AA7200EF5438 /* SPItemFilterUnit.m */; };
 		44059287218C57DF0098E3EB /* UIImage+Mask.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6AB1F1361640012950A /* UIImage+Mask.m */; };
-		44059288218C57DF0098E3EB /* SPItemViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 690BD5181FA841A1007A4D5D /* SPItemViewCtrl.m */; };
 		44059289218C57DF0098E3EB /* YGCapabilityHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B66F1F1361640012950A /* YGCapabilityHelper.m */; };
 		4405928A218C57DF0098E3EB /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6831F1361640012950A /* NSString+Utils.m */; };
 		4405928B218C57DF0098E3EB /* NSArray+YYModelExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6791F1361640012950A /* NSArray+YYModelExt.m */; };
@@ -943,6 +939,10 @@
 		4472CC75219407D000FC0B1F /* SPSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4472CC73219407D000FC0B1F /* SPSwift.swift */; };
 		4472CC76219407D000FC0B1F /* SPSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4472CC73219407D000FC0B1F /* SPSwift.swift */; };
 		4472CC77219407D000FC0B1F /* SPSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4472CC73219407D000FC0B1F /* SPSwift.swift */; };
+		447B6E4221A66DF200A867FF /* SPItemViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E4121A66DF200A867FF /* SPItemViewCtrl.swift */; };
+		447B6E4321A66DF200A867FF /* SPItemViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E4121A66DF200A867FF /* SPItemViewCtrl.swift */; };
+		447B6E4421A66DF200A867FF /* SPItemViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E4121A66DF200A867FF /* SPItemViewCtrl.swift */; };
+		447B6E4521A66DF200A867FF /* SPItemViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E4121A66DF200A867FF /* SPItemViewCtrl.swift */; };
 		44EC324021A27E3B00FB8D9E /* Vendor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC323F21A27E3B00FB8D9E /* Vendor.swift */; };
 		44EC324121A27E3B00FB8D9E /* Vendor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC323F21A27E3B00FB8D9E /* Vendor.swift */; };
 		44EC324221A27E3B00FB8D9E /* Vendor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC323F21A27E3B00FB8D9E /* Vendor.swift */; };
@@ -1457,6 +1457,7 @@
 		445ED65E218FF2F6006341CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		445ED663218FFAEC006341CB /* SPObjC-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SPObjC-Swift.h"; sourceTree = "<group>"; };
 		4472CC73219407D000FC0B1F /* SPSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPSwift.swift; sourceTree = "<group>"; };
+		447B6E4121A66DF200A867FF /* SPItemViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPItemViewCtrl.swift; sourceTree = "<group>"; };
 		44EC323F21A27E3B00FB8D9E /* Vendor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vendor.swift; sourceTree = "<group>"; };
 		44EC324421A28A7900FB8D9E /* SPItemEntranceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPItemEntranceVC.swift; sourceTree = "<group>"; };
 		44EC324E21A28E1600FB8D9E /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
@@ -1479,8 +1480,6 @@
 		690BD50F1FA71666007A4D5D /* SPGamepediaSerializer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPGamepediaSerializer.m; sourceTree = "<group>"; };
 		690BD5141FA71E6D007A4D5D /* SPGamepediaImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPGamepediaImage.h; sourceTree = "<group>"; };
 		690BD5151FA71E6D007A4D5D /* SPGamepediaImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPGamepediaImage.m; sourceTree = "<group>"; };
-		690BD5171FA841A1007A4D5D /* SPItemViewCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPItemViewCtrl.h; sourceTree = "<group>"; };
-		690BD5181FA841A1007A4D5D /* SPItemViewCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPItemViewCtrl.m; sourceTree = "<group>"; };
 		690BD51B1FA84260007A4D5D /* SPItemTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPItemTitleView.h; sourceTree = "<group>"; };
 		690BD51C1FA84260007A4D5D /* SPItemTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPItemTitleView.m; sourceTree = "<group>"; };
 		690BD51E1FA84420007A4D5D /* SPItemSharedData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPItemSharedData.h; sourceTree = "<group>"; };
@@ -2473,8 +2472,7 @@
 				44EC328F21A2AC0700FB8D9E /* SPItemListVC.swift */,
 				445718B821A52111005E8ABD /* SPItemListContainer.swift */,
 				445718BD21A52B8D005E8ABD /* SPItemsDetailViewCtrl.swift */,
-				690BD5171FA841A1007A4D5D /* SPItemViewCtrl.h */,
-				690BD5181FA841A1007A4D5D /* SPItemViewCtrl.m */,
+				447B6E4121A66DF200A867FF /* SPItemViewCtrl.swift */,
 				2D0BD6F91FB343C700A5DD99 /* SPItemSteamPricesViewCtrl.h */,
 				2D0BD6FA1FB343C700A5DD99 /* SPItemSteamPricesViewCtrl.m */,
 				69ECA1BE1FBD8E0500A9DFFC /* SPItemPlayablesViewCtrl.h */,
@@ -3972,7 +3970,7 @@
 				2D8081031FD5B92500078A50 /* TAAnimatedDotView.m in Sources */,
 				2D8081041FD5B92500078A50 /* SPItemFilterUnit.m in Sources */,
 				2D8081061FD5B92500078A50 /* UIImage+Mask.m in Sources */,
-				2D8081071FD5B92500078A50 /* SPItemViewCtrl.m in Sources */,
+				447B6E4421A66DF200A867FF /* SPItemViewCtrl.swift in Sources */,
 				2D8081081FD5B92500078A50 /* YGCapabilityHelper.m in Sources */,
 				2D8081091FD5B92500078A50 /* NSString+Utils.m in Sources */,
 				2D80810A1FD5B92500078A50 /* NSArray+YYModelExt.m in Sources */,
@@ -4202,7 +4200,7 @@
 				2DD662EA1FD57D62000E7223 /* TAAnimatedDotView.m in Sources */,
 				2DD662EB1FD57D62000E7223 /* SPItemFilterUnit.m in Sources */,
 				2DD662ED1FD57D62000E7223 /* UIImage+Mask.m in Sources */,
-				2DD662EE1FD57D62000E7223 /* SPItemViewCtrl.m in Sources */,
+				447B6E4321A66DF200A867FF /* SPItemViewCtrl.swift in Sources */,
 				2DD662EF1FD57D62000E7223 /* YGCapabilityHelper.m in Sources */,
 				2DD662F01FD57D62000E7223 /* NSString+Utils.m in Sources */,
 				2DD662F11FD57D62000E7223 /* NSArray+YYModelExt.m in Sources */,
@@ -4432,7 +4430,7 @@
 				2DD663F31FD57D83000E7223 /* TAAnimatedDotView.m in Sources */,
 				2DD663F41FD57D83000E7223 /* SPItemFilterUnit.m in Sources */,
 				2DD663F61FD57D83000E7223 /* UIImage+Mask.m in Sources */,
-				2DD663F71FD57D83000E7223 /* SPItemViewCtrl.m in Sources */,
+				447B6E4221A66DF200A867FF /* SPItemViewCtrl.swift in Sources */,
 				2DD663F81FD57D83000E7223 /* YGCapabilityHelper.m in Sources */,
 				2DD663F91FD57D83000E7223 /* NSString+Utils.m in Sources */,
 				2DD663FA1FD57D83000E7223 /* NSArray+YYModelExt.m in Sources */,
@@ -4662,7 +4660,7 @@
 				44059284218C57DF0098E3EB /* TAAnimatedDotView.m in Sources */,
 				44059285218C57DF0098E3EB /* SPItemFilterUnit.m in Sources */,
 				44059287218C57DF0098E3EB /* UIImage+Mask.m in Sources */,
-				44059288218C57DF0098E3EB /* SPItemViewCtrl.m in Sources */,
+				447B6E4521A66DF200A867FF /* SPItemViewCtrl.swift in Sources */,
 				44059289218C57DF0098E3EB /* YGCapabilityHelper.m in Sources */,
 				4405928A218C57DF0098E3EB /* NSString+Utils.m in Sources */,
 				4405928B218C57DF0098E3EB /* NSArray+YYModelExt.m in Sources */,

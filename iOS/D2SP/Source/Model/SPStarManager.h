@@ -11,6 +11,7 @@
 @interface SPStarManager : NSObject
 
 + (instancetype)manager;
++ (instancetype)shared;
 
 - (NSArray<NSString *> *)getRecord:(NSInteger)orderId
                           pageSize:(int)pageSize;

@@ -12,6 +12,8 @@
 
 + (instancetype)manager;
 
++ (instancetype)shared;
+
 
 /**
  获取历史列表

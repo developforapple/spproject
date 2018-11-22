@@ -26,6 +26,11 @@
     return instance;
 }
 
++ (instancetype)shared
+{
+    return [self manager];
+}
+
 #pragma mark - db
 - (FMDatabase *)db
 {
