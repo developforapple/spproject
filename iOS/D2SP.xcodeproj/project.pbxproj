@@ -147,7 +147,6 @@
 		2D80818A1FD5B92500078A50 /* SPLicenseViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF661D1FCEEDAB006A0081 /* SPLicenseViewCtrl.m */; };
 		2D80818B1FD5B92500078A50 /* SPItemSets.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B77A1F1361640012950A /* SPItemSets.m */; };
 		2D80818C1FD5B92500078A50 /* SPSettingDiskCacheVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7EA1F1361640012950A /* SPSettingDiskCacheVC.m */; };
-		2D80818D1FD5B92500078A50 /* SPItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7901F1361640012950A /* SPItemCell.m */; };
 		2D80818E1FD5B92500078A50 /* YGBaseViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7861F1361640012950A /* YGBaseViewCtrl.m */; };
 		2D80818F1FD5B92500078A50 /* NSObject+URLSessionTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6CF1F1361640012950A /* NSObject+URLSessionTask.m */; };
 		2D8081901FD5B92500078A50 /* SPWorkshopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B80C1F1361640012950A /* SPWorkshopCell.m */; };
@@ -366,7 +365,6 @@
 		2DD663711FD57D62000E7223 /* SPLicenseViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF661D1FCEEDAB006A0081 /* SPLicenseViewCtrl.m */; };
 		2DD663721FD57D62000E7223 /* SPItemSets.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B77A1F1361640012950A /* SPItemSets.m */; };
 		2DD663731FD57D62000E7223 /* SPSettingDiskCacheVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7EA1F1361640012950A /* SPSettingDiskCacheVC.m */; };
-		2DD663741FD57D62000E7223 /* SPItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7901F1361640012950A /* SPItemCell.m */; };
 		2DD663751FD57D62000E7223 /* YGBaseViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7861F1361640012950A /* YGBaseViewCtrl.m */; };
 		2DD663761FD57D62000E7223 /* NSObject+URLSessionTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6CF1F1361640012950A /* NSObject+URLSessionTask.m */; };
 		2DD663771FD57D62000E7223 /* SPWorkshopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B80C1F1361640012950A /* SPWorkshopCell.m */; };
@@ -584,7 +582,6 @@
 		2DD6647A1FD57D83000E7223 /* SPLicenseViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF661D1FCEEDAB006A0081 /* SPLicenseViewCtrl.m */; };
 		2DD6647B1FD57D83000E7223 /* SPItemSets.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B77A1F1361640012950A /* SPItemSets.m */; };
 		2DD6647C1FD57D83000E7223 /* SPSettingDiskCacheVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7EA1F1361640012950A /* SPSettingDiskCacheVC.m */; };
-		2DD6647D1FD57D83000E7223 /* SPItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7901F1361640012950A /* SPItemCell.m */; };
 		2DD6647E1FD57D83000E7223 /* YGBaseViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7861F1361640012950A /* YGBaseViewCtrl.m */; };
 		2DD6647F1FD57D83000E7223 /* NSObject+URLSessionTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6CF1F1361640012950A /* NSObject+URLSessionTask.m */; };
 		2DD664801FD57D83000E7223 /* SPWorkshopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B80C1F1361640012950A /* SPWorkshopCell.m */; };
@@ -811,7 +808,6 @@
 		4405930C218C57DF0098E3EB /* SPLicenseViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF661D1FCEEDAB006A0081 /* SPLicenseViewCtrl.m */; };
 		4405930D218C57DF0098E3EB /* SPItemSets.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B77A1F1361640012950A /* SPItemSets.m */; };
 		4405930E218C57DF0098E3EB /* SPSettingDiskCacheVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7EA1F1361640012950A /* SPSettingDiskCacheVC.m */; };
-		4405930F218C57DF0098E3EB /* SPItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7901F1361640012950A /* SPItemCell.m */; };
 		44059310218C57DF0098E3EB /* YGBaseViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7861F1361640012950A /* YGBaseViewCtrl.m */; };
 		44059311218C57DF0098E3EB /* NSObject+URLSessionTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6CF1F1361640012950A /* NSObject+URLSessionTask.m */; };
 		44059312218C57DF0098E3EB /* SPWorkshopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B80C1F1361640012950A /* SPWorkshopCell.m */; };
@@ -943,6 +939,10 @@
 		447B6E4D21A675F200A867FF /* SPItemPlayablesViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E4B21A675F200A867FF /* SPItemPlayablesViewCtrl.swift */; };
 		447B6E4E21A675F200A867FF /* SPItemPlayablesViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E4B21A675F200A867FF /* SPItemPlayablesViewCtrl.swift */; };
 		447B6E4F21A675F200A867FF /* SPItemPlayablesViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E4B21A675F200A867FF /* SPItemPlayablesViewCtrl.swift */; };
+		447B6E5121A6789C00A867FF /* SPItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E5021A6789C00A867FF /* SPItemCell.swift */; };
+		447B6E5221A6789C00A867FF /* SPItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E5021A6789C00A867FF /* SPItemCell.swift */; };
+		447B6E5321A6789C00A867FF /* SPItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E5021A6789C00A867FF /* SPItemCell.swift */; };
+		447B6E5421A6789C00A867FF /* SPItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E5021A6789C00A867FF /* SPItemCell.swift */; };
 		44EC324021A27E3B00FB8D9E /* Vendor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC323F21A27E3B00FB8D9E /* Vendor.swift */; };
 		44EC324121A27E3B00FB8D9E /* Vendor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC323F21A27E3B00FB8D9E /* Vendor.swift */; };
 		44EC324221A27E3B00FB8D9E /* Vendor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC323F21A27E3B00FB8D9E /* Vendor.swift */; };
@@ -1333,8 +1333,6 @@
 		2DF9B7881F1361640012950A /* YGBaseWebViewCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGBaseWebViewCtrl.m; sourceTree = "<group>"; };
 		2DF9B7891F1361640012950A /* YGTabBarCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGTabBarCtrl.h; sourceTree = "<group>"; };
 		2DF9B78A1F1361640012950A /* YGTabBarCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGTabBarCtrl.m; sourceTree = "<group>"; };
-		2DF9B78F1F1361640012950A /* SPItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPItemCell.h; sourceTree = "<group>"; };
-		2DF9B7901F1361640012950A /* SPItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPItemCell.m; sourceTree = "<group>"; };
 		2DF9B7961F1361640012950A /* SPItemQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPItemQuery.h; sourceTree = "<group>"; };
 		2DF9B7971F1361640012950A /* SPItemQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPItemQuery.m; sourceTree = "<group>"; };
 		2DF9B7A91F1361640012950A /* DDMainADVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMainADVC.h; sourceTree = "<group>"; };
@@ -1458,6 +1456,7 @@
 		447B6E4121A66DF200A867FF /* SPItemViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPItemViewCtrl.swift; sourceTree = "<group>"; };
 		447B6E4621A6730900A867FF /* SPItemSteamPricesViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPItemSteamPricesViewCtrl.swift; sourceTree = "<group>"; };
 		447B6E4B21A675F200A867FF /* SPItemPlayablesViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPItemPlayablesViewCtrl.swift; sourceTree = "<group>"; };
+		447B6E5021A6789C00A867FF /* SPItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPItemCell.swift; sourceTree = "<group>"; };
 		44EC323F21A27E3B00FB8D9E /* Vendor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vendor.swift; sourceTree = "<group>"; };
 		44EC324421A28A7900FB8D9E /* SPItemEntranceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPItemEntranceVC.swift; sourceTree = "<group>"; };
 		44EC324E21A28E1600FB8D9E /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
@@ -2421,8 +2420,7 @@
 		2DF9B78C1F1361640012950A /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				2DF9B78F1F1361640012950A /* SPItemCell.h */,
-				2DF9B7901F1361640012950A /* SPItemCell.m */,
+				447B6E5021A6789C00A867FF /* SPItemCell.swift */,
 				691974291F42A96E00FB5007 /* SPBundleItemCell.h */,
 				6919742A1F42A96E00FB5007 /* SPBundleItemCell.m */,
 				2D0BD6FC1FB3486E00A5DD99 /* SPItemSteamPriceCell.h */,
@@ -4043,6 +4041,7 @@
 				2D80814E1FD5B92500078A50 /* UITableViewCell+yg_IBInspectable.m in Sources */,
 				2D80814F1FD5B92500078A50 /* DDSegmentScrollView.m in Sources */,
 				2D8081501FD5B92500078A50 /* CDTAlertAction.m in Sources */,
+				447B6E5321A6789C00A867FF /* SPItemCell.swift in Sources */,
 				2D8081511FD5B92500078A50 /* SPItemCellModel.m in Sources */,
 				2D8081521FD5B92500078A50 /* UINavigationController+Convenience.m in Sources */,
 				445718C021A52B8D005E8ABD /* SPItemsDetailViewCtrl.swift in Sources */,
@@ -4104,7 +4103,6 @@
 				2D80818A1FD5B92500078A50 /* SPLicenseViewCtrl.m in Sources */,
 				2D80818B1FD5B92500078A50 /* SPItemSets.m in Sources */,
 				2D80818C1FD5B92500078A50 /* SPSettingDiskCacheVC.m in Sources */,
-				2D80818D1FD5B92500078A50 /* SPItemCell.m in Sources */,
 				2D80818E1FD5B92500078A50 /* YGBaseViewCtrl.m in Sources */,
 				2D80818F1FD5B92500078A50 /* NSObject+URLSessionTask.m in Sources */,
 				2D8081901FD5B92500078A50 /* SPWorkshopCell.m in Sources */,
@@ -4273,6 +4271,7 @@
 				2DD663351FD57D62000E7223 /* UITableViewCell+yg_IBInspectable.m in Sources */,
 				2DD663361FD57D62000E7223 /* DDSegmentScrollView.m in Sources */,
 				2DD663371FD57D62000E7223 /* CDTAlertAction.m in Sources */,
+				447B6E5221A6789C00A867FF /* SPItemCell.swift in Sources */,
 				2DD663381FD57D62000E7223 /* SPItemCellModel.m in Sources */,
 				2DD663391FD57D62000E7223 /* UINavigationController+Convenience.m in Sources */,
 				445718BF21A52B8D005E8ABD /* SPItemsDetailViewCtrl.swift in Sources */,
@@ -4334,7 +4333,6 @@
 				2DD663711FD57D62000E7223 /* SPLicenseViewCtrl.m in Sources */,
 				2DD663721FD57D62000E7223 /* SPItemSets.m in Sources */,
 				2DD663731FD57D62000E7223 /* SPSettingDiskCacheVC.m in Sources */,
-				2DD663741FD57D62000E7223 /* SPItemCell.m in Sources */,
 				2DD663751FD57D62000E7223 /* YGBaseViewCtrl.m in Sources */,
 				2DD663761FD57D62000E7223 /* NSObject+URLSessionTask.m in Sources */,
 				2DD663771FD57D62000E7223 /* SPWorkshopCell.m in Sources */,
@@ -4503,6 +4501,7 @@
 				2DD6643E1FD57D83000E7223 /* UITableViewCell+yg_IBInspectable.m in Sources */,
 				2DD6643F1FD57D83000E7223 /* DDSegmentScrollView.m in Sources */,
 				2DD664401FD57D83000E7223 /* CDTAlertAction.m in Sources */,
+				447B6E5121A6789C00A867FF /* SPItemCell.swift in Sources */,
 				2DD664411FD57D83000E7223 /* SPItemCellModel.m in Sources */,
 				2DD664421FD57D83000E7223 /* UINavigationController+Convenience.m in Sources */,
 				445718BE21A52B8D005E8ABD /* SPItemsDetailViewCtrl.swift in Sources */,
@@ -4564,7 +4563,6 @@
 				2DD6647A1FD57D83000E7223 /* SPLicenseViewCtrl.m in Sources */,
 				2DD6647B1FD57D83000E7223 /* SPItemSets.m in Sources */,
 				2DD6647C1FD57D83000E7223 /* SPSettingDiskCacheVC.m in Sources */,
-				2DD6647D1FD57D83000E7223 /* SPItemCell.m in Sources */,
 				2DD6647E1FD57D83000E7223 /* YGBaseViewCtrl.m in Sources */,
 				2DD6647F1FD57D83000E7223 /* NSObject+URLSessionTask.m in Sources */,
 				2DD664801FD57D83000E7223 /* SPWorkshopCell.m in Sources */,
@@ -4733,6 +4731,7 @@
 				440592D0218C57DF0098E3EB /* UITableViewCell+yg_IBInspectable.m in Sources */,
 				440592D1218C57DF0098E3EB /* DDSegmentScrollView.m in Sources */,
 				440592D2218C57DF0098E3EB /* CDTAlertAction.m in Sources */,
+				447B6E5421A6789C00A867FF /* SPItemCell.swift in Sources */,
 				440592D3218C57DF0098E3EB /* SPItemCellModel.m in Sources */,
 				440592D4218C57DF0098E3EB /* UINavigationController+Convenience.m in Sources */,
 				445718C121A52B8D005E8ABD /* SPItemsDetailViewCtrl.swift in Sources */,
@@ -4794,7 +4793,6 @@
 				4405930C218C57DF0098E3EB /* SPLicenseViewCtrl.m in Sources */,
 				4405930D218C57DF0098E3EB /* SPItemSets.m in Sources */,
 				4405930E218C57DF0098E3EB /* SPSettingDiskCacheVC.m in Sources */,
-				4405930F218C57DF0098E3EB /* SPItemCell.m in Sources */,
 				44059310218C57DF0098E3EB /* YGBaseViewCtrl.m in Sources */,
 				44059311218C57DF0098E3EB /* NSObject+URLSessionTask.m in Sources */,
 				44059312218C57DF0098E3EB /* SPWorkshopCell.m in Sources */,

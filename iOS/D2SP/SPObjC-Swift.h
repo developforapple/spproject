@@ -35,7 +35,6 @@
 #import "SPFilterNaviCtrl.h"
 #import "YGRefreshComponent.h"
 #import "SPItemCellModel.h"
-#import "SPItemCell.h"
 #import "SPPlayerItems.h"
 #import "SPItemSharedData.h"
 #import "SPItemBannerView.h"
@@ -51,5 +50,6 @@
 #import "SPItemSteamPriceCell.h"
 #import "SPPriceChartViewCtrl.h"
 #import "SPItemPlayableCell.h"
+#import "YGLineView.h"
 
 #endif /* SPObjC_h */

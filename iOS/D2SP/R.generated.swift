@@ -874,16 +874,16 @@ struct _R: Rswift.Validatable {
   
   struct storyboard: Rswift.Validatable {
     static func validate() throws {
-      try spItemSearch.validate()
-      try spMain.validate()
+      try spSetting.validate()
       try launchScreenSPOld.validate()
-      try spFilter.validate()
+      try spHero.validate()
       try spItem.validate()
       try spUpdate.validate()
-      try spChart.validate()
-      try spHero.validate()
+      try spItemSearch.validate()
+      try spFilter.validate()
       try spWorkshop.validate()
-      try spSetting.validate()
+      try spChart.validate()
+      try spMain.validate()
     }
     
     struct launchScreenSPOld: Rswift.StoryboardResourceWithInitialControllerType, Rswift.Validatable {
@@ -893,10 +893,10 @@ struct _R: Rswift.Validatable {
       let name = "LaunchScreen-SPOld"
       
       static func validate() throws {
-        if UIKit.UIImage(named: "icon_tab_workshop") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon_tab_workshop' is used in storyboard 'LaunchScreen-SPOld', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "icon_tab_me") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon_tab_me' is used in storyboard 'LaunchScreen-SPOld', but couldn't be loaded.") }
         if UIKit.UIImage(named: "icon_tab_home") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon_tab_home' is used in storyboard 'LaunchScreen-SPOld', but couldn't be loaded.") }
         if UIKit.UIImage(named: "icon_tab_user") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon_tab_user' is used in storyboard 'LaunchScreen-SPOld', but couldn't be loaded.") }
-        if UIKit.UIImage(named: "icon_tab_me") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon_tab_me' is used in storyboard 'LaunchScreen-SPOld', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "icon_tab_workshop") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon_tab_workshop' is used in storyboard 'LaunchScreen-SPOld', but couldn't be loaded.") }
         if #available(iOS 11.0, *) {
         }
       }
@@ -1027,30 +1027,30 @@ struct _R: Rswift.Validatable {
       }
       
       static func validate() throws {
-        if UIKit.UIImage(named: "logo_taobao") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'logo_taobao' is used in storyboard 'SPItem', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "logo_steam") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'logo_steam' is used in storyboard 'SPItem', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "logo_dota2") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'logo_dota2' is used in storyboard 'SPItem', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "logo_steam_light") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'logo_steam_light' is used in storyboard 'SPItem', but couldn't be loaded.") }
         if UIKit.UIImage(named: "icon_four_rectangle") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon_four_rectangle' is used in storyboard 'SPItem', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "icon_arrow_more") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon_arrow_more' is used in storyboard 'SPItem', but couldn't be loaded.") }
         if UIKit.UIImage(named: "icon_tab_home") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon_tab_home' is used in storyboard 'SPItem', but couldn't be loaded.") }
         if UIKit.UIImage(named: "placeholder") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'placeholder' is used in storyboard 'SPItem', but couldn't be loaded.") }
-        if UIKit.UIImage(named: "logo_steam_light") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'logo_steam_light' is used in storyboard 'SPItem', but couldn't be loaded.") }
         if UIKit.UIImage(named: "icon_back_light_2") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon_back_light_2' is used in storyboard 'SPItem', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "icon_title_collected_grey") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon_title_collected_grey' is used in storyboard 'SPItem', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "logo_taobao") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'logo_taobao' is used in storyboard 'SPItem', but couldn't be loaded.") }
         if UIKit.UIImage(named: "filter") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'filter' is used in storyboard 'SPItem', but couldn't be loaded.") }
         if UIKit.UIImage(named: "icon_title_collect_grey") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon_title_collect_grey' is used in storyboard 'SPItem', but couldn't be loaded.") }
-        if UIKit.UIImage(named: "icon_arrow_more") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon_arrow_more' is used in storyboard 'SPItem', but couldn't be loaded.") }
-        if UIKit.UIImage(named: "icon_title_collected_grey") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon_title_collected_grey' is used in storyboard 'SPItem', but couldn't be loaded.") }
-        if UIKit.UIImage(named: "logo_dota2") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'logo_dota2' is used in storyboard 'SPItem', but couldn't be loaded.") }
-        if UIKit.UIImage(named: "logo_steam") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'logo_steam' is used in storyboard 'SPItem', but couldn't be loaded.") }
         if #available(iOS 11.0, *) {
         }
-        if _R.storyboard.spItem().spDotaEventsViewCtrl() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spDotaEventsViewCtrl' could not be loaded from storyboard 'SPItem' as 'SPDotaEventsViewCtrl'.") }
-        if _R.storyboard.spItem().spItemPlayablesViewCtrl() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spItemPlayablesViewCtrl' could not be loaded from storyboard 'SPItem' as 'SPItemPlayablesViewCtrl'.") }
-        if _R.storyboard.spItem().spItemOffPriceVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spItemOffPriceVC' could not be loaded from storyboard 'SPItem' as 'SPItemOffPriceVC'.") }
-        if _R.storyboard.spItem().spItemListVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spItemListVC' could not be loaded from storyboard 'SPItem' as 'SPItemListVC'.") }
-        if _R.storyboard.spItem().spItemsDetailViewCtrl() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spItemsDetailViewCtrl' could not be loaded from storyboard 'SPItem' as 'SPItemsDetailViewCtrl'.") }
-        if _R.storyboard.spItem().spItemViewCtrl() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spItemViewCtrl' could not be loaded from storyboard 'SPItem' as 'SPItemViewCtrl'.") }
-        if _R.storyboard.spItem().spItemSteamPricesViewCtrl() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spItemSteamPricesViewCtrl' could not be loaded from storyboard 'SPItem' as 'SPItemSteamPricesViewCtrl'.") }
-        if _R.storyboard.spItem().spItemEntranceVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spItemEntranceVC' could not be loaded from storyboard 'SPItem' as 'SPItemEntranceVC'.") }
         if _R.storyboard.spItem().spItemListContainer() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spItemListContainer' could not be loaded from storyboard 'SPItem' as 'SPItemListContainer'.") }
+        if _R.storyboard.spItem().spItemSteamPricesViewCtrl() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spItemSteamPricesViewCtrl' could not be loaded from storyboard 'SPItem' as 'SPItemSteamPricesViewCtrl'.") }
+        if _R.storyboard.spItem().spItemListVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spItemListVC' could not be loaded from storyboard 'SPItem' as 'SPItemListVC'.") }
+        if _R.storyboard.spItem().spItemViewCtrl() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spItemViewCtrl' could not be loaded from storyboard 'SPItem' as 'SPItemViewCtrl'.") }
+        if _R.storyboard.spItem().spItemsDetailViewCtrl() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spItemsDetailViewCtrl' could not be loaded from storyboard 'SPItem' as 'SPItemsDetailViewCtrl'.") }
+        if _R.storyboard.spItem().spItemPlayablesViewCtrl() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spItemPlayablesViewCtrl' could not be loaded from storyboard 'SPItem' as 'SPItemPlayablesViewCtrl'.") }
+        if _R.storyboard.spItem().spItemEntranceVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spItemEntranceVC' could not be loaded from storyboard 'SPItem' as 'SPItemEntranceVC'.") }
+        if _R.storyboard.spItem().spDotaEventsViewCtrl() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spDotaEventsViewCtrl' could not be loaded from storyboard 'SPItem' as 'SPDotaEventsViewCtrl'.") }
         if _R.storyboard.spItem()._unused0() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier '_unused0' could not be loaded from storyboard 'SPItem' as 'YGBaseNaviCtrl'.") }
+        if _R.storyboard.spItem().spItemOffPriceVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spItemOffPriceVC' could not be loaded from storyboard 'SPItem' as 'SPItemOffPriceVC'.") }
       }
       
       fileprivate init() {}
@@ -1118,17 +1118,17 @@ struct _R: Rswift.Validatable {
       static func validate() throws {
         if UIKit.UIImage(named: "icon_four_rectangle") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon_four_rectangle' is used in storyboard 'SPMain', but couldn't be loaded.") }
         if UIKit.UIImage(named: "icon_title_more") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon_title_more' is used in storyboard 'SPMain', but couldn't be loaded.") }
-        if UIKit.UIImage(named: "icon_tab_user") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon_tab_user' is used in storyboard 'SPMain', but couldn't be loaded.") }
         if UIKit.UIImage(named: "filter") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'filter' is used in storyboard 'SPMain', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "icon_tab_user") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon_tab_user' is used in storyboard 'SPMain', but couldn't be loaded.") }
         if #available(iOS 11.0, *) {
         }
+        if _R.storyboard.spMain().spSearchVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spSearchVC' could not be loaded from storyboard 'SPMain' as 'SPSearchVC'.") }
+        if _R.storyboard.spMain().spPlayerAliasesVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spPlayerAliasesVC' could not be loaded from storyboard 'SPMain' as 'SPPlayerAliasesVC'.") }
+        if _R.storyboard.spMain().spPlayerInventoryVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spPlayerInventoryVC' could not be loaded from storyboard 'SPMain' as 'SPPlayerInventoryVC'.") }
+        if _R.storyboard.spMain().spPlayerDetailInfoVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spPlayerDetailInfoVC' could not be loaded from storyboard 'SPMain' as 'SPPlayerDetailInfoVC'.") }
+        if _R.storyboard.spMain().ddMainADVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'ddMainADVC' could not be loaded from storyboard 'SPMain' as 'DDMainADVC'.") }
         if _R.storyboard.spMain()._unused1() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier '_unused1' could not be loaded from storyboard 'SPMain' as 'YGBaseNaviCtrl'.") }
         if _R.storyboard.spMain().spPlayerListVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spPlayerListVC' could not be loaded from storyboard 'SPMain' as 'SPPlayerListVC'.") }
-        if _R.storyboard.spMain().spPlayerInventoryVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spPlayerInventoryVC' could not be loaded from storyboard 'SPMain' as 'SPPlayerInventoryVC'.") }
-        if _R.storyboard.spMain().spSearchVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spSearchVC' could not be loaded from storyboard 'SPMain' as 'SPSearchVC'.") }
-        if _R.storyboard.spMain().ddMainADVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'ddMainADVC' could not be loaded from storyboard 'SPMain' as 'DDMainADVC'.") }
-        if _R.storyboard.spMain().spPlayerAliasesVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spPlayerAliasesVC' could not be loaded from storyboard 'SPMain' as 'SPPlayerAliasesVC'.") }
-        if _R.storyboard.spMain().spPlayerDetailInfoVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spPlayerDetailInfoVC' could not be loaded from storyboard 'SPMain' as 'SPPlayerDetailInfoVC'.") }
       }
       
       fileprivate init() {}
@@ -1186,23 +1186,23 @@ struct _R: Rswift.Validatable {
       }
       
       static func validate() throws {
-        if UIKit.UIImage(named: "icon_tab_me") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon_tab_me' is used in storyboard 'SPSetting', but couldn't be loaded.") }
         if UIKit.UIImage(named: "QRCode") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'QRCode' is used in storyboard 'SPSetting', but couldn't be loaded.") }
         if UIKit.UIImage(named: "about_left") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'about_left' is used in storyboard 'SPSetting', but couldn't be loaded.") }
-        if UIKit.UIImage(named: "icon_back_light_2") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon_back_light_2' is used in storyboard 'SPSetting', but couldn't be loaded.") }
         if UIKit.UIImage(named: "sp_icon") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'sp_icon' is used in storyboard 'SPSetting', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "icon_back_light_2") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon_back_light_2' is used in storyboard 'SPSetting', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "icon_tab_me") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon_tab_me' is used in storyboard 'SPSetting', but couldn't be loaded.") }
         if UIKit.UIImage(named: "about_right") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'about_right' is used in storyboard 'SPSetting', but couldn't be loaded.") }
         if #available(iOS 11.0, *) {
         }
-        if _R.storyboard.spSetting().spFeedbackViewCtrl() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spFeedbackViewCtrl' could not be loaded from storyboard 'SPSetting' as 'SPFeedbackViewCtrl'.") }
-        if _R.storyboard.spSetting().spSettingAboutVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spSettingAboutVC' could not be loaded from storyboard 'SPSetting' as 'SPSettingAboutVC'.") }
-        if _R.storyboard.spSetting()._unused3() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier '_unused3' could not be loaded from storyboard 'SPSetting' as 'YGBaseNaviCtrl'.") }
-        if _R.storyboard.spSetting().spLicenseViewCtrl() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spLicenseViewCtrl' could not be loaded from storyboard 'SPSetting' as 'SPLicenseViewCtrl'.") }
-        if _R.storyboard.spSetting().__undefine_copyright() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier '__undefine_copyright' could not be loaded from storyboard 'SPSetting' as 'YGBaseViewCtrl'.") }
         if _R.storyboard.spSetting().spSettingDiskCacheVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spSettingDiskCacheVC' could not be loaded from storyboard 'SPSetting' as 'SPSettingDiskCacheVC'.") }
+        if _R.storyboard.spSetting()._unused3() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier '_unused3' could not be loaded from storyboard 'SPSetting' as 'YGBaseNaviCtrl'.") }
         if _R.storyboard.spSetting().spiapViewCtrl() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spiapViewCtrl' could not be loaded from storyboard 'SPSetting' as 'SPIAPViewCtrl'.") }
         if _R.storyboard.spSetting().spSettingOptionsViewCtrl() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spSettingOptionsViewCtrl' could not be loaded from storyboard 'SPSetting' as 'SPSettingOptionsViewCtrl'.") }
+        if _R.storyboard.spSetting().__undefine_copyright() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier '__undefine_copyright' could not be loaded from storyboard 'SPSetting' as 'YGBaseViewCtrl'.") }
+        if _R.storyboard.spSetting().spFeedbackViewCtrl() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spFeedbackViewCtrl' could not be loaded from storyboard 'SPSetting' as 'SPFeedbackViewCtrl'.") }
         if _R.storyboard.spSetting().spSettingTableVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spSettingTableVC' could not be loaded from storyboard 'SPSetting' as 'SPSettingTableVC'.") }
+        if _R.storyboard.spSetting().spLicenseViewCtrl() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spLicenseViewCtrl' could not be loaded from storyboard 'SPSetting' as 'SPLicenseViewCtrl'.") }
+        if _R.storyboard.spSetting().spSettingAboutVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spSettingAboutVC' could not be loaded from storyboard 'SPSetting' as 'SPSettingAboutVC'.") }
       }
       
       fileprivate init() {}
@@ -1264,17 +1264,17 @@ struct _R: Rswift.Validatable {
       
       static func validate() throws {
         if UIKit.UIImage(named: "icon_arrow_bottom") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon_arrow_bottom' is used in storyboard 'SPWorkshop', but couldn't be loaded.") }
-        if UIKit.UIImage(named: "icon_tab_workshop") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon_tab_workshop' is used in storyboard 'SPWorkshop', but couldn't be loaded.") }
-        if UIKit.UIImage(named: "sort") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'sort' is used in storyboard 'SPWorkshop', but couldn't be loaded.") }
         if UIKit.UIImage(named: "logo") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'logo' is used in storyboard 'SPWorkshop', but couldn't be loaded.") }
         if UIKit.UIImage(named: "filter") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'filter' is used in storyboard 'SPWorkshop', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "icon_tab_workshop") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon_tab_workshop' is used in storyboard 'SPWorkshop', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "sort") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'sort' is used in storyboard 'SPWorkshop', but couldn't be loaded.") }
         if #available(iOS 11.0, *) {
         }
-        if _R.storyboard.spWorkshop().spWorkshopTagTVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spWorkshopTagTVC' could not be loaded from storyboard 'SPWorkshop' as 'SPWorkshopTagTVC'.") }
         if _R.storyboard.spWorkshop().spWorkshopTagVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spWorkshopTagVC' could not be loaded from storyboard 'SPWorkshop' as 'SPWorkshopTagVC'.") }
         if _R.storyboard.spWorkshop().spFocusVisualEffectVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spFocusVisualEffectVC' could not be loaded from storyboard 'SPWorkshop' as 'SPFocusVisualEffectVC'.") }
-        if _R.storyboard.spWorkshop()._unused2() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier '_unused2' could not be loaded from storyboard 'SPWorkshop' as 'YGBaseNaviCtrl'.") }
         if _R.storyboard.spWorkshop().spWorkshopVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spWorkshopVC' could not be loaded from storyboard 'SPWorkshop' as 'SPWorkshopVC'.") }
+        if _R.storyboard.spWorkshop()._unused2() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier '_unused2' could not be loaded from storyboard 'SPWorkshop' as 'YGBaseNaviCtrl'.") }
+        if _R.storyboard.spWorkshop().spWorkshopTagTVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spWorkshopTagTVC' could not be loaded from storyboard 'SPWorkshop' as 'SPWorkshopTagTVC'.") }
         if _R.storyboard.spWorkshop().spWorkshopResourcesVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'spWorkshopResourcesVC' could not be loaded from storyboard 'SPWorkshop' as 'SPWorkshopResourcesVC'.") }
       }
       
