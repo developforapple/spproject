@@ -87,6 +87,6 @@ class SPItemViewCtrl: YGBaseViewCtrl {
 
 extension SPItemViewCtrl: MXParallaxHeaderDelegate {
     func parallaxHeaderDidScroll(_ parallaxHeader: MXParallaxHeader) {
-        bannerPanel.setScrollProgress(Float(parallaxHeader.progress))
+        bannerPanel.scrollProgress = Float(parallaxHeader.progress)
     }
 }

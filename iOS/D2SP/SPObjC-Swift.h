@@ -37,7 +37,6 @@
 #import "SPItemCellModel.h"
 #import "SPPlayerItems.h"
 #import "SPItemSharedData.h"
-#import "SPItemBannerView.h"
 #import "SPItemTitleView.h"
 #import "SPItemSaleView.h"
 #import "SPItemLoadingView.h"
@@ -49,5 +48,8 @@
 #import "SPMarketItem.h"
 #import "SPPriceChartViewCtrl.h"
 #import "YGLineView.h"
+#import "UIView+yg_IBInspectable.h"
+#import "UIView+Hierarchy.h"
+#import "SPGamepediaImage.h"
 
 #endif /* SPObjC_h */
