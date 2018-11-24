@@ -182,7 +182,6 @@
 		2D8081BD1FD5B92500078A50 /* SPItemSearchViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 692A55861F4D6C2E006914BF /* SPItemSearchViewCtrl.m */; };
 		2D8081BE1FD5B92500078A50 /* SPGamepediaAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 690BD50C1FA71524007A4D5D /* SPGamepediaAPI.m */; };
 		2D8081BF1FD5B92500078A50 /* YGBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6F81F1361640012950A /* YGBubbleView.m */; };
-		2D8081C01FD5B92500078A50 /* SPItemSaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A117021FA8747700A32747 /* SPItemSaleView.m */; };
 		2D8081C11FD5B92500078A50 /* SPHero.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B76C1F1361640012950A /* SPHero.m */; };
 		2D8081C21FD5B92500078A50 /* UIButton+Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6A91F1361640012950A /* UIButton+Event.m */; };
 		2D8081C31FD5B92500078A50 /* SPPlayerItemSharedData.m in Sources */ = {isa = PBXBuildFile; fileRef = 695261EB1FC7EE8400F3C22B /* SPPlayerItemSharedData.m */; };
@@ -192,7 +191,6 @@
 		2D8081C71FD5B92500078A50 /* SPResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D91EB731F16263A0038B49C /* SPResourceManager.m */; };
 		2D8081C81FD5B92500078A50 /* SPLeftAlignmentLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B71B1F1361640012950A /* SPLeftAlignmentLayout.m */; };
 		2D8081C91FD5B92500078A50 /* SPPlayerListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7C91F1361640012950A /* SPPlayerListVC.m */; };
-		2D8081CA1FD5B92500078A50 /* SPItemLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFE1C1F1FBDE41100FEDE5C /* SPItemLoadingView.m */; };
 		2D8081CB1FD5B92500078A50 /* YGBaseNaviCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7821F1361640012950A /* YGBaseNaviCtrl.m */; };
 		2D8081CC1FD5B92500078A50 /* SPSteamAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6651F1361640012950A /* SPSteamAPI.m */; };
 		2D8081CD1FD5B92500078A50 /* UIView+YGGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6B71F1361640012950A /* UIView+YGGeometry.m */; };
@@ -394,7 +392,6 @@
 		2DD663A41FD57D62000E7223 /* SPItemSearchViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 692A55861F4D6C2E006914BF /* SPItemSearchViewCtrl.m */; };
 		2DD663A51FD57D62000E7223 /* SPGamepediaAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 690BD50C1FA71524007A4D5D /* SPGamepediaAPI.m */; };
 		2DD663A61FD57D62000E7223 /* YGBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6F81F1361640012950A /* YGBubbleView.m */; };
-		2DD663A71FD57D62000E7223 /* SPItemSaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A117021FA8747700A32747 /* SPItemSaleView.m */; };
 		2DD663A81FD57D62000E7223 /* SPHero.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B76C1F1361640012950A /* SPHero.m */; };
 		2DD663A91FD57D62000E7223 /* UIButton+Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6A91F1361640012950A /* UIButton+Event.m */; };
 		2DD663AA1FD57D62000E7223 /* SPPlayerItemSharedData.m in Sources */ = {isa = PBXBuildFile; fileRef = 695261EB1FC7EE8400F3C22B /* SPPlayerItemSharedData.m */; };
@@ -404,7 +401,6 @@
 		2DD663AE1FD57D62000E7223 /* SPResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D91EB731F16263A0038B49C /* SPResourceManager.m */; };
 		2DD663AF1FD57D62000E7223 /* SPLeftAlignmentLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B71B1F1361640012950A /* SPLeftAlignmentLayout.m */; };
 		2DD663B01FD57D62000E7223 /* SPPlayerListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7C91F1361640012950A /* SPPlayerListVC.m */; };
-		2DD663B11FD57D62000E7223 /* SPItemLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFE1C1F1FBDE41100FEDE5C /* SPItemLoadingView.m */; };
 		2DD663B21FD57D62000E7223 /* YGBaseNaviCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7821F1361640012950A /* YGBaseNaviCtrl.m */; };
 		2DD663B31FD57D62000E7223 /* SPSteamAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6651F1361640012950A /* SPSteamAPI.m */; };
 		2DD663B41FD57D62000E7223 /* UIView+YGGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6B71F1361640012950A /* UIView+YGGeometry.m */; };
@@ -605,7 +601,6 @@
 		2DD664AD1FD57D83000E7223 /* SPItemSearchViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 692A55861F4D6C2E006914BF /* SPItemSearchViewCtrl.m */; };
 		2DD664AE1FD57D83000E7223 /* SPGamepediaAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 690BD50C1FA71524007A4D5D /* SPGamepediaAPI.m */; };
 		2DD664AF1FD57D83000E7223 /* YGBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6F81F1361640012950A /* YGBubbleView.m */; };
-		2DD664B01FD57D83000E7223 /* SPItemSaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A117021FA8747700A32747 /* SPItemSaleView.m */; };
 		2DD664B11FD57D83000E7223 /* SPHero.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B76C1F1361640012950A /* SPHero.m */; };
 		2DD664B21FD57D83000E7223 /* UIButton+Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6A91F1361640012950A /* UIButton+Event.m */; };
 		2DD664B31FD57D83000E7223 /* SPPlayerItemSharedData.m in Sources */ = {isa = PBXBuildFile; fileRef = 695261EB1FC7EE8400F3C22B /* SPPlayerItemSharedData.m */; };
@@ -615,7 +610,6 @@
 		2DD664B71FD57D83000E7223 /* SPResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D91EB731F16263A0038B49C /* SPResourceManager.m */; };
 		2DD664B81FD57D83000E7223 /* SPLeftAlignmentLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B71B1F1361640012950A /* SPLeftAlignmentLayout.m */; };
 		2DD664B91FD57D83000E7223 /* SPPlayerListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7C91F1361640012950A /* SPPlayerListVC.m */; };
-		2DD664BA1FD57D83000E7223 /* SPItemLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFE1C1F1FBDE41100FEDE5C /* SPItemLoadingView.m */; };
 		2DD664BB1FD57D83000E7223 /* YGBaseNaviCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7821F1361640012950A /* YGBaseNaviCtrl.m */; };
 		2DD664BC1FD57D83000E7223 /* SPSteamAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6651F1361640012950A /* SPSteamAPI.m */; };
 		2DD664BD1FD57D83000E7223 /* UIView+YGGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6B71F1361640012950A /* UIView+YGGeometry.m */; };
@@ -825,7 +819,6 @@
 		4405933E218C57DF0098E3EB /* SPItemSearchViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 692A55861F4D6C2E006914BF /* SPItemSearchViewCtrl.m */; };
 		4405933F218C57DF0098E3EB /* SPGamepediaAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 690BD50C1FA71524007A4D5D /* SPGamepediaAPI.m */; };
 		44059340218C57DF0098E3EB /* YGBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6F81F1361640012950A /* YGBubbleView.m */; };
-		44059341218C57DF0098E3EB /* SPItemSaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A117021FA8747700A32747 /* SPItemSaleView.m */; };
 		44059342218C57DF0098E3EB /* SPHero.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B76C1F1361640012950A /* SPHero.m */; };
 		44059343218C57DF0098E3EB /* UIButton+Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6A91F1361640012950A /* UIButton+Event.m */; };
 		44059344218C57DF0098E3EB /* SPPlayerItemSharedData.m in Sources */ = {isa = PBXBuildFile; fileRef = 695261EB1FC7EE8400F3C22B /* SPPlayerItemSharedData.m */; };
@@ -835,7 +828,6 @@
 		44059348218C57DF0098E3EB /* SPResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D91EB731F16263A0038B49C /* SPResourceManager.m */; };
 		44059349218C57DF0098E3EB /* SPLeftAlignmentLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B71B1F1361640012950A /* SPLeftAlignmentLayout.m */; };
 		4405934A218C57DF0098E3EB /* SPPlayerListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7C91F1361640012950A /* SPPlayerListVC.m */; };
-		4405934B218C57DF0098E3EB /* SPItemLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFE1C1F1FBDE41100FEDE5C /* SPItemLoadingView.m */; };
 		4405934C218C57DF0098E3EB /* YGBaseNaviCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7821F1361640012950A /* YGBaseNaviCtrl.m */; };
 		4405934D218C57DF0098E3EB /* SPSteamAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6651F1361640012950A /* SPSteamAPI.m */; };
 		4405934E218C57DF0098E3EB /* UIView+YGGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6B71F1361640012950A /* UIView+YGGeometry.m */; };
@@ -911,6 +903,14 @@
 		4474D3DE21A938630077ABBD /* SPItemTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4474D3DC21A938630077ABBD /* SPItemTitleView.swift */; };
 		4474D3DF21A938630077ABBD /* SPItemTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4474D3DC21A938630077ABBD /* SPItemTitleView.swift */; };
 		4474D3E021A938630077ABBD /* SPItemTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4474D3DC21A938630077ABBD /* SPItemTitleView.swift */; };
+		4474D3E221A93DFD0077ABBD /* SPItemSaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4474D3E121A93DFD0077ABBD /* SPItemSaleView.swift */; };
+		4474D3E321A93DFD0077ABBD /* SPItemSaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4474D3E121A93DFD0077ABBD /* SPItemSaleView.swift */; };
+		4474D3E421A93DFD0077ABBD /* SPItemSaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4474D3E121A93DFD0077ABBD /* SPItemSaleView.swift */; };
+		4474D3E521A93DFD0077ABBD /* SPItemSaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4474D3E121A93DFD0077ABBD /* SPItemSaleView.swift */; };
+		4474D3E721A9416B0077ABBD /* SPItemLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4474D3E621A9416B0077ABBD /* SPItemLoadingView.swift */; };
+		4474D3E821A9416B0077ABBD /* SPItemLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4474D3E621A9416B0077ABBD /* SPItemLoadingView.swift */; };
+		4474D3E921A9416B0077ABBD /* SPItemLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4474D3E621A9416B0077ABBD /* SPItemLoadingView.swift */; };
+		4474D3EA21A9416B0077ABBD /* SPItemLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4474D3E621A9416B0077ABBD /* SPItemLoadingView.swift */; };
 		447B6E4221A66DF200A867FF /* SPItemViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E4121A66DF200A867FF /* SPItemViewCtrl.swift */; };
 		447B6E4321A66DF200A867FF /* SPItemViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E4121A66DF200A867FF /* SPItemViewCtrl.swift */; };
 		447B6E4421A66DF200A867FF /* SPItemViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E4121A66DF200A867FF /* SPItemViewCtrl.swift */; };
@@ -1390,8 +1390,6 @@
 		2DF9B8E01F13639E0012950A /* Steam.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Steam.h; sourceTree = "<group>"; };
 		2DFE1C1B1FBDD52B00FEDE5C /* SPConfigManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPConfigManager.h; sourceTree = "<group>"; };
 		2DFE1C1C1FBDD52B00FEDE5C /* SPConfigManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPConfigManager.m; sourceTree = "<group>"; };
-		2DFE1C1E1FBDE41100FEDE5C /* SPItemLoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPItemLoadingView.h; sourceTree = "<group>"; };
-		2DFE1C1F1FBDE41100FEDE5C /* SPItemLoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPItemLoadingView.m; sourceTree = "<group>"; };
 		2DFE1C2D1FC312B300FEDE5C /* SPDota2API.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPDota2API.h; sourceTree = "<group>"; };
 		2DFE1C2E1FC312B300FEDE5C /* SPDota2API.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPDota2API.m; sourceTree = "<group>"; };
 		2DFE1C341FC3135D00FEDE5C /* SPDota2MarketItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPDota2MarketItem.h; sourceTree = "<group>"; };
@@ -1451,6 +1449,8 @@
 		4472CC73219407D000FC0B1F /* SPSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPSwift.swift; sourceTree = "<group>"; };
 		4474D3D721A7C32E0077ABBD /* SPItemBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPItemBannerView.swift; sourceTree = "<group>"; };
 		4474D3DC21A938630077ABBD /* SPItemTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPItemTitleView.swift; sourceTree = "<group>"; };
+		4474D3E121A93DFD0077ABBD /* SPItemSaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPItemSaleView.swift; sourceTree = "<group>"; };
+		4474D3E621A9416B0077ABBD /* SPItemLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPItemLoadingView.swift; sourceTree = "<group>"; };
 		447B6E4121A66DF200A867FF /* SPItemViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPItemViewCtrl.swift; sourceTree = "<group>"; };
 		447B6E4621A6730900A867FF /* SPItemSteamPricesViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPItemSteamPricesViewCtrl.swift; sourceTree = "<group>"; };
 		447B6E4B21A675F200A867FF /* SPItemPlayablesViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPItemPlayablesViewCtrl.swift; sourceTree = "<group>"; };
@@ -1507,8 +1507,6 @@
 		6990743F1F3D902C00B64030 /* SPMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPMemoryCache.m; sourceTree = "<group>"; };
 		699074411F3DA63500B64030 /* CALayer+SDWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+SDWebCache.h"; sourceTree = "<group>"; };
 		699074421F3DA63500B64030 /* CALayer+SDWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+SDWebCache.m"; sourceTree = "<group>"; };
-		69A117011FA8747700A32747 /* SPItemSaleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPItemSaleView.h; sourceTree = "<group>"; };
-		69A117021FA8747700A32747 /* SPItemSaleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPItemSaleView.m; sourceTree = "<group>"; };
 		69F631111FBAF01600A60EC8 /* SPGamepediaPlayable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPGamepediaPlayable.h; sourceTree = "<group>"; };
 		69F631121FBAF01600A60EC8 /* SPGamepediaPlayable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPGamepediaPlayable.m; sourceTree = "<group>"; };
 		69F631141FBAF4CE00A60EC8 /* SPGamepediaData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPGamepediaData.h; sourceTree = "<group>"; };
@@ -2882,10 +2880,8 @@
 			children = (
 				4474D3D721A7C32E0077ABBD /* SPItemBannerView.swift */,
 				4474D3DC21A938630077ABBD /* SPItemTitleView.swift */,
-				69A117011FA8747700A32747 /* SPItemSaleView.h */,
-				69A117021FA8747700A32747 /* SPItemSaleView.m */,
-				2DFE1C1E1FBDE41100FEDE5C /* SPItemLoadingView.h */,
-				2DFE1C1F1FBDE41100FEDE5C /* SPItemLoadingView.m */,
+				4474D3E121A93DFD0077ABBD /* SPItemSaleView.swift */,
+				4474D3E621A9416B0077ABBD /* SPItemLoadingView.swift */,
 				2D37AAB21FAEEB5E0043DDD4 /* SPItemDescPanel.h */,
 				2D37AAB31FAEEB5E0043DDD4 /* SPItemDescPanel.m */,
 				2D37AAB51FAEF5CC0043DDD4 /* SPItemMoreItemsView.h */,
@@ -4033,6 +4029,7 @@
 				2D8081521FD5B92500078A50 /* UINavigationController+Convenience.m in Sources */,
 				445718C021A52B8D005E8ABD /* SPItemsDetailViewCtrl.swift in Sources */,
 				2D8081531FD5B92500078A50 /* SPWorkshopResourcesVC.m in Sources */,
+				4474D3E421A93DFD0077ABBD /* SPItemSaleView.swift in Sources */,
 				2D8081541FD5B92500078A50 /* SPFilterViewCtrl.m in Sources */,
 				2D8081551FD5B92500078A50 /* DDProgressHUD.m in Sources */,
 				2D8081561FD5B92500078A50 /* SPItemTransition.m in Sources */,
@@ -4092,6 +4089,7 @@
 				2D80818C1FD5B92500078A50 /* SPSettingDiskCacheVC.m in Sources */,
 				2D80818E1FD5B92500078A50 /* YGBaseViewCtrl.m in Sources */,
 				2D80818F1FD5B92500078A50 /* NSObject+URLSessionTask.m in Sources */,
+				4474D3E921A9416B0077ABBD /* SPItemLoadingView.swift in Sources */,
 				2D8081901FD5B92500078A50 /* SPWorkshopCell.m in Sources */,
 				2D8081921FD5B92500078A50 /* SPIAPViewCtrl.m in Sources */,
 				2D8081951FD5B92500078A50 /* UIToolbar+yg_IBInspectable.m in Sources */,
@@ -4135,7 +4133,6 @@
 				2D8081BD1FD5B92500078A50 /* SPItemSearchViewCtrl.m in Sources */,
 				2D8081BE1FD5B92500078A50 /* SPGamepediaAPI.m in Sources */,
 				2D8081BF1FD5B92500078A50 /* YGBubbleView.m in Sources */,
-				2D8081C01FD5B92500078A50 /* SPItemSaleView.m in Sources */,
 				2D8081C11FD5B92500078A50 /* SPHero.m in Sources */,
 				44EC327521A2A66800FB8D9E /* SafeCode.m in Sources */,
 				2D8081C21FD5B92500078A50 /* UIButton+Event.m in Sources */,
@@ -4148,7 +4145,6 @@
 				2D8081C81FD5B92500078A50 /* SPLeftAlignmentLayout.m in Sources */,
 				2D8081C91FD5B92500078A50 /* SPPlayerListVC.m in Sources */,
 				4474D3DA21A7C32F0077ABBD /* SPItemBannerView.swift in Sources */,
-				2D8081CA1FD5B92500078A50 /* SPItemLoadingView.m in Sources */,
 				2D8081CB1FD5B92500078A50 /* YGBaseNaviCtrl.m in Sources */,
 				44EC328821A2A93400FB8D9E /* UIView+VFL.swift in Sources */,
 				2D8081CC1FD5B92500078A50 /* SPSteamAPI.m in Sources */,
@@ -4263,6 +4259,7 @@
 				2DD663391FD57D62000E7223 /* UINavigationController+Convenience.m in Sources */,
 				445718BF21A52B8D005E8ABD /* SPItemsDetailViewCtrl.swift in Sources */,
 				2DD6633A1FD57D62000E7223 /* SPWorkshopResourcesVC.m in Sources */,
+				4474D3E321A93DFD0077ABBD /* SPItemSaleView.swift in Sources */,
 				2DD6633B1FD57D62000E7223 /* SPFilterViewCtrl.m in Sources */,
 				2DD6633C1FD57D62000E7223 /* DDProgressHUD.m in Sources */,
 				2DD6633D1FD57D62000E7223 /* SPItemTransition.m in Sources */,
@@ -4322,6 +4319,7 @@
 				2DD663731FD57D62000E7223 /* SPSettingDiskCacheVC.m in Sources */,
 				2DD663751FD57D62000E7223 /* YGBaseViewCtrl.m in Sources */,
 				2DD663761FD57D62000E7223 /* NSObject+URLSessionTask.m in Sources */,
+				4474D3E821A9416B0077ABBD /* SPItemLoadingView.swift in Sources */,
 				2DD663771FD57D62000E7223 /* SPWorkshopCell.m in Sources */,
 				2DD663791FD57D62000E7223 /* SPIAPViewCtrl.m in Sources */,
 				2DD6637C1FD57D62000E7223 /* UIToolbar+yg_IBInspectable.m in Sources */,
@@ -4365,7 +4363,6 @@
 				2DD663A41FD57D62000E7223 /* SPItemSearchViewCtrl.m in Sources */,
 				2DD663A51FD57D62000E7223 /* SPGamepediaAPI.m in Sources */,
 				2DD663A61FD57D62000E7223 /* YGBubbleView.m in Sources */,
-				2DD663A71FD57D62000E7223 /* SPItemSaleView.m in Sources */,
 				2DD663A81FD57D62000E7223 /* SPHero.m in Sources */,
 				44EC327421A2A66800FB8D9E /* SafeCode.m in Sources */,
 				2DD663A91FD57D62000E7223 /* UIButton+Event.m in Sources */,
@@ -4378,7 +4375,6 @@
 				2DD663AF1FD57D62000E7223 /* SPLeftAlignmentLayout.m in Sources */,
 				2DD663B01FD57D62000E7223 /* SPPlayerListVC.m in Sources */,
 				4474D3D921A7C32F0077ABBD /* SPItemBannerView.swift in Sources */,
-				2DD663B11FD57D62000E7223 /* SPItemLoadingView.m in Sources */,
 				2DD663B21FD57D62000E7223 /* YGBaseNaviCtrl.m in Sources */,
 				44EC328721A2A93400FB8D9E /* UIView+VFL.swift in Sources */,
 				2DD663B31FD57D62000E7223 /* SPSteamAPI.m in Sources */,
@@ -4493,6 +4489,7 @@
 				2DD664421FD57D83000E7223 /* UINavigationController+Convenience.m in Sources */,
 				445718BE21A52B8D005E8ABD /* SPItemsDetailViewCtrl.swift in Sources */,
 				2DD664431FD57D83000E7223 /* SPWorkshopResourcesVC.m in Sources */,
+				4474D3E221A93DFD0077ABBD /* SPItemSaleView.swift in Sources */,
 				2DD664441FD57D83000E7223 /* SPFilterViewCtrl.m in Sources */,
 				2DD664451FD57D83000E7223 /* DDProgressHUD.m in Sources */,
 				2DD664461FD57D83000E7223 /* SPItemTransition.m in Sources */,
@@ -4552,6 +4549,7 @@
 				2DD6647C1FD57D83000E7223 /* SPSettingDiskCacheVC.m in Sources */,
 				2DD6647E1FD57D83000E7223 /* YGBaseViewCtrl.m in Sources */,
 				2DD6647F1FD57D83000E7223 /* NSObject+URLSessionTask.m in Sources */,
+				4474D3E721A9416B0077ABBD /* SPItemLoadingView.swift in Sources */,
 				2DD664801FD57D83000E7223 /* SPWorkshopCell.m in Sources */,
 				2DD664821FD57D83000E7223 /* SPIAPViewCtrl.m in Sources */,
 				2DD664851FD57D83000E7223 /* UIToolbar+yg_IBInspectable.m in Sources */,
@@ -4595,7 +4593,6 @@
 				2DD664AD1FD57D83000E7223 /* SPItemSearchViewCtrl.m in Sources */,
 				2DD664AE1FD57D83000E7223 /* SPGamepediaAPI.m in Sources */,
 				2DD664AF1FD57D83000E7223 /* YGBubbleView.m in Sources */,
-				2DD664B01FD57D83000E7223 /* SPItemSaleView.m in Sources */,
 				2DD664B11FD57D83000E7223 /* SPHero.m in Sources */,
 				44EC327321A2A66800FB8D9E /* SafeCode.m in Sources */,
 				2DD664B21FD57D83000E7223 /* UIButton+Event.m in Sources */,
@@ -4608,7 +4605,6 @@
 				2DD664B81FD57D83000E7223 /* SPLeftAlignmentLayout.m in Sources */,
 				2DD664B91FD57D83000E7223 /* SPPlayerListVC.m in Sources */,
 				4474D3D821A7C32F0077ABBD /* SPItemBannerView.swift in Sources */,
-				2DD664BA1FD57D83000E7223 /* SPItemLoadingView.m in Sources */,
 				2DD664BB1FD57D83000E7223 /* YGBaseNaviCtrl.m in Sources */,
 				44EC328621A2A93400FB8D9E /* UIView+VFL.swift in Sources */,
 				2DD664BC1FD57D83000E7223 /* SPSteamAPI.m in Sources */,
@@ -4723,6 +4719,7 @@
 				440592D4218C57DF0098E3EB /* UINavigationController+Convenience.m in Sources */,
 				445718C121A52B8D005E8ABD /* SPItemsDetailViewCtrl.swift in Sources */,
 				440592D5218C57DF0098E3EB /* SPWorkshopResourcesVC.m in Sources */,
+				4474D3E521A93DFD0077ABBD /* SPItemSaleView.swift in Sources */,
 				440592D6218C57DF0098E3EB /* SPFilterViewCtrl.m in Sources */,
 				440592D7218C57DF0098E3EB /* DDProgressHUD.m in Sources */,
 				440592D8218C57DF0098E3EB /* SPItemTransition.m in Sources */,
@@ -4782,6 +4779,7 @@
 				4405930E218C57DF0098E3EB /* SPSettingDiskCacheVC.m in Sources */,
 				44059310218C57DF0098E3EB /* YGBaseViewCtrl.m in Sources */,
 				44059311218C57DF0098E3EB /* NSObject+URLSessionTask.m in Sources */,
+				4474D3EA21A9416B0077ABBD /* SPItemLoadingView.swift in Sources */,
 				44059312218C57DF0098E3EB /* SPWorkshopCell.m in Sources */,
 				44059314218C57DF0098E3EB /* SPIAPViewCtrl.m in Sources */,
 				44059317218C57DF0098E3EB /* UIToolbar+yg_IBInspectable.m in Sources */,
@@ -4825,7 +4823,6 @@
 				4405933E218C57DF0098E3EB /* SPItemSearchViewCtrl.m in Sources */,
 				4405933F218C57DF0098E3EB /* SPGamepediaAPI.m in Sources */,
 				44059340218C57DF0098E3EB /* YGBubbleView.m in Sources */,
-				44059341218C57DF0098E3EB /* SPItemSaleView.m in Sources */,
 				44059342218C57DF0098E3EB /* SPHero.m in Sources */,
 				44EC327621A2A66800FB8D9E /* SafeCode.m in Sources */,
 				44059343218C57DF0098E3EB /* UIButton+Event.m in Sources */,
@@ -4838,7 +4835,6 @@
 				44059349218C57DF0098E3EB /* SPLeftAlignmentLayout.m in Sources */,
 				4405934A218C57DF0098E3EB /* SPPlayerListVC.m in Sources */,
 				4474D3DB21A7C32F0077ABBD /* SPItemBannerView.swift in Sources */,
-				4405934B218C57DF0098E3EB /* SPItemLoadingView.m in Sources */,
 				4405934C218C57DF0098E3EB /* YGBaseNaviCtrl.m in Sources */,
 				44EC328921A2A93400FB8D9E /* UIView+VFL.swift in Sources */,
 				4405934D218C57DF0098E3EB /* SPSteamAPI.m in Sources */,
