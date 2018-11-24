@@ -37,7 +37,6 @@
 #import "SPItemCellModel.h"
 #import "SPPlayerItems.h"
 #import "SPItemSharedData.h"
-#import "SPItemTitleView.h"
 #import "SPItemSaleView.h"
 #import "SPItemLoadingView.h"
 #import "SPItemDescPanel.h"
@@ -51,5 +50,6 @@
 #import "UIView+yg_IBInspectable.h"
 #import "UIView+Hierarchy.h"
 #import "SPGamepediaImage.h"
+#import "SPLeftAlignmentLayout.h"
 
 #endif /* SPObjC_h */

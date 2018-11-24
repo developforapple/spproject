@@ -16,7 +16,6 @@
 		2D8080F71FD5B92500078A50 /* SPItemEntranceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC0F69C1F1C6254004DCD3C /* SPItemEntranceCell.m */; };
 		2D8080F81FD5B92500078A50 /* SPRewardADView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A2AA41FD25D960021FCC9 /* SPRewardADView.m */; };
 		2D8080F91FD5B92500078A50 /* YGLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7221F1361640012950A /* YGLineView.m */; };
-		2D8080FA1FD5B92500078A50 /* SPItemTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 690BD51C1FA84260007A4D5D /* SPItemTitleView.m */; };
 		2D8080FB1FD5B92500078A50 /* UIViewController+yg_IBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6A51F1361640012950A /* UIViewController+yg_IBInspectable.m */; };
 		2D8080FC1FD5B92500078A50 /* SPLogoHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B75B1F1361640012950A /* SPLogoHeader.m */; };
 		2D8080FE1FD5B92500078A50 /* SPMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6990743F1F3D902C00B64030 /* SPMemoryCache.m */; };
@@ -229,7 +228,6 @@
 		2DD662DE1FD57D62000E7223 /* SPItemEntranceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC0F69C1F1C6254004DCD3C /* SPItemEntranceCell.m */; };
 		2DD662DF1FD57D62000E7223 /* SPRewardADView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A2AA41FD25D960021FCC9 /* SPRewardADView.m */; };
 		2DD662E01FD57D62000E7223 /* YGLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7221F1361640012950A /* YGLineView.m */; };
-		2DD662E11FD57D62000E7223 /* SPItemTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 690BD51C1FA84260007A4D5D /* SPItemTitleView.m */; };
 		2DD662E21FD57D62000E7223 /* UIViewController+yg_IBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6A51F1361640012950A /* UIViewController+yg_IBInspectable.m */; };
 		2DD662E31FD57D62000E7223 /* SPLogoHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B75B1F1361640012950A /* SPLogoHeader.m */; };
 		2DD662E51FD57D62000E7223 /* SPMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6990743F1F3D902C00B64030 /* SPMemoryCache.m */; };
@@ -441,7 +439,6 @@
 		2DD663E71FD57D83000E7223 /* SPItemEntranceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC0F69C1F1C6254004DCD3C /* SPItemEntranceCell.m */; };
 		2DD663E81FD57D83000E7223 /* SPRewardADView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A2AA41FD25D960021FCC9 /* SPRewardADView.m */; };
 		2DD663E91FD57D83000E7223 /* YGLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7221F1361640012950A /* YGLineView.m */; };
-		2DD663EA1FD57D83000E7223 /* SPItemTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 690BD51C1FA84260007A4D5D /* SPItemTitleView.m */; };
 		2DD663EB1FD57D83000E7223 /* UIViewController+yg_IBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6A51F1361640012950A /* UIViewController+yg_IBInspectable.m */; };
 		2DD663EC1FD57D83000E7223 /* SPLogoHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B75B1F1361640012950A /* SPLogoHeader.m */; };
 		2DD663EE1FD57D83000E7223 /* SPMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6990743F1F3D902C00B64030 /* SPMemoryCache.m */; };
@@ -661,7 +658,6 @@
 		44059278218C57DF0098E3EB /* SPItemEntranceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC0F69C1F1C6254004DCD3C /* SPItemEntranceCell.m */; };
 		44059279218C57DF0098E3EB /* SPRewardADView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A2AA41FD25D960021FCC9 /* SPRewardADView.m */; };
 		4405927A218C57DF0098E3EB /* YGLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B7221F1361640012950A /* YGLineView.m */; };
-		4405927B218C57DF0098E3EB /* SPItemTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 690BD51C1FA84260007A4D5D /* SPItemTitleView.m */; };
 		4405927C218C57DF0098E3EB /* UIViewController+yg_IBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B6A51F1361640012950A /* UIViewController+yg_IBInspectable.m */; };
 		4405927D218C57DF0098E3EB /* SPLogoHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9B75B1F1361640012950A /* SPLogoHeader.m */; };
 		4405927F218C57DF0098E3EB /* SPMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6990743F1F3D902C00B64030 /* SPMemoryCache.m */; };
@@ -911,6 +907,10 @@
 		4474D3D921A7C32F0077ABBD /* SPItemBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4474D3D721A7C32E0077ABBD /* SPItemBannerView.swift */; };
 		4474D3DA21A7C32F0077ABBD /* SPItemBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4474D3D721A7C32E0077ABBD /* SPItemBannerView.swift */; };
 		4474D3DB21A7C32F0077ABBD /* SPItemBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4474D3D721A7C32E0077ABBD /* SPItemBannerView.swift */; };
+		4474D3DD21A938630077ABBD /* SPItemTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4474D3DC21A938630077ABBD /* SPItemTitleView.swift */; };
+		4474D3DE21A938630077ABBD /* SPItemTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4474D3DC21A938630077ABBD /* SPItemTitleView.swift */; };
+		4474D3DF21A938630077ABBD /* SPItemTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4474D3DC21A938630077ABBD /* SPItemTitleView.swift */; };
+		4474D3E021A938630077ABBD /* SPItemTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4474D3DC21A938630077ABBD /* SPItemTitleView.swift */; };
 		447B6E4221A66DF200A867FF /* SPItemViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E4121A66DF200A867FF /* SPItemViewCtrl.swift */; };
 		447B6E4321A66DF200A867FF /* SPItemViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E4121A66DF200A867FF /* SPItemViewCtrl.swift */; };
 		447B6E4421A66DF200A867FF /* SPItemViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6E4121A66DF200A867FF /* SPItemViewCtrl.swift */; };
@@ -1450,6 +1450,7 @@
 		445ED663218FFAEC006341CB /* SPObjC-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SPObjC-Swift.h"; sourceTree = "<group>"; };
 		4472CC73219407D000FC0B1F /* SPSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPSwift.swift; sourceTree = "<group>"; };
 		4474D3D721A7C32E0077ABBD /* SPItemBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPItemBannerView.swift; sourceTree = "<group>"; };
+		4474D3DC21A938630077ABBD /* SPItemTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPItemTitleView.swift; sourceTree = "<group>"; };
 		447B6E4121A66DF200A867FF /* SPItemViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPItemViewCtrl.swift; sourceTree = "<group>"; };
 		447B6E4621A6730900A867FF /* SPItemSteamPricesViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPItemSteamPricesViewCtrl.swift; sourceTree = "<group>"; };
 		447B6E4B21A675F200A867FF /* SPItemPlayablesViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPItemPlayablesViewCtrl.swift; sourceTree = "<group>"; };
@@ -1480,8 +1481,6 @@
 		690BD50F1FA71666007A4D5D /* SPGamepediaSerializer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPGamepediaSerializer.m; sourceTree = "<group>"; };
 		690BD5141FA71E6D007A4D5D /* SPGamepediaImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPGamepediaImage.h; sourceTree = "<group>"; };
 		690BD5151FA71E6D007A4D5D /* SPGamepediaImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPGamepediaImage.m; sourceTree = "<group>"; };
-		690BD51B1FA84260007A4D5D /* SPItemTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPItemTitleView.h; sourceTree = "<group>"; };
-		690BD51C1FA84260007A4D5D /* SPItemTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPItemTitleView.m; sourceTree = "<group>"; };
 		690BD51E1FA84420007A4D5D /* SPItemSharedData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPItemSharedData.h; sourceTree = "<group>"; };
 		690BD51F1FA84420007A4D5D /* SPItemSharedData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPItemSharedData.m; sourceTree = "<group>"; };
 		691DC39C1F418D6F00DF5E81 /* DDViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDViewModel.h; sourceTree = "<group>"; };
@@ -2882,8 +2881,7 @@
 			isa = PBXGroup;
 			children = (
 				4474D3D721A7C32E0077ABBD /* SPItemBannerView.swift */,
-				690BD51B1FA84260007A4D5D /* SPItemTitleView.h */,
-				690BD51C1FA84260007A4D5D /* SPItemTitleView.m */,
+				4474D3DC21A938630077ABBD /* SPItemTitleView.swift */,
 				69A117011FA8747700A32747 /* SPItemSaleView.h */,
 				69A117021FA8747700A32747 /* SPItemSaleView.m */,
 				2DFE1C1E1FBDE41100FEDE5C /* SPItemLoadingView.h */,
@@ -3943,7 +3941,6 @@
 				2D8080F71FD5B92500078A50 /* SPItemEntranceCell.m in Sources */,
 				2D8080F81FD5B92500078A50 /* SPRewardADView.m in Sources */,
 				2D8080F91FD5B92500078A50 /* YGLineView.m in Sources */,
-				2D8080FA1FD5B92500078A50 /* SPItemTitleView.m in Sources */,
 				2D8080FB1FD5B92500078A50 /* UIViewController+yg_IBInspectable.m in Sources */,
 				2D8080FC1FD5B92500078A50 /* SPLogoHeader.m in Sources */,
 				2D8080FE1FD5B92500078A50 /* SPMemoryCache.m in Sources */,
@@ -4065,6 +4062,7 @@
 				2D8081711FD5B92500078A50 /* SPItem.m in Sources */,
 				2D8081721FD5B92500078A50 /* SPHTMLSerializer.m in Sources */,
 				2D8081731FD5B92500078A50 /* SPDotabuffAPI.m in Sources */,
+				4474D3DF21A938630077ABBD /* SPItemTitleView.swift in Sources */,
 				2D8081741FD5B92500078A50 /* UIView+yg_IBInspectable.m in Sources */,
 				2D8081751FD5B92500078A50 /* SPDiskCacheControl.m in Sources */,
 				2D8081761FD5B92500078A50 /* SDCycleScrollView.m in Sources */,
@@ -4173,7 +4171,6 @@
 				2DD662DE1FD57D62000E7223 /* SPItemEntranceCell.m in Sources */,
 				2DD662DF1FD57D62000E7223 /* SPRewardADView.m in Sources */,
 				2DD662E01FD57D62000E7223 /* YGLineView.m in Sources */,
-				2DD662E11FD57D62000E7223 /* SPItemTitleView.m in Sources */,
 				2DD662E21FD57D62000E7223 /* UIViewController+yg_IBInspectable.m in Sources */,
 				2DD662E31FD57D62000E7223 /* SPLogoHeader.m in Sources */,
 				2DD662E51FD57D62000E7223 /* SPMemoryCache.m in Sources */,
@@ -4295,6 +4292,7 @@
 				2DD663581FD57D62000E7223 /* SPItem.m in Sources */,
 				2DD663591FD57D62000E7223 /* SPHTMLSerializer.m in Sources */,
 				2DD6635A1FD57D62000E7223 /* SPDotabuffAPI.m in Sources */,
+				4474D3DE21A938630077ABBD /* SPItemTitleView.swift in Sources */,
 				2DD6635B1FD57D62000E7223 /* UIView+yg_IBInspectable.m in Sources */,
 				2DD6635C1FD57D62000E7223 /* SPDiskCacheControl.m in Sources */,
 				2DD6635D1FD57D62000E7223 /* SDCycleScrollView.m in Sources */,
@@ -4403,7 +4401,6 @@
 				2DD663E71FD57D83000E7223 /* SPItemEntranceCell.m in Sources */,
 				2DD663E81FD57D83000E7223 /* SPRewardADView.m in Sources */,
 				2DD663E91FD57D83000E7223 /* YGLineView.m in Sources */,
-				2DD663EA1FD57D83000E7223 /* SPItemTitleView.m in Sources */,
 				2DD663EB1FD57D83000E7223 /* UIViewController+yg_IBInspectable.m in Sources */,
 				2DD663EC1FD57D83000E7223 /* SPLogoHeader.m in Sources */,
 				2DD663EE1FD57D83000E7223 /* SPMemoryCache.m in Sources */,
@@ -4525,6 +4522,7 @@
 				2DD664611FD57D83000E7223 /* SPItem.m in Sources */,
 				2DD664621FD57D83000E7223 /* SPHTMLSerializer.m in Sources */,
 				2DD664631FD57D83000E7223 /* SPDotabuffAPI.m in Sources */,
+				4474D3DD21A938630077ABBD /* SPItemTitleView.swift in Sources */,
 				2DD664641FD57D83000E7223 /* UIView+yg_IBInspectable.m in Sources */,
 				2DD664651FD57D83000E7223 /* SPDiskCacheControl.m in Sources */,
 				2DD664661FD57D83000E7223 /* SDCycleScrollView.m in Sources */,
@@ -4633,7 +4631,6 @@
 				44059278218C57DF0098E3EB /* SPItemEntranceCell.m in Sources */,
 				44059279218C57DF0098E3EB /* SPRewardADView.m in Sources */,
 				4405927A218C57DF0098E3EB /* YGLineView.m in Sources */,
-				4405927B218C57DF0098E3EB /* SPItemTitleView.m in Sources */,
 				4405927C218C57DF0098E3EB /* UIViewController+yg_IBInspectable.m in Sources */,
 				4405927D218C57DF0098E3EB /* SPLogoHeader.m in Sources */,
 				4405927F218C57DF0098E3EB /* SPMemoryCache.m in Sources */,
@@ -4755,6 +4752,7 @@
 				440592F3218C57DF0098E3EB /* SPItem.m in Sources */,
 				440592F4218C57DF0098E3EB /* SPHTMLSerializer.m in Sources */,
 				440592F5218C57DF0098E3EB /* SPDotabuffAPI.m in Sources */,
+				4474D3E021A938630077ABBD /* SPItemTitleView.swift in Sources */,
 				440592F6218C57DF0098E3EB /* UIView+yg_IBInspectable.m in Sources */,
 				440592F7218C57DF0098E3EB /* SPDiskCacheControl.m in Sources */,
 				440592F8218C57DF0098E3EB /* SDCycleScrollView.m in Sources */,
